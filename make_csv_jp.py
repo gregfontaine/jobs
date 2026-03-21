@@ -301,6 +301,10 @@ def main():
     workers_overrides: dict[str, int] = {
         "occ-205": 26_000,    # 客室乗務員 — MLIT 2023 cabin crew headcount
         "occ-149": 55_000,    # 税務事務官 — National Tax Agency staff count
+        "occ-438": 70_000,    # 銀行等窓口事務 — bank tellers ~70K (declining); cat 1261
+                              #   covers all 会計事務従事者 (1.5M), not just tellers
+        "occ-564": 400,       # 検疫官（看護師）— ~13 quarantine stations, ~30 nurses each;
+                              #   shares cat 1133 (看護師) with 看護師 giving 693K — wrong
     }
 
     # Build CSV

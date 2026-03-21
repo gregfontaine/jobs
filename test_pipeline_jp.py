@@ -162,6 +162,21 @@ def run():
         jobs_min=50_000, jobs_max=500_000,   # after division fix
         ai_min=5)))
 
+    # ── Additional workers-accuracy tests ────────────────────────────────────
+    results.append(("銀行等窓口事務",  check(data, "銀行等窓口事務",
+        jobs_exact=70_000,              # bank tellers ~70K; cat 1261 override
+        pay_min=3_500_000, pay_max=7_000_000,
+        ai_min=5, ai_max=9)))
+
+    results.append(("検疫官（看護師）", check(data, "検疫官（看護師）",
+        jobs_exact=400,                 # ~13 quarantine stations × ~30 nurses
+        ai_min=3, ai_max=7)))
+
+    results.append(("一般事務",        check(data, "一般事務",
+        jobs_min=500_000, jobs_max=5_000_000,  # wage-census measure of 総合事務員
+        pay_min=3_000_000, pay_max=7_000_000,
+        ai_min=6)))
+
     # ── Print results ────────────────────────────────────────────────────────
     passed = 0
     failed = 0
