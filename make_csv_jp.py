@@ -278,6 +278,13 @@ def main():
         cja = occ.get("category_ja", "")
         category_occupation_counts[cja] = category_occupation_counts.get(cja, 0) + 1
 
+    # Count occupations per Jobtag category_code (to divide shared workers figures)
+    jobtag_category_counts: dict[str, int] = {}
+    for slug, jt in jobtag_stats.items():
+        cc = jt.get("category_code")
+        if cc:
+            jobtag_category_counts[cc] = jobtag_category_counts.get(cc, 0) + 1
+
     # Build CSV
     fieldnames = [
         "title", "category", "category_ja", "slug", "jobtag_id",
@@ -301,8 +308,12 @@ def main():
         # ── Primary: Jobtag-native stats (scraped from detail pages) ─────
         jt = jobtag_stats.get(slug)
         if jt:
-            pay     = jt["wage_jpy"]
-            jobs    = jt["workers"]
+            pay  = jt["wage_jpy"]
+            # workers is JSOC category-level — divide by number of occupations
+            # sharing the same category_code to get a per-occupation estimate
+            cc = jt.get("category_code")
+            n  = jobtag_category_counts.get(cc, 1) if cc else 1
+            jobs = int(jt["workers"] / n) if jt["workers"] else None
             quality = "jobtag"
             match_stats[quality] = match_stats.get(quality, 0) + 1
         else:
