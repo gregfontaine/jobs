@@ -1,0 +1,4450 @@
+[
+  {
+    "title": "ハウス野菜栽培者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/505",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-505",
+    "jobtag_id": "505"
+  },
+  {
+    "title": "ブリーダー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/500",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-500",
+    "jobtag_id": "500"
+  },
+  {
+    "title": "動物園飼育員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/220",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-220",
+    "jobtag_id": "220"
+  },
+  {
+    "title": "厩舎スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/218",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-218",
+    "jobtag_id": "218"
+  },
+  {
+    "title": "林業作業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/230",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-230",
+    "jobtag_id": "230"
+  },
+  {
+    "title": "果樹栽培者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/506",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-506",
+    "jobtag_id": "506"
+  },
+  {
+    "title": "植物工場の栽培管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/249",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-249",
+    "jobtag_id": "249"
+  },
+  {
+    "title": "水産養殖従事者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/503",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-503",
+    "jobtag_id": "503"
+  },
+  {
+    "title": "沿岸漁業従事者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/509",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-509",
+    "jobtag_id": "509"
+  },
+  {
+    "title": "稲作農業者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/504",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-504",
+    "jobtag_id": "504"
+  },
+  {
+    "title": "花き栽培者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/507",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-507",
+    "jobtag_id": "507"
+  },
+  {
+    "title": "造園工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/222",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-222",
+    "jobtag_id": "222"
+  },
+  {
+    "title": "酪農従事者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/502",
+    "category": "Agriculture, Forestry & Fishing",
+    "category_ja": "農林漁業",
+    "slug": "occ-502",
+    "jobtag_id": "502"
+  },
+  {
+    "title": "IR広報担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/445",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-445",
+    "jobtag_id": "445"
+  },
+  {
+    "title": "NPO法人職員（企画・運営）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/522",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-522",
+    "jobtag_id": "522"
+  },
+  {
+    "title": "Webマーケティング（ネット広告・販売促進）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/240",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-240",
+    "jobtag_id": "240"
+  },
+  {
+    "title": "アニメ制作進行管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/553",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-553",
+    "jobtag_id": "553"
+  },
+  {
+    "title": "イベントの企画・運営",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/566",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-566",
+    "jobtag_id": "566"
+  },
+  {
+    "title": "キッティング作業員（PCセットアップ作業員）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/531",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-531",
+    "jobtag_id": "531"
+  },
+  {
+    "title": "コンプライアンス推進担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/447",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-447",
+    "jobtag_id": "447"
+  },
+  {
+    "title": "コールセンターオペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/64",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-64",
+    "jobtag_id": "64"
+  },
+  {
+    "title": "タクシー配車オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/200",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-200",
+    "jobtag_id": "200"
+  },
+  {
+    "title": "ディスパッチャー（航空機運航管理者）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/204",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-204",
+    "jobtag_id": "204"
+  },
+  {
+    "title": "データ入力",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/429",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-429",
+    "jobtag_id": "429"
+  },
+  {
+    "title": "ネット通販の企画開発",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/238",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-238",
+    "jobtag_id": "238"
+  },
+  {
+    "title": "ネット通販の運営",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/239",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-239",
+    "jobtag_id": "239"
+  },
+  {
+    "title": "パラリーガル（弁護士補助職）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/425",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-425",
+    "jobtag_id": "425"
+  },
+  {
+    "title": "フランチャイズチェーン・スーパーバイザー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/75",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-75",
+    "jobtag_id": "75"
+  },
+  {
+    "title": "プロスポーツ運営団体職員（企画・運営）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/554",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-554",
+    "jobtag_id": "554"
+  },
+  {
+    "title": "マンション管理フロント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/474",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-474",
+    "jobtag_id": "474"
+  },
+  {
+    "title": "マーケティング・リサーチャー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/456",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-456",
+    "jobtag_id": "456"
+  },
+  {
+    "title": "マーチャンダイザー、バイヤー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/544",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-544",
+    "jobtag_id": "544"
+  },
+  {
+    "title": "一般事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/428",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-428",
+    "jobtag_id": "428"
+  },
+  {
+    "title": "人事事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/432",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-432",
+    "jobtag_id": "432"
+  },
+  {
+    "title": "介護事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/436",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-436",
+    "jobtag_id": "436"
+  },
+  {
+    "title": "企業法務担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/446",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-446",
+    "jobtag_id": "446"
+  },
+  {
+    "title": "企画・調査担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/434",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-434",
+    "jobtag_id": "434"
+  },
+  {
+    "title": "入国審査官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/517",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-517",
+    "jobtag_id": "517"
+  },
+  {
+    "title": "内部監査人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/469",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-469",
+    "jobtag_id": "469"
+  },
+  {
+    "title": "出荷・受荷事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/542",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-542",
+    "jobtag_id": "542"
+  },
+  {
+    "title": "医療事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/443",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-443",
+    "jobtag_id": "443"
+  },
+  {
+    "title": "受付事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/427",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-427",
+    "jobtag_id": "427"
+  },
+  {
+    "title": "商品企画開発（チェーンストア）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/461",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-461",
+    "jobtag_id": "461"
+  },
+  {
+    "title": "営業事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/431",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-431",
+    "jobtag_id": "431"
+  },
+  {
+    "title": "国家公務員（行政事務）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/138",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-138",
+    "jobtag_id": "138"
+  },
+  {
+    "title": "国際公務員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/151",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-151",
+    "jobtag_id": "151"
+  },
+  {
+    "title": "地方公務員（行政事務）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/139",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-139",
+    "jobtag_id": "139"
+  },
+  {
+    "title": "外務公務員（外交官）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/150",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-150",
+    "jobtag_id": "150"
+  },
+  {
+    "title": "太陽光発電の企画・調査",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/234",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-234",
+    "jobtag_id": "234"
+  },
+  {
+    "title": "学校事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/442",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-442",
+    "jobtag_id": "442"
+  },
+  {
+    "title": "学校事務（私立大学）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/567",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-567",
+    "jobtag_id": "567"
+  },
+  {
+    "title": "広報・PR担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/444",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-444",
+    "jobtag_id": "444"
+  },
+  {
+    "title": "損害保険事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/440",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-440",
+    "jobtag_id": "440"
+  },
+  {
+    "title": "旅行会社カウンター係",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/109",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-109",
+    "jobtag_id": "109"
+  },
+  {
+    "title": "検針員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/74",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-74",
+    "jobtag_id": "74"
+  },
+  {
+    "title": "生産・工程管理事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/437",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-437",
+    "jobtag_id": "437"
+  },
+  {
+    "title": "秘書",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/426",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-426",
+    "jobtag_id": "426"
+  },
+  {
+    "title": "税務事務官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/149",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-149",
+    "jobtag_id": "149"
+  },
+  {
+    "title": "経理事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/430",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-430",
+    "jobtag_id": "430"
+  },
+  {
+    "title": "総務事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/433",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-433",
+    "jobtag_id": "433"
+  },
+  {
+    "title": "臨床開発モニター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/530",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-530",
+    "jobtag_id": "530"
+  },
+  {
+    "title": "診療情報管理士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/174",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-174",
+    "jobtag_id": "174"
+  },
+  {
+    "title": "調剤薬局事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/435",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-435",
+    "jobtag_id": "435"
+  },
+  {
+    "title": "貿易事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/439",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-439",
+    "jobtag_id": "439"
+  },
+  {
+    "title": "通信販売受付事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/441",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-441",
+    "jobtag_id": "441"
+  },
+  {
+    "title": "郵便局郵便窓口業務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/543",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-543",
+    "jobtag_id": "543"
+  },
+  {
+    "title": "鉄道運転計画・運行管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/196",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-196",
+    "jobtag_id": "196"
+  },
+  {
+    "title": "銀行等窓口事務",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/438",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-438",
+    "jobtag_id": "438"
+  },
+  {
+    "title": "風力発電の企画・調査",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/577",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-577",
+    "jobtag_id": "577"
+  },
+  {
+    "title": "駅務員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/195",
+    "category": "Clerical & Administrative",
+    "category_ja": "事務的職業",
+    "slug": "occ-195",
+    "jobtag_id": "195"
+  },
+  {
+    "title": "とび",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/30",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-30",
+    "jobtag_id": "30"
+  },
+  {
+    "title": "サッシ取付",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/41",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-41",
+    "jobtag_id": "41"
+  },
+  {
+    "title": "タイル工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/38",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-38",
+    "jobtag_id": "38"
+  },
+  {
+    "title": "ブロック積み",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/37",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-37",
+    "jobtag_id": "37"
+  },
+  {
+    "title": "保温工事",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/45",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-45",
+    "jobtag_id": "45"
+  },
+  {
+    "title": "内装工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/42",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-42",
+    "jobtag_id": "42"
+  },
+  {
+    "title": "型枠大工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/27",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-27",
+    "jobtag_id": "27"
+  },
+  {
+    "title": "大工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/26",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-26",
+    "jobtag_id": "26"
+  },
+  {
+    "title": "左官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/39",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-39",
+    "jobtag_id": "39"
+  },
+  {
+    "title": "建設・土木作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/32",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-32",
+    "jobtag_id": "32"
+  },
+  {
+    "title": "舗装工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/36",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-36",
+    "jobtag_id": "36"
+  },
+  {
+    "title": "解体工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/51",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-51",
+    "jobtag_id": "51"
+  },
+  {
+    "title": "送電線工事",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/50",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-50",
+    "jobtag_id": "50"
+  },
+  {
+    "title": "配管工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/47",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-47",
+    "jobtag_id": "47"
+  },
+  {
+    "title": "鉄筋工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/28",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-28",
+    "jobtag_id": "28"
+  },
+  {
+    "title": "鉄道線路管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/49",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-49",
+    "jobtag_id": "49"
+  },
+  {
+    "title": "防水工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/44",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-44",
+    "jobtag_id": "44"
+  },
+  {
+    "title": "電気工事士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/46",
+    "category": "Construction & Mining",
+    "category_ja": "建設・採掘の職業",
+    "slug": "occ-46",
+    "jobtag_id": "46"
+  },
+  {
+    "title": "こん包作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/498",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-498",
+    "jobtag_id": "498"
+  },
+  {
+    "title": "ごみ収集作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/494",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-494",
+    "jobtag_id": "494"
+  },
+  {
+    "title": "ハウスクリーニング",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/487",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-487",
+    "jobtag_id": "487"
+  },
+  {
+    "title": "バックヤード作業員（スーパー食品部門）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/491",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-491",
+    "jobtag_id": "491"
+  },
+  {
+    "title": "ビル清掃",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/97",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-97",
+    "jobtag_id": "97"
+  },
+  {
+    "title": "ピッキング作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/486",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-486",
+    "jobtag_id": "486"
+  },
+  {
+    "title": "ペストコントロール従事者（害虫等防除・駆除従事者）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/488",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-488",
+    "jobtag_id": "488"
+  },
+  {
+    "title": "倉庫作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/485",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-485",
+    "jobtag_id": "485"
+  },
+  {
+    "title": "客室清掃・整備担当（ホテル・旅館）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/415",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-415",
+    "jobtag_id": "415"
+  },
+  {
+    "title": "工場労務作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/490",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-490",
+    "jobtag_id": "490"
+  },
+  {
+    "title": "引越作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/201",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-201",
+    "jobtag_id": "201"
+  },
+  {
+    "title": "港湾荷役作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/499",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-499",
+    "jobtag_id": "499"
+  },
+  {
+    "title": "積卸作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/497",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-497",
+    "jobtag_id": "497"
+  },
+  {
+    "title": "製品包装作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/489",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-489",
+    "jobtag_id": "489"
+  },
+  {
+    "title": "鉄道車両清掃",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/98",
+    "category": "Logistics & Cleaning",
+    "category_ja": "運搬・清掃・包装等の職業",
+    "slug": "occ-98",
+    "jobtag_id": "98"
+  },
+  {
+    "title": "スーパー店長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/55",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-55",
+    "jobtag_id": "55"
+  },
+  {
+    "title": "ハンバーガーショップ店長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/104",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-104",
+    "jobtag_id": "104"
+  },
+  {
+    "title": "人事課長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/537",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-537",
+    "jobtag_id": "537"
+  },
+  {
+    "title": "会社経営者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/514",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-514",
+    "jobtag_id": "514"
+  },
+  {
+    "title": "営業課長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/539",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-539",
+    "jobtag_id": "539"
+  },
+  {
+    "title": "国会議員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/512",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-512",
+    "jobtag_id": "512"
+  },
+  {
+    "title": "経理課長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/538",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-538",
+    "jobtag_id": "538"
+  },
+  {
+    "title": "総務課長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/536",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-536",
+    "jobtag_id": "536"
+  },
+  {
+    "title": "航空機開発エンジニア（ジェットエンジン）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/311",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-311",
+    "jobtag_id": "311"
+  },
+  {
+    "title": "起業、創業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/250",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-250",
+    "jobtag_id": "250"
+  },
+  {
+    "title": "銀行支店長",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/53",
+    "category": "Management",
+    "category_ja": "管理的職業",
+    "slug": "occ-53",
+    "jobtag_id": "53"
+  },
+  {
+    "title": "3Dプリンター技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/584",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-584",
+    "jobtag_id": "584"
+  },
+  {
+    "title": "CADオペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/25",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-25",
+    "jobtag_id": "25"
+  },
+  {
+    "title": "NC工作機械オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/256",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-256",
+    "jobtag_id": "256"
+  },
+  {
+    "title": "かばん・袋物製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/290",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-290",
+    "jobtag_id": "290"
+  },
+  {
+    "title": "かん詰・びん詰・レトルト食品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/15",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-15",
+    "jobtag_id": "15"
+  },
+  {
+    "title": "しょうゆ製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/11",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-11",
+    "jobtag_id": "11"
+  },
+  {
+    "title": "みそ製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/10",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-10",
+    "jobtag_id": "10"
+  },
+  {
+    "title": "めっき工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/257",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-257",
+    "jobtag_id": "257"
+  },
+  {
+    "title": "アニメーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/343",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-343",
+    "jobtag_id": "343"
+  },
+  {
+    "title": "エレベーター据付",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/48",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-48",
+    "jobtag_id": "48"
+  },
+  {
+    "title": "ガラス食器製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/18",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-18",
+    "jobtag_id": "18"
+  },
+  {
+    "title": "タイヤ製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/297",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-297",
+    "jobtag_id": "297"
+  },
+  {
+    "title": "ハム・ソーセージ・ベーコン製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/12",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-12",
+    "jobtag_id": "12"
+  },
+  {
+    "title": "パタンナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/341",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-341",
+    "jobtag_id": "341"
+  },
+  {
+    "title": "パン製造、パン職人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/2",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-2",
+    "jobtag_id": "2"
+  },
+  {
+    "title": "ビール製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/14",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-14",
+    "jobtag_id": "14"
+  },
+  {
+    "title": "プラスチック成形",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/19",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-19",
+    "jobtag_id": "19"
+  },
+  {
+    "title": "ミシン縫製",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/280",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-280",
+    "jobtag_id": "280"
+  },
+  {
+    "title": "ワイン製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/13",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-13",
+    "jobtag_id": "13"
+  },
+  {
+    "title": "乳製品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/5",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-5",
+    "jobtag_id": "5"
+  },
+  {
+    "title": "光学機器組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/263",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-263",
+    "jobtag_id": "263"
+  },
+  {
+    "title": "化学製品製造オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/300",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-300",
+    "jobtag_id": "300"
+  },
+  {
+    "title": "化粧品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/298",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-298",
+    "jobtag_id": "298"
+  },
+  {
+    "title": "医療用画像機器組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/277",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-277",
+    "jobtag_id": "277"
+  },
+  {
+    "title": "医薬品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/295",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-295",
+    "jobtag_id": "295"
+  },
+  {
+    "title": "半導体製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/268",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-268",
+    "jobtag_id": "268"
+  },
+  {
+    "title": "印刷オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/360",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-360",
+    "jobtag_id": "360"
+  },
+  {
+    "title": "合板製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/282",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-282",
+    "jobtag_id": "282"
+  },
+  {
+    "title": "和菓子製造、和菓子職人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/4",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-4",
+    "jobtag_id": "4"
+  },
+  {
+    "title": "太陽光発電のメンテナンス",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/236",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-236",
+    "jobtag_id": "236"
+  },
+  {
+    "title": "家具製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/283",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-283",
+    "jobtag_id": "283"
+  },
+  {
+    "title": "家電修理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/275",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-275",
+    "jobtag_id": "275"
+  },
+  {
+    "title": "建具製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/287",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-287",
+    "jobtag_id": "287"
+  },
+  {
+    "title": "建築塗装工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/43",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-43",
+    "jobtag_id": "43"
+  },
+  {
+    "title": "建築板金",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/40",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-40",
+    "jobtag_id": "40"
+  },
+  {
+    "title": "惣菜製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/8",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-8",
+    "jobtag_id": "8"
+  },
+  {
+    "title": "木材製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/281",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-281",
+    "jobtag_id": "281"
+  },
+  {
+    "title": "染色工/染色設備オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/279",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-279",
+    "jobtag_id": "279"
+  },
+  {
+    "title": "検査工（工業製品）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/526",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-526",
+    "jobtag_id": "526"
+  },
+  {
+    "title": "検査工（食料品等）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/548",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-548",
+    "jobtag_id": "548"
+  },
+  {
+    "title": "水産ねり製品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/6",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-6",
+    "jobtag_id": "6"
+  },
+  {
+    "title": "汎用金属工作機械工（旋盤工、ボール盤工等）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/557",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-557",
+    "jobtag_id": "557"
+  },
+  {
+    "title": "清酒製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/9",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-9",
+    "jobtag_id": "9"
+  },
+  {
+    "title": "溶接工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/255",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-255",
+    "jobtag_id": "255"
+  },
+  {
+    "title": "漆器製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/291",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-291",
+    "jobtag_id": "291"
+  },
+  {
+    "title": "物流設備管理・保全",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/269",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-269",
+    "jobtag_id": "269"
+  },
+  {
+    "title": "玩具（おもちゃ）製作",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/515",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-515",
+    "jobtag_id": "515"
+  },
+  {
+    "title": "生産用機械組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/265",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-265",
+    "jobtag_id": "265"
+  },
+  {
+    "title": "産業用ロボットの保守・メンテナンス",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/233",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-233",
+    "jobtag_id": "233"
+  },
+  {
+    "title": "看板制作",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/344",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-344",
+    "jobtag_id": "344"
+  },
+  {
+    "title": "石工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/306",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-306",
+    "jobtag_id": "306"
+  },
+  {
+    "title": "石油精製オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/299",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-299",
+    "jobtag_id": "299"
+  },
+  {
+    "title": "紙器製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/285",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-285",
+    "jobtag_id": "285"
+  },
+  {
+    "title": "紡績機械オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/286",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-286",
+    "jobtag_id": "286"
+  },
+  {
+    "title": "紡織設備管理・保全",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/284",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-284",
+    "jobtag_id": "284"
+  },
+  {
+    "title": "織布工/織機オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/278",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-278",
+    "jobtag_id": "278"
+  },
+  {
+    "title": "自動車整備士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/197",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-197",
+    "jobtag_id": "197"
+  },
+  {
+    "title": "自動車板金塗装",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/558",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-558",
+    "jobtag_id": "558"
+  },
+  {
+    "title": "自動車検査員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/579",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-579",
+    "jobtag_id": "579"
+  },
+  {
+    "title": "自動車組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/264",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-264",
+    "jobtag_id": "264"
+  },
+  {
+    "title": "航空整備士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/206",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-206",
+    "jobtag_id": "206"
+  },
+  {
+    "title": "花火師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/307",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-307",
+    "jobtag_id": "307"
+  },
+  {
+    "title": "製本オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/361",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-361",
+    "jobtag_id": "361"
+  },
+  {
+    "title": "製版オペレーター、DTPオペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/359",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-359",
+    "jobtag_id": "359"
+  },
+  {
+    "title": "計器組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/266",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-266",
+    "jobtag_id": "266"
+  },
+  {
+    "title": "豆腐製造、豆腐職人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/1",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-1",
+    "jobtag_id": "1"
+  },
+  {
+    "title": "貴金属装身具製作",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/292",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-292",
+    "jobtag_id": "292"
+  },
+  {
+    "title": "造船技能者（造船工、船舶艤装工等）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/547",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-547",
+    "jobtag_id": "547"
+  },
+  {
+    "title": "配電盤・制御盤等組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/559",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-559",
+    "jobtag_id": "559"
+  },
+  {
+    "title": "野菜つけ物製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/16",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-16",
+    "jobtag_id": "16"
+  },
+  {
+    "title": "金型工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/253",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-253",
+    "jobtag_id": "253"
+  },
+  {
+    "title": "金属プレス工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/254",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-254",
+    "jobtag_id": "254"
+  },
+  {
+    "title": "鉄鋼製造オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/259",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-259",
+    "jobtag_id": "259"
+  },
+  {
+    "title": "鉄骨工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/29",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-29",
+    "jobtag_id": "29"
+  },
+  {
+    "title": "鋳造工/鋳造設備オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/251",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-251",
+    "jobtag_id": "251"
+  },
+  {
+    "title": "録音エンジニア",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/213",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-213",
+    "jobtag_id": "213"
+  },
+  {
+    "title": "鍛造工/鍛造設備オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/252",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-252",
+    "jobtag_id": "252"
+  },
+  {
+    "title": "陶磁器製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/17",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-17",
+    "jobtag_id": "17"
+  },
+  {
+    "title": "電子機器組立",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/261",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-261",
+    "jobtag_id": "261"
+  },
+  {
+    "title": "非破壊検査技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/260",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-260",
+    "jobtag_id": "260"
+  },
+  {
+    "title": "靴製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/289",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-289",
+    "jobtag_id": "289"
+  },
+  {
+    "title": "風力発電のメンテナンス",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/535",
+    "category": "Production & Manufacturing",
+    "category_ja": "生産工程の職業",
+    "slug": "occ-535",
+    "jobtag_id": "535"
+  },
+  {
+    "title": "AIエンジニア",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/325",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-325",
+    "jobtag_id": "325"
+  },
+  {
+    "title": "CG制作",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/329",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-329",
+    "jobtag_id": "329"
+  },
+  {
+    "title": "DXプロデューサー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/324",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-324",
+    "jobtag_id": "324"
+  },
+  {
+    "title": "ITコンサルタント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/362",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-362",
+    "jobtag_id": "362"
+  },
+  {
+    "title": "M&Aマネージャー、M&Aコンサルタント/M&Aアドバイザー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/471",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-471",
+    "jobtag_id": "471"
+  },
+  {
+    "title": "UX/UIデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/552",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-552",
+    "jobtag_id": "552"
+  },
+  {
+    "title": "Webディレクター（Web制作会社）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/327",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-327",
+    "jobtag_id": "327"
+  },
+  {
+    "title": "Webデザイナー（Web制作会社）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/326",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-326",
+    "jobtag_id": "326"
+  },
+  {
+    "title": "あんまマッサージ指圧師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/172",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-172",
+    "jobtag_id": "172"
+  },
+  {
+    "title": "はり師・きゅう師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/175",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-175",
+    "jobtag_id": "175"
+  },
+  {
+    "title": "アウトドアインストラクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/219",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-219",
+    "jobtag_id": "219"
+  },
+  {
+    "title": "アクチュアリー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/468",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-468",
+    "jobtag_id": "468"
+  },
+  {
+    "title": "アナウンサー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/216",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-216",
+    "jobtag_id": "216"
+  },
+  {
+    "title": "アートディレクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/331",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-331",
+    "jobtag_id": "331"
+  },
+  {
+    "title": "イラストレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/342",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-342",
+    "jobtag_id": "342"
+  },
+  {
+    "title": "インダストリアルデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/354",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-354",
+    "jobtag_id": "354"
+  },
+  {
+    "title": "インテリアコーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/338",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-338",
+    "jobtag_id": "338"
+  },
+  {
+    "title": "インテリアデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/337",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-337",
+    "jobtag_id": "337"
+  },
+  {
+    "title": "エコノミスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/394",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-394",
+    "jobtag_id": "394"
+  },
+  {
+    "title": "オーケストラ奏者（団員）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/573",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-573",
+    "jobtag_id": "573"
+  },
+  {
+    "title": "カウンセラー（医療福祉分野）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/411",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-411",
+    "jobtag_id": "411"
+  },
+  {
+    "title": "カラーコーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/339",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-339",
+    "jobtag_id": "339"
+  },
+  {
+    "title": "キャリアカウンセラー/キャリアコンサルタント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/136",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-136",
+    "jobtag_id": "136"
+  },
+  {
+    "title": "グラフィックデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/334",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-334",
+    "jobtag_id": "334"
+  },
+  {
+    "title": "ゲームクリエーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/330",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-330",
+    "jobtag_id": "330"
+  },
+  {
+    "title": "コピーライター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/335",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-335",
+    "jobtag_id": "335"
+  },
+  {
+    "title": "システムエンジニア（Webサービス開発）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/314",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-314",
+    "jobtag_id": "314"
+  },
+  {
+    "title": "システムエンジニア（受託開発）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/312",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-312",
+    "jobtag_id": "312"
+  },
+  {
+    "title": "システムエンジニア（基盤システム）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/318",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-318",
+    "jobtag_id": "318"
+  },
+  {
+    "title": "システムエンジニア（組込み、IoT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/315",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-315",
+    "jobtag_id": "315"
+  },
+  {
+    "title": "ジュエリーデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/350",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-350",
+    "jobtag_id": "350"
+  },
+  {
+    "title": "スクールカウンセラー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/412",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-412",
+    "jobtag_id": "412"
+  },
+  {
+    "title": "スタイリスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/346",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-346",
+    "jobtag_id": "346"
+  },
+  {
+    "title": "スポーツインストラクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/120",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-120",
+    "jobtag_id": "120"
+  },
+  {
+    "title": "セキュリティエキスパート（オペレーション）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/321",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-321",
+    "jobtag_id": "321"
+  },
+  {
+    "title": "セキュリティエキスパート（デジタルフォレンジック）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/533",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-533",
+    "jobtag_id": "533"
+  },
+  {
+    "title": "セキュリティエキスパート（情報セキュリティ監査）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/534",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-534",
+    "jobtag_id": "534"
+  },
+  {
+    "title": "セキュリティエキスパート（脆弱性診断）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/520",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-520",
+    "jobtag_id": "520"
+  },
+  {
+    "title": "ソフトウェア開発（スマホアプリ）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/317",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-317",
+    "jobtag_id": "317"
+  },
+  {
+    "title": "ソフトウェア開発（パッケージソフト）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/316",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-316",
+    "jobtag_id": "316"
+  },
+  {
+    "title": "テキスタイルデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/348",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-348",
+    "jobtag_id": "348"
+  },
+  {
+    "title": "テクニカルイラストレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/345",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-345",
+    "jobtag_id": "345"
+  },
+  {
+    "title": "テクニカルライター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/358",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-358",
+    "jobtag_id": "358"
+  },
+  {
+    "title": "テレビカメラマン",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/356",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-356",
+    "jobtag_id": "356"
+  },
+  {
+    "title": "テレビ・ラジオ放送技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/212",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-212",
+    "jobtag_id": "212"
+  },
+  {
+    "title": "ディスプレイデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/336",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-336",
+    "jobtag_id": "336"
+  },
+  {
+    "title": "デバッグ作業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/540",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-540",
+    "jobtag_id": "540"
+  },
+  {
+    "title": "データエンジニア",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/523",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-523",
+    "jobtag_id": "523"
+  },
+  {
+    "title": "データサイエンティスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/323",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-323",
+    "jobtag_id": "323"
+  },
+  {
+    "title": "ナレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/541",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-541",
+    "jobtag_id": "541"
+  },
+  {
+    "title": "ハローワーク職員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/574",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-574",
+    "jobtag_id": "574"
+  },
+  {
+    "title": "バイオテクノロジー技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/309",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-309",
+    "jobtag_id": "309"
+  },
+  {
+    "title": "バイオテクノロジー研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/393",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-393",
+    "jobtag_id": "393"
+  },
+  {
+    "title": "バイオマス発電プラントの設計",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/551",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-551",
+    "jobtag_id": "551"
+  },
+  {
+    "title": "ピアノ調律師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/127",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-127",
+    "jobtag_id": "127"
+  },
+  {
+    "title": "ファイナンシャル・プランナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/82",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-82",
+    "jobtag_id": "82"
+  },
+  {
+    "title": "ファインセラミックス製造技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/305",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-305",
+    "jobtag_id": "305"
+  },
+  {
+    "title": "ファッションデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/340",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-340",
+    "jobtag_id": "340"
+  },
+  {
+    "title": "ファンドマネージャー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/470",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-470",
+    "jobtag_id": "470"
+  },
+  {
+    "title": "フラワーデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/349",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-349",
+    "jobtag_id": "349"
+  },
+  {
+    "title": "フードコーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/351",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-351",
+    "jobtag_id": "351"
+  },
+  {
+    "title": "ブックデザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/347",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-347",
+    "jobtag_id": "347"
+  },
+  {
+    "title": "ブロックチェーン・エンジニア",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/581",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-581",
+    "jobtag_id": "581"
+  },
+  {
+    "title": "プラント設計技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/276",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-276",
+    "jobtag_id": "276"
+  },
+  {
+    "title": "プログラマー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/313",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-313",
+    "jobtag_id": "313"
+  },
+  {
+    "title": "プロジェクトマネージャ（IT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/322",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-322",
+    "jobtag_id": "322"
+  },
+  {
+    "title": "ヘルプデスク（IT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/320",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-320",
+    "jobtag_id": "320"
+  },
+  {
+    "title": "下水道管路施設の点検・調査",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/572",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-572",
+    "jobtag_id": "572"
+  },
+  {
+    "title": "不動産鑑定士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/93",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-93",
+    "jobtag_id": "93"
+  },
+  {
+    "title": "中学校教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/180",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-180",
+    "jobtag_id": "180"
+  },
+  {
+    "title": "中小企業診断士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/80",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-80",
+    "jobtag_id": "80"
+  },
+  {
+    "title": "人事コンサルタント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/364",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-364",
+    "jobtag_id": "364"
+  },
+  {
+    "title": "作業環境測定士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/571",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-571",
+    "jobtag_id": "571"
+  },
+  {
+    "title": "作業療法士（OT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/168",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-168",
+    "jobtag_id": "168"
+  },
+  {
+    "title": "保健師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/160",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-160",
+    "jobtag_id": "160"
+  },
+  {
+    "title": "保育士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/131",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-131",
+    "jobtag_id": "131"
+  },
+  {
+    "title": "保育補助者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/546",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-546",
+    "jobtag_id": "546"
+  },
+  {
+    "title": "児童指導員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/243",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-243",
+    "jobtag_id": "243"
+  },
+  {
+    "title": "公認会計士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/90",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-90",
+    "jobtag_id": "90"
+  },
+  {
+    "title": "内科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/404",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-404",
+    "jobtag_id": "404"
+  },
+  {
+    "title": "分析化学技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/303",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-303",
+    "jobtag_id": "303"
+  },
+  {
+    "title": "助産師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/157",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-157",
+    "jobtag_id": "157"
+  },
+  {
+    "title": "労働基準監督官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/519",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-519",
+    "jobtag_id": "519"
+  },
+  {
+    "title": "動物看護",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/510",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-510",
+    "jobtag_id": "510"
+  },
+  {
+    "title": "動画制作",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/328",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-328",
+    "jobtag_id": "328"
+  },
+  {
+    "title": "医学研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/390",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-390",
+    "jobtag_id": "390"
+  },
+  {
+    "title": "医療機器開発技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/529",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-529",
+    "jobtag_id": "529"
+  },
+  {
+    "title": "半導体技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/267",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-267",
+    "jobtag_id": "267"
+  },
+  {
+    "title": "原子力技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/301",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-301",
+    "jobtag_id": "301"
+  },
+  {
+    "title": "司法書士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/84",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-84",
+    "jobtag_id": "84"
+  },
+  {
+    "title": "商業カメラマン",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/355",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-355",
+    "jobtag_id": "355"
+  },
+  {
+    "title": "図書編集者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/210",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-210",
+    "jobtag_id": "210"
+  },
+  {
+    "title": "図書館司書",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/182",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-182",
+    "jobtag_id": "182"
+  },
+  {
+    "title": "国際協力専門家",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/513",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-513",
+    "jobtag_id": "513"
+  },
+  {
+    "title": "土地家屋調査士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/86",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-86",
+    "jobtag_id": "86"
+  },
+  {
+    "title": "土木・建築工学研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/388",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-388",
+    "jobtag_id": "388"
+  },
+  {
+    "title": "土木施工管理技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/23",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-23",
+    "jobtag_id": "23"
+  },
+  {
+    "title": "土木設計技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/22",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-22",
+    "jobtag_id": "22"
+  },
+  {
+    "title": "報道カメラマン",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/357",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-357",
+    "jobtag_id": "357"
+  },
+  {
+    "title": "声優",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/582",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-582",
+    "jobtag_id": "582"
+  },
+  {
+    "title": "外科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/402",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-402",
+    "jobtag_id": "402"
+  },
+  {
+    "title": "大学・短期大学教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/184",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-184",
+    "jobtag_id": "184"
+  },
+  {
+    "title": "太陽光発電の設計・施工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/235",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-235",
+    "jobtag_id": "235"
+  },
+  {
+    "title": "学童保育指導員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/242",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-242",
+    "jobtag_id": "242"
+  },
+  {
+    "title": "学習塾教師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/396",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-396",
+    "jobtag_id": "396"
+  },
+  {
+    "title": "学芸員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/185",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-185",
+    "jobtag_id": "185"
+  },
+  {
+    "title": "宇宙開発技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/310",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-310",
+    "jobtag_id": "310"
+  },
+  {
+    "title": "家庭裁判所調査官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/146",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-146",
+    "jobtag_id": "146"
+  },
+  {
+    "title": "専門学校教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/181",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-181",
+    "jobtag_id": "181"
+  },
+  {
+    "title": "小児科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/403",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-403",
+    "jobtag_id": "403"
+  },
+  {
+    "title": "小学校教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/179",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-179",
+    "jobtag_id": "179"
+  },
+  {
+    "title": "幼稚園教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/178",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-178",
+    "jobtag_id": "178"
+  },
+  {
+    "title": "広告ディレクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/333",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-333",
+    "jobtag_id": "333"
+  },
+  {
+    "title": "広告デザイナー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/332",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-332",
+    "jobtag_id": "332"
+  },
+  {
+    "title": "広報コンサルタント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/363",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-363",
+    "jobtag_id": "363"
+  },
+  {
+    "title": "建築施工管理技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/21",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-21",
+    "jobtag_id": "21"
+  },
+  {
+    "title": "建築設計技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/20",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-20",
+    "jobtag_id": "20"
+  },
+  {
+    "title": "弁理士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/91",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-91",
+    "jobtag_id": "91"
+  },
+  {
+    "title": "弁護士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/89",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-89",
+    "jobtag_id": "89"
+  },
+  {
+    "title": "情報工学研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/389",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-389",
+    "jobtag_id": "389"
+  },
+  {
+    "title": "手話通訳者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/135",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-135",
+    "jobtag_id": "135"
+  },
+  {
+    "title": "探偵",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/562",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-562",
+    "jobtag_id": "562"
+  },
+  {
+    "title": "放送ディレクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/217",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-217",
+    "jobtag_id": "217"
+  },
+  {
+    "title": "放送記者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/215",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-215",
+    "jobtag_id": "215"
+  },
+  {
+    "title": "整形外科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/575",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-575",
+    "jobtag_id": "575"
+  },
+  {
+    "title": "新聞記者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/208",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-208",
+    "jobtag_id": "208"
+  },
+  {
+    "title": "日本語教師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/397",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-397",
+    "jobtag_id": "397"
+  },
+  {
+    "title": "映像編集者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/214",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-214",
+    "jobtag_id": "214"
+  },
+  {
+    "title": "林業技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/229",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-229",
+    "jobtag_id": "229"
+  },
+  {
+    "title": "柔道整復師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/173",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-173",
+    "jobtag_id": "173"
+  },
+  {
+    "title": "栄養士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/171",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-171",
+    "jobtag_id": "171"
+  },
+  {
+    "title": "植物工場の研究開発",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/247",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-247",
+    "jobtag_id": "247"
+  },
+  {
+    "title": "植物工場の設計、施工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/248",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-248",
+    "jobtag_id": "248"
+  },
+  {
+    "title": "検察事務官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/518",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-518",
+    "jobtag_id": "518"
+  },
+  {
+    "title": "検察官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/145",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-145",
+    "jobtag_id": "145"
+  },
+  {
+    "title": "検疫官（看護師）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/564",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-564",
+    "jobtag_id": "564"
+  },
+  {
+    "title": "機械設計技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/262",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-262",
+    "jobtag_id": "262"
+  },
+  {
+    "title": "歯科助手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/545",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-545",
+    "jobtag_id": "545"
+  },
+  {
+    "title": "歯科医師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/159",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-159",
+    "jobtag_id": "159"
+  },
+  {
+    "title": "歯科技工士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/165",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-165",
+    "jobtag_id": "165"
+  },
+  {
+    "title": "歯科衛生士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/166",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-166",
+    "jobtag_id": "166"
+  },
+  {
+    "title": "気象予報士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/94",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-94",
+    "jobtag_id": "94"
+  },
+  {
+    "title": "水産技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/228",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-228",
+    "jobtag_id": "228"
+  },
+  {
+    "title": "治験コーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/407",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-407",
+    "jobtag_id": "407"
+  },
+  {
+    "title": "法務技官（心理）（矯正心理専門職）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/516",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-516",
+    "jobtag_id": "516"
+  },
+  {
+    "title": "法務教官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/147",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-147",
+    "jobtag_id": "147"
+  },
+  {
+    "title": "測量士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/24",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-24",
+    "jobtag_id": "24"
+  },
+  {
+    "title": "特別支援学校教員、特別支援学級教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/395",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-395",
+    "jobtag_id": "395"
+  },
+  {
+    "title": "特許審査官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/521",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-521",
+    "jobtag_id": "521"
+  },
+  {
+    "title": "犬訓練士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/226",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-226",
+    "jobtag_id": "226"
+  },
+  {
+    "title": "独立系ファイナンシャル・アドバイザー（IFA）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/524",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-524",
+    "jobtag_id": "524"
+  },
+  {
+    "title": "獣医師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/223",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-223",
+    "jobtag_id": "223"
+  },
+  {
+    "title": "理学療法士（PT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/167",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-167",
+    "jobtag_id": "167"
+  },
+  {
+    "title": "生産・品質管理技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/296",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-296",
+    "jobtag_id": "296"
+  },
+  {
+    "title": "産婦人科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/406",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-406",
+    "jobtag_id": "406"
+  },
+  {
+    "title": "産業医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/583",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-583",
+    "jobtag_id": "583"
+  },
+  {
+    "title": "産業廃棄物処理技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/495",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-495",
+    "jobtag_id": "495"
+  },
+  {
+    "title": "産業用ロボットの設置・設定",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/232",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-232",
+    "jobtag_id": "232"
+  },
+  {
+    "title": "産業用ロボット開発技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/231",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-231",
+    "jobtag_id": "231"
+  },
+  {
+    "title": "畜産技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/508",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-508",
+    "jobtag_id": "508"
+  },
+  {
+    "title": "看護助手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/246",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-246",
+    "jobtag_id": "246"
+  },
+  {
+    "title": "看護師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/156",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-156",
+    "jobtag_id": "156"
+  },
+  {
+    "title": "知的財産コーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/365",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-365",
+    "jobtag_id": "365"
+  },
+  {
+    "title": "知的財産サーチャー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/366",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-366",
+    "jobtag_id": "366"
+  },
+  {
+    "title": "社会保険労務士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/83",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-83",
+    "jobtag_id": "83"
+  },
+  {
+    "title": "社会学研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/560",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-560",
+    "jobtag_id": "560"
+  },
+  {
+    "title": "社会教育主事",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/400",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-400",
+    "jobtag_id": "400"
+  },
+  {
+    "title": "科学捜査研究所鑑定技術職員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/391",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-391",
+    "jobtag_id": "391"
+  },
+  {
+    "title": "税理士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/92",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-92",
+    "jobtag_id": "92"
+  },
+  {
+    "title": "精密機器技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/271",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-271",
+    "jobtag_id": "271"
+  },
+  {
+    "title": "精神科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/405",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-405",
+    "jobtag_id": "405"
+  },
+  {
+    "title": "細胞検査士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/162",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-162",
+    "jobtag_id": "162"
+  },
+  {
+    "title": "経営コンサルタント",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/81",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-81",
+    "jobtag_id": "81"
+  },
+  {
+    "title": "義肢装具士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/176",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-176",
+    "jobtag_id": "176"
+  },
+  {
+    "title": "翻訳者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/87",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-87",
+    "jobtag_id": "87"
+  },
+  {
+    "title": "耐震診断",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/570",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-570",
+    "jobtag_id": "570"
+  },
+  {
+    "title": "職業訓練指導員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/399",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-399",
+    "jobtag_id": "399"
+  },
+  {
+    "title": "臨床工学技士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/164",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-164",
+    "jobtag_id": "164"
+  },
+  {
+    "title": "臨床検査技師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/161",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-161",
+    "jobtag_id": "161"
+  },
+  {
+    "title": "自動車技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/270",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-270",
+    "jobtag_id": "270"
+  },
+  {
+    "title": "自動車教習指導員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/121",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-121",
+    "jobtag_id": "121"
+  },
+  {
+    "title": "自動運転開発エンジニア（自動車）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/528",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-528",
+    "jobtag_id": "528"
+  },
+  {
+    "title": "舞台照明スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/353",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-353",
+    "jobtag_id": "353"
+  },
+  {
+    "title": "舞台美術スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/352",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-352",
+    "jobtag_id": "352"
+  },
+  {
+    "title": "航空管制官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/203",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-203",
+    "jobtag_id": "203"
+  },
+  {
+    "title": "船員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/207",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-207",
+    "jobtag_id": "207"
+  },
+  {
+    "title": "英会話教師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/398",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-398",
+    "jobtag_id": "398"
+  },
+  {
+    "title": "薬剤師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/158",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-158",
+    "jobtag_id": "158"
+  },
+  {
+    "title": "薬学研究者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/392",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-392",
+    "jobtag_id": "392"
+  },
+  {
+    "title": "行政書士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/85",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-85",
+    "jobtag_id": "85"
+  },
+  {
+    "title": "衛生管理者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/576",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-576",
+    "jobtag_id": "576"
+  },
+  {
+    "title": "裁判官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/144",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-144",
+    "jobtag_id": "144"
+  },
+  {
+    "title": "視能訓練士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/170",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-170",
+    "jobtag_id": "170"
+  },
+  {
+    "title": "言語聴覚士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/169",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-169",
+    "jobtag_id": "169"
+  },
+  {
+    "title": "診療放射線技師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/163",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-163",
+    "jobtag_id": "163"
+  },
+  {
+    "title": "証券アナリスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/457",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-457",
+    "jobtag_id": "457"
+  },
+  {
+    "title": "調教師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/225",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-225",
+    "jobtag_id": "225"
+  },
+  {
+    "title": "調香師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/419",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-419",
+    "jobtag_id": "419"
+  },
+  {
+    "title": "農業技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/221",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-221",
+    "jobtag_id": "221"
+  },
+  {
+    "title": "通訳者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/88",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-88",
+    "jobtag_id": "88"
+  },
+  {
+    "title": "通関士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/202",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-202",
+    "jobtag_id": "202"
+  },
+  {
+    "title": "速記者、音声反訳者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/424",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-424",
+    "jobtag_id": "424"
+  },
+  {
+    "title": "造船技術者（船舶の開発・設計）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/550",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-550",
+    "jobtag_id": "550"
+  },
+  {
+    "title": "運用・管理（IT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/319",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-319",
+    "jobtag_id": "319"
+  },
+  {
+    "title": "鉄道車両の設計・開発",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/561",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-561",
+    "jobtag_id": "561"
+  },
+  {
+    "title": "陶磁器技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/304",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-304",
+    "jobtag_id": "304"
+  },
+  {
+    "title": "雑誌編集者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/211",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-211",
+    "jobtag_id": "211"
+  },
+  {
+    "title": "雑誌記者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/209",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-209",
+    "jobtag_id": "209"
+  },
+  {
+    "title": "電子機器技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/273",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-273",
+    "jobtag_id": "273"
+  },
+  {
+    "title": "電気技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/272",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-272",
+    "jobtag_id": "272"
+  },
+  {
+    "title": "電気通信技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/274",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-274",
+    "jobtag_id": "274"
+  },
+  {
+    "title": "非鉄金属製錬技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/258",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-258",
+    "jobtag_id": "258"
+  },
+  {
+    "title": "音楽教室講師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/122",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-122",
+    "jobtag_id": "122"
+  },
+  {
+    "title": "食品技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/288",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-288",
+    "jobtag_id": "288"
+  },
+  {
+    "title": "養護教諭",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/565",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-565",
+    "jobtag_id": "565"
+  },
+  {
+    "title": "高分子化学技術者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/308",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-308",
+    "jobtag_id": "308"
+  },
+  {
+    "title": "高等学校教員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/183",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-183",
+    "jobtag_id": "183"
+  },
+  {
+    "title": "麻酔科医",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/563",
+    "category": "Professional & Technical",
+    "category_ja": "専門的・技術的職業",
+    "slug": "occ-563",
+    "jobtag_id": "563"
+  },
+  {
+    "title": "CDショップ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/451",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-451",
+    "jobtag_id": "451"
+  },
+  {
+    "title": "OA機器営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/462",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-462",
+    "jobtag_id": "462"
+  },
+  {
+    "title": "せり人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/65",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-65",
+    "jobtag_id": "65"
+  },
+  {
+    "title": "カフェ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/105",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-105",
+    "jobtag_id": "105"
+  },
+  {
+    "title": "ガソリンスタンド・スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/198",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-198",
+    "jobtag_id": "198"
+  },
+  {
+    "title": "コンサルティング営業（IT）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/452",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-452",
+    "jobtag_id": "452"
+  },
+  {
+    "title": "コンビニエンスストア店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/78",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-78",
+    "jobtag_id": "78"
+  },
+  {
+    "title": "シューフィッター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/76",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-76",
+    "jobtag_id": "76"
+  },
+  {
+    "title": "スポーツ用品販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/70",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-70",
+    "jobtag_id": "70"
+  },
+  {
+    "title": "スーパーレジ係",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/56",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-56",
+    "jobtag_id": "56"
+  },
+  {
+    "title": "スーパー店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/57",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-57",
+    "jobtag_id": "57"
+  },
+  {
+    "title": "ディーラー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/455",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-455",
+    "jobtag_id": "455"
+  },
+  {
+    "title": "デパート店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/54",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-54",
+    "jobtag_id": "54"
+  },
+  {
+    "title": "フラワーショップ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/66",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-66",
+    "jobtag_id": "66"
+  },
+  {
+    "title": "ベーカリーショップ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/79",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-79",
+    "jobtag_id": "79"
+  },
+  {
+    "title": "ペットショップ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/72",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-72",
+    "jobtag_id": "72"
+  },
+  {
+    "title": "ホームセンター店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/71",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-71",
+    "jobtag_id": "71"
+  },
+  {
+    "title": "メガネ販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/69",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-69",
+    "jobtag_id": "69"
+  },
+  {
+    "title": "リサイクルショップ店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/449",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-449",
+    "jobtag_id": "449"
+  },
+  {
+    "title": "代理店営業（保険会社）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/472",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-472",
+    "jobtag_id": "472"
+  },
+  {
+    "title": "住宅・不動産営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/59",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-59",
+    "jobtag_id": "59"
+  },
+  {
+    "title": "保険営業（生命保険、損害保険）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/453",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-453",
+    "jobtag_id": "453"
+  },
+  {
+    "title": "化粧品訪問販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/465",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-465",
+    "jobtag_id": "465"
+  },
+  {
+    "title": "化粧品販売/美容部員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/464",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-464",
+    "jobtag_id": "464"
+  },
+  {
+    "title": "医薬品販売/登録販売者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/448",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-448",
+    "jobtag_id": "448"
+  },
+  {
+    "title": "医薬情報担当者（MR）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/63",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-63",
+    "jobtag_id": "63"
+  },
+  {
+    "title": "印刷営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/62",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-62",
+    "jobtag_id": "62"
+  },
+  {
+    "title": "商社営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/58",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-58",
+    "jobtag_id": "58"
+  },
+  {
+    "title": "広告営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/61",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-61",
+    "jobtag_id": "61"
+  },
+  {
+    "title": "携帯電話販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/450",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-450",
+    "jobtag_id": "450"
+  },
+  {
+    "title": "書店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/68",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-68",
+    "jobtag_id": "68"
+  },
+  {
+    "title": "空港グランドスタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/194",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-194",
+    "jobtag_id": "194"
+  },
+  {
+    "title": "自動車営業",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/60",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-60",
+    "jobtag_id": "60"
+  },
+  {
+    "title": "自転車販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/467",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-467",
+    "jobtag_id": "467"
+  },
+  {
+    "title": "衣料品販売",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/73",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-73",
+    "jobtag_id": "73"
+  },
+  {
+    "title": "証券外務員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/463",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-463",
+    "jobtag_id": "463"
+  },
+  {
+    "title": "銀行・信用金庫渉外担当",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/454",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-454",
+    "jobtag_id": "454"
+  },
+  {
+    "title": "電器店店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/67",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-67",
+    "jobtag_id": "67"
+  },
+  {
+    "title": "食品営業（食品メーカー）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/527",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-527",
+    "jobtag_id": "527"
+  },
+  {
+    "title": "駅構内売店店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/77",
+    "category": "Sales",
+    "category_ja": "販売の職業",
+    "slug": "occ-77",
+    "jobtag_id": "77"
+  },
+  {
+    "title": "入国警備官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/143",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-143",
+    "jobtag_id": "143"
+  },
+  {
+    "title": "冷凍加工食品製造",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/7",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-7",
+    "jobtag_id": "7"
+  },
+  {
+    "title": "刑務官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/148",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-148",
+    "jobtag_id": "148"
+  },
+  {
+    "title": "救急救命士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/401",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-401",
+    "jobtag_id": "401"
+  },
+  {
+    "title": "施設警備員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/241",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-241",
+    "jobtag_id": "241"
+  },
+  {
+    "title": "水族館飼育員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/224",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-224",
+    "jobtag_id": "224"
+  },
+  {
+    "title": "海上保安官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/141",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-141",
+    "jobtag_id": "141"
+  },
+  {
+    "title": "海上自衛官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/153",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-153",
+    "jobtag_id": "153"
+  },
+  {
+    "title": "消防官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/155",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-155",
+    "jobtag_id": "155"
+  },
+  {
+    "title": "潜水士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/33",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-33",
+    "jobtag_id": "33"
+  },
+  {
+    "title": "税関職員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/578",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-578",
+    "jobtag_id": "578"
+  },
+  {
+    "title": "自然保護官（レンジャー）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/501",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-501",
+    "jobtag_id": "501"
+  },
+  {
+    "title": "航空自衛官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/154",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-154",
+    "jobtag_id": "154"
+  },
+  {
+    "title": "警察官（都道府県警察）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/140",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-140",
+    "jobtag_id": "140"
+  },
+  {
+    "title": "道路パトロール隊員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/199",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-199",
+    "jobtag_id": "199"
+  },
+  {
+    "title": "陸上自衛官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/152",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-152",
+    "jobtag_id": "152"
+  },
+  {
+    "title": "雑踏・交通誘導警備員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/475",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-475",
+    "jobtag_id": "475"
+  },
+  {
+    "title": "麻薬取締官",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/142",
+    "category": "Security",
+    "category_ja": "保安職業",
+    "slug": "occ-142",
+    "jobtag_id": "142"
+  },
+  {
+    "title": "きもの着付指導員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/423",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-423",
+    "jobtag_id": "423"
+  },
+  {
+    "title": "すし職人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/101",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-101",
+    "jobtag_id": "101"
+  },
+  {
+    "title": "そば・うどん調理人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/102",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-102",
+    "jobtag_id": "102"
+  },
+  {
+    "title": "アロマセラピスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/420",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-420",
+    "jobtag_id": "420"
+  },
+  {
+    "title": "エステティシャン",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/117",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-117",
+    "jobtag_id": "117"
+  },
+  {
+    "title": "キャディ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/113",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-113",
+    "jobtag_id": "113"
+  },
+  {
+    "title": "クリーニング師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/119",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-119",
+    "jobtag_id": "119"
+  },
+  {
+    "title": "ソムリエ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/106",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-106",
+    "jobtag_id": "106"
+  },
+  {
+    "title": "ツアーコンダクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/110",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-110",
+    "jobtag_id": "110"
+  },
+  {
+    "title": "トリマー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/227",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-227",
+    "jobtag_id": "227"
+  },
+  {
+    "title": "ネイリスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/128",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-128",
+    "jobtag_id": "128"
+  },
+  {
+    "title": "バーテンダー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/107",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-107",
+    "jobtag_id": "107"
+  },
+  {
+    "title": "ビデオレンタル店店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/123",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-123",
+    "jobtag_id": "123"
+  },
+  {
+    "title": "フロント（ホテル・旅館）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/414",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-414",
+    "jobtag_id": "414"
+  },
+  {
+    "title": "ブライダルコーディネーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/125",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-125",
+    "jobtag_id": "125"
+  },
+  {
+    "title": "ベビーシッター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/413",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-413",
+    "jobtag_id": "413"
+  },
+  {
+    "title": "ホテル・旅館支配人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/52",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-52",
+    "jobtag_id": "52"
+  },
+  {
+    "title": "ホールスタッフ（レストラン）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/417",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-417",
+    "jobtag_id": "417"
+  },
+  {
+    "title": "マンション管理員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/473",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-473",
+    "jobtag_id": "473"
+  },
+  {
+    "title": "メイクアップアーティスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/118",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-118",
+    "jobtag_id": "118"
+  },
+  {
+    "title": "ラーメン調理人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/108",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-108",
+    "jobtag_id": "108"
+  },
+  {
+    "title": "リフレクソロジスト",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/421",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-421",
+    "jobtag_id": "421"
+  },
+  {
+    "title": "レンタカー店舗スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/124",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-124",
+    "jobtag_id": "124"
+  },
+  {
+    "title": "中華料理調理人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/103",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-103",
+    "jobtag_id": "103"
+  },
+  {
+    "title": "介護支援専門員/ケアマネジャー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/132",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-132",
+    "jobtag_id": "132"
+  },
+  {
+    "title": "児童発達支援管理責任者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/568",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-568",
+    "jobtag_id": "568"
+  },
+  {
+    "title": "児童相談所相談員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/129",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-129",
+    "jobtag_id": "129"
+  },
+  {
+    "title": "医療ソーシャルワーカー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/408",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-408",
+    "jobtag_id": "408"
+  },
+  {
+    "title": "客室乗務員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/205",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-205",
+    "jobtag_id": "205"
+  },
+  {
+    "title": "家政婦（夫）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/126",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-126",
+    "jobtag_id": "126"
+  },
+  {
+    "title": "接客担当（ホテル・旅館）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/416",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-416",
+    "jobtag_id": "416"
+  },
+  {
+    "title": "施設介護員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/134",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-134",
+    "jobtag_id": "134"
+  },
+  {
+    "title": "施設管理者（介護施設）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/410",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-410",
+    "jobtag_id": "410"
+  },
+  {
+    "title": "日本料理調理人（板前）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/100",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-100",
+    "jobtag_id": "100"
+  },
+  {
+    "title": "洋菓子製造、パティシエ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/3",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-3",
+    "jobtag_id": "3"
+  },
+  {
+    "title": "理容師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/115",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-115",
+    "jobtag_id": "115"
+  },
+  {
+    "title": "福祉ソーシャルワーカー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/409",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-409",
+    "jobtag_id": "409"
+  },
+  {
+    "title": "福祉事務所ケースワーカー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/130",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-130",
+    "jobtag_id": "130"
+  },
+  {
+    "title": "福祉用具専門相談員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/137",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-137",
+    "jobtag_id": "137"
+  },
+  {
+    "title": "納棺師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/569",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-569",
+    "jobtag_id": "569"
+  },
+  {
+    "title": "給食調理員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/493",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-493",
+    "jobtag_id": "493"
+  },
+  {
+    "title": "美容師",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/116",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-116",
+    "jobtag_id": "116"
+  },
+  {
+    "title": "老人福祉施設生活相談員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/245",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-245",
+    "jobtag_id": "245"
+  },
+  {
+    "title": "葬祭ディレクター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/422",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-422",
+    "jobtag_id": "422"
+  },
+  {
+    "title": "西洋料理調理人（コック）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/99",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-99",
+    "jobtag_id": "99"
+  },
+  {
+    "title": "訪問介護のサービス提供責任者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/555",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-555",
+    "jobtag_id": "555"
+  },
+  {
+    "title": "訪問介護員/ホームヘルパー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/133",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-133",
+    "jobtag_id": "133"
+  },
+  {
+    "title": "調理補助",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/492",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-492",
+    "jobtag_id": "492"
+  },
+  {
+    "title": "通訳ガイド",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/114",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-114",
+    "jobtag_id": "114"
+  },
+  {
+    "title": "遊園地スタッフ",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/112",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-112",
+    "jobtag_id": "112"
+  },
+  {
+    "title": "障害福祉サービス管理責任者",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/580",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-580",
+    "jobtag_id": "580"
+  },
+  {
+    "title": "障害者グループホーム世話人",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/556",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-556",
+    "jobtag_id": "556"
+  },
+  {
+    "title": "障害者福祉施設指導専門員（生活支援員、就労支援員等）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/244",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-244",
+    "jobtag_id": "244"
+  },
+  {
+    "title": "飲食チェーン店店員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/418",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-418",
+    "jobtag_id": "418"
+  },
+  {
+    "title": "駐車場管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/96",
+    "category": "Service",
+    "category_ja": "サービス職業",
+    "slug": "occ-96",
+    "jobtag_id": "96"
+  },
+  {
+    "title": "さく井工/ボーリング工",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/35",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-35",
+    "jobtag_id": "35"
+  },
+  {
+    "title": "クレーン運転士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/549",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-549",
+    "jobtag_id": "549"
+  },
+  {
+    "title": "タクシー運転手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/188",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-188",
+    "jobtag_id": "188"
+  },
+  {
+    "title": "タンクローリー乗務員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/525",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-525",
+    "jobtag_id": "525"
+  },
+  {
+    "title": "ダンプカー運転手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/479",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-479",
+    "jobtag_id": "479"
+  },
+  {
+    "title": "トラックドライバー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/477",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-477",
+    "jobtag_id": "477"
+  },
+  {
+    "title": "トレーラートラックドライバー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/478",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-478",
+    "jobtag_id": "478"
+  },
+  {
+    "title": "ドローンパイロット",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/511",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-511",
+    "jobtag_id": "511"
+  },
+  {
+    "title": "パイロット",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/189",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-189",
+    "jobtag_id": "189"
+  },
+  {
+    "title": "ビル施設管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/95",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-95",
+    "jobtag_id": "95"
+  },
+  {
+    "title": "フォークリフト運転作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/237",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-237",
+    "jobtag_id": "237"
+  },
+  {
+    "title": "フードデリバリー（料理配達員）",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/532",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-532",
+    "jobtag_id": "532"
+  },
+  {
+    "title": "ボイラーオペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/476",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-476",
+    "jobtag_id": "476"
+  },
+  {
+    "title": "ルート配送ドライバー",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/482",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-482",
+    "jobtag_id": "482"
+  },
+  {
+    "title": "介護タクシー運転手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/481",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-481",
+    "jobtag_id": "481"
+  },
+  {
+    "title": "宅配便配達員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/483",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-483",
+    "jobtag_id": "483"
+  },
+  {
+    "title": "建設機械オペレーター",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/31",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-31",
+    "jobtag_id": "31"
+  },
+  {
+    "title": "新聞配達員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/484",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-484",
+    "jobtag_id": "484"
+  },
+  {
+    "title": "清涼飲料ルートセールス",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/466",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-466",
+    "jobtag_id": "466"
+  },
+  {
+    "title": "産業廃棄物収集運搬作業員",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/496",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-496",
+    "jobtag_id": "496"
+  },
+  {
+    "title": "発電所運転管理",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/302",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-302",
+    "jobtag_id": "302"
+  },
+  {
+    "title": "航海士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/190",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-190",
+    "jobtag_id": "190"
+  },
+  {
+    "title": "船舶機関士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/191",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-191",
+    "jobtag_id": "191"
+  },
+  {
+    "title": "観光バスガイド",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/111",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-111",
+    "jobtag_id": "111"
+  },
+  {
+    "title": "観光バス運転士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/187",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-187",
+    "jobtag_id": "187"
+  },
+  {
+    "title": "路線バス運転士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/186",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-186",
+    "jobtag_id": "186"
+  },
+  {
+    "title": "送迎バス等運転手",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/480",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-480",
+    "jobtag_id": "480"
+  },
+  {
+    "title": "鉄道車掌",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/193",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-193",
+    "jobtag_id": "193"
+  },
+  {
+    "title": "電車運転士",
+    "url": "https://shigoto.mhlw.go.jp/User/Occupation/Detail/192",
+    "category": "Transportation & Machine Operation",
+    "category_ja": "輸送・機械運転の職業",
+    "slug": "occ-192",
+    "jobtag_id": "192"
+  }
+]

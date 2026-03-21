@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本の雇用市場のAIエクスポージャー</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --fg: #e0e0e8;
+  --fg2: #888894;
+  --sidebar-w: 228px;
+  --accent: #5b8cff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans',
+               'Noto Sans JP', system-ui, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* ── Language toggle ──────────────────────────────────────────────────── */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  user-select: none;
+}
+.lang-opt {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--fg2);
+  transition: color 0.18s;
+}
+.lang-opt.active { color: #fff; }
+.lang-track {
+  width: 38px;
+  height: 21px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 11px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.18s;
+  flex-shrink: 0;
+}
+.lang-track:hover { background: rgba(255,255,255,0.13); }
+.lang-thumb {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: left 0.18s cubic-bezier(.4,0,.2,1);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.lang-thumb.en { left: 19px; }
+
+/* ── Sidebar ──────────────────────────────────────────────────────────── */
+#sidebar {
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: var(--sidebar-w);
+  background: var(--bg2);
+  border-right: 1px solid rgba(255,255,255,0.06);
+  padding: 16px 18px 20px;
+  z-index: 10;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+#sidebar h1 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin-top: 2px;
+}
+#sidebar .subtitle {
+  font-size: 10.5px;
+  color: var(--fg2);
+  margin-top: 4px;
+  line-height: 1.5;
+}
+#sidebar .subtitle a { color: var(--fg2); }
+
+.stat-section { display: flex; flex-direction: column; gap: 6px; }
+.stat-section h3 {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--fg2);
+}
+.stat-big {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+.stat-label { font-size: 11px; color: var(--fg2); }
+
+.tier-bar { display: flex; flex-direction: column; gap: 4px; }
+.tier-row { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+.tier-color { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.tier-name  { flex: 1; color: var(--fg2); }
+.tier-jobs  { text-align: right; white-space: nowrap; }
+.tier-pct   { text-align: right; width: 32px; color: var(--fg2); font-size: 10px; }
+
+.histogram  { display: flex; align-items: flex-end; gap: 2px; height: 48px; }
+.histogram .bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; }
+.hist-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: var(--fg2);
+  margin-top: 2px;
+}
+
+.hbar-chart { display: flex; flex-direction: column; gap: 4px; }
+.hbar-row   { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+.hbar-label {
+  width: 72px;
+  flex-shrink: 0;
+  color: var(--fg2);
+  font-size: 10px;
+  text-align: right;
+}
+.hbar-track {
+  flex: 1;
+  height: 10px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.hbar-fill  { height: 100%; border-radius: 2px; }
+.hbar-val   { width: 22px; flex-shrink: 0; font-size: 10px; color: var(--fg); text-align: right; }
+
+.gradient-legend { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--fg2); }
+.gradient-legend canvas { border-radius: 2px; }
+
+/* ── Canvas ───────────────────────────────────────────────────────────── */
+canvas#canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-w);
+  cursor: default;
+}
+
+/* ── Tooltip ──────────────────────────────────────────────────────────── */
+#tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 13px;
+  line-height: 1.5;
+  max-width: 340px;
+  opacity: 0;
+  transition: opacity 0.12s;
+  z-index: 20;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+}
+#tooltip.visible { opacity: 1; }
+#tooltip .tt-title    { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #fff; }
+#tooltip .tt-exposure { font-size: 12px; margin-bottom: 8px; }
+#tooltip .tt-stats    { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
+#tooltip .tt-stats .label { color: var(--fg2); }
+#tooltip .tt-stats .value { color: var(--fg); text-align: right; }
+#tooltip .tt-rationale {
+  font-size: 11px;
+  color: var(--fg2);
+  margin-top: 8px;
+  line-height: 1.4;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 8px;
+}
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+
+  <!-- Language toggle -->
+  <div class="lang-switch">
+    <span class="lang-opt active" id="opt-ja">JP</span>
+    <div class="lang-track" id="langTrack" title="Switch language / 言語切替">
+      <div class="lang-thumb" id="langThumb"></div>
+    </div>
+    <span class="lang-opt" id="opt-en">EN</span>
+  </div>
+
+  <!-- Title & subtitle -->
+  <div>
+    <h1 id="ttlMain">日本の雇用市場の<br>AIエクスポージャー</h1>
+    <div class="subtitle">
+      <span id="subDesc">約500職業・面積＝就業者数・色＝AIエクスポージャー</span><br>
+      <span id="subData">データ：</span><a href="https://shigoto.mhlw.go.jp/" target="_blank">Jobtag</a> /
+      <a href="https://www.e-stat.go.jp/" target="_blank">e-Stat</a>
+      <span id="subScored">・NVIDIA Nemotronにてスコアリング</span><br>
+      <a href="https://github.com/karpathy/jobs" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="total_jobs">就業者総数</h3>
+    <div class="stat-big" id="statTotalJobs">—</div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="weighted_avg">加重平均エクスポージャー</h3>
+    <div class="stat-big" id="statAvgExposure">—</div>
+    <div class="stat-label" data-i18n="weighted_sub">雇用加重、0〜10スケール</div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="jobs_by_exp">エクスポージャー別就業者数</h3>
+    <div class="histogram" id="histogram"></div>
+    <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="breakdown">内訳</h3>
+    <div class="tier-bar" id="tierBar"></div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="by_pay">賃金別エクスポージャー</h3>
+    <div class="hbar-chart" id="payChart"></div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="by_edu">学歴別エクスポージャー</h3>
+    <div class="hbar-chart" id="eduChart"></div>
+  </div>
+
+  <div class="stat-section">
+    <h3 data-i18n="wages_hdr">高エクスポージャー賃金総額</h3>
+    <div class="stat-big" id="statWages">—</div>
+    <div class="stat-label" data-i18n="wages_sub">エクスポージャー7以上の職業の年間賃金</div>
+  </div>
+
+  <div class="gradient-legend">
+    <span data-i18n="legend_low">低</span>
+    <canvas id="gradientLegend" width="80" height="8"></canvas>
+    <span data-i18n="legend_high">高</span>
+  </div>
+
+</div><!-- /sidebar -->
+
+<canvas id="canvas"></canvas>
+
+<div id="tooltip">
+  <div class="tt-title"></div>
+  <div class="tt-exposure"></div>
+  <div class="tt-stats"></div>
+  <div class="tt-rationale"></div>
+</div>
+
+<script>
+
+// ── i18n ────────────────────────────────────────────────────────────────────
+
+const T = {
+  ja: {
+    // page meta
+    html_lang:    "ja",
+    page_title:   "日本の雇用市場のAIエクスポージャー",
+    ttl_main:     "日本の雇用市場の\u200bAIエクスポージャー",
+    sub_desc:     "約500職業・面積＝就業者数・色＝AIエクスポージャー",
+    sub_data:     "データ：",
+    sub_scored:   "・NVIDIA Nemotronにてスコアリング",
+    // sidebar keys (data-i18n)
+    total_jobs:   "就業者総数",
+    weighted_avg: "加重平均エクスポージャー",
+    weighted_sub: "雇用加重、0〜10スケール",
+    jobs_by_exp:  "エクスポージャー別就業者数",
+    breakdown:    "内訳",
+    by_pay:       "賃金別エクスポージャー",
+    by_edu:       "学歴別エクスポージャー",
+    wages_hdr:    "高エクスポージャー賃金総額",
+    wages_sub:    "エクスポージャー7以上の職業の年間賃金",
+    legend_low:   "低",
+    legend_high:  "高",
+    // tiers
+    tier_minimal:   "最小",
+    tier_low:       "低",
+    tier_moderate:  "中程度",
+    tier_high:      "高",
+    tier_very_high: "非常に高い",
+    // tooltip labels
+    tt_exposure: "AIエクスポージャー",
+    tt_pay:      "賃金中央値",
+    tt_jobs:     "就業者数",
+    tt_edu:      "学歴",
+    // pay bands
+    pay_bands: ["¥3M未満", "¥3〜5M", "¥5〜7M", "¥7〜10M", "¥10M以上"],
+    // education groups — label + which `education` values they match
+    edu_groups: [
+      { label: "中学・高卒",  match: ["中学卒","高卒","学歴不問"] },
+      { label: "専門学校卒",  match: ["専門学校卒"] },
+      { label: "短大卒",      match: ["短大卒"] },
+      { label: "大学卒",      match: ["大学卒"] },
+      { label: "大学院卒",    match: ["大学院卒"] },
+    ],
+  },
+  en: {
+    html_lang:    "en",
+    page_title:   "AI Exposure of the Japan Job Market",
+    ttl_main:     "AI Exposure of the\u200bJapan Job Market",
+    sub_desc:     "~500 occupations · area = employment · color = AI exposure",
+    sub_data:     "Data: ",
+    sub_scored:   " · scored by NVIDIA Nemotron",
+    total_jobs:   "Total jobs",
+    weighted_avg: "Weighted avg. exposure",
+    weighted_sub: "job-weighted, 0\u201310 scale",
+    jobs_by_exp:  "Jobs by exposure (weighted by employment)",
+    breakdown:    "Breakdown",
+    by_pay:       "Exposure by pay",
+    by_edu:       "Exposure by education",
+    wages_hdr:    "Wages exposed",
+    wages_sub:    "annual wages in high-exposure jobs (7+)",
+    legend_low:   "Low",
+    legend_high:  "High",
+    tier_minimal:   "Minimal",
+    tier_low:       "Low",
+    tier_moderate:  "Moderate",
+    tier_high:      "High",
+    tier_very_high: "Very high",
+    tt_exposure: "AI Exposure",
+    tt_pay:      "Median pay",
+    tt_jobs:     "Jobs",
+    tt_edu:      "Education",
+    pay_bands: ["<¥3M", "¥3\u20135M", "¥5\u20137M", "¥7\u201310M", "¥10M+"],
+    edu_groups: [
+      { label: "HS / No degree", match: ["中学卒","高卒","学歴不問"] },
+      { label: "Vocational",     match: ["専門学校卒"] },
+      { label: "Jr. College",    match: ["短大卒"] },
+      { label: "University",     match: ["大学卒"] },
+      { label: "Graduate",       match: ["大学院卒"] },
+    ],
+  },
+};
+
+// Current language — Japanese is default
+let lang = "ja";
+
+function setLang(newLang) {
+  lang = newLang;
+  const t = T[lang];
+
+  // ── HTML meta ────────────────────────────────────────────────────────
+  document.documentElement.lang = t.html_lang;
+  document.title = t.page_title;
+
+  // ── Toggle UI ─────────────────────────────────────────────────────────
+  document.getElementById("opt-ja").classList.toggle("active", lang === "ja");
+  document.getElementById("opt-en").classList.toggle("active", lang === "en");
+  document.getElementById("langThumb").classList.toggle("en", lang === "en");
+
+  // ── Title / subtitle ──────────────────────────────────────────────────
+  document.getElementById("ttlMain").innerHTML =
+    t.ttl_main.replace("\u200b", "<br>");
+  document.getElementById("subDesc").textContent   = t.sub_desc;
+  document.getElementById("subData").textContent   = t.sub_data;
+  document.getElementById("subScored").textContent = t.sub_scored;
+
+  // ── data-i18n elements ────────────────────────────────────────────────
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.dataset.i18n;
+    if (t[key] !== undefined) el.textContent = t[key];
+  });
+
+  // ── Re-render dynamic charts (tier names, pay labels, edu labels) ─────
+  if (data.length) computeStats();
+
+  // ── Hide tooltip (labels would be stale) ──────────────────────────────
+  hideTooltip();
+}
+
+// ── Toggle interaction ───────────────────────────────────────────────────────
+
+function toggleLang() { setLang(lang === "ja" ? "en" : "ja"); }
+
+document.getElementById("langTrack").addEventListener("click", toggleLang);
+document.getElementById("opt-ja").addEventListener("click", () => setLang("ja"));
+document.getElementById("opt-en").addEventListener("click", () => setLang("en"));
+
+
+// ── Exposure color scale ─────────────────────────────────────────────────────
+
+function exposureColor(score) {
+  if (score == null) return [128, 128, 128];
+  const t = Math.max(0, Math.min(10, score)) / 10;
+  let r, g, b;
+  if (t < 0.5) {
+    const s = t / 0.5;
+    r = Math.round(50 + s * 180);
+    g = Math.round(160 - s * 10);
+    b = Math.round(50 - s * 20);
+  } else {
+    const s = (t - 0.5) / 0.5;
+    r = Math.round(230 + s * 25);
+    g = Math.round(150 - s * 110);
+    b = Math.round(30 - s * 10);
+  }
+  return [r, g, b];
+}
+
+function exposureColorCSS(score, alpha) {
+  const [r, g, b] = exposureColor(score);
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+
+// ── Squarified treemap ───────────────────────────────────────────────────────
+
+function squarify(items, x, y, w, h) {
+  if (!items.length) return [];
+  if (items.length === 1) return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
+  const total = items.reduce((s, d) => s + d.value, 0);
+  if (!total) return [];
+
+  const results = [];
+  let remaining = [...items];
+  let cx = x, cy = y, cw = w, ch = h;
+
+  while (remaining.length) {
+    const remTotal = remaining.reduce((s, d) => s + d.value, 0);
+    const vertical = cw >= ch;
+    const side = vertical ? ch : cw;
+
+    let row = [remaining[0]], rowSum = remaining[0].value;
+    for (let i = 1; i < remaining.length; i++) {
+      const cand = [...row, remaining[i]], candSum = rowSum + remaining[i].value;
+      if (worstAspect(cand, candSum, side, remTotal, vertical ? cw : ch) <
+          worstAspect(row, rowSum, side, remTotal, vertical ? cw : ch)) {
+        row = cand; rowSum = candSum;
+      } else break;
+    }
+
+    const rf = rowSum / remTotal;
+    const thick = vertical ? cw * rf : ch * rf;
+    let offset = 0;
+    for (const item of row) {
+      const len = side * (item.value / rowSum);
+      results.push(vertical
+        ? { ...item, rx: cx,        ry: cy + offset, rw: thick, rh: len }
+        : { ...item, rx: cx+offset, ry: cy,          rw: len,   rh: thick });
+      offset += len;
+    }
+    if (vertical) { cx += thick; cw -= thick; }
+    else          { cy += thick; ch -= thick; }
+    remaining = remaining.slice(row.length);
+  }
+  return results;
+}
+
+function worstAspect(row, rowSum, side, totalArea, avail) {
+  const ext = avail * (rowSum / totalArea);
+  if (!ext) return Infinity;
+  let worst = 0;
+  for (const item of row) {
+    const len = side * (item.value / rowSum);
+    if (!len) continue;
+    const asp = Math.max(ext / len, len / ext);
+    if (asp > worst) worst = asp;
+  }
+  return worst;
+}
+
+
+// ── Rendering ────────────────────────────────────────────────────────────────
+
+let data  = [];
+let rects = [];
+let hovered = null;
+
+const canvas = document.getElementById("canvas");
+const ctx    = canvas.getContext("2d");
+let dpr = window.devicePixelRatio || 1;
+
+const MARGIN = 12, GAP = 1.5;
+
+function layout() {
+  const sw = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const w = window.innerWidth - sw, h = window.innerHeight;
+  canvas.width  = w * dpr; canvas.height = h * dpr;
+  canvas.style.width  = w + "px"; canvas.style.height = h + "px";
+
+  const byCategory = {};
+  for (const d of data) {
+    const key = d.category;   // always group by English key (stable)
+    if (!byCategory[key]) byCategory[key] = [];
+    byCategory[key].push(d);
+  }
+
+  const categories = Object.keys(byCategory).map(cat => ({
+    cat,
+    items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
+    value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
+  })).sort((a, b) => b.value - a.value);
+
+  const catRects = squarify(categories, MARGIN, MARGIN,
+                             w - MARGIN*2, h - MARGIN*2);
+  rects = [];
+  for (const cr of catRects) {
+    const items = cr.items.map(d => ({ ...d, value: d.jobs || 1 }));
+    const ir = squarify(items, cr.rx+GAP, cr.ry+GAP, cr.rw-GAP*2, cr.rh-GAP*2);
+    ir.forEach(r => rects.push(r));
+  }
+}
+
+function draw() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = "#0a0a0f";
+  ctx.fillRect(0, 0, canvas.width/dpr, canvas.height/dpr);
+
+  for (const r of rects) {
+    const isHov = r === hovered;
+    const g = GAP/2;
+    const rx = r.rx+g, ry = r.ry+g, rw = r.rw-g*2, rh = r.rh-g*2;
+    if (rw <= 0 || rh <= 0) continue;
+
+    ctx.fillStyle = exposureColorCSS(r.exposure, isHov ? 0.8 : 0.5);
+    ctx.fillRect(rx, ry, rw, rh);
+
+    if (isHov) {
+      ctx.strokeStyle = "#fff"; ctx.lineWidth = 2;
+      ctx.strokeRect(rx, ry, rw, rh);
+    }
+
+    if (rw > 50 && rh > 18) {
+      ctx.save();
+      ctx.beginPath(); ctx.rect(rx+4, ry+2, rw-8, rh-4); ctx.clip();
+      const fs = Math.min(13, Math.max(9, Math.min(rw/10, rh/3)));
+      ctx.font = `500 ${fs}px -apple-system,'Hiragino Sans','Noto Sans JP',system-ui,sans-serif`;
+      ctx.fillStyle = isHov ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.textBaseline = "top";
+      ctx.fillText(r.title, rx+5, ry+4);
+      if (rh > 34 && rw > 60) {
+        const info = (r.exposure != null ? r.exposure + "/10" : "") +
+                     (r.jobs ? " \u00b7 " + fmtNum(r.jobs) : "");
+        ctx.font = `400 ${Math.max(8,fs-2)}px -apple-system,'Hiragino Sans',system-ui,sans-serif`;
+        ctx.fillStyle = "rgba(255,255,255,0.5)";
+        ctx.fillText(info, rx+5, ry+4+fs+2);
+      }
+      ctx.restore();
+    }
+  }
+}
+
+function hitTest(mx, my) {
+  const sw = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const cx = mx - sw, cy = my;
+  for (let i = rects.length-1; i >= 0; i--) {
+    const r = rects[i];
+    if (cx >= r.rx && cx < r.rx+r.rw && cy >= r.ry && cy < r.ry+r.rh) return r;
+  }
+  return null;
+}
+
+
+// ── Formatters ───────────────────────────────────────────────────────────────
+
+function fmtNum(n) {
+  if (n == null) return "\u2014";
+  if (n >= 1e6) return (n/1e6).toFixed(1) + "M";
+  if (n >= 1e3) return Math.round(n/1e3) + "K";
+  return n.toLocaleString();
+}
+
+function fmtPayJPY(n) {
+  if (n == null) return "\u2014";
+  if (n >= 1e8) return "\u00a5" + (n/1e8).toFixed(1) + "\u5104";  // 億
+  if (n >= 1e4) return "\u00a5" + Math.round(n/1e4) + "\u4e07";   // 万
+  return "\u00a5" + n.toLocaleString();
+}
+
+function fmtWagesJPY(n) {
+  if (n >= 1e12) return "\u00a5" + (n/1e12).toFixed(1) + "\u5146";  // 兆
+  if (n >= 1e8)  return "\u00a5" + (n/1e8).toFixed(0)  + "\u5104";  // 億
+  return "\u00a5" + n.toLocaleString();
+}
+
+
+// ── Tooltip ───────────────────────────────────────────────────────────────────
+
+function showTooltip(d, mx, my) {
+  const tt = document.getElementById("tooltip");
+  const t  = T[lang];
+
+  tt.querySelector(".tt-title").textContent = d.title;
+
+  const score = d.exposure;
+  if (score != null) {
+    const color = exposureColorCSS(score, 1);
+    tt.querySelector(".tt-exposure").innerHTML =
+      `<span style="color:${color};font-weight:600;">${t.tt_exposure}: ${score}/10</span>` +
+      `<div style="margin-top:3px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;">` +
+      `<div style="height:100%;width:${score*10}%;background:${color};border-radius:2px;"></div></div>`;
+  } else {
+    tt.querySelector(".tt-exposure").innerHTML = "";
+  }
+
+  tt.querySelector(".tt-stats").innerHTML = `
+    <span class="label">${t.tt_pay}</span><span class="value">${fmtPayJPY(d.pay)}</span>
+    <span class="label">${t.tt_jobs}</span><span class="value">${fmtNum(d.jobs)}</span>
+    <span class="label">${t.tt_edu}</span><span class="value">${d.education || "\u2014"}</span>
+  `;
+
+  tt.querySelector(".tt-rationale").textContent = d.exposure_rationale || "";
+
+  const pad = 16;
+  let tx = mx + pad, ty = my - pad;
+  if (tx + 340 > window.innerWidth) tx = mx - 340 - pad;
+  if (ty < 10) ty = my + pad;
+  if (ty + 220 > window.innerHeight) ty = my - 220;
+  tt.style.left = tx + "px";
+  tt.style.top  = ty + "px";
+  tt.classList.add("visible");
+}
+
+function hideTooltip() {
+  document.getElementById("tooltip").classList.remove("visible");
+}
+
+
+// ── Sidebar stats ─────────────────────────────────────────────────────────────
+
+function computeStats() {
+  const t = T[lang];
+  const totalJobs = data.reduce((s, d) => s + (d.jobs || 0), 0);
+
+  // Weighted avg exposure
+  let wSum = 0, wCnt = 0;
+  for (const d of data) {
+    if (d.exposure != null && d.jobs) { wSum += d.exposure * d.jobs; wCnt += d.jobs; }
+  }
+  const wAvg = wCnt ? wSum / wCnt : 0;
+
+  // Histogram
+  const hist = new Array(11).fill(0);
+  for (const d of data) {
+    if (d.exposure != null && d.jobs) hist[d.exposure] += d.jobs;
+  }
+
+  // Tiers
+  const tiers = [
+    { key: "tier_minimal",   range: [0,  1], score: 0.5 },
+    { key: "tier_low",       range: [2,  3], score: 2.5 },
+    { key: "tier_moderate",  range: [4,  5], score: 4.5 },
+    { key: "tier_high",      range: [6,  7], score: 6.5 },
+    { key: "tier_very_high", range: [8, 10], score: 9   },
+  ];
+  for (const tier of tiers) {
+    tier.jobs = 0;
+    for (const d of data) {
+      if (d.exposure != null && d.jobs &&
+          d.exposure >= tier.range[0] && d.exposure <= tier.range[1])
+        tier.jobs += d.jobs;
+    }
+    tier.pct = totalJobs ? tier.jobs / totalJobs * 100 : 0;
+  }
+
+  // Wages exposed
+  let wages = 0;
+  for (const d of data) {
+    if (d.exposure != null && d.exposure >= 7 && d.jobs && d.pay)
+      wages += d.jobs * d.pay;
+  }
+
+  // ── Render ────────────────────────────────────────────────────────────
+  document.getElementById("statTotalJobs").textContent = (totalJobs/1e6).toFixed(1) + "M";
+  document.getElementById("statAvgExposure").innerHTML =
+    `<span style="color:${exposureColorCSS(wAvg,1)}">${wAvg.toFixed(1)}</span>`;
+
+  // Histogram
+  const maxH = Math.max(...hist);
+  document.getElementById("histogram").innerHTML = hist.map((count, i) => {
+    const h = maxH ? (count/maxH*100) : 0;
+    return `<div class="bar" style="height:${Math.max(2,h)}%;background:${exposureColorCSS(i,0.7)}"
+              title="${i}: ${fmtNum(count)}"></div>`;
+  }).join("");
+
+  // Tier breakdown
+  document.getElementById("tierBar").innerHTML = tiers.map(tier =>
+    `<div class="tier-row">
+      <div class="tier-color" style="background:${exposureColorCSS(tier.score,1)}"></div>
+      <span class="tier-name">${t[tier.key]} (${tier.range[0]}\u2013${tier.range[1]})</span>
+      <span class="tier-jobs">${fmtNum(tier.jobs)}</span>
+      <span class="tier-pct">${tier.pct.toFixed(0)}%</span>
+    </div>`
+  ).join("");
+
+  // Exposure by pay band (JPY — bands are the same in both languages)
+  const PAY_BANDS = [
+    { min: 0,        max: 3000000  },
+    { min: 3000000,  max: 5000000  },
+    { min: 5000000,  max: 7000000  },
+    { min: 7000000,  max: 10000000 },
+    { min: 10000000, max: Infinity },
+  ];
+  document.getElementById("payChart").innerHTML = PAY_BANDS.map((band, i) => {
+    let ws = 0, wc = 0;
+    for (const d of data) {
+      if (d.exposure != null && d.jobs && d.pay != null &&
+          d.pay >= band.min && d.pay < band.max) {
+        ws += d.exposure * d.jobs; wc += d.jobs;
+      }
+    }
+    const avg = wc ? ws/wc : 0;
+    return `<div class="hbar-row">
+      <span class="hbar-label">${t.pay_bands[i]}</span>
+      <div class="hbar-track"><div class="hbar-fill"
+        style="width:${avg/10*100}%;background:${exposureColorCSS(avg,0.8)}"></div></div>
+      <span class="hbar-val">${avg.toFixed(1)}</span>
+    </div>`;
+  }).join("");
+
+  // Exposure by education
+  document.getElementById("eduChart").innerHTML = t.edu_groups.map(grp => {
+    let ws = 0, wc = 0;
+    for (const d of data) {
+      if (d.exposure != null && d.jobs && grp.match.includes(d.education)) {
+        ws += d.exposure * d.jobs; wc += d.jobs;
+      }
+    }
+    const avg = wc ? ws/wc : 0;
+    return `<div class="hbar-row">
+      <span class="hbar-label">${grp.label}</span>
+      <div class="hbar-track"><div class="hbar-fill"
+        style="width:${avg/10*100}%;background:${exposureColorCSS(avg,0.8)}"></div></div>
+      <span class="hbar-val">${avg.toFixed(1)}</span>
+    </div>`;
+  }).join("");
+
+  // Wages
+  document.getElementById("statWages").textContent = fmtWagesJPY(wages);
+}
+
+
+// ── Events ───────────────────────────────────────────────────────────────────
+
+canvas.addEventListener("mousemove", e => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit !== hovered) { hovered = hit; draw(); }
+  if (hovered) {
+    showTooltip(hovered, e.clientX, e.clientY);
+    canvas.style.cursor = "pointer";
+  } else {
+    hideTooltip();
+    canvas.style.cursor = "default";
+  }
+});
+
+canvas.addEventListener("click", e => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit && hit.url) window.open(hit.url, "_blank");
+});
+
+canvas.addEventListener("mouseleave", () => {
+  hovered = null; hideTooltip(); draw();
+});
+
+function resize() {
+  dpr = window.devicePixelRatio || 1;
+  layout(); draw();
+}
+
+function drawGradientLegend() {
+  const c = document.getElementById("gradientLegend");
+  const gc = c.getContext("2d");
+  for (let x = 0; x < 80; x++) {
+    gc.fillStyle = exposureColorCSS((x/79)*10, 1);
+    gc.fillRect(x, 0, 1, 8);
+  }
+}
+
+
+// ── Load ──────────────────────────────────────────────────────────────────────
+
+fetch("data_jp.json")
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    setLang("ja");        // apply Japanese defaults & render everything
+    drawGradientLegend();
+    resize();
+  });
+
+window.addEventListener("resize", resize);
+</script>
+</body>
+</html>

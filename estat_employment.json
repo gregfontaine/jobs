@@ -1,0 +1,182 @@
+[
+  {
+    "occupation_code": "001",
+    "occupation_name": "管理的職業従事者",
+    "employment": 1190000
+  },
+  {
+    "occupation_code": "002",
+    "occupation_name": "専門的・技術的職業従事者",
+    "employment": 13050000
+  },
+  {
+    "occupation_code": "003",
+    "occupation_name": "技術者",
+    "employment": 3890000
+  },
+  {
+    "occupation_code": "004",
+    "occupation_name": "保健医療従事者",
+    "employment": 3600000
+  },
+  {
+    "occupation_code": "005",
+    "occupation_name": "教員",
+    "employment": 1760000
+  },
+  {
+    "occupation_code": "006",
+    "occupation_name": "その他の専門的・技術的職業従事者",
+    "employment": 3810000
+  },
+  {
+    "occupation_code": "007",
+    "occupation_name": "事務従事者",
+    "employment": 14550000
+  },
+  {
+    "occupation_code": "008",
+    "occupation_name": "一般事務従事者",
+    "employment": 10560000
+  },
+  {
+    "occupation_code": "009",
+    "occupation_name": "会計事務従事者",
+    "employment": 1640000
+  },
+  {
+    "occupation_code": "010",
+    "occupation_name": "その他の事務従事者",
+    "employment": 2350000
+  },
+  {
+    "occupation_code": "011",
+    "occupation_name": "販売従事者",
+    "employment": 8070000
+  },
+  {
+    "occupation_code": "012",
+    "occupation_name": "商品販売従事者",
+    "employment": 4510000
+  },
+  {
+    "occupation_code": "013",
+    "occupation_name": "販売類似職業従事者",
+    "employment": 390000
+  },
+  {
+    "occupation_code": "014",
+    "occupation_name": "営業職業従事者",
+    "employment": 3170000
+  },
+  {
+    "occupation_code": "015",
+    "occupation_name": "サービス職業従事者",
+    "employment": 8710000
+  },
+  {
+    "occupation_code": "016",
+    "occupation_name": "介護サービス職業従事者",
+    "employment": 1970000
+  },
+  {
+    "occupation_code": "017",
+    "occupation_name": "生活衛生サービス職業従事者",
+    "employment": 930000
+  },
+  {
+    "occupation_code": "018",
+    "occupation_name": "飲食物調理従事者",
+    "employment": 2260000
+  },
+  {
+    "occupation_code": "019",
+    "occupation_name": "接客・給仕職業従事者",
+    "employment": 2120000
+  },
+  {
+    "occupation_code": "020",
+    "occupation_name": "その他のサービス職業従事者",
+    "employment": 1430000
+  },
+  {
+    "occupation_code": "021",
+    "occupation_name": "保安職業従事者",
+    "employment": 1200000
+  },
+  {
+    "occupation_code": "022",
+    "occupation_name": "農林漁業従事者",
+    "employment": 1570000
+  },
+  {
+    "occupation_code": "023",
+    "occupation_name": "生産工程従事者",
+    "employment": 8490000
+  },
+  {
+    "occupation_code": "024",
+    "occupation_name": "製品製造・加工処理従事者（金属製品）",
+    "employment": 1100000
+  },
+  {
+    "occupation_code": "025",
+    "occupation_name": "製品製造・加工処理従事者（金属製品を除く）",
+    "employment": 3330000
+  },
+  {
+    "occupation_code": "026",
+    "occupation_name": "機械組立従事者",
+    "employment": 1410000
+  },
+  {
+    "occupation_code": "027",
+    "occupation_name": "機械整備・修理従事者",
+    "employment": 1220000
+  },
+  {
+    "occupation_code": "028",
+    "occupation_name": "製品検査従事者",
+    "employment": 470000
+  },
+  {
+    "occupation_code": "029",
+    "occupation_name": "機械検査従事者",
+    "employment": 270000
+  },
+  {
+    "occupation_code": "030",
+    "occupation_name": "生産関連・生産類似作業従事者",
+    "employment": 700000
+  },
+  {
+    "occupation_code": "031",
+    "occupation_name": "輸送・機械運転従事者",
+    "employment": 2280000
+  },
+  {
+    "occupation_code": "032",
+    "occupation_name": "建設・採掘従事者",
+    "employment": 2730000
+  },
+  {
+    "occupation_code": "033",
+    "occupation_name": "運搬・清掃・包装等従事者",
+    "employment": 5090000
+  },
+  {
+    "occupation_code": "034",
+    "occupation_name": "運搬従事者",
+    "employment": 2060000
+  },
+  {
+    "occupation_code": "035",
+    "occupation_name": "清掃従事者",
+    "employment": 1410000
+  },
+  {
+    "occupation_code": "036",
+    "occupation_name": "その他の運搬・清掃・包装等従事者",
+    "employment": 1620000
+  }
+]

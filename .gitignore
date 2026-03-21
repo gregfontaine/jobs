@@ -12,8 +12,16 @@ wheels/
 # Secrets
 .env
 
-# Parsed markdown (reproducible via process.py)
+# Parsed markdown (reproducible via process.py / process_jp.py)
 pages/
+pages_jp/
+
+# Japan scraped HTML cache (large, reproducible — html/ kept for US compat)
+html_jp/
+
+# Raw e-Stat API dumps (debug artifacts, not needed for reproducibility)
+estat_wages_raw.json
+estat_employment_raw.json
 
 # Embeddings (unused in final visualization)
 embed.py
@@ -21,3 +29,6 @@ embeddings.json
 
 # macOS
 .DS_Store
+
+# Claude session data
+.claude/

@@ -1,0 +1,793 @@
+[
+  {
+    "slug": "occ-505",
+    "title": "ハウス野菜栽培者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 6,
+    "rationale": "House vegetable growers combine knowledge‑based tasks (crop planning, market analysis, computerized environmental control) with substantial physical labor (soil preparation, planting, harvesting, pest management). AI can already assist with climate optimization, disease detection via imaging, and robotic harvesting, boosting productivity, but the job still requires human presence for manual operations and nuanced judgment in unpredictable biological conditions."
+  },
+  {
+    "slug": "occ-500",
+    "title": "ブリーダー",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 3,
+    "rationale": "The breeder's work centers on hands‑on animal care—feeding, cleaning, health checks, breeding assistance, and direct customer interaction—which requires physical presence and judgment that AI cannot replace. AI may support peripheral tasks such as record‑keeping, sales communication, and genetic data analysis, but these do not alter the core, labor‑intensive nature of the job."
+  },
+  {
+    "slug": "occ-220",
+    "title": "動物園飼育員",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 3,
+    "rationale": "The core duties of a zoo keeper involve direct animal care, feeding, enclosure cleaning, health observation, and assisting veterinarians—tasks that require physical presence, manual skill, and real-time judgment. AI can only support peripheral activities such as record‑keeping, scheduling, or data analysis for breeding programs, but it cannot replace the hands‑on, interpersonal aspects of the job. Japan's aging workforce and labor shortage may encourage limited automation (e.g., automated feeders or cleaning robots), yet the occupation remains largely insulated from AI disruption."
+  },
+  {
+    "slug": "occ-218",
+    "title": "厩舎スタッフ",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 3,
+    "rationale": "The job centers on direct, hands‑on care of horses—health checks, stable cleaning, grooming, saddling, riding, and training—which requires physical presence, real‑time interaction with live animals, and judgment that AI cannot replicate. AI might only support peripheral activities such as record‑keeping, health‑sensor data analysis, or scheduling, leaving the core tasks largely unchanged."
+  },
+  {
+    "slug": "occ-230",
+    "title": "林業作業",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 2,
+    "rationale": "Forestry work is primarily physical, outdoors, and seasonal, involving tasks like planting, pruning, operating machinery, and transporting logs that require human presence and manual skill. While AI can support peripheral activities such as forest monitoring, growth modeling, or autonomous machinery, the core tasks remain hands‑on and are not easily digitized, resulting in low overall AI exposure."
+  },
+  {
+    "slug": "occ-506",
+    "title": "果樹栽培者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 4,
+    "rationale": "Fruit cultivation involves primarily outdoor, hands‑on work such as pollination management, thinning, bagging, pruning, and harvesting, which require physical presence and dexterity. While AI can support with disease monitoring, yield forecasting, and market analysis, these are peripheral to the core manual tasks, limiting overall exposure."
+  },
+  {
+    "slug": "occ-249",
+    "title": "植物工場の栽培管理",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 6,
+    "rationale": "Plant factory cultivation management involves monitoring and adjusting environmental controls, overseeing automated seeding, harvesting, and sorting systems, and performing manual tasks such as cleaning and quality inspection. While many processes are already automated, AI can further optimize climate control, predict disease, and enhance robotic handling, increasing productivity and reducing the need for human labor, though physical plant handling and supervision still require human presence."
+  },
+  {
+    "slug": "occ-503",
+    "title": "水産養殖従事者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 3,
+    "rationale": "The job centers on physical tasks such as feeding, net cleaning, water quality monitoring, and emergency response in outdoor or aquatic settings, which require direct human presence and hands‑on care of live animals. While AI can support peripheral activities like automated feeding systems, sensor‑based water monitoring, and disease prediction, these are adjuncts rather than replacements for the core husbandry work."
+  },
+  {
+    "slug": "occ-509",
+    "title": "沿岸漁業従事者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 2,
+    "rationale": "Coastal fishing involves physically demanding tasks such as operating small vessels, handling nets, sorting catch, and maintaining equipment, all performed in unpredictable marine environments. While AI can aid with weather forecasting, navigation aids, and market information, these are peripheral to the core manual labor, resulting in low overall AI exposure."
+  },
+  {
+    "slug": "occ-504",
+    "title": "稲作農業者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 3,
+    "rationale": "Rice farming is primarily an outdoor, physically demanding occupation centered on field preparation, planting, pest management, and harvesting, which still requires human presence and judgment. While AI can support peripheral tasks such as weather forecasting, disease detection via drones, and market analysis, it does not replace the core manual and supervisory work involved in cultivating rice."
+  },
+  {
+    "slug": "occ-507",
+    "title": "花き栽培者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 4,
+    "rationale": "Flower cultivation is primarily a hands‑on, greenhouse‑based occupation involving soil preparation, planting, watering, pest control, harvesting and shipping. While environmental control systems and remote monitoring are already in use, AI can further optimize climate management, disease detection via image analysis, and yield forecasting, but the core tasks still require physical presence and manual dexterity, especially for delicate handling and breeding. Japan’s aging agricultural workforce and labor shortage may accelerate adoption of such AI‑assisted tools, yet they remain complementary rather than substitutive for most of the work."
+  },
+  {
+    "slug": "occ-222",
+    "title": "造園工",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 4,
+    "rationale": "造園工の仕事は設計・図面作成や測量などのデジタル要素があり、AIによるプランニング支援や病害虫診断が可能だが、土木作業、植栽・剪定・維持管理などの屋外身体労働と美的判断が中心であり、これらはAIによる自動化が難しい。日本の高齢化と人手不足はメンテナンスロボットやドローン活用を促進する可能性があるが、依然として人間の現場作業と感性が必要不可欠である。"
+  },
+  {
+    "slug": "occ-502",
+    "title": "酪農従事者",
+    "category": "Agriculture, Forestry & Fishing",
+    "exposure": 4,
+    "rationale": "The occupation centers on physical animal husbandry—feeding, milking, cleaning barns, and health checks—which still requires direct human presence and judgment. While milking robots, automated feeding systems, and sensor-based health monitoring are increasingly used, AI's role remains supportive rather than substitutive for the core hands‑on tasks. Japan's aging farming population and labor shortage may drive further automation, but the inherent need for real‑time interaction with live animals limits overall AI exposure to a moderate level."
+  },
+  {
+    "slug": "occ-445",
+    "title": "IR広報担当",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "IR広報担当の業務は、財務データの分析、報告書・プレゼン資料作成、ウェブサイト運営、メディア対応など、ほぼデジタルかつ知識集約的な作業で構成されており、AIによる文書生成、データ要約、翻訳、プレゼン支援が大幅な生産性向上をもたらす。一方で、投資家やアナリストとの信頼関係構築、対面での説明会・ミーティング、経営層への助言など、人間の判断と対人スキルが不可欠な側面も残り、完全な自動化には至らない。"
+  },
+  {
+    "slug": "occ-522",
+    "title": "NPO法人職員（企画・運営）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The role centers on project planning, proposal writing, budgeting, scheduling, and impact evaluation—tasks that are largely digital and amenable to AI assistance in drafting, data analysis, and automation. While stakeholder coordination and volunteer management require human judgment and interpersonal skills, AI can substantially boost productivity in the knowledge‑intensive components, leading to high exposure."
+  },
+  {
+    "slug": "occ-240",
+    "title": "Webマーケティング（ネット広告・販売促進）",
+    "category": "Clerical & Administrative",
+    "exposure": 9,
+    "rationale": "Web marketing is almost entirely performed on computers, involving market research, ad placement, access analysis, content creation, and campaign optimization—all tasks that AI can automate or greatly augment through generative copy, predictive targeting, and real-time analytics. The role requires little physical presence or unpredictable interpersonal interaction, and Japan's large white-collar workforce and labor shortage create strong incentives for AI adoption, making the occupation highly exposed to transformation."
+  },
+  {
+    "slug": "occ-553",
+    "title": "アニメ制作進行管理",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Anime production progress management is primarily a knowledge‑intensive role focused on scheduling, progress tracking, budgeting, and communication, all of which are highly amenable to AI‑driven automation and decision support. While the job still requires human judgment for creative coordination, interpersonal negotiation, and handling occasional physical material handling, AI tools can substantially increase productivity by automating routine planning, monitoring, and documentation tasks."
+  },
+  {
+    "slug": "occ-566",
+    "title": "イベントの企画・運営",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Event planning and operations involve substantial digital work—concept development, scheduling, marketing, budgeting, and communication—that AI can automate or augment, boosting productivity. However, the role also requires on‑site coordination, real‑time problem solving, and interpersonal management of staff, vendors, and attendees, which limits full automation. In Japan’s context of a large white‑collar workforce and labor shortages, AI adoption will likely reshape the information‑heavy aspects while preserving a core need for human presence and judgment."
+  },
+  {
+    "slug": "occ-531",
+    "title": "キッティング作業員（PCセットアップ作業員）",
+    "category": "Clerical & Administrative",
+    "exposure": 5,
+    "rationale": "PC kitting involves a mix of physical tasks (unboxing, connecting peripherals) and rule‑based software configuration that can be largely automated via imaging scripts and AI‑driven troubleshooting tools. While AI can greatly reduce the manual configuration workload, the need for hands‑on hardware handling and on‑site presence keeps a substantial portion of the job human‑dependent, resulting in moderate exposure."
+  },
+  {
+    "slug": "occ-447",
+    "title": "コンプライアンス推進担当",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The role is primarily desk‑based, involving policy drafting, contract review, regulatory analysis, training material creation, and reporting—tasks that are increasingly automatable or augmentable by AI tools for document generation, data monitoring, and content personalization. While interpersonal communication and nuanced judgment remain important, AI can substantially boost productivity in the core knowledge‑work components, leading to high exposure in the Japanese context."
+  },
+  {
+    "slug": "occ-64",
+    "title": "コールセンターオペレーター",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Call center work is primarily conducted via phone and computer, involving routine information retrieval, scripted responses, and data entry that AI can augment or automate through speech recognition, sentiment analysis, and chatbot/voice‑bot systems. However, handling complex inquiries, complaints, and relationship‑building still requires human empathy and judgment, limiting full automation. Given Japan's high labor‑cost pressures and aging workforce, AI adoption is likely to increase productivity significantly, but a substantial share of the role will remain human‑centric."
+  },
+  {
+    "slug": "occ-200",
+    "title": "タクシー配車オペレーター",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The taxi dispatch operator's core work—receiving calls, locating available vehicles via digital terminals, issuing dispatch instructions, and logging transactions—is largely performed on computers and communication systems. AI technologies such as speech recognition, natural language processing, and real-time routing algorithms can automate most of these tasks, especially as app-based dispatch platforms become more prevalent in Japan. While some human judgment for customer service and emergency response remains, the occupation is highly susceptible to AI-driven productivity gains and workforce reduction."
+  },
+  {
+    "slug": "occ-204",
+    "title": "ディスパッチャー（航空機運航管理者）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The dispatcher’s core work involves collecting, analyzing, and synthesizing large amounts of meteorological, operational, and aircraft data to create flight plans and monitor flights—tasks that are increasingly supported by AI-driven weather forecasting, route optimization, and anomaly detection systems. While the job is largely desk‑based and digital, it still requires human judgment for safety‑critical decisions, communication with pilots and air traffic control, and handling unexpected emergencies, which limits full automation."
+  },
+  {
+    "slug": "occ-429",
+    "title": "データ入力",
+    "category": "Clerical & Administrative",
+    "exposure": 10,
+    "rationale": "Data entry work is entirely performed on a computer, involving routine transcription, verification, and simple programming of data into digital systems. These tasks are highly susceptible to automation by AI-driven OCR, natural language processing, and robotic process automation, which can already perform most of the core functions with minimal human intervention."
+  },
+  {
+    "slug": "occ-238",
+    "title": "ネット通販の企画開発",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The role is primarily computer‑based, involving market trend analysis, customer data interpretation, digital marketing, product planning, and performance monitoring—all areas where AI tools can substantially automate or augment tasks. While strategic creativity and cross‑functional coordination still require human judgment, the digital nature of the work makes it highly susceptible to AI‑driven productivity gains in the Japanese context."
+  },
+  {
+    "slug": "occ-239",
+    "title": "ネット通販の運営",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The role consists mainly of computer‑based tasks such as product data entry, order processing, inventory control, and handling customer inquiries—activities that are increasingly automatable with AI‑driven chatbots, demand‑forecasting tools, and workflow automation. Although some coordination, exception handling, and strategic decisions still need human judgment, the core workflow is highly susceptible to AI‑powered productivity gains, especially given Japan’s labor shortage and push for digital efficiency."
+  },
+  {
+    "slug": "occ-425",
+    "title": "パラリーガル（弁護士補助職）",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "Paralegals primarily perform legal research, document drafting, fact investigation, and procedural filings—tasks that are largely digital and increasingly supported by AI-powered legal research platforms, contract generation tools, and automated document management. While client interaction, confidentiality, and trust require human judgment, these elements represent a smaller share of the workload, making the occupation highly susceptible to AI-driven productivity gains and potential restructuring."
+  },
+  {
+    "slug": "occ-75",
+    "title": "フランチャイズチェーン・スーパーバイザー",
+    "category": "Clerical & Administrative",
+    "exposure": 5,
+    "rationale": "The role combines regular store visits, interpersonal guidance to franchise owners, and analysis of sales/operational data. While AI can automate data processing, generate performance reports, and suggest improvement actions, the need for physical presence, nuanced communication, and localized advice limits full automation."
+  },
+  {
+    "slug": "occ-554",
+    "title": "プロスポーツ運営団体職員（企画・運営）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The role centers on marketing, ticket sales, fan engagement, and event planning—tasks that are largely digital and data‑driven, making them highly amenable to AI‑powered analytics, automation of outreach, dynamic pricing, and content generation. However, the job still requires substantial human interaction for sponsor negotiations, community relations, on‑site event coordination, and creative campaign ideation, which limits full automation and keeps exposure in the high but not maximum range."
+  },
+  {
+    "slug": "occ-474",
+    "title": "マンション管理フロント",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "The role involves substantial desk‑based knowledge work such as preparing meeting minutes, financial reports, and legal documentation, which AI can automate or augment significantly. However, a large portion of the job requires on‑site visits, interpersonal coordination with residents, contractors, and management boards, and handling emergent issues—tasks that still rely heavily on human judgment and presence, limiting full automation."
+  },
+  {
+    "slug": "occ-456",
+    "title": "マーケティング・リサーチャー",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "Marketing researchers primarily collect, analyze, and report market data using digital tools such as spreadsheets, statistical software, and presentation programs—tasks that are increasingly automatable via AI-driven data collection, automated analysis, and natural‑language report generation. While the role still requires human judgment for interpreting results, client interaction, and overseeing interviewers, these components are a smaller share of the work, making the occupation highly exposed to AI transformation in Japan's white‑collar sector."
+  },
+  {
+    "slug": "occ-428",
+    "title": "一般事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "一般事務は文書作成、データ入力、メール対応、伝票管理など、ほぼすべてがパソコンを使った定型的な知識作業で構成されており、AIやRPAによる自動化が進みやすい。ただし、来客対応や電話取次ぎ、文書の物理的な整理・コピーなど、人間の存在が必要な付随業務が残るため、完全な代替ではなく生産性向上の形で影響が大きいと判断される。"
+  },
+  {
+    "slug": "occ-432",
+    "title": "人事事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "人事事務は、採用・異動・給与・福利厚生などのデータ入力・処理、文書作成、法令遵守チェックなど、ほぼすべてがコンピュータ上で行われる知識仕事です。これらの定型的・ルーティン業務はAIによる自動化や支援が進みやすく、生産性向上により人員削減の圧力が高まります。一方で、従業員カウンセリングや労働組合との折衝など、人間関係や判断が必要な側面も残るため、完全な代替ではなく補完的なAI活用が見込まれます。"
+  },
+  {
+    "slug": "occ-436",
+    "title": "介護事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "介護事務の業務はレセプト作成、帳簿管理、スケジュール調整、文書作成などコンピュータを中心とした事務処理が大半を占め、これらはAIによる自動化や支援が進みやすい分野です。一方で、窓口対応や電話応対、スタッフ間の調整など人間のコミュニケーションや判断が必要な部分も残るため、完全な置換ではなく生産性向上にとどまる程度と判断されます。"
+  },
+  {
+    "slug": "occ-446",
+    "title": "企業法務担当",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "Corporate legal work is primarily knowledge‑based, involving contract drafting, legal research, compliance monitoring, and internal communication—tasks that are already highly amenable to AI assistance. While AI can substantially increase productivity in these areas, the role still requires human judgment for strategic advice, negotiation, and relationship management, which prevents full automation."
+  },
+  {
+    "slug": "occ-434",
+    "title": "企画・調査担当",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The role centers on market research, data analysis, concept development, and creating reports/presentations—tasks performed primarily on computers using office software. AI can already automate data collection, statistical analysis, insight generation, and draft documentation, substantially boosting productivity. However, the job still requires human creativity, strategic judgment, stakeholder coordination, and cultural nuance, limiting full automation."
+  },
+  {
+    "slug": "occ-517",
+    "title": "入国審査官",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Immigration inspectors spend most of their time reviewing digital documents, checking databases, and applying immigration law—tasks that are highly amenable to AI assistance for verification, risk scoring, and language translation. However, the role also requires face-to-face interviews, nuanced judgment in complex or refugee cases, and interpersonal skills to handle unpredictable situations, which limits full automation. Given Japan's push for efficiency amid labor shortages, AI will substantially augment the job but not replace the need for human oversight and interaction."
+  },
+  {
+    "slug": "occ-469",
+    "title": "内部監査人",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "Internal auditors primarily engage in knowledge‑intensive work such as risk assessment, control evaluation, data analysis, and report preparation—tasks that are increasingly supported by AI‑driven process mining, continuous auditing, and natural‑language generation tools. While AI can automate much of the information processing and drafting, the role still requires professional judgment, interpersonal interaction with auditees, and independent, ethical oversight, which limits full automation."
+  },
+  {
+    "slug": "occ-542",
+    "title": "出荷・受荷事務",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "出荷・受荷事務は、在庫管理、伝票作成、バーコード/QRコード読み取り、データ入力など、ほぼすべてがコンピュータベースの情報処理業務であり、AIによるOCR、文書自動生成、需要予測、在庫最適化などで大幅に自動化・効率化が可能である。一部の実物検品や判断は残るが、画像認識やロボット連携により補完されつつあり、全体としてAIへの露出は高い。"
+  },
+  {
+    "slug": "occ-443",
+    "title": "医療事務",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "Medical administrative work is predominantly digital, involving data entry, billing, insurance claim processing, and electronic health record management, all of which are highly amenable to AI automation. While some front‑desk patient interaction and oversight of complex cases remain, the core information‑processing tasks can be largely handled by AI, leading to substantial productivity gains and potential workforce reduction."
+  },
+  {
+    "slug": "occ-427",
+    "title": "受付事務",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Reception work combines routine information tasks (logging visitors, checking directories, routing calls) that AI can automate with digital check‑in systems and voice assistants, with a strong interpersonal component requiring hospitality, judgment for irregular visitors, and security oversight. While Japan’s labor shortage and advancing digital reception tools push adoption, the need for a human touch in face‑to‑face service limits full automation, resulting in moderate‑high exposure."
+  },
+  {
+    "slug": "occ-461",
+    "title": "商品企画開発（チェーンストア）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The job primarily involves analyzing consumer trends, forecasting demand, developing product concepts, and creating plans and reports—activities that AI can significantly enhance through data mining, predictive analytics, and automated document generation. However, human judgment is still essential for negotiating with suppliers, interpreting subtle cultural preferences, and conducting occasional store or production-site visits, which keeps the role from being fully automatable."
+  },
+  {
+    "slug": "occ-431",
+    "title": "営業事務",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "営業事務は見積書・契約書作成、データ入力、メール・電話対応など、ほぼすべてがデジタルツールを使った事務作業で構成されており、AIによる文書生成、スケジュール管理、チャットボットによる問い合わせ対応などが核心業務を大幅に自動化・補完できる。ただし、クライアントへのきめ細かい対応、クレーム処理、営業担当の指示解釈など、人間の判断力や対人スキルが必要な部分が残るため、最大級ではないが非常に高い露出度と言える。"
+  },
+  {
+    "slug": "occ-138",
+    "title": "国家公務員（行政事務）",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "National civil servants in administrative affairs spend most of their time on computer-based tasks such as drafting policies, preparing budgets, analyzing statistics, and managing documents—activities where AI tools are rapidly improving. While AI can automate many routine information‑processing tasks and boost productivity, the role still requires human judgment, policy deliberation, and direct public service, preventing full automation."
+  },
+  {
+    "slug": "occ-151",
+    "title": "国際公務員",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "International civil servants spend most of their time on knowledge‑intensive tasks such as policy analysis, report writing, data interpretation, and communication, all of which are highly amenable to AI assistance. However, the role also requires diplomatic negotiation, cultural sensitivity, and field presence in diverse settings, which limits full automation and keeps a substantial human component."
+  },
+  {
+    "slug": "occ-139",
+    "title": "地方公務員（行政事務）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "地方公務員の行政事務は、文書作成、データ入力、予算編成、政策企画などデジタルな知識作業が中心であり、AIによる文書生成、データ分析、チャットボット対応などで業務効率が大幅に向上する可能性が高い。一方で、政策判断や住民対応、法令解釈など人間の判断力や対人関係が必要な側面も残り、完全な自動化には至らないため、高いが最大ではないと評価した。"
+  },
+  {
+    "slug": "occ-150",
+    "title": "外務公務員（外交官）",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Diplomats spend much of their time analyzing information, drafting reports, formulating policy, and communicating—tasks that are highly amenable to AI assistance in research, translation, and drafting. However, the role also requires nuanced judgment, relationship‑building, and physical presence for negotiations and consular duties, which limits full automation and keeps exposure in the high but not maximum range."
+  },
+  {
+    "slug": "occ-234",
+    "title": "太陽光発電の企画・調査",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "The role involves mostly desk‑based planning, financial and technical analysis, and proposal creation using computers, which are highly amenable to AI assistance (e.g., shading simulation, financial modeling, automated report generation). However, it also requires regular site visits, client interaction, and judgment on local environmental factors (salt damage, snow) that limit full automation, keeping exposure in the high but not extreme range."
+  },
+  {
+    "slug": "occ-442",
+    "title": "学校事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "School administration involves largely routine office tasks—document preparation, payroll, budgeting, record keeping, and communication—that are highly amenable to AI automation and productivity tools. While some interpersonal interaction with staff, students, and parents and occasional physical coordination (e.g., arranging repairs) remain, these represent a smaller share of the work, leading to high overall AI exposure in the Japanese context."
+  },
+  {
+    "slug": "occ-567",
+    "title": "学校事務（私立大学）",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "School administration at a private university is largely office‑based, involving document creation, data processing, scheduling, communications, and report generation—tasks that are highly amenable to AI automation and augmentation. While core functions such as student counseling, admissions decisions, and stakeholder coordination still require human judgment and interpersonal skills, AI can substantially reduce the workload in routine administrative processes, leading to significant productivity gains and potential staffing reductions."
+  },
+  {
+    "slug": "occ-444",
+    "title": "広報・PR担当",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "PR work is largely desk‑based, involving writing press releases, creating presentations, monitoring media, analyzing public sentiment, and managing digital channels—all tasks where AI tools (generative text, sentiment analysis, automated scheduling) can substantially boost productivity. While AI can handle much of the content production and data analysis, the role still requires human judgment for relationship‑building with journalists, crisis management, and nuanced strategic communication, keeping exposure just below the maximum."
+  },
+  {
+    "slug": "occ-440",
+    "title": "損害保険事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "損害保険事務は、保険金請求の受付・データ入力・書類作成・調査 koordinations・交渉・支払手続きなど、ほぼすべてがオフィス内のデジタル情報処理と電話・メールによるコミュニケーションで構成されており、AIによるチャットボット、OCR・文書自動処理、画像ベースの損害評価、和解額のレコメンドなどが既に実用化されつつある。ただし、複雑な事案での現場調査、専門家（鑑定人・弁護士・医師）との協調、契約者や相手方との微妙な交渉など、人間の判断と対人スキルが必要な部分が残るため、最大級ではないが高い露出度と評価できる。"
+  },
+  {
+    "slug": "occ-109",
+    "title": "旅行会社カウンター係",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Travel agency counter staff rely heavily on computer systems for reservations, pricing, and information retrieval, tasks that AI can automate through recommendation engines, chatbots, and automated booking platforms. However, the role still requires face-to-face advisory, trust-building, and handling of complex or customized travel requests, especially for older clients who value personal interaction, which limits full automation."
+  },
+  {
+    "slug": "occ-74",
+    "title": "検針員",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Meter reading currently requires physical travel to each premise and manual visual reading of meters, but the rollout of smart meters (advanced metering infrastructure) in Japan can automate data collection remotely, substantially reducing the need for human visits. While some residual tasks such as customer service, flyer distribution, and handling non‑smart meters may keep a limited human role, the core function is highly susceptible to automation over the next decade."
+  },
+  {
+    "slug": "occ-437",
+    "title": "生産・工程管理事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "This role is primarily office‑based, revolving around data entry, spreadsheet analysis, production planning, and coordination—tasks that are highly amenable to AI assistance and automation. While some interpersonal communication and judgment are required for supplier negotiations and issue resolution, the core workflow is digital and can be substantially augmented or replaced by AI tools, leading to high exposure in the Japanese labor market."
+  },
+  {
+    "slug": "occ-426",
+    "title": "秘書",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Secretarial work centers on managing emails, schedules, documents, translations, and information synthesis—tasks that AI can automate or greatly accelerate. Although interpersonal greeting, phone handling, and discretionary judgment still need a human touch, they constitute a smaller portion of the job, yielding high overall exposure."
+  },
+  {
+    "slug": "occ-149",
+    "title": "税務事務官",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Tax officers spend much of their time reviewing returns, analyzing data, and communicating with taxpayers—tasks that AI can automate or augment through risk‑scoring, document processing, and chat‑bot assistance. However, the role also involves field audits, investigations, enforcement actions, and nuanced judgment that require human presence, limiting full automation."
+  },
+  {
+    "slug": "occ-433",
+    "title": "総務事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "総務事務は文書作成・管理、データ入力、スケジュール調整、問い合わせ対応など、デジタルツールで完結できる知識作業が中心であり、AIによる自動化や生産性向上が大きく期待できる。一方で、施設・設備の管理やイベント企画・運営、従業員へのきめ細かい対応など、人間の判断や対人調整が必要な側面も残っており、完全な代替ではなく補助的な活用が見込まれる。"
+  },
+  {
+    "slug": "occ-530",
+    "title": "臨床開発モニター",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The role centers on reviewing protocols, verifying data, preparing reports, and coordinating with sites—tasks that are largely digital and knowledge‑based, making them highly amenable to AI assistance for document analysis, anomaly detection, and automated reporting. However, the need for human judgment in site selection, relationship building, regulatory compliance, and occasional on‑site monitoring prevents full automation, keeping exposure high but not maximal."
+  },
+  {
+    "slug": "occ-174",
+    "title": "診療情報管理士",
+    "category": "Clerical & Administrative",
+    "exposure": 8,
+    "rationale": "The role is primarily digital, involving electronic health record management, diagnostic coding, data analysis, and information retrieval—tasks that AI can automate or augment significantly. However, it still requires medical expertise to interpret ambiguous records, ensure compliance, and coordinate with clinicians, which limits full automation."
+  },
+  {
+    "slug": "occ-435",
+    "title": "調剤薬局事務",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "調剤薬局事務の核心はレセコンへのデータ入力、レセプト作成、患者情報管理などのデジタル事務作業であり、これらはAIによる自動化や生産性向上が容易です。一方で、患者対応、薬剤師の補助、店内清掃や看板の出し入れなどの対人・身体的作業が残り、完全な代替には人間の存在が必要です。したがって、AIは業務を大幅に効率化し人員削減につながるものの、ある程度の人間の役割は残ると考えられます。"
+  },
+  {
+    "slug": "occ-439",
+    "title": "貿易事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "貿易事務は主に書類作成、データ整理、輸送手配、法規確認などデジタルかつ知識集約的な業務が中心であり、AIによる文書自動生成、翻訳、コンプライアンスチェック、スケジュール管理などが大きく生産性を向上させる。ただし、取引条件の交渉や複雑な規制解釈、関係機関および営業部門との調整など、人間の判断と対人スキルが必要な側面も残るため、ほぼ全てがAIで置き換えられるわけではない。"
+  },
+  {
+    "slug": "occ-441",
+    "title": "通信販売受付事務",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The role is largely digital—entering orders, managing customer data, and communicating via phone, fax, email, or chat—tasks that AI can automate or augment significantly. However, it still requires human judgment for handling complex inquiries, complaints, and coordinating with product planning, which limits full automation and keeps exposure in the high range."
+  },
+  {
+    "slug": "occ-543",
+    "title": "郵便局郵便窓口業務",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Postal counter work involves routine, rule‑based tasks (stamp sales, parcel acceptance, cash handling) that are increasingly supported by digital terminals and could be further automated via AI‑driven kiosks and self‑service systems. However, the role still requires direct customer interaction, handling of irregular situations, and assistance for elderly users, which limits full automation and keeps a substantial human component."
+  },
+  {
+    "slug": "occ-196",
+    "title": "鉄道運転計画・運行管理",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "Railway operation planning and management is primarily knowledge‑based work involving data analysis, schedule optimization, and real‑time monitoring using computerized systems (CTC, spreadsheets). AI can substantially improve demand forecasting, timetable creation, and disruption response, making workers much more productive. However, the role still requires human judgment for safety coordination, emergency decision‑making, and communication with staff, which limits full automation."
+  },
+  {
+    "slug": "occ-438",
+    "title": "銀行等窓口事務",
+    "category": "Clerical & Administrative",
+    "exposure": 6,
+    "rationale": "Bank counter clerks perform many routine, digital tasks such as processing deposits, withdrawals, transfers, and account updates that are increasingly automated by ATMs, online banking, and robotic process automation. However, the role also requires human judgment for financial advising, product sales, fraud prevention, and personalized service—especially for elderly customers—limiting full AI replacement."
+  },
+  {
+    "slug": "occ-577",
+    "title": "風力発電の企画・調査",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "The role centers on data collection, GIS analysis, financial modeling, report writing, and stakeholder coordination—tasks performed largely on computers where AI can significantly boost productivity. However, it still requires field visits, relationship‑building with local communities and authorities, and nuanced regulatory judgment, which limits full automation."
+  },
+  {
+    "slug": "occ-195",
+    "title": "駅務員",
+    "category": "Clerical & Administrative",
+    "exposure": 5,
+    "rationale": "Station staff perform many routine tasks such as ticket sales, fare adjustments, and gate operations that are already highly automated via vending machines and automated barriers, making them susceptible to further AI-driven automation. However, the role also requires passenger guidance, crowd management, assistance for elderly/disabled, and emergency response, which involve unpredictable interpersonal interactions and physical presence that limit full automation. Consequently, AI exposure is moderate."
+  },
+  {
+    "slug": "occ-41",
+    "title": "サッシ取付",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "Sash installation is primarily a hands‑on, physically demanding trade that involves measuring, welding, mortar work, and on‑site adjustments in variable construction environments. While AI can assist with peripheral tasks such as reading digital blueprints, scheduling, or inventory management, the core activities require manual skill, spatial judgment, and real‑time human presence, limiting AI's impact."
+  },
+  {
+    "slug": "occ-38",
+    "title": "タイル工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "Tile work is primarily a manual, hands-on trade requiring physical dexterity, spatial judgment, and on‑site presence; AI can only assist with peripheral tasks such as design layout, scheduling, or inventory management. The core activities of surface preparation, mortar application, and tile setting remain resistant to automation due to the need for real‑time tactile feedback and adaptation to uneven substrates."
+  },
+  {
+    "slug": "occ-37",
+    "title": "ブロック積み",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "Block laying is primarily a hands‑on, physical task involving the manual handling and placement of concrete blocks, mortar, and reinforcement on construction sites. While AI could assist with peripheral activities such as design planning, scheduling, or material logistics, the core work requires real‑time human presence, dexterity, and judgment in unpredictable environments, limiting AI's direct impact."
+  },
+  {
+    "slug": "occ-45",
+    "title": "保温工事",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "保温工事は主に現場での手作業が中心で、保温材の裁断・取り付け、足場や作業車での作業、工具を用いた施工など、身体的・技能的作業が占める割合が大きい。AIは設計図の読み取りや見積もり・スケジュール管理などの付随業務を補助できるが、実際の施工工程にはほとんど影響を与えないため、全体的なエクスポージャーは低い。"
+  },
+  {
+    "slug": "occ-42",
+    "title": "内装工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "The work of an interior finishing worker is primarily physical and performed on‑site, involving manual installation of flooring, walls, and ceilings. While AI can assist with tasks such as reading blueprints, material estimation, or providing augmented‑reality guidance, the core job still demands hands‑on skill, spatial judgment, and presence in unpredictable construction environments, limiting AI's overall impact."
+  },
+  {
+    "slug": "occ-27",
+    "title": "型枠大工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "型枠大工の仕事は、現場での型枠の組み立て・解体、コンクリート打設の監視など、身体を使った作業と空間判断が中心であり、AIによる直接的な置換は限定的です。図面の読み取りや設計支援にはデジタルツールが活用できますが、現場特有の調整や手作業が多く、AIの影響は比較的低いです。"
+  },
+  {
+    "slug": "occ-26",
+    "title": "大工",
+    "category": "Construction & Mining",
+    "exposure": 4,
+    "rationale": "Carpentry involves substantial physical, on‑site work with tools and materials that AI cannot replace, limiting exposure. However, AI can assist with design, cost estimation, scheduling, and project management, offering moderate productivity gains for the cognitive aspects of the job."
+  },
+  {
+    "slug": "occ-39",
+    "title": "左官",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "左官の仕事は、材料の練り合わせや塗り付けといった手作業が中心で、現場での微調整や美的判断が求められるため、AIによる直接的な代替は難しい。一部の材料運搬や混合は機械化されているが、核心的な塗り作業は人間の技術と感覚に依存しており、日本の高齢化や人手不足があっても、ロボットやAIによる置き換えは限定的であると考えられる。"
+  },
+  {
+    "slug": "occ-32",
+    "title": "建設・土木作業員",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "Construction and civil engineering laborers perform primarily physical, outdoor tasks such as excavation, concrete work, and material handling that require real-time human presence and manual skill. While AI can assist with peripheral functions like safety monitoring, equipment diagnostics, or project scheduling, it does not substantially alter the core hands-on work, resulting in low overall AI exposure."
+  },
+  {
+    "slug": "occ-36",
+    "title": "舗装工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "Pavement work is primarily outdoor, physically demanding labor involving operation of heavy machinery and manual tasks such as spreading asphalt, pouring concrete, and installing road markings. While AI-assisted guidance systems and autonomous rollers may improve efficiency, the core tasks still require human presence, judgment, and physical dexterity, limiting AI's impact to peripheral support like scheduling or equipment monitoring."
+  },
+  {
+    "slug": "occ-51",
+    "title": "解体工",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "Demolition work is primarily physical, involving hands‑on operation of tools and machinery, site preparation, material sorting, and safety management in unpredictable environments. While AI can assist with peripheral tasks such as planning, scheduling, drone‑based surveys, and regulatory compliance, the core activities require human presence, judgment, and manual skill, limiting overall AI exposure."
+  },
+  {
+    "slug": "occ-50",
+    "title": "送電線工事",
+    "category": "Construction & Mining",
+    "exposure": 2,
+    "rationale": "The job centers on physically climbing towers, handling heavy cables, and performing outdoor construction and maintenance tasks that require strength, balance, and manual dexterity. While AI could assist with scheduling, design, or remote inspection via drones, the core work of erecting and repairing transmission lines remains inherently hands‑on and weather‑dependent, limiting AI's direct impact."
+  },
+  {
+    "slug": "occ-47",
+    "title": "配管工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "配管工の仕事は主に現場での管の切断・曲げ・接合・設置といった身体を使った作業が中心であり、AIが直接これらの手作業を置き換えることは難しい。ただし、図面の読み取りや法規・規格の確認、材料手配・進捗管理などの情報処理部分にはAIツールが補助的に活用できるため、低めの影響がある程度にとどまる。"
+  },
+  {
+    "slug": "occ-28",
+    "title": "鉄筋工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "The rebar worker's job involves physically cutting, bending, and assembling steel on construction sites, which requires manual skill, strength, and real-time presence in unpredictable environments. While AI can support design, blueprint interpretation, and BIM coordination, these are peripheral to the core hands-on tasks, limiting overall exposure."
+  },
+  {
+    "slug": "occ-49",
+    "title": "鉄道線路管理",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "Railway track maintenance is primarily a physically demanding, outdoors job that involves inspecting, repairing, and maintaining rails, ties, and ballast using hand and power tools. While AI can support predictive maintenance, drone inspections, and work‑planning, the core tasks still require human presence and manual dexterity in variable weather and terrain, limiting overall AI exposure."
+  },
+  {
+    "slug": "occ-44",
+    "title": "防水工",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "防水工の仕事は、建物の屋根や外壁に防水層を施工する現場中心の手作業が中心であり、身体的スキルと実地での判断が不可欠です。AIは防水設計や材料選定、見積もりなどの間接的な補助に役立つかもしれませんが、実際の施工プロセスを置き換えることは難しく、日本の建設業における自動化の進展も限定的です。"
+  },
+  {
+    "slug": "occ-487",
+    "title": "ハウスクリーニング",
+    "category": "Logistics & Cleaning",
+    "exposure": 2,
+    "rationale": "House cleaning is primarily a physical, on‑site job that requires manual labor, real‑time presence in unpredictable home environments, and interpersonal interaction with clients. While AI can assist with peripheral tasks such as scheduling, quoting, invoicing, and follow‑up communications, the core cleaning activities cannot be automated with current technology, resulting in minimal overall AI exposure."
+  },
+  {
+    "slug": "occ-491",
+    "title": "バックヤード作業員（スーパー食品部門）",
+    "category": "Logistics & Cleaning",
+    "exposure": 4,
+    "rationale": "The job centers on physical handling of food—packaging, stocking, cleaning, and freshness checks—with only limited digital components such as computerized ordering and barcode use. While AI can assist with inventory management and demand forecasting, the core tasks require human presence, manual dexterity, and real-time judgment, keeping overall AI exposure moderate."
+  },
+  {
+    "slug": "occ-97",
+    "title": "ビル清掃",
+    "category": "Logistics & Cleaning",
+    "exposure": 3,
+    "rationale": "Building cleaning is primarily a hands‑on, physically demanding job that requires real‑time presence in varied indoor and outdoor environments. While AI can support scheduling, route planning, inventory management, and increasingly assist with robotic vacuums or window‑cleaning drones, the core tasks—detailed surface cleaning, toilet sanitation, and material‑specific maintenance—remain heavily dependent on human dexterity and judgment, limiting overall AI exposure."
+  },
+  {
+    "slug": "occ-486",
+    "title": "ピッキング作業員",
+    "category": "Logistics & Cleaning",
+    "exposure": 4,
+    "rationale": "Picking workers rely heavily on barcode scanners and digital picking systems, which already automate information tracking and reduce manual lookup. However, the core tasks—physically locating, handling, sorting, and loading items—require manual dexterity, situational judgment, and adaptation to varied product shapes and warehouse conditions, limiting full AI substitution. Ongoing development of picking robots may increase exposure, but for the next decade a substantial share of the work will remain human‑performed."
+  },
+  {
+    "slug": "occ-488",
+    "title": "ペストコントロール従事者（害虫等防除・駆除従事者）",
+    "category": "Logistics & Cleaning",
+    "exposure": 4,
+    "rationale": "Pest control work involves substantial on‑site inspection, manual application of treatments, and direct client interaction, which are difficult to fully automate. While AI can assist with route planning, pest identification via imaging, report generation, and predictive infestation modeling, the core tasks still require physical presence, judgment in variable environments, and interpersonal trust, limiting overall exposure."
+  },
+  {
+    "slug": "occ-494",
+    "title": "ごみ収集作業員",
+    "category": "Logistics & Cleaning",
+    "exposure": 2,
+    "rationale": "Garbage collection is a highly physical job that requires human workers to navigate unpredictable outdoor environments, handle various types of waste, and operate collection vehicles. While AI may assist with optimizing collection routes or scheduling, the core tasks of this occupation are not easily automated."
+  },
+  {
+    "slug": "occ-201",
+    "title": "引越作業員",
+    "category": "Logistics & Cleaning",
+    "exposure": 2,
+    "rationale": "Moving company workers primarily perform physical labor like packing, lifting, and transporting furniture and boxes. While some peripheral tasks like scheduling and communication may be assisted by AI, the core manual work of moving cannot be automated away."
+  },
+  {
+    "slug": "occ-46",
+    "title": "電気工事士",
+    "category": "Construction & Mining",
+    "exposure": 3,
+    "rationale": "Electrical work is primarily physical, requiring hands-on installation and maintenance of electrical systems. While AI may assist with peripheral tasks like scheduling or record-keeping, the core job involves manual skills and real-time presence at job sites that are difficult to automate."
+  },
+  {
+    "slug": "occ-415",
+    "title": "客室清掃・整備担当（ホテル・旅館）",
+    "category": "Logistics & Cleaning",
+    "exposure": 2,
+    "rationale": "Hotel room cleaning is a highly physical job that requires being onsite to clean rooms, change linens, and restock supplies. While AI may help optimize scheduling and inventory management, the core tasks cannot be automated and require human presence."
+  },
+  {
+    "slug": "occ-490",
+    "title": "工場労務作業員",
+    "category": "Logistics & Cleaning",
+    "exposure": 2,
+    "rationale": "Factory labor involves physical tasks like material handling, cleaning, and waste sorting in unpredictable environments. While AI may optimize some processes, the core job requires human physical presence and manual work, providing a natural barrier."
+  },
+  {
+    "slug": "occ-489",
+    "title": "製品包装作業員",
+    "category": "Logistics & Cleaning",
+    "exposure": 6,
+    "rationale": "Manufacturing packaging work in Japan involves operating and monitoring packaging machines, with many tasks already automated. However, human workers still handle machine adjustments, material replenishment, quality control and troubleshooting. The job combines physical and cognitive tasks, with AI likely to further boost productivity and reduce labor needs, but not fully replace human presence and judgment in the near term."
+  },
+  {
+    "slug": "occ-104",
+    "title": "ハンバーガーショップ店長",
+    "category": "Management",
+    "exposure": 4,
+    "rationale": "Fast food restaurant managers have moderate AI exposure. While some administrative tasks like scheduling and data analysis may be automated, the core responsibilities of managing staff, ensuring food quality and service, and handling customer interactions still require a human presence."
+  },
+  {
+    "slug": "occ-537",
+    "title": "人事課長",
+    "category": "Management",
+    "exposure": 7,
+    "rationale": "The HR department manager role involves a mix of interpersonal communication, strategic planning, and administrative tasks. While direct human interaction and decision-making are critical, many of the information-processing and data management aspects of the job could be augmented or automated by AI, especially as digitalization of HR processes advances in Japan."
+  },
+  {
+    "slug": "occ-514",
+    "title": "会社経営者",
+    "category": "Management",
+    "exposure": 7,
+    "rationale": "Company executives make high-level strategic decisions, but much of their work involves analyzing information, communicating, and supervising subordinates. AI will significantly boost productivity for these cognitive tasks, potentially reducing the number of top executives needed. However, human judgment and relationships remain critical."
+  },
+  {
+    "slug": "occ-539",
+    "title": "営業課長",
+    "category": "Management",
+    "exposure": 6,
+    "rationale": "Sales managers in Japan oversee and direct sales teams, which involves a mix of interpersonal leadership, strategic planning, and some direct sales work. While the core leadership and relationship-building aspects of the job are less exposed to AI, many supporting tasks like data analysis, performance tracking, and reporting are highly automatable."
+  },
+  {
+    "slug": "occ-538",
+    "title": "経理課長",
+    "category": "Management",
+    "exposure": 7,
+    "rationale": "As head of the accounting department, the job involves substantial digital work like financial reporting, tax filings, and using accounting software. While it requires human judgment and interpersonal management, many core tasks are highly susceptible to AI-driven productivity gains."
+  },
+  {
+    "slug": "occ-311",
+    "title": "航空機開発エンジニア（ジェットエンジン）",
+    "category": "Management",
+    "exposure": 6,
+    "rationale": "Jet engine development involves substantial digital design, simulation and analysis work that AI can augment. However, it also requires physical prototyping, testing, and hands-on engineering to bring designs to reality. AI will significantly boost productivity but not fully automate the role."
+  },
+  {
+    "slug": "occ-53",
+    "title": "銀行支店長",
+    "category": "Management",
+    "exposure": 6,
+    "rationale": "Bank branch managers oversee customer service, lending decisions, and overall branch operations. While AI can assist with data analysis, risk assessment, and process automation, the role still requires significant human judgment, relationship-building, and leadership. However, Japan's aging population and shift towards online banking may accelerate AI adoption in this sector."
+  },
+  {
+    "slug": "occ-584",
+    "title": "3Dプリンター技術者",
+    "category": "Production & Manufacturing",
+    "exposure": 6,
+    "rationale": "3Dプリンター技術者は、デジタル設計データをもとに3Dプリンターを操作し、立体物の試作品や少量生産品を造形する仕事です。AIは設計データの生成や加工プロセスの最適化で活用される可能性がありますが、現場での機器操作や品質管理、安全確保など人間の知識・経験が必要な部分も大きいため、AI化の影響は一部に留まります。"
+  },
+  {
+    "slug": "occ-25",
+    "title": "CADオペレーター",
+    "category": "Production & Manufacturing",
+    "exposure": 8,
+    "rationale": "CAD operators work almost entirely on computers, using software to create digital designs and technical drawings. AI is rapidly improving at automating routine digital tasks like this. However, some human judgment and communication with engineers is still required."
+  },
+  {
+    "slug": "occ-256",
+    "title": "NC工作機械オペレーター",
+    "category": "Production & Manufacturing",
+    "exposure": 6,
+    "rationale": "NC工作機械オペレーターは、プログラミングとオペレーティングの両方を行うため、AIによる自動化の影響を受けやすい。ただし、機械のメンテナンスやトラブルシューティングなど、人間の判断が必要なタスクも存在するため、完全な自動化は難しい。"
+  },
+  {
+    "slug": "occ-15",
+    "title": "かん詰・びん詰・レトルト食品製造",
+    "category": "Production & Manufacturing",
+    "exposure": 4,
+    "rationale": "Canning and bottling food involves a mix of manual labor and machine operation. While some tasks like sealing containers and heat sterilization require specialized knowledge, a significant portion of the work is physical. AI may help optimize production lines but the core work still requires human presence."
+  },
+  {
+    "slug": "occ-11",
+    "title": "しょうゆ製造",
+    "category": "Production & Manufacturing",
+    "exposure": 3,
+    "rationale": "Soy sauce manufacturing involves physical processes like preparing ingredients, fermentation, and bottling. While some automation is possible, the key fermentation and aging steps still require human judgment and experience. The job's physical nature and reliance on human expertise provide some insulation from AI-driven disruption."
+  },
+  {
+    "slug": "occ-10",
+    "title": "みそ製造",
+    "category": "Production & Manufacturing",
+    "exposure": 3,
+    "rationale": "Miso production involves physical processes like steaming soybeans, adding koji and salt, and aging the mixture. While some automation may assist, the core job requires human presence and manual work. Japan's aging population could slow AI adoption in this traditional industry."
+  },
+  {
+    "slug": "occ-343",
+    "title": "アニメーター",
+    "category": "Production & Manufacturing",
+    "exposure": 8,
+    "rationale": "Animating involves both digital and hand-drawn artwork, with an increasing shift towards digital tools and computer skills. While hand-drawing ability remains important, the core work of creating 2D and 3D animations is done on computers using specialized software, making the occupation highly exposed to AI-driven changes in the creative process."
+  },
+  {
+    "slug": "occ-48",
+    "title": "エレベーター据付",
+    "category": "Production & Manufacturing",
+    "exposure": 3,
+    "rationale": "Elevator installation involves physical assembly and on-site adjustments, making it difficult for AI to fully automate. However, AI may assist with peripheral tasks like scheduling or optimizing installation plans."
+  },
+  {
+    "slug": "occ-297",
+    "title": "タイヤ製造",
+    "category": "Production & Manufacturing",
+    "exposure": 4,
+    "rationale": "Tire manufacturing in Japan involves a mix of physical labor and machine operation. While some tasks like material mixing and component assembly may be automated, the need for human supervision, quality control, and equipment maintenance remains. Japan's high industrial automation means further AI-driven changes will be incremental rather than transformative for this occupation."
+  },
+  {
+    "slug": "occ-341",
+    "title": "パタンナー",
+    "category": "Production & Manufacturing",
+    "exposure": 5,
+    "rationale": "パタンナーの仕事は、デザインの知識と技術、そしてCADソフトウェアを使用したパターン制作が必要である。AIはパターン制作の効率化や自動化に貢献できるが、デザイナーの意図を読み取り、実際の生地や厚みを考慮するなどの創造的な判断は人間の技能が依然として重要である。"
+  },
+  {
+    "slug": "occ-14",
+    "title": "ビール製造",
+    "category": "Production & Manufacturing",
+    "exposure": 3,
+    "rationale": "Beer brewing involves a mix of physical tasks and some process monitoring. While large breweries may use AI for process optimization, the core brewing tasks still require human workers. Small craft breweries in particular rely on manual labor and human judgment."
+  }
+]

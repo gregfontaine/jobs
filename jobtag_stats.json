@@ -1,0 +1,3230 @@
+{
+  "occ-1": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 4.44,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-10": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 4.44,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-100": {
+    "wage_jpy": 3384000,
+    "opening_ratio": 4.71,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-101": {
+    "wage_jpy": 3384000,
+    "opening_ratio": 4.71,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-102": {
+    "wage_jpy": 3384000,
+    "opening_ratio": 4.71,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-103": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 8.04,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-104": {
+    "wage_jpy": 3408000,
+    "opening_ratio": 10.51,
+    "workers": 28560,
+    "category_code": "1403"
+  },
+  "occ-105": {
+    "wage_jpy": 2748000,
+    "opening_ratio": 7.4,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-106": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 2.91,
+    "workers": 221757,
+    "category_code": "1403"
+  },
+  "occ-107": {
+    "wage_jpy": 3120000,
+    "opening_ratio": 0.56,
+    "workers": 815,
+    "category_code": "1391"
+  },
+  "occ-108": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 8.04,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-109": {
+    "wage_jpy": 3000000,
+    "opening_ratio": 2.03,
+    "workers": 174488,
+    "category_code": "1281"
+  },
+  "occ-11": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 4.44,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-110": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 0.4,
+    "workers": 994,
+    "category_code": "1421"
+  },
+  "occ-111": {
+    "wage_jpy": 2220000,
+    "opening_ratio": 1.35,
+    "workers": 10805,
+    "category_code": "1631"
+  },
+  "occ-112": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 4.28,
+    "workers": 204155,
+    "category_code": "1406"
+  },
+  "occ-113": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 4.28,
+    "workers": 204155,
+    "category_code": "1406"
+  },
+  "occ-114": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 0.4,
+    "workers": 994,
+    "category_code": "1421"
+  },
+  "occ-115": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 16.24,
+    "workers": 44890,
+    "category_code": "1381"
+  },
+  "occ-116": {
+    "wage_jpy": 3276000,
+    "opening_ratio": 5.73,
+    "workers": 111500,
+    "category_code": "1381"
+  },
+  "occ-117": {
+    "wage_jpy": 2904000,
+    "opening_ratio": 1.58,
+    "workers": 39743,
+    "category_code": "1383"
+  },
+  "occ-118": {
+    "wage_jpy": 3276000,
+    "opening_ratio": 5.73,
+    "workers": 111500,
+    "category_code": "1381"
+  },
+  "occ-119": {
+    "wage_jpy": 2460000,
+    "opening_ratio": 3.13,
+    "workers": 104820,
+    "category_code": "1385"
+  },
+  "occ-12": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 3.75,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-120": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 1.17,
+    "workers": 24090,
+    "category_code": "1244"
+  },
+  "occ-121": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.45,
+    "workers": 19671,
+    "category_code": "1199"
+  },
+  "occ-122": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 1.56,
+    "workers": 14018,
+    "category_code": "1244"
+  },
+  "occ-123": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 10.47,
+    "workers": 3984,
+    "category_code": "1421"
+  },
+  "occ-124": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 10.47,
+    "workers": 3984,
+    "category_code": "1421"
+  },
+  "occ-125": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 1.08,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-126": {
+    "wage_jpy": 2712000,
+    "opening_ratio": 1.11,
+    "workers": 454,
+    "category_code": "1421"
+  },
+  "occ-127": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-128": {
+    "wage_jpy": 2868000,
+    "opening_ratio": 0.36,
+    "workers": 39743,
+    "category_code": "1383"
+  },
+  "occ-129": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.24,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-13": {
+    "wage_jpy": 2568000,
+    "opening_ratio": 4.07,
+    "workers": 3012,
+    "category_code": "1503"
+  },
+  "occ-130": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.24,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-131": {
+    "wage_jpy": 2748000,
+    "opening_ratio": 3.16,
+    "workers": 634050,
+    "category_code": "1163"
+  },
+  "occ-132": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 6.89,
+    "workers": 266355,
+    "category_code": "1168"
+  },
+  "occ-133": {
+    "wage_jpy": 2844000,
+    "opening_ratio": 28.85,
+    "workers": 268630,
+    "category_code": "1362"
+  },
+  "occ-134": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 3.09,
+    "workers": 1358940,
+    "category_code": "1361"
+  },
+  "occ-135": {
+    "wage_jpy": 2916000,
+    "opening_ratio": 0.21,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-136": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 0.15,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-137": {
+    "wage_jpy": 2844000,
+    "opening_ratio": 6.07,
+    "workers": 3984,
+    "category_code": "1421"
+  },
+  "occ-138": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-139": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-14": {
+    "wage_jpy": 2568000,
+    "opening_ratio": 4.07,
+    "workers": 3012,
+    "category_code": "1503"
+  },
+  "occ-140": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 7.06,
+    "workers": 251180,
+    "category_code": null
+  },
+  "occ-141": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 7.06,
+    "workers": 251180,
+    "category_code": null
+  },
+  "occ-143": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.14,
+    "workers": 12017,
+    "category_code": "1459"
+  },
+  "occ-146": {
+    "wage_jpy": 3432000,
+    "opening_ratio": 0.91,
+    "workers": 2153,
+    "category_code": "1173"
+  },
+  "occ-147": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.45,
+    "workers": 19671,
+    "category_code": "1199"
+  },
+  "occ-148": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 1.58,
+    "workers": 14720,
+    "category_code": null
+  },
+  "occ-149": {
+    "wage_jpy": 2508000,
+    "opening_ratio": 2.51,
+    "workers": 761790,
+    "category_code": "1261"
+  },
+  "occ-15": {
+    "wage_jpy": 2424000,
+    "opening_ratio": 2.05,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-150": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-151": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-152": {
+    "wage_jpy": 2400000,
+    "opening_ratio": 12.3,
+    "workers": 230390,
+    "category_code": null
+  },
+  "occ-153": {
+    "wage_jpy": 2400000,
+    "opening_ratio": 12.3,
+    "workers": 230390,
+    "category_code": null
+  },
+  "occ-154": {
+    "wage_jpy": 2400000,
+    "opening_ratio": 12.3,
+    "workers": 230390,
+    "category_code": null
+  },
+  "occ-155": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 2.55,
+    "workers": 21095,
+    "category_code": "1459"
+  },
+  "occ-156": {
+    "wage_jpy": 3120000,
+    "opening_ratio": 2.41,
+    "workers": 692970,
+    "category_code": "1133"
+  },
+  "occ-157": {
+    "wage_jpy": 3492000,
+    "opening_ratio": 1.3,
+    "workers": 27230,
+    "category_code": "1132"
+  },
+  "occ-158": {
+    "wage_jpy": 4272000,
+    "opening_ratio": 3.57,
+    "workers": 243650,
+    "category_code": "1124"
+  },
+  "occ-159": {
+    "wage_jpy": 7908000,
+    "opening_ratio": 3.31,
+    "workers": 81470,
+    "category_code": "1122"
+  },
+  "occ-16": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 4.44,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-160": {
+    "wage_jpy": 3036000,
+    "opening_ratio": 1.02,
+    "workers": 48190,
+    "category_code": "1131"
+  },
+  "occ-161": {
+    "wage_jpy": 2892000,
+    "opening_ratio": 1.75,
+    "workers": 82710,
+    "category_code": "1143"
+  },
+  "occ-162": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 1.97,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-163": {
+    "wage_jpy": 3084000,
+    "opening_ratio": 1.19,
+    "workers": 57480,
+    "category_code": "1141"
+  },
+  "occ-164": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 1.83,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-165": {
+    "wage_jpy": 3372000,
+    "opening_ratio": 1.25,
+    "workers": 25140,
+    "category_code": "1147"
+  },
+  "occ-166": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 3.08,
+    "workers": 124250,
+    "category_code": "1146"
+  },
+  "occ-167": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 4.53,
+    "workers": 50635,
+    "category_code": "1144"
+  },
+  "occ-168": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 4.26,
+    "workers": 50635,
+    "category_code": "1144"
+  },
+  "occ-169": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 4.26,
+    "workers": 6732,
+    "category_code": "1144"
+  },
+  "occ-17": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 4.92,
+    "workers": 46583,
+    "category_code": "1502"
+  },
+  "occ-170": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 2.97,
+    "workers": 6732,
+    "category_code": "1144"
+  },
+  "occ-171": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 4.39,
+    "workers": 121320,
+    "category_code": "1151"
+  },
+  "occ-172": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 0.92,
+    "workers": 13135,
+    "category_code": "1159"
+  },
+  "occ-173": {
+    "wage_jpy": 3264000,
+    "opening_ratio": 3.38,
+    "workers": 13135,
+    "category_code": "1159"
+  },
+  "occ-174": {
+    "wage_jpy": 2388000,
+    "opening_ratio": 1.61,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-175": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 0.92,
+    "workers": 13135,
+    "category_code": "1159"
+  },
+  "occ-176": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 1.97,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-178": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 2.77,
+    "workers": 143320,
+    "category_code": "1191"
+  },
+  "occ-179": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 2.14,
+    "workers": 125433,
+    "category_code": "1192"
+  },
+  "occ-18": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 4.92,
+    "workers": 46583,
+    "category_code": "1502"
+  },
+  "occ-180": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.53,
+    "workers": 68833,
+    "category_code": "1192"
+  },
+  "occ-181": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.45,
+    "workers": 19671,
+    "category_code": "1199"
+  },
+  "occ-182": {
+    "wage_jpy": 2364000,
+    "opening_ratio": 0.14,
+    "workers": 887,
+    "category_code": "1249"
+  },
+  "occ-183": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 1.14,
+    "workers": 250420,
+    "category_code": "1194"
+  },
+  "occ-184": {
+    "wage_jpy": 3480000,
+    "opening_ratio": 0.12,
+    "workers": 179600,
+    "category_code": "1196"
+  },
+  "occ-185": {
+    "wage_jpy": 2712000,
+    "opening_ratio": 0.21,
+    "workers": 887,
+    "category_code": "1249"
+  },
+  "occ-186": {
+    "wage_jpy": 2772000,
+    "opening_ratio": 7.66,
+    "workers": 481930,
+    "category_code": "1611"
+  },
+  "occ-187": {
+    "wage_jpy": 2772000,
+    "opening_ratio": 7.66,
+    "workers": 481930,
+    "category_code": "1611"
+  },
+  "occ-188": {
+    "wage_jpy": 2400000,
+    "opening_ratio": 9.11,
+    "workers": 722895,
+    "category_code": "1612"
+  },
+  "occ-19": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 4.93,
+    "workers": 149450,
+    "category_code": "1508"
+  },
+  "occ-190": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 1.23,
+    "workers": 3600,
+    "category_code": "1639"
+  },
+  "occ-192": {
+    "wage_jpy": 2376000,
+    "opening_ratio": 1.3,
+    "workers": 37090,
+    "category_code": "1601"
+  },
+  "occ-193": {
+    "wage_jpy": 2220000,
+    "opening_ratio": 1.35,
+    "workers": 10805,
+    "category_code": "1631"
+  },
+  "occ-194": {
+    "wage_jpy": 2412000,
+    "opening_ratio": 3.42,
+    "workers": 36300,
+    "category_code": "1301"
+  },
+  "occ-195": {
+    "wage_jpy": 2412000,
+    "opening_ratio": 3.42,
+    "workers": 36300,
+    "category_code": "1301"
+  },
+  "occ-196": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 3.36,
+    "workers": 36300,
+    "category_code": "1301"
+  },
+  "occ-197": {
+    "wage_jpy": 3012000,
+    "opening_ratio": 5.45,
+    "workers": 188040,
+    "category_code": "1553"
+  },
+  "occ-198": {
+    "wage_jpy": 2604000,
+    "opening_ratio": 5.53,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-199": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.14,
+    "workers": 12017,
+    "category_code": "1459"
+  },
+  "occ-2": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 1.55,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-20": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 2.85,
+    "workers": 48520,
+    "category_code": "1091"
+  },
+  "occ-200": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 3.36,
+    "workers": 36300,
+    "category_code": "1301"
+  },
+  "occ-201": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 5.19,
+    "workers": 27228,
+    "category_code": "1703"
+  },
+  "occ-202": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-203": {
+    "wage_jpy": 2856000,
+    "opening_ratio": 0.52,
+    "workers": 507,
+    "category_code": "1249"
+  },
+  "occ-204": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 3.36,
+    "workers": 36300,
+    "category_code": "1301"
+  },
+  "occ-205": {
+    "wage_jpy": 2508000,
+    "opening_ratio": 0.25,
+    "workers": 435720,
+    "category_code": "1404"
+  },
+  "occ-206": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 4.95,
+    "workers": 58660,
+    "category_code": "1554"
+  },
+  "occ-207": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 1.05,
+    "workers": 3585,
+    "category_code": "1639"
+  },
+  "occ-208": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-209": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-21": {
+    "wage_jpy": 3996000,
+    "opening_ratio": 8.56,
+    "workers": 48520,
+    "category_code": "1091"
+  },
+  "occ-210": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-211": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-212": {
+    "wage_jpy": 2856000,
+    "opening_ratio": 0.52,
+    "workers": 507,
+    "category_code": "1249"
+  },
+  "occ-213": {
+    "wage_jpy": 2664000,
+    "opening_ratio": 0.74,
+    "workers": 30880,
+    "category_code": "1592"
+  },
+  "occ-214": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-215": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-216": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-217": {
+    "wage_jpy": 3132000,
+    "opening_ratio": 0.38,
+    "workers": 10323,
+    "category_code": "1231"
+  },
+  "occ-218": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 0.82,
+    "workers": 11035,
+    "category_code": "1461"
+  },
+  "occ-219": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 1.17,
+    "workers": 24090,
+    "category_code": "1244"
+  },
+  "occ-22": {
+    "wage_jpy": 4188000,
+    "opening_ratio": 9.95,
+    "workers": 65965,
+    "category_code": "1092"
+  },
+  "occ-220": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 0.82,
+    "workers": 11035,
+    "category_code": "1461"
+  },
+  "occ-221": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.94,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-222": {
+    "wage_jpy": 3084000,
+    "opening_ratio": 1.92,
+    "workers": 8774,
+    "category_code": "1461"
+  },
+  "occ-223": {
+    "wage_jpy": 3840000,
+    "opening_ratio": 2.75,
+    "workers": 18470,
+    "category_code": "1123"
+  },
+  "occ-224": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 2.02,
+    "workers": 2427,
+    "category_code": "1461"
+  },
+  "occ-225": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-226": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-227": {
+    "wage_jpy": 2508000,
+    "opening_ratio": 0.75,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-228": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.94,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-229": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.94,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-23": {
+    "wage_jpy": 4176000,
+    "opening_ratio": 16.3,
+    "workers": 65965,
+    "category_code": "1092"
+  },
+  "occ-230": {
+    "wage_jpy": 2880000,
+    "opening_ratio": 4.59,
+    "workers": 1249,
+    "category_code": "1461"
+  },
+  "occ-231": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 3.21,
+    "workers": 48570,
+    "category_code": "1073"
+  },
+  "occ-232": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 1.46,
+    "workers": 111453,
+    "category_code": "1511"
+  },
+  "occ-233": {
+    "wage_jpy": 3024000,
+    "opening_ratio": 6.0,
+    "workers": 66861,
+    "category_code": "1551"
+  },
+  "occ-234": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-235": {
+    "wage_jpy": 4188000,
+    "opening_ratio": 9.95,
+    "workers": 65965,
+    "category_code": "1092"
+  },
+  "occ-236": {
+    "wage_jpy": 3216000,
+    "opening_ratio": 2.63,
+    "workers": 15506,
+    "category_code": "1551"
+  },
+  "occ-237": {
+    "wage_jpy": 2712000,
+    "opening_ratio": 0.8,
+    "workers": 25182,
+    "category_code": "1639"
+  },
+  "occ-238": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-239": {
+    "wage_jpy": 2880000,
+    "opening_ratio": 0.85,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-24": {
+    "wage_jpy": 3384000,
+    "opening_ratio": 4.4,
+    "workers": 254910,
+    "category_code": "1093"
+  },
+  "occ-240": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-241": {
+    "wage_jpy": 2460000,
+    "opening_ratio": 4.03,
+    "workers": 374700,
+    "category_code": "1453"
+  },
+  "occ-242": {
+    "wage_jpy": 2532000,
+    "opening_ratio": 2.6,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-243": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 4.88,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-244": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 2.71,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-245": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 8.02,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-246": {
+    "wage_jpy": 2280000,
+    "opening_ratio": 4.12,
+    "workers": 138010,
+    "category_code": "1371"
+  },
+  "occ-247": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.94,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-248": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 2.85,
+    "workers": 48520,
+    "category_code": "1091"
+  },
+  "occ-249": {
+    "wage_jpy": 2472000,
+    "opening_ratio": 1.13,
+    "workers": 103770,
+    "category_code": "1461"
+  },
+  "occ-25": {
+    "wage_jpy": 3372000,
+    "opening_ratio": 0.79,
+    "workers": 144640,
+    "category_code": "1592"
+  },
+  "occ-251": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 5.56,
+    "workers": 18060,
+    "category_code": "1492"
+  },
+  "occ-252": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 5.56,
+    "workers": 18060,
+    "category_code": "1492"
+  },
+  "occ-253": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 4.39,
+    "workers": 457000,
+    "category_code": "1499"
+  },
+  "occ-254": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 3.4,
+    "workers": 61390,
+    "category_code": "1494"
+  },
+  "occ-255": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 2.67,
+    "workers": 163710,
+    "category_code": "1498"
+  },
+  "occ-256": {
+    "wage_jpy": 2892000,
+    "opening_ratio": 3.33,
+    "workers": 76060,
+    "category_code": "1493"
+  },
+  "occ-257": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 6.77,
+    "workers": 37200,
+    "category_code": "1497"
+  },
+  "occ-258": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 1.54,
+    "workers": 25630,
+    "category_code": "1076"
+  },
+  "occ-259": {
+    "wage_jpy": 2904000,
+    "opening_ratio": 1.96,
+    "workers": 39090,
+    "category_code": "1491"
+  },
+  "occ-26": {
+    "wage_jpy": 3432000,
+    "opening_ratio": 2.47,
+    "workers": 273010,
+    "category_code": "1661"
+  },
+  "occ-260": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 4.03,
+    "workers": 42935,
+    "category_code": "1561"
+  },
+  "occ-261": {
+    "wage_jpy": 2676000,
+    "opening_ratio": 2.62,
+    "workers": 121437,
+    "category_code": "1512"
+  },
+  "occ-262": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 3.21,
+    "workers": 48570,
+    "category_code": "1073"
+  },
+  "occ-263": {
+    "wage_jpy": 2580000,
+    "opening_ratio": 3.79,
+    "workers": 21660,
+    "category_code": "1514"
+  },
+  "occ-264": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 0.66,
+    "workers": 344110,
+    "category_code": "1513"
+  },
+  "occ-265": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 1.46,
+    "workers": 111453,
+    "category_code": "1511"
+  },
+  "occ-266": {
+    "wage_jpy": 2580000,
+    "opening_ratio": 3.79,
+    "workers": 21660,
+    "category_code": "1514"
+  },
+  "occ-267": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 1.09,
+    "workers": 61036,
+    "category_code": "1072"
+  },
+  "occ-268": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 0.89,
+    "workers": 121437,
+    "category_code": "1512"
+  },
+  "occ-269": {
+    "wage_jpy": 3024000,
+    "opening_ratio": 6.0,
+    "workers": 66861,
+    "category_code": "1551"
+  },
+  "occ-27": {
+    "wage_jpy": 3492000,
+    "opening_ratio": 10.86,
+    "workers": 13523,
+    "category_code": "1651"
+  },
+  "occ-270": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 2.75,
+    "workers": 34172,
+    "category_code": "1074"
+  },
+  "occ-271": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 3.21,
+    "workers": 48570,
+    "category_code": "1073"
+  },
+  "occ-272": {
+    "wage_jpy": 3708000,
+    "opening_ratio": 2.68,
+    "workers": 61036,
+    "category_code": "1072"
+  },
+  "occ-273": {
+    "wage_jpy": 3708000,
+    "opening_ratio": 2.68,
+    "workers": 61036,
+    "category_code": "1072"
+  },
+  "occ-274": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 3.22,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-275": {
+    "wage_jpy": 3216000,
+    "opening_ratio": 2.63,
+    "workers": 15506,
+    "category_code": "1551"
+  },
+  "occ-276": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 3.21,
+    "workers": 48570,
+    "category_code": "1073"
+  },
+  "occ-277": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 2.39,
+    "workers": 121437,
+    "category_code": "1512"
+  },
+  "occ-278": {
+    "wage_jpy": 2544000,
+    "opening_ratio": 3.6,
+    "workers": 68597,
+    "category_code": "1505"
+  },
+  "occ-279": {
+    "wage_jpy": 2544000,
+    "opening_ratio": 3.6,
+    "workers": 68597,
+    "category_code": "1505"
+  },
+  "occ-28": {
+    "wage_jpy": 3444000,
+    "opening_ratio": 9.79,
+    "workers": 9583,
+    "category_code": "1651"
+  },
+  "occ-280": {
+    "wage_jpy": 2340000,
+    "opening_ratio": 2.26,
+    "workers": 68597,
+    "category_code": "1505"
+  },
+  "occ-281": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 2.41,
+    "workers": 54634,
+    "category_code": "1506"
+  },
+  "occ-282": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 2.41,
+    "workers": 54634,
+    "category_code": "1506"
+  },
+  "occ-283": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 2.41,
+    "workers": 54634,
+    "category_code": "1506"
+  },
+  "occ-284": {
+    "wage_jpy": 3024000,
+    "opening_ratio": 6.0,
+    "workers": 66861,
+    "category_code": "1551"
+  },
+  "occ-285": {
+    "wage_jpy": 2580000,
+    "opening_ratio": 5.0,
+    "workers": 54634,
+    "category_code": "1506"
+  },
+  "occ-286": {
+    "wage_jpy": 2340000,
+    "opening_ratio": 2.26,
+    "workers": 68597,
+    "category_code": "1505"
+  },
+  "occ-287": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 2.41,
+    "workers": 54634,
+    "category_code": "1506"
+  },
+  "occ-288": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 0.71,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-289": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 1.34,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-29": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 7.64,
+    "workers": 26395,
+    "category_code": "1495"
+  },
+  "occ-290": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 1.34,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-291": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 1.34,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-292": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 1.34,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-295": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 4.07,
+    "workers": 43930,
+    "category_code": "1501"
+  },
+  "occ-296": {
+    "wage_jpy": 3816000,
+    "opening_ratio": 4.15,
+    "workers": 61036,
+    "category_code": "1072"
+  },
+  "occ-297": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 5.13,
+    "workers": 149450,
+    "category_code": "1508"
+  },
+  "occ-298": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 3.89,
+    "workers": 43930,
+    "category_code": "1501"
+  },
+  "occ-299": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 4.07,
+    "workers": 43930,
+    "category_code": "1501"
+  },
+  "occ-3": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 1.55,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-300": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 4.07,
+    "workers": 43930,
+    "category_code": "1501"
+  },
+  "occ-301": {
+    "wage_jpy": 3012000,
+    "opening_ratio": 1.03,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-302": {
+    "wage_jpy": 3204000,
+    "opening_ratio": 4.3,
+    "workers": 34380,
+    "category_code": "1641"
+  },
+  "occ-303": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 1.21,
+    "workers": 30450,
+    "category_code": "1077"
+  },
+  "occ-304": {
+    "wage_jpy": 3012000,
+    "opening_ratio": 1.03,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-305": {
+    "wage_jpy": 3012000,
+    "opening_ratio": 1.03,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-306": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 4.92,
+    "workers": 46583,
+    "category_code": "1502"
+  },
+  "occ-307": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 3.89,
+    "workers": 43930,
+    "category_code": "1501"
+  },
+  "occ-308": {
+    "wage_jpy": 3324000,
+    "opening_ratio": 0.9,
+    "workers": 30450,
+    "category_code": "1077"
+  },
+  "occ-309": {
+    "wage_jpy": 3324000,
+    "opening_ratio": 0.9,
+    "workers": 30450,
+    "category_code": "1077"
+  },
+  "occ-31": {
+    "wage_jpy": 3348000,
+    "opening_ratio": 3.36,
+    "workers": 42210,
+    "category_code": "1645"
+  },
+  "occ-310": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 11.88,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-311": {
+    "wage_jpy": 3552000,
+    "opening_ratio": 3.21,
+    "workers": 48570,
+    "category_code": "1073"
+  },
+  "occ-312": {
+    "wage_jpy": 4224000,
+    "opening_ratio": 2.57,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-313": {
+    "wage_jpy": 3948000,
+    "opening_ratio": 0.94,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-314": {
+    "wage_jpy": 4224000,
+    "opening_ratio": 2.57,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-315": {
+    "wage_jpy": 4116000,
+    "opening_ratio": 4.77,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-316": {
+    "wage_jpy": 4224000,
+    "opening_ratio": 2.57,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-317": {
+    "wage_jpy": 4224000,
+    "opening_ratio": 2.57,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-318": {
+    "wage_jpy": 4128000,
+    "opening_ratio": 2.28,
+    "workers": 164190,
+    "category_code": "1101"
+  },
+  "occ-319": {
+    "wage_jpy": 3744000,
+    "opening_ratio": 2.73,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-32": {
+    "wage_jpy": 3276000,
+    "opening_ratio": 9.48,
+    "workers": 152313,
+    "category_code": "1681"
+  },
+  "occ-320": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 1.79,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-321": {
+    "wage_jpy": 3744000,
+    "opening_ratio": 2.73,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-322": {
+    "wage_jpy": 4680000,
+    "opening_ratio": 2.1,
+    "workers": 164190,
+    "category_code": "1101"
+  },
+  "occ-323": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 11.88,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-324": {
+    "wage_jpy": 4248000,
+    "opening_ratio": 0.89,
+    "workers": 164190,
+    "category_code": "1101"
+  },
+  "occ-325": {
+    "wage_jpy": 3876000,
+    "opening_ratio": 2.25,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-326": {
+    "wage_jpy": 3276000,
+    "opening_ratio": 0.12,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-327": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-328": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-329": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-33": {
+    "wage_jpy": 3312000,
+    "opening_ratio": 8.19,
+    "workers": 80945,
+    "category_code": "1669"
+  },
+  "occ-330": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-331": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-332": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 0.15,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-333": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-334": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 0.15,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-335": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.11,
+    "workers": 3765,
+    "category_code": "1211"
+  },
+  "occ-336": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-337": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-338": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-339": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-340": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-341": {
+    "wage_jpy": 2748000,
+    "opening_ratio": 0.48,
+    "workers": 58252,
+    "category_code": "1591"
+  },
+  "occ-342": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 0.06,
+    "workers": 8352,
+    "category_code": "1221"
+  },
+  "occ-343": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 1.29,
+    "workers": 58252,
+    "category_code": "1591"
+  },
+  "occ-344": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 1.29,
+    "workers": 58252,
+    "category_code": "1591"
+  },
+  "occ-345": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 0.06,
+    "workers": 8352,
+    "category_code": "1221"
+  },
+  "occ-346": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-347": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-348": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-349": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-35": {
+    "wage_jpy": 3348000,
+    "opening_ratio": 3.36,
+    "workers": 42210,
+    "category_code": "1645"
+  },
+  "occ-350": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-351": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-352": {
+    "wage_jpy": 3132000,
+    "opening_ratio": 0.38,
+    "workers": 10323,
+    "category_code": "1231"
+  },
+  "occ-353": {
+    "wage_jpy": 3132000,
+    "opening_ratio": 0.38,
+    "workers": 10323,
+    "category_code": "1231"
+  },
+  "occ-354": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.42,
+    "workers": 14363,
+    "category_code": "1224"
+  },
+  "occ-355": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 0.42,
+    "workers": 12396,
+    "category_code": "1221"
+  },
+  "occ-356": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 0.42,
+    "workers": 12396,
+    "category_code": "1221"
+  },
+  "occ-357": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 0.42,
+    "workers": 12396,
+    "category_code": "1221"
+  },
+  "occ-358": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 0.21,
+    "workers": 10493,
+    "category_code": "1211"
+  },
+  "occ-359": {
+    "wage_jpy": 2712000,
+    "opening_ratio": 0.97,
+    "workers": 90350,
+    "category_code": "1507"
+  },
+  "occ-36": {
+    "wage_jpy": 3288000,
+    "opening_ratio": 13.47,
+    "workers": 152313,
+    "category_code": "1681"
+  },
+  "occ-360": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 1.86,
+    "workers": 90350,
+    "category_code": "1507"
+  },
+  "occ-362": {
+    "wage_jpy": 4248000,
+    "opening_ratio": 0.89,
+    "workers": 164190,
+    "category_code": "1101"
+  },
+  "occ-363": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-364": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-365": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-366": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-37": {
+    "wage_jpy": 3468000,
+    "opening_ratio": 17.01,
+    "workers": 3063,
+    "category_code": "1669"
+  },
+  "occ-38": {
+    "wage_jpy": 3468000,
+    "opening_ratio": 17.01,
+    "workers": 3063,
+    "category_code": "1669"
+  },
+  "occ-388": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-389": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-39": {
+    "wage_jpy": 3420000,
+    "opening_ratio": 7.03,
+    "workers": 7487,
+    "category_code": "1669"
+  },
+  "occ-390": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-391": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-392": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-393": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.45,
+    "workers": 16335,
+    "category_code": "1051"
+  },
+  "occ-395": {
+    "wage_jpy": 3132000,
+    "opening_ratio": 0.96,
+    "workers": 13048,
+    "category_code": "1199"
+  },
+  "occ-396": {
+    "wage_jpy": 2940000,
+    "opening_ratio": 1.58,
+    "workers": 45220,
+    "category_code": "1244"
+  },
+  "occ-397": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.45,
+    "workers": 19671,
+    "category_code": "1199"
+  },
+  "occ-398": {
+    "wage_jpy": 2940000,
+    "opening_ratio": 1.58,
+    "workers": 45220,
+    "category_code": "1244"
+  },
+  "occ-399": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.45,
+    "workers": 19671,
+    "category_code": "1199"
+  },
+  "occ-4": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 1.55,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-40": {
+    "wage_jpy": 3108000,
+    "opening_ratio": 7.93,
+    "workers": 72370,
+    "category_code": "1496"
+  },
+  "occ-400": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-401": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 2.55,
+    "workers": 21095,
+    "category_code": "1459"
+  },
+  "occ-402": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-403": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-404": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-405": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-406": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-407": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 1.97,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-408": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 3.04,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-409": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.24,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-41": {
+    "wage_jpy": 3324000,
+    "opening_ratio": 4.03,
+    "workers": 80945,
+    "category_code": "1669"
+  },
+  "occ-410": {
+    "wage_jpy": 3756000,
+    "opening_ratio": 7.42,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-411": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 1.97,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-412": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 0.15,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-413": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.75,
+    "workers": 847,
+    "category_code": "1421"
+  },
+  "occ-414": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 2.59,
+    "workers": 221757,
+    "category_code": "1405"
+  },
+  "occ-415": {
+    "wage_jpy": 2592000,
+    "opening_ratio": 1.4,
+    "workers": 221757,
+    "category_code": "1405"
+  },
+  "occ-416": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 2.78,
+    "workers": 221757,
+    "category_code": "1405"
+  },
+  "occ-417": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 2.91,
+    "workers": 221757,
+    "category_code": "1403"
+  },
+  "occ-418": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 2.91,
+    "workers": 221757,
+    "category_code": "1403"
+  },
+  "occ-419": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-42": {
+    "wage_jpy": 3324000,
+    "opening_ratio": 4.03,
+    "workers": 80945,
+    "category_code": "1669"
+  },
+  "occ-420": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 1.77,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-421": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 1.77,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-422": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 6.46,
+    "workers": 3074,
+    "category_code": "1421"
+  },
+  "occ-423": {
+    "wage_jpy": 2868000,
+    "opening_ratio": 1.58,
+    "workers": 39743,
+    "category_code": "1383"
+  },
+  "occ-424": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-425": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-426": {
+    "wage_jpy": 3060000,
+    "opening_ratio": 0.67,
+    "workers": 3737840,
+    "category_code": "1255"
+  },
+  "occ-427": {
+    "wage_jpy": 2568000,
+    "opening_ratio": 1.09,
+    "workers": 369780,
+    "category_code": "1254"
+  },
+  "occ-428": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 0.3,
+    "workers": 2639330,
+    "category_code": "1257"
+  },
+  "occ-429": {
+    "wage_jpy": 2700000,
+    "opening_ratio": 0.21,
+    "workers": 77855,
+    "category_code": "1311"
+  },
+  "occ-43": {
+    "wage_jpy": 3348000,
+    "opening_ratio": 5.43,
+    "workers": 58252,
+    "category_code": "1591"
+  },
+  "occ-431": {
+    "wage_jpy": 2772000,
+    "opening_ratio": 1.42,
+    "workers": 174488,
+    "category_code": "1281"
+  },
+  "occ-432": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 1.14,
+    "workers": 264332,
+    "category_code": "1251"
+  },
+  "occ-433": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 1.34,
+    "workers": 264332,
+    "category_code": "1251"
+  },
+  "occ-434": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-435": {
+    "wage_jpy": 2340000,
+    "opening_ratio": 2.49,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-436": {
+    "wage_jpy": 2448000,
+    "opening_ratio": 1.85,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-437": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 1.99,
+    "workers": 292340,
+    "category_code": "1271"
+  },
+  "occ-438": {
+    "wage_jpy": 2208000,
+    "opening_ratio": 3.76,
+    "workers": 761790,
+    "category_code": "1261"
+  },
+  "occ-439": {
+    "wage_jpy": 3084000,
+    "opening_ratio": 0.25,
+    "workers": 174488,
+    "category_code": "1281"
+  },
+  "occ-44": {
+    "wage_jpy": 3540000,
+    "opening_ratio": 13.27,
+    "workers": 80945,
+    "category_code": "1669"
+  },
+  "occ-440": {
+    "wage_jpy": 3000000,
+    "opening_ratio": 2.03,
+    "workers": 174488,
+    "category_code": "1281"
+  },
+  "occ-441": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 0.77,
+    "workers": 146270,
+    "category_code": "1256"
+  },
+  "occ-442": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.83,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-443": {
+    "wage_jpy": 2388000,
+    "opening_ratio": 1.61,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-444": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 1.34,
+    "workers": 264332,
+    "category_code": "1251"
+  },
+  "occ-445": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-446": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-447": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 0.59,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-448": {
+    "wage_jpy": 2604000,
+    "opening_ratio": 3.56,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-449": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-45": {
+    "wage_jpy": 3312000,
+    "opening_ratio": 8.19,
+    "workers": 80945,
+    "category_code": "1669"
+  },
+  "occ-450": {
+    "wage_jpy": 2940000,
+    "opening_ratio": 34.41,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-451": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-452": {
+    "wage_jpy": 3576000,
+    "opening_ratio": 4.02,
+    "workers": 581250,
+    "category_code": "1345"
+  },
+  "occ-453": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 8.31,
+    "workers": 233515,
+    "category_code": "1347"
+  },
+  "occ-454": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 8.31,
+    "workers": 467030,
+    "category_code": "1346"
+  },
+  "occ-455": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 2.79,
+    "workers": 97120,
+    "category_code": "1331"
+  },
+  "occ-456": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-457": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-46": {
+    "wage_jpy": 3312000,
+    "opening_ratio": 3.8,
+    "workers": 189760,
+    "category_code": "1671"
+  },
+  "occ-461": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-462": {
+    "wage_jpy": 3180000,
+    "opening_ratio": 14.13,
+    "workers": 290625,
+    "category_code": "1344"
+  },
+  "occ-463": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 2.79,
+    "workers": 97120,
+    "category_code": "1331"
+  },
+  "occ-464": {
+    "wage_jpy": 2736000,
+    "opening_ratio": 0.96,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-465": {
+    "wage_jpy": 2892000,
+    "opening_ratio": 6.51,
+    "workers": 23190,
+    "category_code": "1324"
+  },
+  "occ-466": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.7,
+    "workers": 77354,
+    "category_code": "1703"
+  },
+  "occ-467": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-469": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 1.34,
+    "workers": 264332,
+    "category_code": "1251"
+  },
+  "occ-47": {
+    "wage_jpy": 3336000,
+    "opening_ratio": 10.83,
+    "workers": 220760,
+    "category_code": "1666"
+  },
+  "occ-470": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-471": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-472": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 8.31,
+    "workers": 233515,
+    "category_code": "1347"
+  },
+  "occ-473": {
+    "wage_jpy": 2364000,
+    "opening_ratio": 0.85,
+    "workers": 73435,
+    "category_code": "1411"
+  },
+  "occ-474": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.83,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-475": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 52.3,
+    "workers": 12017,
+    "category_code": "1459"
+  },
+  "occ-476": {
+    "wage_jpy": 2676000,
+    "opening_ratio": 1.21,
+    "workers": 3775,
+    "category_code": "1649"
+  },
+  "occ-477": {
+    "wage_jpy": 3444000,
+    "opening_ratio": 3.2,
+    "workers": 361447,
+    "category_code": "1614"
+  },
+  "occ-478": {
+    "wage_jpy": 3672000,
+    "opening_ratio": 3.34,
+    "workers": 361447,
+    "category_code": "1614"
+  },
+  "occ-479": {
+    "wage_jpy": 3120000,
+    "opening_ratio": 3.92,
+    "workers": 361447,
+    "category_code": "1614"
+  },
+  "occ-48": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 1.46,
+    "workers": 111453,
+    "category_code": "1511"
+  },
+  "occ-480": {
+    "wage_jpy": 2556000,
+    "opening_ratio": 0.93,
+    "workers": 481930,
+    "category_code": "1611"
+  },
+  "occ-481": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 1.14,
+    "workers": 722895,
+    "category_code": "1612"
+  },
+  "occ-482": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 1.7,
+    "workers": 77354,
+    "category_code": "1703"
+  },
+  "occ-483": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 1.3,
+    "workers": 77354,
+    "category_code": "1703"
+  },
+  "occ-484": {
+    "wage_jpy": 2856000,
+    "opening_ratio": 1.78,
+    "workers": 77354,
+    "category_code": "1703"
+  },
+  "occ-485": {
+    "wage_jpy": 2652000,
+    "opening_ratio": 0.83,
+    "workers": 30435,
+    "category_code": "1703"
+  },
+  "occ-486": {
+    "wage_jpy": 2496000,
+    "opening_ratio": 0.89,
+    "workers": 383406,
+    "category_code": "1739"
+  },
+  "occ-487": {
+    "wage_jpy": 2844000,
+    "opening_ratio": 3.17,
+    "workers": 5556,
+    "category_code": "1712"
+  },
+  "occ-488": {
+    "wage_jpy": 2844000,
+    "opening_ratio": 2.27,
+    "workers": 18182,
+    "category_code": "1712"
+  },
+  "occ-489": {
+    "wage_jpy": 2376000,
+    "opening_ratio": 2.78,
+    "workers": 274280,
+    "category_code": "1721"
+  },
+  "occ-49": {
+    "wage_jpy": 3240000,
+    "opening_ratio": 21.67,
+    "workers": 8236,
+    "category_code": "1681"
+  },
+  "occ-490": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.39,
+    "workers": 383406,
+    "category_code": "1739"
+  },
+  "occ-491": {
+    "wage_jpy": 2484000,
+    "opening_ratio": 0.31,
+    "workers": 383406,
+    "category_code": "1739"
+  },
+  "occ-492": {
+    "wage_jpy": 2580000,
+    "opening_ratio": 1.35,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-493": {
+    "wage_jpy": 2544000,
+    "opening_ratio": 3.4,
+    "workers": 202501,
+    "category_code": "1391"
+  },
+  "occ-494": {
+    "wage_jpy": 2628000,
+    "opening_ratio": 3.99,
+    "workers": 23996,
+    "category_code": "1712"
+  },
+  "occ-495": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 11.88,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-496": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 4.76,
+    "workers": 23996,
+    "category_code": "1712"
+  },
+  "occ-497": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 5.19,
+    "workers": 27228,
+    "category_code": "1703"
+  },
+  "occ-498": {
+    "wage_jpy": 2532000,
+    "opening_ratio": 1.3,
+    "workers": 31672,
+    "category_code": "1703"
+  },
+  "occ-499": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 5.51,
+    "workers": 13870,
+    "category_code": "1702"
+  },
+  "occ-50": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 7.08,
+    "workers": 23710,
+    "category_code": "1671"
+  },
+  "occ-500": {
+    "wage_jpy": 2820000,
+    "opening_ratio": 0.82,
+    "workers": 11035,
+    "category_code": "1461"
+  },
+  "occ-501": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.14,
+    "workers": 12017,
+    "category_code": "1459"
+  },
+  "occ-502": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 3.75,
+    "workers": 11035,
+    "category_code": "1461"
+  },
+  "occ-503": {
+    "wage_jpy": 2796000,
+    "opening_ratio": 2.02,
+    "workers": 2427,
+    "category_code": "1461"
+  },
+  "occ-504": {
+    "wage_jpy": 2556000,
+    "opening_ratio": 1.54,
+    "workers": 103770,
+    "category_code": "1461"
+  },
+  "occ-505": {
+    "wage_jpy": 2472000,
+    "opening_ratio": 1.13,
+    "workers": 103770,
+    "category_code": "1461"
+  },
+  "occ-506": {
+    "wage_jpy": 2472000,
+    "opening_ratio": 1.13,
+    "workers": 103770,
+    "category_code": "1461"
+  },
+  "occ-507": {
+    "wage_jpy": 2472000,
+    "opening_ratio": 1.13,
+    "workers": 103770,
+    "category_code": "1461"
+  },
+  "occ-508": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.94,
+    "workers": 3934,
+    "category_code": "1119"
+  },
+  "occ-509": {
+    "wage_jpy": 2916000,
+    "opening_ratio": 1.43,
+    "workers": 4748,
+    "category_code": "1461"
+  },
+  "occ-51": {
+    "wage_jpy": 3444000,
+    "opening_ratio": 6.35,
+    "workers": 36996,
+    "category_code": "1651"
+  },
+  "occ-510": {
+    "wage_jpy": 2388000,
+    "opening_ratio": 1.77,
+    "workers": 82690,
+    "category_code": "1379"
+  },
+  "occ-511": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 3.61,
+    "workers": 25182,
+    "category_code": "1639"
+  },
+  "occ-513": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-515": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 3.34,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-516": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-517": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.83,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-518": {
+    "wage_jpy": 3432000,
+    "opening_ratio": 0.91,
+    "workers": 2153,
+    "category_code": "1173"
+  },
+  "occ-519": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-52": {
+    "wage_jpy": 3924000,
+    "opening_ratio": 3.98,
+    "workers": 6127,
+    "category_code": "1405"
+  },
+  "occ-520": {
+    "wage_jpy": 3876000,
+    "opening_ratio": 2.25,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-521": {
+    "wage_jpy": 3432000,
+    "opening_ratio": 0.91,
+    "workers": 2153,
+    "category_code": "1173"
+  },
+  "occ-522": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-523": {
+    "wage_jpy": 3876000,
+    "opening_ratio": 2.25,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-524": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-525": {
+    "wage_jpy": 2952000,
+    "opening_ratio": 6.53,
+    "workers": 361447,
+    "category_code": "1614"
+  },
+  "occ-526": {
+    "wage_jpy": 2760000,
+    "opening_ratio": 4.03,
+    "workers": 42935,
+    "category_code": "1561"
+  },
+  "occ-527": {
+    "wage_jpy": 3096000,
+    "opening_ratio": 4.72,
+    "workers": 234531,
+    "category_code": "1349"
+  },
+  "occ-528": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 2.75,
+    "workers": 34172,
+    "category_code": "1074"
+  },
+  "occ-529": {
+    "wage_jpy": 3708000,
+    "opening_ratio": 2.68,
+    "workers": 61036,
+    "category_code": "1072"
+  },
+  "occ-53": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 1.49,
+    "workers": 24082,
+    "category_code": "1031"
+  },
+  "occ-530": {
+    "wage_jpy": 2388000,
+    "opening_ratio": 1.61,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-531": {
+    "wage_jpy": 2880000,
+    "opening_ratio": 0.94,
+    "workers": 11340,
+    "category_code": "1311"
+  },
+  "occ-532": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 1.3,
+    "workers": 77354,
+    "category_code": "1703"
+  },
+  "occ-533": {
+    "wage_jpy": 3876000,
+    "opening_ratio": 2.25,
+    "workers": 25922,
+    "category_code": "1109"
+  },
+  "occ-534": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-535": {
+    "wage_jpy": 3216000,
+    "opening_ratio": 2.63,
+    "workers": 15506,
+    "category_code": "1551"
+  },
+  "occ-536": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 1.49,
+    "workers": 24082,
+    "category_code": "1031"
+  },
+  "occ-537": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 1.49,
+    "workers": 24082,
+    "category_code": "1031"
+  },
+  "occ-538": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 1.49,
+    "workers": 24082,
+    "category_code": "1031"
+  },
+  "occ-539": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 1.49,
+    "workers": 24082,
+    "category_code": "1031"
+  },
+  "occ-54": {
+    "wage_jpy": 2616000,
+    "opening_ratio": 1.42,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-540": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 4.73,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-541": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.56,
+    "workers": 10323,
+    "category_code": "1231"
+  },
+  "occ-542": {
+    "wage_jpy": 2688000,
+    "opening_ratio": 1.66,
+    "workers": 292340,
+    "category_code": "1271"
+  },
+  "occ-543": {
+    "wage_jpy": 2160000,
+    "opening_ratio": 6.01,
+    "workers": 24428,
+    "category_code": "1301"
+  },
+  "occ-545": {
+    "wage_jpy": 2472000,
+    "opening_ratio": 2.76,
+    "workers": 82690,
+    "category_code": "1379"
+  },
+  "occ-546": {
+    "wage_jpy": 2256000,
+    "opening_ratio": 0.86,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-547": {
+    "wage_jpy": 3048000,
+    "opening_ratio": 7.64,
+    "workers": 26395,
+    "category_code": "1495"
+  },
+  "occ-548": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 3.44,
+    "workers": 48290,
+    "category_code": "1571"
+  },
+  "occ-549": {
+    "wage_jpy": 3336000,
+    "opening_ratio": 4.15,
+    "workers": 45100,
+    "category_code": "1643"
+  },
+  "occ-550": {
+    "wage_jpy": 3108000,
+    "opening_ratio": 3.77,
+    "workers": 34172,
+    "category_code": "1074"
+  },
+  "occ-551": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 2.85,
+    "workers": 48520,
+    "category_code": "1091"
+  },
+  "occ-552": {
+    "wage_jpy": 3960000,
+    "opening_ratio": 4.73,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-553": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.83,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-554": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-555": {
+    "wage_jpy": 3252000,
+    "opening_ratio": 42.38,
+    "workers": 266355,
+    "category_code": "1168"
+  },
+  "occ-556": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 1.77,
+    "workers": 28537,
+    "category_code": "1421"
+  },
+  "occ-557": {
+    "wage_jpy": 2868000,
+    "opening_ratio": 2.69,
+    "workers": 76060,
+    "category_code": "1493"
+  },
+  "occ-558": {
+    "wage_jpy": 3156000,
+    "opening_ratio": 5.6,
+    "workers": 188040,
+    "category_code": "1553"
+  },
+  "occ-559": {
+    "wage_jpy": 2772000,
+    "opening_ratio": 2.48,
+    "workers": 121437,
+    "category_code": "1512"
+  },
+  "occ-56": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 2.8,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-561": {
+    "wage_jpy": 3108000,
+    "opening_ratio": 3.77,
+    "workers": 34172,
+    "category_code": "1074"
+  },
+  "occ-562": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-563": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-564": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 3.34,
+    "workers": 692970,
+    "category_code": "1133"
+  },
+  "occ-565": {
+    "wage_jpy": 2988000,
+    "opening_ratio": 2.14,
+    "workers": 125433,
+    "category_code": "1192"
+  },
+  "occ-566": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-567": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.83,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-568": {
+    "wage_jpy": 3528000,
+    "opening_ratio": 8.99,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-569": {
+    "wage_jpy": 2808000,
+    "opening_ratio": 6.46,
+    "workers": 3074,
+    "category_code": "1421"
+  },
+  "occ-57": {
+    "wage_jpy": 3036000,
+    "opening_ratio": 6.15,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-570": {
+    "wage_jpy": 3672000,
+    "opening_ratio": 3.88,
+    "workers": 48520,
+    "category_code": "1091"
+  },
+  "occ-571": {
+    "wage_jpy": 3636000,
+    "opening_ratio": 11.88,
+    "workers": 6098,
+    "category_code": "1119"
+  },
+  "occ-572": {
+    "wage_jpy": 4068000,
+    "opening_ratio": 13.08,
+    "workers": 65965,
+    "category_code": "1092"
+  },
+  "occ-573": {
+    "wage_jpy": 2832000,
+    "opening_ratio": 0.21,
+    "workers": 4321,
+    "category_code": "1231"
+  },
+  "occ-574": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 0.15,
+    "workers": 186892,
+    "category_code": "1259"
+  },
+  "occ-575": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-576": {
+    "wage_jpy": 2976000,
+    "opening_ratio": 1.97,
+    "workers": 18193,
+    "category_code": "1159"
+  },
+  "occ-577": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 0.54,
+    "workers": 373784,
+    "category_code": "1253"
+  },
+  "occ-578": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.14,
+    "workers": 12017,
+    "category_code": "1459"
+  },
+  "occ-579": {
+    "wage_jpy": 2676000,
+    "opening_ratio": 1.05,
+    "workers": 87440,
+    "category_code": "1581"
+  },
+  "occ-58": {
+    "wage_jpy": 3228000,
+    "opening_ratio": 12.12,
+    "workers": 234531,
+    "category_code": "1349"
+  },
+  "occ-580": {
+    "wage_jpy": 3528000,
+    "opening_ratio": 8.99,
+    "workers": 53271,
+    "category_code": "1169"
+  },
+  "occ-581": {
+    "wage_jpy": 4224000,
+    "opening_ratio": 2.57,
+    "workers": 43304,
+    "category_code": "1104"
+  },
+  "occ-582": {
+    "wage_jpy": 2640000,
+    "opening_ratio": 0.56,
+    "workers": 10323,
+    "category_code": "1231"
+  },
+  "occ-583": {
+    "wage_jpy": 13152000,
+    "opening_ratio": 0.58,
+    "workers": 37953,
+    "category_code": "1121"
+  },
+  "occ-584": {
+    "wage_jpy": 3144000,
+    "opening_ratio": 0.98,
+    "workers": 59856,
+    "category_code": "1509"
+  },
+  "occ-59": {
+    "wage_jpy": 3540000,
+    "opening_ratio": 3.0,
+    "workers": 23106,
+    "category_code": "1349"
+  },
+  "occ-6": {
+    "wage_jpy": 2484000,
+    "opening_ratio": 3.8,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-60": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 14.47,
+    "workers": 290625,
+    "category_code": "1344"
+  },
+  "occ-61": {
+    "wage_jpy": 3228000,
+    "opening_ratio": 2.6,
+    "workers": 234531,
+    "category_code": "1349"
+  },
+  "occ-62": {
+    "wage_jpy": 3072000,
+    "opening_ratio": 11.21,
+    "workers": 234531,
+    "category_code": "1349"
+  },
+  "occ-63": {
+    "wage_jpy": 3168000,
+    "opening_ratio": 1.07,
+    "workers": 13881,
+    "category_code": "1349"
+  },
+  "occ-64": {
+    "wage_jpy": 2784000,
+    "opening_ratio": 0.77,
+    "workers": 146270,
+    "category_code": "1256"
+  },
+  "occ-65": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 2.79,
+    "workers": 97120,
+    "category_code": "1331"
+  },
+  "occ-66": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-67": {
+    "wage_jpy": 2676000,
+    "opening_ratio": 5.79,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-68": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-69": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-7": {
+    "wage_jpy": 2424000,
+    "opening_ratio": 2.05,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-70": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-71": {
+    "wage_jpy": 2544000,
+    "opening_ratio": 9.25,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-72": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-73": {
+    "wage_jpy": 2604000,
+    "opening_ratio": 2.67,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-74": {
+    "wage_jpy": 2592000,
+    "opening_ratio": 4.69,
+    "workers": 32910,
+    "category_code": "1291"
+  },
+  "occ-75": {
+    "wage_jpy": 3000000,
+    "opening_ratio": 2.03,
+    "workers": 174488,
+    "category_code": "1281"
+  },
+  "occ-76": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-77": {
+    "wage_jpy": 2724000,
+    "opening_ratio": 5.82,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-78": {
+    "wage_jpy": 2964000,
+    "opening_ratio": 2.87,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-79": {
+    "wage_jpy": 2748000,
+    "opening_ratio": 7.4,
+    "workers": 143089,
+    "category_code": "1321"
+  },
+  "occ-8": {
+    "wage_jpy": 2544000,
+    "opening_ratio": 2.4,
+    "workers": 81834,
+    "category_code": "1503"
+  },
+  "occ-80": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-81": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-82": {
+    "wage_jpy": 3396000,
+    "opening_ratio": 0.57,
+    "workers": 9084,
+    "category_code": "1189"
+  },
+  "occ-83": {
+    "wage_jpy": 3360000,
+    "opening_ratio": 0.89,
+    "workers": 2357,
+    "category_code": "1189"
+  },
+  "occ-84": {
+    "wage_jpy": 3792000,
+    "opening_ratio": 1.59,
+    "workers": 2761,
+    "category_code": "1173"
+  },
+  "occ-85": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-86": {
+    "wage_jpy": 3432000,
+    "opening_ratio": 0.91,
+    "workers": 2153,
+    "category_code": "1173"
+  },
+  "occ-87": {
+    "wage_jpy": 3720000,
+    "opening_ratio": 0.11,
+    "workers": 3765,
+    "category_code": "1211"
+  },
+  "occ-88": {
+    "wage_jpy": 2916000,
+    "opening_ratio": 0.21,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-9": {
+    "wage_jpy": 2568000,
+    "opening_ratio": 4.07,
+    "workers": 3012,
+    "category_code": "1503"
+  },
+  "occ-90": {
+    "wage_jpy": 4908000,
+    "opening_ratio": 0.32,
+    "workers": 9505,
+    "category_code": "1181"
+  },
+  "occ-91": {
+    "wage_jpy": 4620000,
+    "opening_ratio": 1.77,
+    "workers": 2761,
+    "category_code": "1173"
+  },
+  "occ-92": {
+    "wage_jpy": 4164000,
+    "opening_ratio": 2.31,
+    "workers": 26900,
+    "category_code": "1181"
+  },
+  "occ-93": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-94": {
+    "wage_jpy": 3300000,
+    "opening_ratio": 0.43,
+    "workers": 8831,
+    "category_code": "1249"
+  },
+  "occ-95": {
+    "wage_jpy": 2928000,
+    "opening_ratio": 1.08,
+    "workers": 78755,
+    "category_code": "1649"
+  },
+  "occ-96": {
+    "wage_jpy": 2448000,
+    "opening_ratio": 1.5,
+    "workers": 25125,
+    "category_code": "1411"
+  },
+  "occ-97": {
+    "wage_jpy": 2400000,
+    "opening_ratio": 1.25,
+    "workers": 910700,
+    "category_code": "1711"
+  },
+  "occ-98": {
+    "wage_jpy": 2520000,
+    "opening_ratio": 4.23,
+    "workers": 18182,
+    "category_code": "1712"
+  },
+  "occ-99": {
+    "wage_jpy": 3288000,
+    "opening_ratio": 3.19,
+    "workers": 202501,
+    "category_code": "1391"
+  }
+}

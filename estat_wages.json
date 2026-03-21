@@ -1,0 +1,727 @@
+[
+  {
+    "occupation_code": "1031",
+    "occupation_name": "管理的職業従事者",
+    "median_pay_jpy": 6586800
+  },
+  {
+    "occupation_code": "1051",
+    "occupation_name": "研究者",
+    "median_pay_jpy": 5275200
+  },
+  {
+    "occupation_code": "1072",
+    "occupation_name": "電気・電子・電気通信技術者（通信ネットワーク技術者を除く）",
+    "median_pay_jpy": 4698000
+  },
+  {
+    "occupation_code": "1073",
+    "occupation_name": "機械技術者",
+    "median_pay_jpy": 4219200
+  },
+  {
+    "occupation_code": "1074",
+    "occupation_name": "輸送用機器技術者",
+    "median_pay_jpy": 4611600
+  },
+  {
+    "occupation_code": "1076",
+    "occupation_name": "金属技術者",
+    "median_pay_jpy": 3958800
+  },
+  {
+    "occupation_code": "1077",
+    "occupation_name": "化学技術者",
+    "median_pay_jpy": 4200000
+  },
+  {
+    "occupation_code": "1091",
+    "occupation_name": "建築技術者",
+    "median_pay_jpy": 4422000
+  },
+  {
+    "occupation_code": "1092",
+    "occupation_name": "土木技術者",
+    "median_pay_jpy": 4423200
+  },
+  {
+    "occupation_code": "1093",
+    "occupation_name": "測量技術者",
+    "median_pay_jpy": 3709200
+  },
+  {
+    "occupation_code": "1101",
+    "occupation_name": "システムコンサルタント・設計者",
+    "median_pay_jpy": 5352000
+  },
+  {
+    "occupation_code": "1104",
+    "occupation_name": "ソフトウェア作成者",
+    "median_pay_jpy": 4244400
+  },
+  {
+    "occupation_code": "1109",
+    "occupation_name": "その他の情報処理・通信技術者",
+    "median_pay_jpy": 4122000
+  },
+  {
+    "occupation_code": "1119",
+    "occupation_name": "他に分類されない技術者",
+    "median_pay_jpy": 3975600
+  },
+  {
+    "occupation_code": "1121",
+    "occupation_name": "医師",
+    "median_pay_jpy": 11400000
+  },
+  {
+    "occupation_code": "1122",
+    "occupation_name": "歯科医師",
+    "median_pay_jpy": 8053200
+  },
+  {
+    "occupation_code": "1123",
+    "occupation_name": "獣医師",
+    "median_pay_jpy": 4867200
+  },
+  {
+    "occupation_code": "1124",
+    "occupation_name": "薬剤師",
+    "median_pay_jpy": 4664400
+  },
+  {
+    "occupation_code": "1131",
+    "occupation_name": "保健師",
+    "median_pay_jpy": 3572400
+  },
+  {
+    "occupation_code": "1132",
+    "occupation_name": "助産師",
+    "median_pay_jpy": 4245600
+  },
+  {
+    "occupation_code": "1133",
+    "occupation_name": "看護師",
+    "median_pay_jpy": 3831600
+  },
+  {
+    "occupation_code": "1134",
+    "occupation_name": "准看護師",
+    "median_pay_jpy": 3202800
+  },
+  {
+    "occupation_code": "1141",
+    "occupation_name": "診療放射線技師",
+    "median_pay_jpy": 4034400
+  },
+  {
+    "occupation_code": "1143",
+    "occupation_name": "臨床検査技師",
+    "median_pay_jpy": 3811200
+  },
+  {
+    "occupation_code": "1144",
+    "occupation_name": "理学療法士，作業療法士，言語聴覚士，視能訓練士",
+    "median_pay_jpy": 3481200
+  },
+  {
+    "occupation_code": "1146",
+    "occupation_name": "歯科衛生士",
+    "median_pay_jpy": 3372000
+  },
+  {
+    "occupation_code": "1147",
+    "occupation_name": "歯科技工士",
+    "median_pay_jpy": 3912000
+  },
+  {
+    "occupation_code": "1151",
+    "occupation_name": "栄養士",
+    "median_pay_jpy": 3075600
+  },
+  {
+    "occupation_code": "1159",
+    "occupation_name": "その他の保健医療従事者",
+    "median_pay_jpy": 3532800
+  },
+  {
+    "occupation_code": "1163",
+    "occupation_name": "保育士",
+    "median_pay_jpy": 3172800
+  },
+  {
+    "occupation_code": "1168",
+    "occupation_name": "介護支援専門員（ケアマネージャー）",
+    "median_pay_jpy": 3439200
+  },
+  {
+    "occupation_code": "1169",
+    "occupation_name": "その他の社会福祉専門職業従事者",
+    "median_pay_jpy": 3324000
+  },
+  {
+    "occupation_code": "1173",
+    "occupation_name": "法務従事者",
+    "median_pay_jpy": 9204000
+  },
+  {
+    "occupation_code": "1181",
+    "occupation_name": "公認会計士，税理士",
+    "median_pay_jpy": 5617200
+  },
+  {
+    "occupation_code": "1189",
+    "occupation_name": "その他の経営・金融・保険専門職業従事者",
+    "median_pay_jpy": 6921600
+  },
+  {
+    "occupation_code": "1191",
+    "occupation_name": "幼稚園教員，保育教諭",
+    "median_pay_jpy": 3206400
+  },
+  {
+    "occupation_code": "1192",
+    "occupation_name": "小・中学校教員",
+    "median_pay_jpy": 5001600
+  },
+  {
+    "occupation_code": "1194",
+    "occupation_name": "高等学校教員",
+    "median_pay_jpy": 5241600
+  },
+  {
+    "occupation_code": "1196",
+    "occupation_name": "大学教授（高専含む）",
+    "median_pay_jpy": 7948800
+  },
+  {
+    "occupation_code": "1197",
+    "occupation_name": "大学准教授（高専含む）",
+    "median_pay_jpy": 6528000
+  },
+  {
+    "occupation_code": "1198",
+    "occupation_name": "大学講師・助教（高専含む）",
+    "median_pay_jpy": 5575200
+  },
+  {
+    "occupation_code": "1199",
+    "occupation_name": "その他の教員",
+    "median_pay_jpy": 3793200
+  },
+  {
+    "occupation_code": "1201",
+    "occupation_name": "宗教家",
+    "median_pay_jpy": 4071600
+  },
+  {
+    "occupation_code": "1211",
+    "occupation_name": "著述家，記者，編集者",
+    "median_pay_jpy": 4422000
+  },
+  {
+    "occupation_code": "1221",
+    "occupation_name": "美術家，写真家，映像撮影者",
+    "median_pay_jpy": 4203600
+  },
+  {
+    "occupation_code": "1224",
+    "occupation_name": "デザイナー",
+    "median_pay_jpy": 4077600
+  },
+  {
+    "occupation_code": "1231",
+    "occupation_name": "音楽家，舞台芸術家",
+    "median_pay_jpy": 4736400
+  },
+  {
+    "occupation_code": "1244",
+    "occupation_name": "個人教師",
+    "median_pay_jpy": 3364800
+  },
+  {
+    "occupation_code": "1249",
+    "occupation_name": "他に分類されない専門的職業従事者",
+    "median_pay_jpy": 4112400
+  },
+  {
+    "occupation_code": "1251",
+    "occupation_name": "庶務・人事事務員",
+    "median_pay_jpy": 3666000
+  },
+  {
+    "occupation_code": "1253",
+    "occupation_name": "企画事務員",
+    "median_pay_jpy": 4506000
+  },
+  {
+    "occupation_code": "1254",
+    "occupation_name": "受付・案内事務員",
+    "median_pay_jpy": 2715600
+  },
+  {
+    "occupation_code": "1255",
+    "occupation_name": "秘書",
+    "median_pay_jpy": 3646800
+  },
+  {
+    "occupation_code": "1256",
+    "occupation_name": "電話応接事務員",
+    "median_pay_jpy": 3068400
+  },
+  {
+    "occupation_code": "1257",
+    "occupation_name": "総合事務員",
+    "median_pay_jpy": 3780000
+  },
+  {
+    "occupation_code": "1259",
+    "occupation_name": "その他の一般事務従事者",
+    "median_pay_jpy": 3626400
+  },
+  {
+    "occupation_code": "1261",
+    "occupation_name": "会計事務従事者",
+    "median_pay_jpy": 3639600
+  },
+  {
+    "occupation_code": "1271",
+    "occupation_name": "生産関連事務従事者",
+    "median_pay_jpy": 3573600
+  },
+  {
+    "occupation_code": "1281",
+    "occupation_name": "営業・販売事務従事者",
+    "median_pay_jpy": 3710400
+  },
+  {
+    "occupation_code": "1291",
+    "occupation_name": "外勤事務従事者",
+    "median_pay_jpy": 3379200
+  },
+  {
+    "occupation_code": "1301",
+    "occupation_name": "運輸・郵便事務従事者",
+    "median_pay_jpy": 3607200
+  },
+  {
+    "occupation_code": "1311",
+    "occupation_name": "事務用機器操作員",
+    "median_pay_jpy": 3139200
+  },
+  {
+    "occupation_code": "1321",
+    "occupation_name": "販売店員",
+    "median_pay_jpy": 3012000
+  },
+  {
+    "occupation_code": "1324",
+    "occupation_name": "その他の商品販売従事者",
+    "median_pay_jpy": 4016400
+  },
+  {
+    "occupation_code": "1331",
+    "occupation_name": "販売類似職業従事者",
+    "median_pay_jpy": 4267200
+  },
+  {
+    "occupation_code": "1344",
+    "occupation_name": "自動車営業職業従事者",
+    "median_pay_jpy": 3946800
+  },
+  {
+    "occupation_code": "1345",
+    "occupation_name": "機械器具・通信・システム営業職業従事者（自動車を除く）",
+    "median_pay_jpy": 4462800
+  },
+  {
+    "occupation_code": "1346",
+    "occupation_name": "金融営業職業従事者",
+    "median_pay_jpy": 4260000
+  },
+  {
+    "occupation_code": "1347",
+    "occupation_name": "保険営業職業従事者",
+    "median_pay_jpy": 4014000
+  },
+  {
+    "occupation_code": "1349",
+    "occupation_name": "その他の営業職業従事者",
+    "median_pay_jpy": 4297200
+  },
+  {
+    "occupation_code": "1361",
+    "occupation_name": "介護職員（医療・福祉施設等）",
+    "median_pay_jpy": 2980800
+  },
+  {
+    "occupation_code": "1362",
+    "occupation_name": "訪問介護従事者",
+    "median_pay_jpy": 3177600
+  },
+  {
+    "occupation_code": "1371",
+    "occupation_name": "看護助手",
+    "median_pay_jpy": 2529600
+  },
+  {
+    "occupation_code": "1379",
+    "occupation_name": "その他の保健医療サービス職業従事者",
+    "median_pay_jpy": 2632800
+  },
+  {
+    "occupation_code": "1381",
+    "occupation_name": "理容・美容師",
+    "median_pay_jpy": 3661200
+  },
+  {
+    "occupation_code": "1383",
+    "occupation_name": "美容サービス・浴場従事者（美容師を除く）",
+    "median_pay_jpy": 2913600
+  },
+  {
+    "occupation_code": "1385",
+    "occupation_name": "クリーニング職，洗張職",
+    "median_pay_jpy": 2445600
+  },
+  {
+    "occupation_code": "1391",
+    "occupation_name": "飲食物調理従事者",
+    "median_pay_jpy": 2964000
+  },
+  {
+    "occupation_code": "1403",
+    "occupation_name": "飲食物給仕従事者",
+    "median_pay_jpy": 2763600
+  },
+  {
+    "occupation_code": "1404",
+    "occupation_name": "航空機客室乗務員",
+    "median_pay_jpy": 4502400
+  },
+  {
+    "occupation_code": "1405",
+    "occupation_name": "身の回り世話従事者",
+    "median_pay_jpy": 2798400
+  },
+  {
+    "occupation_code": "1406",
+    "occupation_name": "娯楽場等接客員",
+    "median_pay_jpy": 3106799
+  },
+  {
+    "occupation_code": "1411",
+    "occupation_name": "居住施設・ビル等管理人",
+    "median_pay_jpy": 2985600
+  },
+  {
+    "occupation_code": "1421",
+    "occupation_name": "その他のサービス職業従事者",
+    "median_pay_jpy": 3127200
+  },
+  {
+    "occupation_code": "1453",
+    "occupation_name": "警備員",
+    "median_pay_jpy": 2857200
+  },
+  {
+    "occupation_code": "1459",
+    "occupation_name": "その他の保安職業従事者",
+    "median_pay_jpy": 2848800
+  },
+  {
+    "occupation_code": "1461",
+    "occupation_name": "農林漁業従事者",
+    "median_pay_jpy": 3001200
+  },
+  {
+    "occupation_code": "1491",
+    "occupation_name": "製銑・製鋼・非鉄金属製錬従事者",
+    "median_pay_jpy": 3565200
+  },
+  {
+    "occupation_code": "1492",
+    "occupation_name": "鋳物製造・鍛造従事者",
+    "median_pay_jpy": 3637200
+  },
+  {
+    "occupation_code": "1493",
+    "occupation_name": "金属工作機械作業従事者",
+    "median_pay_jpy": 3361200
+  },
+  {
+    "occupation_code": "1494",
+    "occupation_name": "金属プレス従事者",
+    "median_pay_jpy": 3132000
+  },
+  {
+    "occupation_code": "1495",
+    "occupation_name": "鉄工，製缶従事者",
+    "median_pay_jpy": 3436800
+  },
+  {
+    "occupation_code": "1496",
+    "occupation_name": "板金従事者",
+    "median_pay_jpy": 3226800
+  },
+  {
+    "occupation_code": "1497",
+    "occupation_name": "金属彫刻・表面処理従事者",
+    "median_pay_jpy": 3232800
+  },
+  {
+    "occupation_code": "1498",
+    "occupation_name": "金属溶接・溶断従事者",
+    "median_pay_jpy": 3224400
+  },
+  {
+    "occupation_code": "1499",
+    "occupation_name": "その他の製品製造・加工処理従事者（金属製品）",
+    "median_pay_jpy": 3223200
+  },
+  {
+    "occupation_code": "1501",
+    "occupation_name": "化学製品製造従事者",
+    "median_pay_jpy": 3528000
+  },
+  {
+    "occupation_code": "1502",
+    "occupation_name": "窯業・土石製品製造従事者",
+    "median_pay_jpy": 3247200
+  },
+  {
+    "occupation_code": "1503",
+    "occupation_name": "食料品・飲料・たばこ製造従事者",
+    "median_pay_jpy": 2599200
+  },
+  {
+    "occupation_code": "1505",
+    "occupation_name": "紡織・衣服・繊維製品製造従事者",
+    "median_pay_jpy": 2505600
+  },
+  {
+    "occupation_code": "1506",
+    "occupation_name": "木・紙製品製造従事者",
+    "median_pay_jpy": 3145200
+  },
+  {
+    "occupation_code": "1507",
+    "occupation_name": "印刷・製本従事者",
+    "median_pay_jpy": 3321600
+  },
+  {
+    "occupation_code": "1508",
+    "occupation_name": "ゴム・プラスチック製品製造従事者",
+    "median_pay_jpy": 3152400
+  },
+  {
+    "occupation_code": "1509",
+    "occupation_name": "その他の製品製造・加工処理従事者（金属製品を除く）",
+    "median_pay_jpy": 3105600
+  },
+  {
+    "occupation_code": "1511",
+    "occupation_name": "はん用・生産用・業務用機械器具組立従事者",
+    "median_pay_jpy": 3462000
+  },
+  {
+    "occupation_code": "1512",
+    "occupation_name": "電気機械器具組立従事者",
+    "median_pay_jpy": 3009600
+  },
+  {
+    "occupation_code": "1513",
+    "occupation_name": "自動車組立従事者",
+    "median_pay_jpy": 3680400
+  },
+  {
+    "occupation_code": "1514",
+    "occupation_name": "その他の機械組立従事者",
+    "median_pay_jpy": 3182400
+  },
+  {
+    "occupation_code": "1551",
+    "occupation_name": "はん用・生産用・業務用機械器具・電気機械器具整備・修理従事者",
+    "median_pay_jpy": 3537600
+  },
+  {
+    "occupation_code": "1553",
+    "occupation_name": "自動車整備・修理従事者",
+    "median_pay_jpy": 3584400
+  },
+  {
+    "occupation_code": "1554",
+    "occupation_name": "その他の機械整備・修理従事者",
+    "median_pay_jpy": 3939600
+  },
+  {
+    "occupation_code": "1561",
+    "occupation_name": "製品検査従事者（金属製品）",
+    "median_pay_jpy": 3123600
+  },
+  {
+    "occupation_code": "1571",
+    "occupation_name": "製品検査従事者（金属製品を除く）",
+    "median_pay_jpy": 3094799
+  },
+  {
+    "occupation_code": "1581",
+    "occupation_name": "機械検査従事者",
+    "median_pay_jpy": 3544800
+  },
+  {
+    "occupation_code": "1591",
+    "occupation_name": "画工，塗装・看板制作従事者",
+    "median_pay_jpy": 3604800
+  },
+  {
+    "occupation_code": "1592",
+    "occupation_name": "製図その他生産関連・生産類似作業従事者",
+    "median_pay_jpy": 3472800
+  },
+  {
+    "occupation_code": "1601",
+    "occupation_name": "鉄道運転従事者",
+    "median_pay_jpy": 4327200
+  },
+  {
+    "occupation_code": "1611",
+    "occupation_name": "バス運転者",
+    "median_pay_jpy": 2991600
+  },
+  {
+    "occupation_code": "1612",
+    "occupation_name": "タクシー運転者",
+    "median_pay_jpy": 3482400
+  },
+  {
+    "occupation_code": "1613",
+    "occupation_name": "乗用自動車運転者（タクシー運転者を除く）",
+    "median_pay_jpy": 2673600
+  },
+  {
+    "occupation_code": "1614",
+    "occupation_name": "営業用大型貨物自動車運転者",
+    "median_pay_jpy": 3546000
+  },
+  {
+    "occupation_code": "1615",
+    "occupation_name": "営業用貨物自動車運転者（大型車を除く）",
+    "median_pay_jpy": 3380400
+  },
+  {
+    "occupation_code": "1616",
+    "occupation_name": "自家用貨物自動車運転者",
+    "median_pay_jpy": 3116400
+  },
+  {
+    "occupation_code": "1619",
+    "occupation_name": "その他の自動車運転従事者",
+    "median_pay_jpy": 3376800
+  },
+  {
+    "occupation_code": "1624",
+    "occupation_name": "航空機操縦士",
+    "median_pay_jpy": 16099200
+  },
+  {
+    "occupation_code": "1631",
+    "occupation_name": "車掌",
+    "median_pay_jpy": 3853200
+  },
+  {
+    "occupation_code": "1639",
+    "occupation_name": "他に分類されない輸送従事者",
+    "median_pay_jpy": 3280800
+  },
+  {
+    "occupation_code": "1641",
+    "occupation_name": "発電員，変電員",
+    "median_pay_jpy": 4082400
+  },
+  {
+    "occupation_code": "1643",
+    "occupation_name": "クレーン・ウインチ運転従事者",
+    "median_pay_jpy": 4166400
+  },
+  {
+    "occupation_code": "1645",
+    "occupation_name": "建設・さく井機械運転従事者",
+    "median_pay_jpy": 3774000
+  },
+  {
+    "occupation_code": "1649",
+    "occupation_name": "その他の定置・建設機械運転従事者",
+    "median_pay_jpy": 3303600
+  },
+  {
+    "occupation_code": "1651",
+    "occupation_name": "建設躯体工事従事者",
+    "median_pay_jpy": 3742800
+  },
+  {
+    "occupation_code": "1661",
+    "occupation_name": "大工",
+    "median_pay_jpy": 3697200
+  },
+  {
+    "occupation_code": "1666",
+    "occupation_name": "配管従事者",
+    "median_pay_jpy": 3967200
+  },
+  {
+    "occupation_code": "1669",
+    "occupation_name": "その他の建設従事者",
+    "median_pay_jpy": 3625200
+  },
+  {
+    "occupation_code": "1671",
+    "occupation_name": "電気工事従事者",
+    "median_pay_jpy": 3837600
+  },
+  {
+    "occupation_code": "1681",
+    "occupation_name": "土木従事者，鉄道線路工事従事者",
+    "median_pay_jpy": 3391200
+  },
+  {
+    "occupation_code": "1691",
+    "occupation_name": "ダム・トンネル掘削従事者，採掘従事者",
+    "median_pay_jpy": 3867600
+  },
+  {
+    "occupation_code": "1702",
+    "occupation_name": "船内・沿岸荷役従事者",
+    "median_pay_jpy": 3802800
+  },
+  {
+    "occupation_code": "1703",
+    "occupation_name": "その他の運搬従事者",
+    "median_pay_jpy": 3062400
+  },
+  {
+    "occupation_code": "1711",
+    "occupation_name": "ビル・建物清掃員",
+    "median_pay_jpy": 2457600
+  },
+  {
+    "occupation_code": "1712",
+    "occupation_name": "清掃員（ビル・建物を除く），廃棄物処理従事者",
+    "median_pay_jpy": 3123600
+  },
+  {
+    "occupation_code": "1721",
+    "occupation_name": "包装従事者",
+    "median_pay_jpy": 2593200
+  },
+  {
+    "occupation_code": "1739",
+    "occupation_name": "他に分類されない運搬・清掃・包装等従事者",
+    "median_pay_jpy": 2756400
+  },
+  {
+    "occupation_code": "9999",
+    "occupation_name": "不詳",
+    "median_pay_jpy": 4670400
+  }
+]
