@@ -3,10 +3,21 @@ Extract per-occupation wage and employment data embedded in scraped Jobtag HTML 
 
 Each detail page contains two hidden input fields:
   - recruitment_statistics_models: national wage (万円/month) + opening ratio
-  - analyst_prefecture_models: employment by prefecture (WorkHumanNumber)
+  - analyst_prefecture_models: one row per prefecture with WorkHumanNumber (employment)
+    and WorkSalary (annual salary in 万円)
+
+Salary source: WorkSalary from analyst_prefecture_models (actual census salary),
+  weighted average across prefectures by WorkHumanNumber.
+  NOT the Wage field in recruitment_statistics_models, which is the job-posting
+  base/entry wage — systematically lower than true median salary.
+
+Employment source: sum of WorkHumanNumber across all 47 prefectures = national
+  total for the JSOC occupational sub-category this occupation belongs to.
+  Multiple Jobtag occupations may share the same JSOC category, so this is a
+  category-level figure, not strictly occupation-specific.
 
 Output: jobtag_stats.json
-  { "occ-505": { "wage_jpy": 2472000, "opening_ratio": 1.13, "workers": 1452790 }, ... }
+  { "occ-505": { "wage_jpy": 4970000, "opening_ratio": 1.13, "workers": 291360 }, ... }
 """
 
 import io
@@ -48,30 +59,44 @@ def extract_stats(html_path: str) -> dict | None:
     if not national:
         return None
 
-    wage_man = parse_wage(national.get("Wage", ""))
-    if wage_man is None:
-        return None
-
-    wage_jpy = int(wage_man * 10000 * 12)  # 万円/month → annual JPY
-
     try:
         opening_ratio = float(national.get("OpeningRatio", 0) or 0)
     except (ValueError, TypeError):
         opening_ratio = None
 
-    # Employment: sum unique (Id, PrefectureId) pairs to avoid duplicates
-    # workers is at JSOC sub-category level — multiple Jobtag occupations share
-    # the same WageCensusOccupationCategoryCode.  We store the raw total here
-    # and divide by co-occupation count in main() after all files are parsed.
-    seen, workers = set(), 0
+    # Salary: weighted average of WorkSalary (万円/year) across prefectures,
+    # weighted by WorkHumanNumber.  WorkSalary is the census-surveyed actual
+    # salary — much more accurate than the job-posting Wage field.
+    total_workers = 0
+    weighted_salary = 0.0
+    workers = 0
     category_code = None
+    seen = set()
     for e in ana:
         key = (e.get("Id"), e.get("PrefectureId"))
-        if key not in seen:
-            seen.add(key)
-            workers += e.get("WorkHumanNumber") or 0
+        if key in seen:
+            continue
+        seen.add(key)
+        w = e.get("WorkHumanNumber") or 0
+        s = e.get("WorkSalary")
+        workers += w
+        if s is not None:
+            try:
+                weighted_salary += w * float(s)
+                total_workers += w
+            except (ValueError, TypeError):
+                pass
         if category_code is None:
             category_code = e.get("WageCensusOccupationCategoryCode")
+
+    if total_workers > 0:
+        wage_jpy = int(weighted_salary / total_workers * 10000)  # 万円/year → JPY
+    else:
+        # Fallback to job-posting monthly wage if no salary data
+        wage_man = parse_wage(national.get("Wage", ""))
+        if wage_man is None:
+            return None
+        wage_jpy = int(wage_man * 10000 * 12)
 
     return {
         "wage_jpy":      wage_jpy,
@@ -98,15 +123,6 @@ def main():
             ok += 1
         else:
             skipped += 1
-
-    # Normalize workers: divide by the number of Jobtag occupations that share
-    # the same WageCensusOccupationCategoryCode (they all report sub-category totals).
-    from collections import Counter
-    code_counts = Counter(v["category_code"] for v in results.values() if v["category_code"])
-    for v in results.values():
-        code = v["category_code"]
-        if code and code_counts[code] > 1:
-            v["workers"] = int(v["workers"] / code_counts[code])
 
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
