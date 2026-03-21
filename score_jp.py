@@ -152,7 +152,10 @@ def main():
     parser.add_argument("--delay",  type=float, default=0.5)
     parser.add_argument("--force",  action="store_true",
                         help="Re-score even if already cached")
+    parser.add_argument("--output", default=OUTPUT_FILE,
+                        help="Output file path (default: scores_jp.json)")
     args = parser.parse_args()
+    output_file = args.output
 
     with open("occupations_jp.json", encoding="utf-8") as f:
         occupations = json.load(f)
@@ -161,8 +164,8 @@ def main():
 
     # Load existing scores
     scores: dict[str, dict] = {}
-    if os.path.exists(OUTPUT_FILE) and not args.force:
-        with open(OUTPUT_FILE, encoding="utf-8") as f:
+    if os.path.exists(output_file) and not args.force:
+        with open(output_file, encoding="utf-8") as f:
             for entry in json.load(f):
                 scores[entry["slug"]] = entry
 
@@ -202,7 +205,7 @@ def main():
             errors.append(slug)
 
         # Incremental checkpoint after each occupation
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        with open(output_file, "w", encoding="utf-8") as f:
             json.dump(list(scores.values()), f, ensure_ascii=False, indent=2)
 
         if i < len(subset) - 1:
