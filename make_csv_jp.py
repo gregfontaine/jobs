@@ -285,6 +285,24 @@ def main():
         if cc:
             jobtag_category_counts[cc] = jobtag_category_counts.get(cc, 0) + 1
 
+    # Count how many occupations share the exact same workers value.
+    # WorkHumanNumber comes from the wage census at a coarse major-group level;
+    # multiple sub-categories (different category_codes) can share the same
+    # aggregate figure. Dividing by all co-sharers gives a better per-occupation
+    # estimate than dividing only by same-category_code co-occupants.
+    from collections import Counter
+    workers_value_counts: Counter = Counter(
+        jt["workers"] for jt in jobtag_stats.values() if jt.get("workers")
+    )
+
+    # Manual workers overrides for occupations whose wage-census category is
+    # so broad that even division cannot produce a realistic figure.
+    # Values are from official headcount sources (NTA, MLIT, etc.).
+    workers_overrides: dict[str, int] = {
+        "occ-205": 26_000,    # 客室乗務員 — MLIT 2023 cabin crew headcount
+        "occ-149": 55_000,    # 税務事務官 — National Tax Agency staff count
+    }
+
     # Build CSV
     fieldnames = [
         "title", "category", "category_ja", "slug", "jobtag_id",
@@ -309,11 +327,16 @@ def main():
         jt = jobtag_stats.get(slug)
         if jt:
             pay  = jt["wage_jpy"]
-            # workers is JSOC category-level — divide by number of occupations
-            # sharing the same category_code to get a per-occupation estimate
-            cc = jt.get("category_code")
-            n  = jobtag_category_counts.get(cc, 1) if cc else 1
-            jobs = int(jt["workers"] / n) if jt["workers"] else None
+            # Manual override takes priority
+            if slug in workers_overrides:
+                jobs = workers_overrides[slug]
+            else:
+                # Divide by the number of occupations sharing the same raw workers
+                # value — this handles cross-category shared wage-census aggregates
+                # (e.g. 31 occupations all showing 3,737,840 from the same major group)
+                raw_w = jt.get("workers") or 0
+                n = workers_value_counts.get(raw_w, 1)
+                jobs = int(raw_w / n) if raw_w else None
             quality = "jobtag"
             match_stats[quality] = match_stats.get(quality, 0) + 1
         else:
