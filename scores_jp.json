@@ -3800,5 +3800,96 @@
     "category": "Transportation & Machine Operation",
     "exposure": 7,
     "rationale": "Train operation is highly susceptible to AI because it follows fixed routes and is already supported by automated systems like ATC and ATO. While Japan's complex urban networks and safety protocols currently require human oversight for emergencies and passenger safety, the government and major rail operators (like JR East) are actively transitioning toward GoA3/GoA4 (driverless) operations to combat labor shortages."
+  },
+  {
+    "slug": "occ-544",
+    "title": "マーチャンダイザー、バイヤー",
+    "category": "Clerical & Administrative",
+    "exposure": 7,
+    "rationale": "市場調査、需要予測、在庫最適化、販売戦略の立案といった中核業務は、ビッグデータとAIによる高度な自動化・効率化が非常に進みやすい領域です。一方で、生産者との共同開発や対面での交渉、ブランドの感性に関わる意思決定など、人間同士の信頼関係や創造性が求められる業務が残るため、完全な代替ではなくAIを駆使した少数精鋭の職種へと変貌するでしょう。"
+  },
+  {
+    "slug": "occ-430",
+    "title": "経理事務",
+    "category": "Clerical & Administrative",
+    "exposure": 9,
+    "rationale": "業務の大部分がデジタルデータに基づいた計算や書類作成であり、AIによる自動仕訳や異常検知、財務分析との親和性が極めて高いです。日本でもクラウド会計ソフトの普及とAI導入により、従来の定型的な入力・集計作業は急速に自動化され、人員削減や業務の高度化が強く進む領域です。"
+  },
+  {
+    "slug": "occ-30",
+    "title": "とび",
+    "category": "Construction & Mining",
+    "exposure": 1,
+    "rationale": "とび職は高所での足場設置や重量物運搬など、極めて物理的かつ非定型な環境での作業が主であり、AIによる代替は困難です。スケジュール管理や安全管理の補助としてAIが活用される可能性はありますが、現場での高度な身体能力とリアルタイムの判断を伴う核心的な業務への影響はほとんどありません。"
+  },
+  {
+    "slug": "occ-55",
+    "title": "スーパー店長",
+    "category": "Management",
+    "exposure": 6,
+    "rationale": "売上分析、在庫管理、シフト作成、販促企画といった事務・管理業務はAIによる自動化・高度化が非常に進みやすい領域です。一方で、現場での従業員マネジメント、顧客トラブルへの対面対応、実店舗の陳列確認といった身体性や対人能力を要する業務が核として残るため、高めの露出度となります。"
+  },
+  {
+    "slug": "occ-5",
+    "title": "乳製品製造",
+    "category": "Production & Manufacturing",
+    "exposure": 4,
+    "rationale": "日本の乳製品製造は既に大規模な自動化が進んでおり、物理的な作業の多くは機械化されています。今後はAIによる品質管理（画像認識による異物検査）や需要予測に基づく生産最適化が進むと考えられますが、設備のメンテナンスや多品種少量生産における手作業、厳格な衛生管理を伴う現場判断など、人間による物理的な関与が引き続き重要です。"
+  },
+  {
+    "slug": "occ-361",
+    "title": "製本オペレーター",
+    "category": "Production & Manufacturing",
+    "exposure": 3,
+    "rationale": "製本工程は既に高度に自動化されており、物理的な機械操作や資材の運搬、検品といった現場での身体的作業が中心です。AIは生産管理や保守の最適化には寄与しますが、物理的な製本作業そのものを代替する影響は限定的であり、むしろ電子書籍の普及による出版市場全体の縮小という構造的要因の影響を強く受けます。"
+  },
+  {
+    "slug": "occ-468",
+    "title": "アクチュアリー",
+    "category": "Professional & Technical",
+    "exposure": 8,
+    "rationale": "高度な数理統計やデータ分析を主務とするデジタル完結型の職業であり、AIによる予測モデルの精緻化や計算の自動化の影響を極めて強く受けます。一方で、保険業法等に基づく法的責任（署名義務）や、複雑な経営判断への助言、規制当局との調整といった人間による高度な判断と責任が残るため、完全な代替ではなく業務プロセスの劇的な変容が予想されます。"
+  },
+  {
+    "slug": "occ-136",
+    "title": "キャリアカウンセラー/キャリアコンサルタント",
+    "category": "Professional & Technical",
+    "exposure": 7,
+    "rationale": "自己分析の支援、職務経歴書の添削、労働市場のデータ分析といった主要タスクはAIによる自動化が極めて容易であり、生産性が劇的に向上します。一方で、相談者の複雑な感情への寄り添いや、組織・家族との調整といった高度な対人スキルと倫理的判断が求められる部分は、人間による介在が引き続き重要視されます。"
+  },
+  {
+    "slug": "occ-403",
+    "title": "小児科医",
+    "category": "Professional & Technical",
+    "exposure": 5,
+    "rationale": "画像診断や問診データに基づく疾患予測、論文検索などの知識面ではAIが強力な支援となりますが、意思疎通が困難な乳幼児の身体診察や、不安を抱える保護者への心理的ケア、地域保健活動といった対人・身体的業務が核心であり、AIによる代替には限界があります。少子高齢化に伴う医師不足の中で、AIは主に業務効率化のツールとして活用されると予想されます。"
+  },
+  {
+    "slug": "occ-158",
+    "title": "薬剤師",
+    "category": "Professional & Technical",
+    "exposure": 6,
+    "rationale": "処方箋のチェックや薬の相互作用の確認、最新の薬学情報の収集といった知識集約的な業務はAIによる自動化・高度化が非常に馴染みやすく、生産性が劇的に向上します。一方で、対面での服薬指導や在宅医療における身体的・対人コミュニケーション、最終的な責任判断といったヒューマンタッチな要素が法規制や文化的背景から残るため、中高程度の露出度となります。"
+  },
+  {
+    "slug": "occ-153",
+    "title": "海上自衛官",
+    "category": "Security",
+    "exposure": 4,
+    "rationale": "警戒監視やデータ解析、後方支援業務においてAIの導入が進み、判断の迅速化や効率化が期待されます。一方で、物理的な艦艇・航空機の運用、災害救助、集団行動を伴う現場任務など、人間の身体能力とリアルタイムの現場判断が不可欠な領域が大部分を占めるため、中程度の露出に留まります。"
+  },
+  {
+    "slug": "occ-537",
+    "title": "人事課長",
+    "category": "Management",
+    "exposure": 6,
+    "rationale": "AI can significantly automate administrative tasks like payroll processing, document screening, and data-driven workforce planning. However, the role requires high-level human judgment for labor negotiations, complex interpersonal conflict resolution, and strategic decision-making that aligns with organizational culture."
+  },
+  {
+    "slug": "occ-532",
+    "title": "フードデリバリー（料理配達員）",
+    "category": "Transportation & Machine Operation",
+    "exposure": 2,
+    "rationale": "While AI optimizes routing and order matching, the core task requires physical navigation and manual delivery in complex, unpredictable real-world environments. Full automation would require advanced robotics or autonomous vehicles, which are distinct from AI software and face significant regulatory and technical hurdles."
   }
 ]
