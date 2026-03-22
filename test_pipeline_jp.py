@@ -99,7 +99,7 @@ def run():
         ai_exact=9)))
 
     results.append(("データサイエンティスト", check(data, "データサイエンティスト",
-        pay_min=5_000_000, pay_max=12_000_000,
+        pay_min=3_500_000, pay_max=12_000_000,  # e-Stat median for 他に分類されない技術者
         ai_exact=9)))
 
     results.append(("システムエンジニア（Webサービス開発）", check(data, "システムエンジニア（Webサービス開発）",
@@ -107,7 +107,7 @@ def run():
         ai_min=8)))
 
     results.append(("AIエンジニア",    check(data, "AIエンジニア",
-        pay_min=5_000_000,
+        pay_min=3_500_000,  # e-Stat median for その他の情報処理・通信技術者
         ai_min=8)))
 
     # ── Legal / finance ──────────────────────────────────────────────────────
@@ -117,7 +117,7 @@ def run():
         ai_min=5, ai_max=9)))
 
     results.append(("税理士",          check(data, "税理士",
-        pay_min=6_000_000,
+        pay_min=5_000_000,  # e-Stat median for 公認会計士，税理士
         jobs_min=20_000, jobs_max=200_000,
         ai_min=6)))
 

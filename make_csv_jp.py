@@ -133,6 +133,26 @@ def build_estat_index(records: list[dict], name_key: str) -> dict:
     return index
 
 
+def match_estat_wage_by_name(
+    title: str,
+    wage_index: dict,
+) -> dict | None:
+    """Try to find an e-Stat wage record by name (exact then substring)."""
+    title_norm = normalize(title)
+
+    # Exact name match
+    match = wage_index.get(title_norm)
+    if match:
+        return match
+
+    # Substring match
+    for norm_key, rec in wage_index.items():
+        if norm_key in title_norm or title_norm in norm_key:
+            return rec
+
+    return None
+
+
 def match_occupation(
     title: str,
     category_ja: str,
@@ -143,10 +163,12 @@ def match_occupation(
     manual_map:    dict,
     slug:          str,
     category_occupation_counts: dict | None = None,
+    estat_wage_by_code: dict | None = None,
+    category_code: str | None = None,
 ) -> tuple[int | None, int | None, str]:
     """
     Return (pay_jpy, num_jobs, match_quality) for one Jobtag occupation.
-    match_quality: "exact" | "substring" | "category" | "none"
+    match_quality: "exact" | "substring" | "estat_code" | "category" | "none"
     """
     title_norm = normalize(title)
 
@@ -179,10 +201,14 @@ def match_occupation(
 
     if wage_match:
         pay = wage_match["median_pay_jpy"]
-        # emp_match deliberately left None — will fall through to category fallback
         return pay, None, "substring"
 
-    # ── 3. Category-level fallback ───────────────────────────────────────
+    # ── 3. e-Stat code match (category_code → occupation_code) ───────────
+    if estat_wage_by_code and category_code and category_code in estat_wage_by_code:
+        pay = estat_wage_by_code[category_code]
+        return pay, None, "estat_code"
+
+    # ── 4. Category-level fallback ───────────────────────────────────────
     # Find e-Stat records whose occupation name contains the JSOC major group
     # keyword from the Jobtag category.
     cat_keywords = _jsoc_keywords_for_category(category_ja)
@@ -245,12 +271,12 @@ def main():
     else:
         print("jobtag_stats.json not found — run extract_jobtag_stats.py first")
 
-    # Load e-Stat data (fallback for any occupations missing Jobtag data)
+    # Load e-Stat data (primary wage source via occupation code matching)
     wage_records = []
     if os.path.exists("estat_wages.json"):
         with open("estat_wages.json", encoding="utf-8") as f:
             wage_records = json.load(f)
-        print(f"Loaded {len(wage_records)} e-Stat wage records (fallback)")
+        print(f"Loaded {len(wage_records)} e-Stat wage records")
     else:
         print("estat_wages.json not found")
 
@@ -272,18 +298,43 @@ def main():
     wage_index = build_estat_index(wage_records, "occupation_name")
     emp_index  = build_estat_index(emp_records,  "occupation_name")
 
+    # e-Stat occupation_code → median_pay_jpy index.
+    # Jobtag's category_code uses the SAME code system as e-Stat occupation_code,
+    # so we can look up median wages directly by code. This is more accurate than
+    # Jobtag's wage_jpy which is an inflated mean across the wage census category.
+    estat_wage_by_code: dict[str, int] = {
+        r["occupation_code"]: r["median_pay_jpy"] for r in wage_records
+    }
+
+    # Manual category_code assignments for occupations NOT in jobtag_stats.
+    # Without these, these occupations fall to broad JSOC category averaging
+    # (e.g. 弁護士 getting the average of ALL 専門的 occupations instead of 法務従事者).
+    manual_category_codes: dict[str, str] = {
+        "occ-89":  "1173",   # 弁護士 → 法務従事者
+        "occ-144": "1173",   # 裁判官 → 法務従事者
+        "occ-145": "1173",   # 検察官 → 法務従事者
+        "occ-394": "1249",   # エコノミスト → 他に分類されない専門的職業従事者
+        "occ-468": "1189",   # アクチュアリー → その他の経営・金融・保険専門職業従事者
+        "occ-560": "1051",   # 社会学研究者 → 研究者
+        "occ-189": "1624",   # パイロット → 航空機操縦士
+        "occ-191": "1639",   # 船舶機関士 → 他に分類されない輸送従事者
+        "occ-142": "1459",   # 麻薬取締官 → その他の保安職業従事者
+        "occ-55":  "1031",   # スーパー店長 → 管理的職業従事者
+        "occ-514": "1031",   # 会社経営者 → 管理的職業従事者
+        "occ-512": "1031",   # 国会議員 → 管理的職業従事者
+        "occ-250": "1031",   # 起業、創業 → 管理的職業従事者
+        "occ-544": "1281",   # マーチャンダイザー、バイヤー → 営業・販売事務従事者
+        "occ-430": "1261",   # 経理事務 → 会計事務従事者
+        "occ-30":  "1651",   # とび → 建設躯体工事従事者
+        "occ-5":   "1503",   # 乳製品製造 → 食料品・飲料・たばこ製造従事者
+        "occ-361": "1507",   # 製本オペレーター → 印刷・製本従事者
+    }
+
     # Count how many Jobtag occupations fall in each JSOC category (for distributing employment)
     category_occupation_counts: dict[str, int] = {}
     for occ in occupations:
         cja = occ.get("category_ja", "")
         category_occupation_counts[cja] = category_occupation_counts.get(cja, 0) + 1
-
-    # Count occupations per Jobtag category_code (to divide shared workers figures)
-    jobtag_category_counts: dict[str, int] = {}
-    for slug, jt in jobtag_stats.items():
-        cc = jt.get("category_code")
-        if cc:
-            jobtag_category_counts[cc] = jobtag_category_counts.get(cc, 0) + 1
 
     # Count how many occupations share the exact same workers value.
     # WorkHumanNumber comes from the wage census at a coarse major-group level;
@@ -314,7 +365,7 @@ def main():
     ]
 
     rows = []
-    match_stats = {"jobtag": 0, "exact": 0, "substring": 0, "category": 0, "manual": 0, "none": 0}
+    match_stats: dict[str, int] = {}
     missing_html = 0
 
     for occ in occupations:
@@ -327,36 +378,67 @@ def main():
         else:
             missing_html += 1
 
-        # ── Primary: Jobtag-native stats (scraped from detail pages) ─────
         jt = jobtag_stats.get(slug)
+
+        # ── Resolve wages ────────────────────────────────────────────────
+        # Priority: e-Stat name match → e-Stat code match → Jobtag wage → category avg
+        # Jobtag wage_jpy is a wage-census category-level mean that is shared
+        # identically across all occupations with the same category_code.
+        # e-Stat provides the same census data as a median, and code matching
+        # ensures we use the correct occupational category wage.
+        category_code = None
         if jt:
-            pay  = jt["wage_jpy"]
-            # Manual override takes priority
+            category_code = jt.get("category_code")
+        if not category_code:
+            category_code = manual_category_codes.get(slug)
+
+        # Try e-Stat name matching first (most specific)
+        name_match = match_estat_wage_by_name(occ["title"], wage_index)
+        if name_match:
+            # Check if this is a true exact match or just substring
+            title_norm = normalize(occ["title"])
+            name_norm = normalize(name_match["occupation_name"])
+            if title_norm == name_norm:
+                pay = name_match["median_pay_jpy"]
+                quality = "exact"
+            else:
+                pay = name_match["median_pay_jpy"]
+                quality = "substring"
+        elif category_code and category_code in estat_wage_by_code:
+            pay = estat_wage_by_code[category_code]
+            quality = "estat_code"
+        elif jt:
+            # Last resort: Jobtag's own wage (only if no e-Stat code match)
+            pay = jt["wage_jpy"]
+            quality = "jobtag"
+        else:
+            pay = None
+            quality = "none"
+
+        # ── Resolve workers ──────────────────────────────────────────────
+        if jt:
             if slug in workers_overrides:
                 jobs = workers_overrides[slug]
             else:
                 # Divide by the number of occupations sharing the same raw workers
                 # value — this handles cross-category shared wage-census aggregates
-                # (e.g. 31 occupations all showing 3,737,840 from the same major group)
                 raw_w = jt.get("workers") or 0
                 n = workers_value_counts.get(raw_w, 1)
                 jobs = int(raw_w / n) if raw_w else None
-            quality = "jobtag"
-            match_stats[quality] = match_stats.get(quality, 0) + 1
         else:
-            # ── Fallback: e-Stat matching ─────────────────────────────────
-            pay, jobs, quality = match_occupation(
-                title=occ["title"],
-                category_ja=occ.get("category_ja", ""),
-                wage_index=wage_index,
-                emp_index=emp_index,
-                wage_records=wage_records,
-                emp_records=emp_records,
-                manual_map=manual_map,
-                slug=slug,
-                category_occupation_counts=category_occupation_counts,
-            )
-            match_stats[quality] += 1
+            # For occupations without Jobtag stats, use e-Stat category-level
+            # employment distributed proportionally across occupations in that JSOC group
+            cat_keywords = _jsoc_keywords_for_category(occ.get("category_ja", ""))
+            cat_emps = [r for r in emp_records
+                        if any(kw in r["occupation_name"] for kw in cat_keywords)]
+            if cat_emps:
+                total_cat_emp = max(r["employment"] for r in cat_emps)
+                n_occs = category_occupation_counts.get(occ.get("category_ja", ""), 1)
+                jobs = int(total_cat_emp / n_occs)
+            else:
+                jobs = None
+
+        match_stats[quality] = match_stats.get(quality, 0) + 1
 
         rows.append({
             "title":          occ["title"],

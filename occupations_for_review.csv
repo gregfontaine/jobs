@@ -1,0 +1,557 @@
+﻿slug,title,category,category_ja,pay_jpy,num_jobs,match_quality
+occ-505,ハウス野菜栽培者,"Agriculture, Forestry & Fishing",農林漁業,3001200,290558,estat_code
+occ-500,ブリーダー,"Agriculture, Forestry & Fishing",農林漁業,3001200,38625,estat_code
+occ-220,動物園飼育員,"Agriculture, Forestry & Fishing",農林漁業,3001200,38625,estat_code
+occ-218,厩舎スタッフ,"Agriculture, Forestry & Fishing",農林漁業,3001200,38625,estat_code
+occ-230,林業作業,"Agriculture, Forestry & Fishing",農林漁業,3001200,17490,estat_code
+occ-506,果樹栽培者,"Agriculture, Forestry & Fishing",農林漁業,3001200,290558,estat_code
+occ-249,植物工場の栽培管理,"Agriculture, Forestry & Fishing",農林漁業,3001200,290558,estat_code
+occ-503,水産養殖従事者,"Agriculture, Forestry & Fishing",農林漁業,3001200,16990,estat_code
+occ-509,沿岸漁業従事者,"Agriculture, Forestry & Fishing",農林漁業,3001200,66480,estat_code
+occ-504,稲作農業者,"Agriculture, Forestry & Fishing",農林漁業,3001200,290558,estat_code
+occ-507,花き栽培者,"Agriculture, Forestry & Fishing",農林漁業,3001200,290558,estat_code
+occ-222,造園工,"Agriculture, Forestry & Fishing",農林漁業,3001200,122840,estat_code
+occ-502,酪農従事者,"Agriculture, Forestry & Fishing",農林漁業,3001200,38625,estat_code
+occ-445,IR広報担当,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-522,NPO法人職員（企画・運営）,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-240,Webマーケティング（ネット広告・販売促進）,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-553,アニメ制作進行管理,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-566,イベントの企画・運営,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-531,キッティング作業員（PCセットアップ作業員）,Clerical & Administrative,事務的職業,3139200,22680,estat_code
+occ-447,コンプライアンス推進担当,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-64,コールセンターオペレーター,Clerical & Administrative,事務的職業,3068400,146270,estat_code
+occ-200,タクシー配車オペレーター,Clerical & Administrative,事務的職業,3607200,43560,estat_code
+occ-204,ディスパッチャー（航空機運航管理者）,Clerical & Administrative,事務的職業,3607200,43560,estat_code
+occ-429,データ入力,Clerical & Administrative,事務的職業,3139200,155710,estat_code
+occ-238,ネット通販の企画開発,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-239,ネット通販の運営,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-425,パラリーガル（弁護士補助職）,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-75,フランチャイズチェーン・スーパーバイザー,Clerical & Administrative,事務的職業,3710400,174488,estat_code
+occ-554,プロスポーツ運営団体職員（企画・運営）,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-474,マンション管理フロント,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-456,マーケティング・リサーチャー,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-544,マーチャンダイザー、バイヤー,Clerical & Administrative,事務的職業,3710400,255263,estat_code
+occ-428,一般事務,Clerical & Administrative,事務的職業,3626400,2639330,substring
+occ-432,人事事務,Clerical & Administrative,事務的職業,3666000,264332,substring
+occ-436,介護事務,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-446,企業法務担当,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-434,企画・調査担当,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-517,入国審査官,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-469,内部監査人,Clerical & Administrative,事務的職業,3666000,264332,estat_code
+occ-542,出荷・受荷事務,Clerical & Administrative,事務的職業,3573600,292340,estat_code
+occ-443,医療事務,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-427,受付事務,Clerical & Administrative,事務的職業,2715600,369780,estat_code
+occ-461,商品企画開発（チェーンストア）,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-431,営業事務,Clerical & Administrative,事務的職業,3710400,174488,estat_code
+occ-138,国家公務員（行政事務）,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-151,国際公務員,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-139,地方公務員（行政事務）,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-150,外務公務員（外交官）,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-234,太陽光発電の企画・調査,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-442,学校事務,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-567,学校事務（私立大学）,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-444,広報・PR担当,Clerical & Administrative,事務的職業,3666000,264332,estat_code
+occ-440,損害保険事務,Clerical & Administrative,事務的職業,3710400,174488,estat_code
+occ-109,旅行会社カウンター係,Clerical & Administrative,事務的職業,3710400,174488,estat_code
+occ-74,検針員,Clerical & Administrative,事務的職業,3379200,32910,estat_code
+occ-437,生産・工程管理事務,Clerical & Administrative,事務的職業,3573600,292340,estat_code
+occ-426,秘書,Clerical & Administrative,事務的職業,3646800,120575,exact
+occ-149,税務事務官,Clerical & Administrative,事務的職業,3639600,55000,estat_code
+occ-430,経理事務,Clerical & Administrative,事務的職業,3639600,255263,estat_code
+occ-433,総務事務,Clerical & Administrative,事務的職業,3666000,264332,estat_code
+occ-530,臨床開発モニター,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-174,診療情報管理士,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-435,調剤薬局事務,Clerical & Administrative,事務的職業,3626400,120575,estat_code
+occ-439,貿易事務,Clerical & Administrative,事務的職業,3710400,174488,estat_code
+occ-441,通信販売受付事務,Clerical & Administrative,事務的職業,3068400,146270,estat_code
+occ-543,郵便局郵便窓口業務,Clerical & Administrative,事務的職業,3607200,146570,estat_code
+occ-196,鉄道運転計画・運行管理,Clerical & Administrative,事務的職業,3607200,43560,estat_code
+occ-438,銀行等窓口事務,Clerical & Administrative,事務的職業,3639600,70000,estat_code
+occ-577,風力発電の企画・調査,Clerical & Administrative,事務的職業,4506000,120575,estat_code
+occ-195,駅務員,Clerical & Administrative,事務的職業,3607200,43560,estat_code
+occ-30,とび,Construction & Mining,建設・採掘の職業,3742800,151666,estat_code
+occ-41,サッシ取付,Construction & Mining,建設・採掘の職業,3625200,129512,estat_code
+occ-38,タイル工,Construction & Mining,建設・採掘の職業,3625200,8170,estat_code
+occ-37,ブロック積み,Construction & Mining,建設・採掘の職業,3625200,8170,estat_code
+occ-45,保温工事,Construction & Mining,建設・採掘の職業,3625200,129512,estat_code
+occ-42,内装工,Construction & Mining,建設・採掘の職業,3625200,129512,estat_code
+occ-27,型枠大工,Construction & Mining,建設・採掘の職業,3697200,40570,substring
+occ-26,大工,Construction & Mining,建設・採掘の職業,3697200,273010,exact
+occ-39,左官,Construction & Mining,建設・採掘の職業,3625200,59900,estat_code
+occ-32,建設・土木作業員,Construction & Mining,建設・採掘の職業,3391200,228470,estat_code
+occ-36,舗装工,Construction & Mining,建設・採掘の職業,3391200,228470,estat_code
+occ-51,解体工,Construction & Mining,建設・採掘の職業,3742800,110990,estat_code
+occ-50,送電線工事,Construction & Mining,建設・採掘の職業,3837600,47420,estat_code
+occ-47,配管工,Construction & Mining,建設・採掘の職業,3967200,220760,estat_code
+occ-28,鉄筋工,Construction & Mining,建設・採掘の職業,3742800,28750,estat_code
+occ-49,鉄道線路管理,Construction & Mining,建設・採掘の職業,3391200,24710,estat_code
+occ-44,防水工,Construction & Mining,建設・採掘の職業,3625200,129512,estat_code
+occ-46,電気工事士,Construction & Mining,建設・採掘の職業,3837600,379520,estat_code
+occ-498,こん包作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3062400,285050,estat_code
+occ-494,ごみ収集作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3123600,59990,estat_code
+occ-487,ハウスクリーニング,Logistics & Cleaning,運搬・清掃・包装等の職業,3123600,27780,estat_code
+occ-491,バックヤード作業員（スーパー食品部門）,Logistics & Cleaning,運搬・清掃・包装等の職業,2756400,383406,estat_code
+occ-97,ビル清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,2457600,910700,estat_code
+occ-486,ピッキング作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,2756400,383406,estat_code
+occ-488,ペストコントロール従事者（害虫等防除・駆除従事者）,Logistics & Cleaning,運搬・清掃・包装等の職業,3123600,45455,estat_code
+occ-485,倉庫作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3062400,273920,estat_code
+occ-415,客室清掃・整備担当（ホテル・旅館）,Logistics & Cleaning,運搬・清掃・包装等の職業,2798400,147838,estat_code
+occ-490,工場労務作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,2756400,383406,estat_code
+occ-201,引越作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3062400,122530,estat_code
+occ-499,港湾荷役作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3802800,13870,estat_code
+occ-497,積卸作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,3062400,122530,estat_code
+occ-489,製品包装作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,2593200,274280,estat_code
+occ-98,鉄道車両清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,3123600,45455,estat_code
+occ-55,スーパー店長,Management,管理的職業,6586800,108181,estat_code
+occ-104,ハンバーガーショップ店長,Management,管理的職業,2763600,114240,estat_code
+occ-537,人事課長,Management,管理的職業,6586800,24082,estat_code
+occ-514,会社経営者,Management,管理的職業,6586800,108181,estat_code
+occ-539,営業課長,Management,管理的職業,6586800,24082,estat_code
+occ-512,国会議員,Management,管理的職業,6586800,108181,estat_code
+occ-538,経理課長,Management,管理的職業,6586800,24082,estat_code
+occ-536,総務課長,Management,管理的職業,6586800,24082,estat_code
+occ-311,航空機開発エンジニア（ジェットエンジン）,Management,管理的職業,4219200,48570,estat_code
+occ-250,起業、創業,Management,管理的職業,6586800,108181,estat_code
+occ-53,銀行支店長,Management,管理的職業,6586800,24082,estat_code
+occ-584,3Dプリンター技術者,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-25,CADオペレーター,Production & Manufacturing,生産工程の職業,3472800,289280,estat_code
+occ-256,NC工作機械オペレーター,Production & Manufacturing,生産工程の職業,3361200,76060,estat_code
+occ-290,かばん・袋物製造,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-15,かん詰・びん詰・レトルト食品製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-11,しょうゆ製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-10,みそ製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-257,めっき工,Production & Manufacturing,生産工程の職業,3232800,37200,estat_code
+occ-343,アニメーター,Production & Manufacturing,生産工程の職業,3604800,58252,estat_code
+occ-48,エレベーター据付,Production & Manufacturing,生産工程の職業,3462000,111453,estat_code
+occ-18,ガラス食器製造,Production & Manufacturing,生産工程の職業,3247200,46583,estat_code
+occ-297,タイヤ製造,Production & Manufacturing,生産工程の職業,3152400,149450,estat_code
+occ-12,ハム・ソーセージ・ベーコン製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-341,パタンナー,Production & Manufacturing,生産工程の職業,3604800,58252,estat_code
+occ-2,パン製造、パン職人,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-14,ビール製造,Production & Manufacturing,生産工程の職業,2599200,15063,estat_code
+occ-19,プラスチック成形,Production & Manufacturing,生産工程の職業,3152400,149450,estat_code
+occ-280,ミシン縫製,Production & Manufacturing,生産工程の職業,2505600,68597,estat_code
+occ-13,ワイン製造,Production & Manufacturing,生産工程の職業,2599200,15063,estat_code
+occ-5,乳製品製造,Production & Manufacturing,生産工程の職業,2599200,103536,estat_code
+occ-263,光学機器組立,Production & Manufacturing,生産工程の職業,3182400,21660,estat_code
+occ-300,化学製品製造オペレーター,Production & Manufacturing,生産工程の職業,3528000,43930,estat_code
+occ-298,化粧品製造,Production & Manufacturing,生産工程の職業,3528000,43930,estat_code
+occ-277,医療用画像機器組立,Production & Manufacturing,生産工程の職業,3009600,121437,estat_code
+occ-295,医薬品製造,Production & Manufacturing,生産工程の職業,3528000,43930,estat_code
+occ-268,半導体製造,Production & Manufacturing,生産工程の職業,3009600,121437,estat_code
+occ-360,印刷オペレーター,Production & Manufacturing,生産工程の職業,3321600,90350,estat_code
+occ-282,合板製造,Production & Manufacturing,生産工程の職業,3145200,54634,estat_code
+occ-4,和菓子製造、和菓子職人,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-236,太陽光発電のメンテナンス,Production & Manufacturing,生産工程の職業,3537600,31013,estat_code
+occ-283,家具製造,Production & Manufacturing,生産工程の職業,3145200,54634,estat_code
+occ-275,家電修理,Production & Manufacturing,生産工程の職業,3537600,31013,estat_code
+occ-287,建具製造,Production & Manufacturing,生産工程の職業,3145200,54634,estat_code
+occ-43,建築塗装工,Production & Manufacturing,生産工程の職業,3604800,58252,estat_code
+occ-40,建築板金,Production & Manufacturing,生産工程の職業,3226800,72370,estat_code
+occ-8,惣菜製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-281,木材製造,Production & Manufacturing,生産工程の職業,3145200,54634,estat_code
+occ-279,染色工/染色設備オペレーター,Production & Manufacturing,生産工程の職業,2505600,68597,estat_code
+occ-526,検査工（工業製品）,Production & Manufacturing,生産工程の職業,3123600,42935,estat_code
+occ-548,検査工（食料品等）,Production & Manufacturing,生産工程の職業,3094799,48290,estat_code
+occ-6,水産ねり製品製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-557,汎用金属工作機械工（旋盤工、ボール盤工等）,Production & Manufacturing,生産工程の職業,3361200,76060,estat_code
+occ-9,清酒製造,Production & Manufacturing,生産工程の職業,2599200,15063,estat_code
+occ-255,溶接工,Production & Manufacturing,生産工程の職業,3224400,163710,estat_code
+occ-291,漆器製造,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-269,物流設備管理・保全,Production & Manufacturing,生産工程の職業,3537600,133723,estat_code
+occ-515,玩具（おもちゃ）製作,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-265,生産用機械組立,Production & Manufacturing,生産工程の職業,3462000,111453,estat_code
+occ-233,産業用ロボットの保守・メンテナンス,Production & Manufacturing,生産工程の職業,3537600,133723,estat_code
+occ-344,看板制作,Production & Manufacturing,生産工程の職業,3604800,58252,substring
+occ-306,石工,Production & Manufacturing,生産工程の職業,3247200,46583,estat_code
+occ-299,石油精製オペレーター,Production & Manufacturing,生産工程の職業,3528000,43930,estat_code
+occ-285,紙器製造,Production & Manufacturing,生産工程の職業,3145200,54634,estat_code
+occ-286,紡績機械オペレーター,Production & Manufacturing,生産工程の職業,2505600,68597,estat_code
+occ-284,紡織設備管理・保全,Production & Manufacturing,生産工程の職業,3537600,133723,estat_code
+occ-278,織布工/織機オペレーター,Production & Manufacturing,生産工程の職業,2505600,68597,estat_code
+occ-197,自動車整備士,Production & Manufacturing,生産工程の職業,3584400,188040,estat_code
+occ-558,自動車板金塗装,Production & Manufacturing,生産工程の職業,3584400,188040,estat_code
+occ-579,自動車検査員,Production & Manufacturing,生産工程の職業,3544800,87440,estat_code
+occ-264,自動車組立,Production & Manufacturing,生産工程の職業,3680400,344110,substring
+occ-206,航空整備士,Production & Manufacturing,生産工程の職業,3939600,58660,estat_code
+occ-307,花火師,Production & Manufacturing,生産工程の職業,3528000,43930,estat_code
+occ-361,製本オペレーター,Production & Manufacturing,生産工程の職業,3321600,103536,estat_code
+occ-359,製版オペレーター、DTPオペレーター,Production & Manufacturing,生産工程の職業,3321600,90350,estat_code
+occ-266,計器組立,Production & Manufacturing,生産工程の職業,3182400,21660,estat_code
+occ-1,豆腐製造、豆腐職人,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-292,貴金属装身具製作,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-547,造船技能者（造船工、船舶艤装工等）,Production & Manufacturing,生産工程の職業,3436800,26395,estat_code
+occ-559,配電盤・制御盤等組立,Production & Manufacturing,生産工程の職業,3009600,121437,estat_code
+occ-16,野菜つけ物製造,Production & Manufacturing,生産工程の職業,2599200,102292,estat_code
+occ-253,金型工,Production & Manufacturing,生産工程の職業,3223200,457000,estat_code
+occ-254,金属プレス工,Production & Manufacturing,生産工程の職業,3132000,61390,estat_code
+occ-259,鉄鋼製造オペレーター,Production & Manufacturing,生産工程の職業,3565200,39090,estat_code
+occ-29,鉄骨工,Production & Manufacturing,生産工程の職業,3436800,26395,estat_code
+occ-251,鋳造工/鋳造設備オペレーター,Production & Manufacturing,生産工程の職業,3637200,18060,estat_code
+occ-213,録音エンジニア,Production & Manufacturing,生産工程の職業,3472800,61760,estat_code
+occ-252,鍛造工/鍛造設備オペレーター,Production & Manufacturing,生産工程の職業,3637200,18060,estat_code
+occ-17,陶磁器製造,Production & Manufacturing,生産工程の職業,3247200,46583,estat_code
+occ-261,電子機器組立,Production & Manufacturing,生産工程の職業,3009600,121437,estat_code
+occ-260,非破壊検査技術者,Production & Manufacturing,生産工程の職業,3123600,42935,estat_code
+occ-289,靴製造,Production & Manufacturing,生産工程の職業,3105600,59856,estat_code
+occ-535,風力発電のメンテナンス,Production & Manufacturing,生産工程の職業,3537600,31013,estat_code
+occ-325,AIエンジニア,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-329,CG制作,Professional & Technical,専門的・技術的職業,4077600,14363,estat_code
+occ-324,DXプロデューサー,Professional & Technical,専門的・技術的職業,5352000,164190,estat_code
+occ-362,ITコンサルタント,Professional & Technical,専門的・技術的職業,5352000,164190,estat_code
+occ-471,M&Aマネージャー、M&Aコンサルタント/M&Aアドバイザー,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-552,UX/UIデザイナー,Professional & Technical,専門的・技術的職業,4077600,43304,substring
+occ-327,Webディレクター（Web制作会社）,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-326,Webデザイナー（Web制作会社）,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-172,あんまマッサージ指圧師,Professional & Technical,専門的・技術的職業,3532800,39406,estat_code
+occ-175,はり師・きゅう師,Professional & Technical,専門的・技術的職業,3532800,39406,estat_code
+occ-219,アウトドアインストラクター,Professional & Technical,専門的・技術的職業,3364800,60225,estat_code
+occ-468,アクチュアリー,Professional & Technical,専門的・技術的職業,6921600,59862,estat_code
+occ-216,アナウンサー,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-331,アートディレクター,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-342,イラストレーター,Professional & Technical,専門的・技術的職業,4203600,20880,estat_code
+occ-354,インダストリアルデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-338,インテリアコーディネーター,Professional & Technical,専門的・技術的職業,4077600,14363,estat_code
+occ-337,インテリアデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-394,エコノミスト,Professional & Technical,専門的・技術的職業,4112400,59862,estat_code
+occ-573,オーケストラ奏者（団員）,Professional & Technical,専門的・技術的職業,4736400,25930,estat_code
+occ-411,カウンセラー（医療福祉分野）,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-339,カラーコーディネーター,Professional & Technical,専門的・技術的職業,4077600,14363,estat_code
+occ-136,キャリアカウンセラー/キャリアコンサルタント,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-334,グラフィックデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-330,ゲームクリエーター,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-335,コピーライター,Professional & Technical,専門的・技術的職業,4422000,15060,estat_code
+occ-314,システムエンジニア（Webサービス開発）,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-312,システムエンジニア（受託開発）,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-318,システムエンジニア（基盤システム）,Professional & Technical,専門的・技術的職業,5352000,164190,estat_code
+occ-315,システムエンジニア（組込み、IoT）,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-350,ジュエリーデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-412,スクールカウンセラー,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-346,スタイリスト,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-120,スポーツインストラクター,Professional & Technical,専門的・技術的職業,3364800,60225,estat_code
+occ-321,セキュリティエキスパート（オペレーション）,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-533,セキュリティエキスパート（デジタルフォレンジック）,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-534,セキュリティエキスパート（情報セキュリティ監査）,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-520,セキュリティエキスパート（脆弱性診断）,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-317,ソフトウェア開発（スマホアプリ）,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-316,ソフトウェア開発（パッケージソフト）,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-348,テキスタイルデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-345,テクニカルイラストレーター,Professional & Technical,専門的・技術的職業,4203600,20880,estat_code
+occ-358,テクニカルライター,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-356,テレビカメラマン,Professional & Technical,専門的・技術的職業,4203600,20660,estat_code
+occ-212,テレビ・ラジオ放送技術者,Professional & Technical,専門的・技術的職業,4112400,8885,estat_code
+occ-336,ディスプレイデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-540,デバッグ作業,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-523,データエンジニア,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-323,データサイエンティスト,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-541,ナレーター,Professional & Technical,専門的・技術的職業,4736400,12388,estat_code
+occ-574,ハローワーク職員,Professional & Technical,専門的・技術的職業,3626400,120575,estat_code
+occ-309,バイオテクノロジー技術者,Professional & Technical,専門的・技術的職業,4200000,30450,estat_code
+occ-393,バイオテクノロジー研究者,Professional & Technical,専門的・技術的職業,5275200,16335,substring
+occ-551,バイオマス発電プラントの設計,Professional & Technical,専門的・技術的職業,4422000,48520,estat_code
+occ-127,ピアノ調律師,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-82,ファイナンシャル・プランナー,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-305,ファインセラミックス製造技術者,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-340,ファッションデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-470,ファンドマネージャー,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-349,フラワーデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-351,フードコーディネーター,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-347,ブックデザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-581,ブロックチェーン・エンジニア,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-276,プラント設計技術者,Professional & Technical,専門的・技術的職業,4219200,48570,estat_code
+occ-313,プログラマー,Professional & Technical,専門的・技術的職業,4244400,43304,estat_code
+occ-322,プロジェクトマネージャ（IT）,Professional & Technical,専門的・技術的職業,5352000,164190,estat_code
+occ-320,ヘルプデスク（IT）,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-572,下水道管路施設の点検・調査,Professional & Technical,専門的・技術的職業,4423200,65965,estat_code
+occ-93,不動産鑑定士,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-180,中学校教員,Professional & Technical,専門的・技術的職業,5001600,206500,substring
+occ-80,中小企業診断士,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-364,人事コンサルタント,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-571,作業環境測定士,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-168,作業療法士（OT）,Professional & Technical,専門的・技術的職業,3481200,101270,estat_code
+occ-160,保健師,Professional & Technical,専門的・技術的職業,3572400,48190,exact
+occ-131,保育士,Professional & Technical,専門的・技術的職業,3172800,634050,exact
+occ-546,保育補助者,Professional & Technical,専門的・技術的職業,3127200,65228,estat_code
+occ-243,児童指導員,Professional & Technical,専門的・技術的職業,3324000,44392,estat_code
+occ-90,公認会計士,Professional & Technical,専門的・技術的職業,5617200,19010,substring
+occ-404,内科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-303,分析化学技術者,Professional & Technical,専門的・技術的職業,4200000,30450,substring
+occ-157,助産師,Professional & Technical,専門的・技術的職業,4245600,27230,exact
+occ-519,労働基準監督官,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-510,動物看護,Professional & Technical,専門的・技術的職業,2632800,82690,estat_code
+occ-328,動画制作,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-390,医学研究者,Professional & Technical,専門的・技術的職業,5275200,16335,substring
+occ-529,医療機器開発技術者,Professional & Technical,専門的・技術的職業,4698000,61036,estat_code
+occ-267,半導体技術者,Professional & Technical,専門的・技術的職業,4698000,61036,estat_code
+occ-301,原子力技術者,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-84,司法書士,Professional & Technical,専門的・技術的職業,9204000,8285,estat_code
+occ-355,商業カメラマン,Professional & Technical,専門的・技術的職業,4203600,20660,estat_code
+occ-210,図書編集者,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-182,図書館司書,Professional & Technical,専門的・技術的職業,4112400,15535,estat_code
+occ-513,国際協力専門家,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-86,土地家屋調査士,Professional & Technical,専門的・技術的職業,9204000,3230,estat_code
+occ-388,土木・建築工学研究者,Professional & Technical,専門的・技術的職業,5275200,16335,substring
+occ-23,土木施工管理技術者,Professional & Technical,専門的・技術的職業,4423200,65965,estat_code
+occ-22,土木設計技術者,Professional & Technical,専門的・技術的職業,4423200,65965,estat_code
+occ-357,報道カメラマン,Professional & Technical,専門的・技術的職業,4203600,20660,estat_code
+occ-582,声優,Professional & Technical,専門的・技術的職業,4736400,12388,estat_code
+occ-402,外科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-184,大学・短期大学教員,Professional & Technical,専門的・技術的職業,7948800,179600,estat_code
+occ-235,太陽光発電の設計・施工,Professional & Technical,専門的・技術的職業,4423200,65965,estat_code
+occ-242,学童保育指導員,Professional & Technical,専門的・技術的職業,3127200,65228,estat_code
+occ-396,学習塾教師,Professional & Technical,専門的・技術的職業,3364800,113050,estat_code
+occ-185,学芸員,Professional & Technical,専門的・技術的職業,4112400,15535,estat_code
+occ-310,宇宙開発技術者,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-146,家庭裁判所調査官,Professional & Technical,専門的・技術的職業,9204000,3230,estat_code
+occ-181,専門学校教員,Professional & Technical,専門的・技術的職業,3793200,23606,estat_code
+occ-403,小児科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-179,小学校教員,Professional & Technical,専門的・技術的職業,5001600,188150,estat_code
+occ-178,幼稚園教員,Professional & Technical,専門的・技術的職業,3206400,143320,substring
+occ-333,広告ディレクター,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-332,広告デザイナー,Professional & Technical,専門的・技術的職業,4077600,14363,substring
+occ-363,広報コンサルタント,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-21,建築施工管理技術者,Professional & Technical,専門的・技術的職業,4422000,48520,estat_code
+occ-20,建築設計技術者,Professional & Technical,専門的・技術的職業,4422000,48520,estat_code
+occ-91,弁理士,Professional & Technical,専門的・技術的職業,9204000,8285,estat_code
+occ-89,弁護士,Professional & Technical,専門的・技術的職業,9204000,59862,estat_code
+occ-389,情報工学研究者,Professional & Technical,専門的・技術的職業,5275200,16335,substring
+occ-135,手話通訳者,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-562,探偵,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-217,放送ディレクター,Professional & Technical,専門的・技術的職業,4736400,12388,estat_code
+occ-215,放送記者,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-575,整形外科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-208,新聞記者,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-397,日本語教師,Professional & Technical,専門的・技術的職業,3793200,23606,estat_code
+occ-214,映像編集者,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-229,林業技術者,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-173,柔道整復師,Professional & Technical,専門的・技術的職業,3532800,39406,estat_code
+occ-171,栄養士,Professional & Technical,専門的・技術的職業,3075600,121320,exact
+occ-247,植物工場の研究開発,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-248,植物工場の設計、施工,Professional & Technical,専門的・技術的職業,4422000,48520,estat_code
+occ-518,検察事務官,Professional & Technical,専門的・技術的職業,9204000,3230,estat_code
+occ-145,検察官,Professional & Technical,専門的・技術的職業,9204000,59862,estat_code
+occ-564,検疫官（看護師）,Professional & Technical,専門的・技術的職業,3831600,400,substring
+occ-262,機械設計技術者,Professional & Technical,専門的・技術的職業,4219200,48570,estat_code
+occ-545,歯科助手,Professional & Technical,専門的・技術的職業,2632800,82690,estat_code
+occ-159,歯科医師,Professional & Technical,専門的・技術的職業,8053200,81470,exact
+occ-165,歯科技工士,Professional & Technical,専門的・技術的職業,3912000,25140,exact
+occ-166,歯科衛生士,Professional & Technical,専門的・技術的職業,3372000,124250,exact
+occ-94,気象予報士,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-228,水産技術者,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-407,治験コーディネーター,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-516,法務技官（心理）（矯正心理専門職）,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-147,法務教官,Professional & Technical,専門的・技術的職業,3793200,23606,estat_code
+occ-24,測量士,Professional & Technical,専門的・技術的職業,3709200,254910,estat_code
+occ-395,特別支援学校教員、特別支援学級教員,Professional & Technical,専門的・技術的職業,3793200,78290,estat_code
+occ-521,特許審査官,Professional & Technical,専門的・技術的職業,9204000,3230,estat_code
+occ-226,犬訓練士,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-524,独立系ファイナンシャル・アドバイザー（IFA）,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-223,獣医師,Professional & Technical,専門的・技術的職業,4867200,18470,exact
+occ-167,理学療法士（PT）,Professional & Technical,専門的・技術的職業,3481200,101270,estat_code
+occ-296,生産・品質管理技術者,Professional & Technical,専門的・技術的職業,4698000,61036,estat_code
+occ-406,産婦人科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-583,産業医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-495,産業廃棄物処理技術者,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-232,産業用ロボットの設置・設定,Professional & Technical,専門的・技術的職業,3462000,111453,estat_code
+occ-231,産業用ロボット開発技術者,Professional & Technical,専門的・技術的職業,4219200,48570,estat_code
+occ-508,畜産技術者,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-246,看護助手,Professional & Technical,専門的・技術的職業,2529600,138010,exact
+occ-156,看護師,Professional & Technical,専門的・技術的職業,3831600,692970,exact
+occ-365,知的財産コーディネーター,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-366,知的財産サーチャー,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-83,社会保険労務士,Professional & Technical,専門的・技術的職業,6921600,21220,estat_code
+occ-560,社会学研究者,Professional & Technical,専門的・技術的職業,5275200,59862,substring
+occ-400,社会教育主事,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-391,科学捜査研究所鑑定技術職員,Professional & Technical,専門的・技術的職業,5275200,16335,estat_code
+occ-92,税理士,Professional & Technical,専門的・技術的職業,5617200,53800,substring
+occ-271,精密機器技術者,Professional & Technical,専門的・技術的職業,4219200,48570,estat_code
+occ-405,精神科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-162,細胞検査士,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-81,経営コンサルタント,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-176,義肢装具士,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-87,翻訳者,Professional & Technical,専門的・技術的職業,4422000,15060,estat_code
+occ-570,耐震診断,Professional & Technical,専門的・技術的職業,4422000,48520,estat_code
+occ-399,職業訓練指導員,Professional & Technical,専門的・技術的職業,3793200,23606,estat_code
+occ-164,臨床工学技士,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-161,臨床検査技師,Professional & Technical,専門的・技術的職業,3811200,82710,exact
+occ-270,自動車技術者,Professional & Technical,専門的・技術的職業,4611600,34172,estat_code
+occ-121,自動車教習指導員,Professional & Technical,専門的・技術的職業,3793200,23606,estat_code
+occ-528,自動運転開発エンジニア（自動車）,Professional & Technical,専門的・技術的職業,4611600,34172,estat_code
+occ-353,舞台照明スタッフ,Professional & Technical,専門的・技術的職業,4736400,12388,estat_code
+occ-352,舞台美術スタッフ,Professional & Technical,専門的・技術的職業,4736400,12388,estat_code
+occ-203,航空管制官,Professional & Technical,専門的・技術的職業,4112400,8885,estat_code
+occ-207,船員,Professional & Technical,専門的・技術的職業,3280800,14340,estat_code
+occ-398,英会話教師,Professional & Technical,専門的・技術的職業,3364800,113050,estat_code
+occ-158,薬剤師,Professional & Technical,専門的・技術的職業,4664400,243650,exact
+occ-392,薬学研究者,Professional & Technical,専門的・技術的職業,5275200,16335,substring
+occ-85,行政書士,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-576,衛生管理者,Professional & Technical,専門的・技術的職業,3532800,27290,estat_code
+occ-144,裁判官,Professional & Technical,専門的・技術的職業,9204000,59862,estat_code
+occ-170,視能訓練士,Professional & Technical,専門的・技術的職業,3481200,13465,substring
+occ-169,言語聴覚士,Professional & Technical,専門的・技術的職業,3481200,13465,substring
+occ-163,診療放射線技師,Professional & Technical,専門的・技術的職業,4034400,57480,exact
+occ-457,証券アナリスト,Professional & Technical,専門的・技術的職業,6921600,10220,estat_code
+occ-225,調教師,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-419,調香師,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-221,農業技術者,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-88,通訳者,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-202,通関士,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-424,速記者、音声反訳者,Professional & Technical,専門的・技術的職業,4112400,9970,estat_code
+occ-550,造船技術者（船舶の開発・設計）,Professional & Technical,専門的・技術的職業,4611600,34172,estat_code
+occ-319,運用・管理（IT）,Professional & Technical,専門的・技術的職業,4122000,25922,estat_code
+occ-561,鉄道車両の設計・開発,Professional & Technical,専門的・技術的職業,4611600,34172,estat_code
+occ-304,陶磁器技術者,Professional & Technical,専門的・技術的職業,3975600,11325,estat_code
+occ-211,雑誌編集者,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-209,雑誌記者,Professional & Technical,専門的・技術的職業,4422000,13991,estat_code
+occ-273,電子機器技術者,Professional & Technical,専門的・技術的職業,4698000,61036,estat_code
+occ-272,電気技術者,Professional & Technical,専門的・技術的職業,4698000,61036,estat_code
+occ-274,電気通信技術者,Professional & Technical,専門的・技術的職業,4698000,25922,substring
+occ-258,非鉄金属製錬技術者,Professional & Technical,専門的・技術的職業,3958800,25630,estat_code
+occ-122,音楽教室講師,Professional & Technical,専門的・技術的職業,3364800,70090,estat_code
+occ-288,食品技術者,Professional & Technical,専門的・技術的職業,3975600,8525,estat_code
+occ-565,養護教諭,Professional & Technical,専門的・技術的職業,5001600,188150,estat_code
+occ-308,高分子化学技術者,Professional & Technical,専門的・技術的職業,4200000,30450,substring
+occ-183,高等学校教員,Professional & Technical,専門的・技術的職業,5241600,250420,exact
+occ-563,麻酔科医,Professional & Technical,専門的・技術的職業,11400000,37953,estat_code
+occ-451,CDショップ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-462,OA機器営業,Sales,販売の職業,3946800,193750,estat_code
+occ-65,せり人,Sales,販売の職業,4267200,97120,estat_code
+occ-105,カフェ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-198,ガソリンスタンド・スタッフ,Sales,販売の職業,3012000,143089,estat_code
+occ-452,コンサルティング営業（IT）,Sales,販売の職業,4462800,193750,estat_code
+occ-78,コンビニエンスストア店員,Sales,販売の職業,3012000,143089,estat_code
+occ-76,シューフィッター,Sales,販売の職業,3012000,143089,estat_code
+occ-70,スポーツ用品販売,Sales,販売の職業,3012000,143089,estat_code
+occ-56,スーパーレジ係,Sales,販売の職業,3012000,143089,estat_code
+occ-57,スーパー店員,Sales,販売の職業,3012000,143089,estat_code
+occ-455,ディーラー,Sales,販売の職業,4267200,97120,estat_code
+occ-54,デパート店員,Sales,販売の職業,3012000,143089,estat_code
+occ-66,フラワーショップ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-79,ベーカリーショップ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-72,ペットショップ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-71,ホームセンター店員,Sales,販売の職業,3012000,143089,estat_code
+occ-69,メガネ販売,Sales,販売の職業,3012000,143089,estat_code
+occ-449,リサイクルショップ店員,Sales,販売の職業,3012000,143089,estat_code
+occ-472,代理店営業（保険会社）,Sales,販売の職業,4014000,155676,estat_code
+occ-59,住宅・不動産営業,Sales,販売の職業,4297200,138640,estat_code
+occ-453,保険営業（生命保険、損害保険）,Sales,販売の職業,4014000,155676,estat_code
+occ-465,化粧品訪問販売,Sales,販売の職業,4016400,23190,estat_code
+occ-464,化粧品販売/美容部員,Sales,販売の職業,3012000,143089,estat_code
+occ-448,医薬品販売/登録販売者,Sales,販売の職業,3012000,143089,estat_code
+occ-63,医薬情報担当者（MR）,Sales,販売の職業,4297200,83290,estat_code
+occ-62,印刷営業,Sales,販売の職業,4297200,351797,estat_code
+occ-58,商社営業,Sales,販売の職業,4297200,351797,estat_code
+occ-61,広告営業,Sales,販売の職業,4297200,351797,estat_code
+occ-450,携帯電話販売,Sales,販売の職業,3012000,143089,estat_code
+occ-68,書店員,Sales,販売の職業,3012000,143089,estat_code
+occ-194,空港グランドスタッフ,Sales,販売の職業,3607200,43560,estat_code
+occ-60,自動車営業,Sales,販売の職業,3946800,193750,substring
+occ-467,自転車販売,Sales,販売の職業,3012000,143089,estat_code
+occ-73,衣料品販売,Sales,販売の職業,3012000,143089,estat_code
+occ-463,証券外務員,Sales,販売の職業,4267200,97120,estat_code
+occ-454,銀行・信用金庫渉外担当,Sales,販売の職業,4260000,155676,estat_code
+occ-67,電器店店員,Sales,販売の職業,3012000,143089,estat_code
+occ-527,食品営業（食品メーカー）,Sales,販売の職業,4297200,351797,estat_code
+occ-77,駅構内売店店員,Sales,販売の職業,3012000,143089,estat_code
+occ-143,入国警備官,Security,保安職業,2848800,16824,estat_code
+occ-7,冷凍加工食品製造,Security,保安職業,2599200,102292,estat_code
+occ-148,刑務官,Security,保安職業,2928000,14720,jobtag
+occ-401,救急救命士,Security,保安職業,2848800,73835,estat_code
+occ-241,施設警備員,Security,保安職業,2857200,374700,substring
+occ-224,水族館飼育員,Security,保安職業,3001200,16990,estat_code
+occ-141,海上保安官,Security,保安職業,3072000,125590,jobtag
+occ-153,海上自衛官,Security,保安職業,2400000,76796,jobtag
+occ-155,消防官,Security,保安職業,2848800,73835,estat_code
+occ-33,潜水士,Security,保安職業,3625200,129512,estat_code
+occ-578,税関職員,Security,保安職業,2848800,16824,estat_code
+occ-501,自然保護官（レンジャー）,Security,保安職業,2848800,16824,estat_code
+occ-154,航空自衛官,Security,保安職業,2400000,76796,jobtag
+occ-140,警察官（都道府県警察）,Security,保安職業,3072000,125590,jobtag
+occ-199,道路パトロール隊員,Security,保安職業,2848800,16824,estat_code
+occ-152,陸上自衛官,Security,保安職業,2400000,76796,jobtag
+occ-475,雑踏・交通誘導警備員,Security,保安職業,2857200,16824,substring
+occ-142,麻薬取締官,Security,保安職業,2848800,66666,estat_code
+occ-423,きもの着付指導員,Service,サービス職業,2913600,39743,estat_code
+occ-101,すし職人,Service,サービス職業,2964000,227813,estat_code
+occ-102,そば・うどん調理人,Service,サービス職業,2964000,227813,estat_code
+occ-420,アロマセラピスト,Service,サービス職業,3127200,65228,estat_code
+occ-117,エステティシャン,Service,サービス職業,2913600,39743,estat_code
+occ-113,キャディ,Service,サービス職業,3106799,204155,estat_code
+occ-119,クリーニング師,Service,サービス職業,2445600,104820,estat_code
+occ-106,ソムリエ,Service,サービス職業,2763600,147838,estat_code
+occ-110,ツアーコンダクター,Service,サービス職業,3127200,7955,estat_code
+occ-227,トリマー,Service,サービス職業,3127200,65228,estat_code
+occ-128,ネイリスト,Service,サービス職業,2913600,39743,estat_code
+occ-107,バーテンダー,Service,サービス職業,2964000,7340,estat_code
+occ-123,ビデオレンタル店店員,Service,サービス職業,3127200,21250,estat_code
+occ-414,フロント（ホテル・旅館）,Service,サービス職業,2798400,147838,estat_code
+occ-125,ブライダルコーディネーター,Service,サービス職業,3127200,65228,estat_code
+occ-413,ベビーシッター,Service,サービス職業,3127200,13560,estat_code
+occ-52,ホテル・旅館支配人,Service,サービス職業,2798400,8170,estat_code
+occ-417,ホールスタッフ（レストラン）,Service,サービス職業,2763600,147838,estat_code
+occ-473,マンション管理員,Service,サービス職業,2985600,146870,estat_code
+occ-118,メイクアップアーティスト,Service,サービス職業,3661200,167250,estat_code
+occ-108,ラーメン調理人,Service,サービス職業,2964000,227813,estat_code
+occ-421,リフレクソロジスト,Service,サービス職業,3127200,65228,estat_code
+occ-124,レンタカー店舗スタッフ,Service,サービス職業,3127200,21250,estat_code
+occ-103,中華料理調理人,Service,サービス職業,2964000,227813,estat_code
+occ-132,介護支援専門員/ケアマネジャー,Service,サービス職業,3439200,44392,estat_code
+occ-568,児童発達支援管理責任者,Service,サービス職業,3324000,44392,estat_code
+occ-129,児童相談所相談員,Service,サービス職業,3324000,44392,estat_code
+occ-408,医療ソーシャルワーカー,Service,サービス職業,3324000,44392,estat_code
+occ-205,客室乗務員,Service,サービス職業,4502400,26000,substring
+occ-126,家政婦（夫）,Service,サービス職業,3127200,7270,estat_code
+occ-416,接客担当（ホテル・旅館）,Service,サービス職業,2798400,147838,estat_code
+occ-134,施設介護員,Service,サービス職業,2980800,1358940,estat_code
+occ-410,施設管理者（介護施設）,Service,サービス職業,3324000,44392,estat_code
+occ-100,日本料理調理人（板前）,Service,サービス職業,2964000,227813,estat_code
+occ-3,洋菓子製造、パティシエ,Service,サービス職業,2599200,102292,estat_code
+occ-115,理容師,Service,サービス職業,3661200,134670,estat_code
+occ-409,福祉ソーシャルワーカー,Service,サービス職業,3324000,44392,estat_code
+occ-130,福祉事務所ケースワーカー,Service,サービス職業,3324000,44392,estat_code
+occ-137,福祉用具専門相談員,Service,サービス職業,3127200,21250,estat_code
+occ-569,納棺師,Service,サービス職業,3127200,24595,estat_code
+occ-493,給食調理員,Service,サービス職業,2964000,227813,estat_code
+occ-116,美容師,Service,サービス職業,3661200,167250,substring
+occ-245,老人福祉施設生活相談員,Service,サービス職業,3324000,44392,estat_code
+occ-422,葬祭ディレクター,Service,サービス職業,3127200,24595,estat_code
+occ-99,西洋料理調理人（コック）,Service,サービス職業,2964000,227813,estat_code
+occ-555,訪問介護のサービス提供責任者,Service,サービス職業,3439200,44392,estat_code
+occ-133,訪問介護員/ホームヘルパー,Service,サービス職業,3177600,268630,estat_code
+occ-492,調理補助,Service,サービス職業,2964000,227813,estat_code
+occ-114,通訳ガイド,Service,サービス職業,3127200,7955,estat_code
+occ-112,遊園地スタッフ,Service,サービス職業,3106799,204155,estat_code
+occ-580,障害福祉サービス管理責任者,Service,サービス職業,3324000,44392,estat_code
+occ-556,障害者グループホーム世話人,Service,サービス職業,3127200,65228,estat_code
+occ-244,障害者福祉施設指導専門員（生活支援員、就労支援員等）,Service,サービス職業,3324000,44392,estat_code
+occ-418,飲食チェーン店店員,Service,サービス職業,2763600,147838,estat_code
+occ-96,駐車場管理,Service,サービス職業,2985600,50250,estat_code
+occ-35,さく井工/ボーリング工,Transportation & Machine Operation,輸送・機械運転の職業,3774000,42210,estat_code
+occ-549,クレーン運転士,Transportation & Machine Operation,輸送・機械運転の職業,4166400,45100,estat_code
+occ-188,タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,3482400,160643,estat_code
+occ-525,タンクローリー乗務員,Transportation & Machine Operation,輸送・機械運転の職業,3546000,160643,estat_code
+occ-479,ダンプカー運転手,Transportation & Machine Operation,輸送・機械運転の職業,3546000,160643,estat_code
+occ-477,トラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,3546000,160643,estat_code
+occ-478,トレーラートラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,3546000,160643,estat_code
+occ-511,ドローンパイロット,Transportation & Machine Operation,輸送・機械運転の職業,3280800,50365,estat_code
+occ-189,パイロット,Transportation & Machine Operation,輸送・機械運転の職業,16099200,78620,estat_code
+occ-95,ビル施設管理,Transportation & Machine Operation,輸送・機械運転の職業,3303600,157510,estat_code
+occ-237,フォークリフト運転作業員,Transportation & Machine Operation,輸送・機械運転の職業,3280800,50365,estat_code
+occ-532,フードデリバリー（料理配達員）,Transportation & Machine Operation,輸送・機械運転の職業,3062400,139238,estat_code
+occ-476,ボイラーオペレーター,Transportation & Machine Operation,輸送・機械運転の職業,3303600,7550,estat_code
+occ-482,ルート配送ドライバー,Transportation & Machine Operation,輸送・機械運転の職業,3062400,139238,estat_code
+occ-481,介護タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,3482400,160643,estat_code
+occ-483,宅配便配達員,Transportation & Machine Operation,輸送・機械運転の職業,3062400,139238,estat_code
+occ-31,建設機械オペレーター,Transportation & Machine Operation,輸送・機械運転の職業,3774000,42210,estat_code
+occ-484,新聞配達員,Transportation & Machine Operation,輸送・機械運転の職業,3062400,139238,estat_code
+occ-466,清涼飲料ルートセールス,Transportation & Machine Operation,輸送・機械運転の職業,3062400,139238,estat_code
+occ-496,産業廃棄物収集運搬作業員,Transportation & Machine Operation,輸送・機械運転の職業,3123600,59990,estat_code
+occ-302,発電所運転管理,Transportation & Machine Operation,輸送・機械運転の職業,4082400,34380,estat_code
+occ-190,航海士,Transportation & Machine Operation,輸送・機械運転の職業,3280800,14400,estat_code
+occ-191,船舶機関士,Transportation & Machine Operation,輸送・機械運転の職業,3280800,78620,estat_code
+occ-111,観光バスガイド,Transportation & Machine Operation,輸送・機械運転の職業,3853200,10805,estat_code
+occ-187,観光バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,2991600,160643,estat_code
+occ-186,路線バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,2991600,160643,estat_code
+occ-480,送迎バス等運転手,Transportation & Machine Operation,輸送・機械運転の職業,2991600,160643,estat_code
+occ-193,鉄道車掌,Transportation & Machine Operation,輸送・機械運転の職業,3853200,10805,substring
+occ-192,電車運転士,Transportation & Machine Operation,輸送・機械運転の職業,4327200,37090,estat_code
