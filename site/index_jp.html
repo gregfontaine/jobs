@@ -211,6 +211,14 @@ body {
 .gradient-legend { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--fg2); }
 .gradient-legend canvas { border-radius: 2px; }
 
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 10px;
+  color: var(--fg2);
+}
+.sidebar-footer a { color: var(--fg2); }
+
 /* ── Controls bar (view toggle + list controls) ──────────────────────── */
 #controls-bar {
   position: fixed;
@@ -533,7 +541,7 @@ canvas#canvas {
       <span id="subData">データ：</span><a href="https://shigoto.mhlw.go.jp/" target="_blank">Jobtag</a> /
       <a href="https://www.e-stat.go.jp/" target="_blank">e-Stat</a>
       <span id="subScored">・NVIDIA Nemotronにてスコアリング</span><br>
-      <a href="https://github.com/karpathy/jobs" target="_blank">GitHub</a>
+      <a href="https://github.com/gregfontaine/jobs" target="_blank">GitHub</a>
     </div>
   </div>
 
@@ -579,6 +587,10 @@ canvas#canvas {
     <span data-i18n="legend_low">低</span>
     <canvas id="gradientLegend" width="80" height="8"></canvas>
     <span data-i18n="legend_high">高</span>
+  </div>
+
+  <div class="sidebar-footer">
+    Powered by <a href="https://miraiacademy.co.jp" target="_blank">miraiacademy.co.jp</a>
   </div>
 
 </div><!-- /sidebar -->
