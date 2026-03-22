@@ -110,6 +110,7 @@ def main():
 
         data.append({
             "title":                 row["title"],
+            "title_en":              tr.get("title_en", ""),
             "slug":                  slug,
             "category":              row["category"],
             "category_ja":           row.get("category_ja", ""),
