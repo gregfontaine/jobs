@@ -194,3 +194,7 @@ uv run python test_pipeline_jp.py
 ```
 
 Runs 23 tests across salary, employment, education, and AI exposure for representative occupations (medical, tech, legal, education, trades, service, clerical). All values are range-checked against known data.
+
+---
+
+> Icon was designed by my daughter who made me promise to use it (-_-;)
