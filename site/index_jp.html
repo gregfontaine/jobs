@@ -615,7 +615,8 @@ function showTooltip(d, mx, my) {
 
   tt.querySelector(".tt-title").textContent = d.title;
 
-  tt.querySelector(".tt-description").textContent = d.description_ja || "";
+  tt.querySelector(".tt-description").textContent = lang === "ja" ? (d.description_ja || "") : "";
+  tt.querySelector(".tt-rationale").textContent   = lang === "en" ? (d.exposure_rationale || "") : "";
 
   const score = d.exposure;
   if (score != null) {
@@ -633,8 +634,6 @@ function showTooltip(d, mx, my) {
     <span class="label">${t.tt_jobs}</span><span class="value">${fmtNum(d.jobs)}</span>
     <span class="label">${t.tt_edu}</span><span class="value">${d.education || "\u2014"}</span>
   `;
-
-  tt.querySelector(".tt-rationale").textContent = d.exposure_rationale || "";
 
   const pad = 16;
   let tx = mx + pad, ty = my - pad;
