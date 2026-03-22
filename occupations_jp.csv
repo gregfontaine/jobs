@@ -1,557 +1,557 @@
 title,category,category_ja,slug,jobtag_id,pay_jpy,num_jobs,entry_education,url,match_quality
-ハウス野菜栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-505,505,3001200,290558,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/505,estat_code
-ブリーダー,"Agriculture, Forestry & Fishing",農林漁業,occ-500,500,3001200,38625,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/500,estat_code
-動物園飼育員,"Agriculture, Forestry & Fishing",農林漁業,occ-220,220,3001200,38625,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/220,estat_code
-厩舎スタッフ,"Agriculture, Forestry & Fishing",農林漁業,occ-218,218,3001200,38625,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/218,estat_code
-林業作業,"Agriculture, Forestry & Fishing",農林漁業,occ-230,230,3001200,17490,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/230,estat_code
-果樹栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-506,506,3001200,290558,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/506,estat_code
-植物工場の栽培管理,"Agriculture, Forestry & Fishing",農林漁業,occ-249,249,3001200,290558,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/249,estat_code
-水産養殖従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-503,503,3001200,16990,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/503,estat_code
-沿岸漁業従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-509,509,3001200,66480,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/509,estat_code
-稲作農業者,"Agriculture, Forestry & Fishing",農林漁業,occ-504,504,3001200,290558,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/504,estat_code
-花き栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-507,507,3001200,290558,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/507,estat_code
-造園工,"Agriculture, Forestry & Fishing",農林漁業,occ-222,222,3001200,122840,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/222,estat_code
-酪農従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-502,502,3001200,38625,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/502,estat_code
-IR広報担当,Clerical & Administrative,事務的職業,occ-445,445,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/445,estat_code
-NPO法人職員（企画・運営）,Clerical & Administrative,事務的職業,occ-522,522,4506000,120575,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/522,estat_code
-Webマーケティング（ネット広告・販売促進）,Clerical & Administrative,事務的職業,occ-240,240,4506000,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/240,estat_code
-アニメ制作進行管理,Clerical & Administrative,事務的職業,occ-553,553,3626400,120575,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/553,estat_code
-イベントの企画・運営,Clerical & Administrative,事務的職業,occ-566,566,4506000,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/566,estat_code
-キッティング作業員（PCセットアップ作業員）,Clerical & Administrative,事務的職業,occ-531,531,3139200,22680,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/531,estat_code
-コンプライアンス推進担当,Clerical & Administrative,事務的職業,occ-447,447,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/447,estat_code
-コールセンターオペレーター,Clerical & Administrative,事務的職業,occ-64,64,3068400,146270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/64,estat_code
-タクシー配車オペレーター,Clerical & Administrative,事務的職業,occ-200,200,3607200,43560,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/200,estat_code
-ディスパッチャー（航空機運航管理者）,Clerical & Administrative,事務的職業,occ-204,204,3607200,43560,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/204,estat_code
-データ入力,Clerical & Administrative,事務的職業,occ-429,429,3139200,155710,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/429,estat_code
-ネット通販の企画開発,Clerical & Administrative,事務的職業,occ-238,238,4506000,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/238,estat_code
-ネット通販の運営,Clerical & Administrative,事務的職業,occ-239,239,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/239,estat_code
-パラリーガル（弁護士補助職）,Clerical & Administrative,事務的職業,occ-425,425,3626400,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/425,estat_code
-フランチャイズチェーン・スーパーバイザー,Clerical & Administrative,事務的職業,occ-75,75,3710400,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/75,estat_code
-プロスポーツ運営団体職員（企画・運営）,Clerical & Administrative,事務的職業,occ-554,554,4506000,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/554,estat_code
-マンション管理フロント,Clerical & Administrative,事務的職業,occ-474,474,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/474,estat_code
-マーケティング・リサーチャー,Clerical & Administrative,事務的職業,occ-456,456,4506000,120575,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/456,estat_code
-マーチャンダイザー、バイヤー,Clerical & Administrative,事務的職業,occ-544,544,3710400,255263,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/544,estat_code
-一般事務,Clerical & Administrative,事務的職業,occ-428,428,3626400,2639330,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/428,substring
-人事事務,Clerical & Administrative,事務的職業,occ-432,432,3666000,264332,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/432,substring
-介護事務,Clerical & Administrative,事務的職業,occ-436,436,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/436,estat_code
-企業法務担当,Clerical & Administrative,事務的職業,occ-446,446,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/446,estat_code
-企画・調査担当,Clerical & Administrative,事務的職業,occ-434,434,4506000,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/434,estat_code
-入国審査官,Clerical & Administrative,事務的職業,occ-517,517,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/517,estat_code
-内部監査人,Clerical & Administrative,事務的職業,occ-469,469,3666000,264332,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/469,estat_code
-出荷・受荷事務,Clerical & Administrative,事務的職業,occ-542,542,3573600,292340,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/542,estat_code
-医療事務,Clerical & Administrative,事務的職業,occ-443,443,3626400,120575,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/443,estat_code
-受付事務,Clerical & Administrative,事務的職業,occ-427,427,2715600,369780,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/427,estat_code
-商品企画開発（チェーンストア）,Clerical & Administrative,事務的職業,occ-461,461,4506000,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/461,estat_code
-営業事務,Clerical & Administrative,事務的職業,occ-431,431,3710400,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/431,estat_code
-国家公務員（行政事務）,Clerical & Administrative,事務的職業,occ-138,138,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/138,estat_code
-国際公務員,Clerical & Administrative,事務的職業,occ-151,151,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/151,estat_code
-地方公務員（行政事務）,Clerical & Administrative,事務的職業,occ-139,139,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/139,estat_code
-外務公務員（外交官）,Clerical & Administrative,事務的職業,occ-150,150,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/150,estat_code
-太陽光発電の企画・調査,Clerical & Administrative,事務的職業,occ-234,234,4506000,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/234,estat_code
-学校事務,Clerical & Administrative,事務的職業,occ-442,442,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/442,estat_code
-学校事務（私立大学）,Clerical & Administrative,事務的職業,occ-567,567,3626400,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/567,estat_code
-広報・PR担当,Clerical & Administrative,事務的職業,occ-444,444,3666000,264332,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/444,estat_code
-損害保険事務,Clerical & Administrative,事務的職業,occ-440,440,3710400,174488,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/440,estat_code
-旅行会社カウンター係,Clerical & Administrative,事務的職業,occ-109,109,3710400,174488,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/109,estat_code
-検針員,Clerical & Administrative,事務的職業,occ-74,74,3379200,32910,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/74,estat_code
-生産・工程管理事務,Clerical & Administrative,事務的職業,occ-437,437,3573600,292340,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/437,estat_code
-秘書,Clerical & Administrative,事務的職業,occ-426,426,3646800,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/426,exact
-税務事務官,Clerical & Administrative,事務的職業,occ-149,149,3639600,55000,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/149,estat_code
-経理事務,Clerical & Administrative,事務的職業,occ-430,430,3639600,255263,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/430,estat_code
-総務事務,Clerical & Administrative,事務的職業,occ-433,433,3666000,264332,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/433,estat_code
-臨床開発モニター,Clerical & Administrative,事務的職業,occ-530,530,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/530,estat_code
-診療情報管理士,Clerical & Administrative,事務的職業,occ-174,174,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/174,estat_code
-調剤薬局事務,Clerical & Administrative,事務的職業,occ-435,435,3626400,120575,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/435,estat_code
-貿易事務,Clerical & Administrative,事務的職業,occ-439,439,3710400,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/439,estat_code
-通信販売受付事務,Clerical & Administrative,事務的職業,occ-441,441,3068400,146270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/441,estat_code
-郵便局郵便窓口業務,Clerical & Administrative,事務的職業,occ-543,543,3607200,146570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/543,estat_code
-鉄道運転計画・運行管理,Clerical & Administrative,事務的職業,occ-196,196,3607200,43560,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/196,estat_code
-銀行等窓口事務,Clerical & Administrative,事務的職業,occ-438,438,3639600,70000,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/438,estat_code
-風力発電の企画・調査,Clerical & Administrative,事務的職業,occ-577,577,4506000,120575,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/577,estat_code
-駅務員,Clerical & Administrative,事務的職業,occ-195,195,3607200,43560,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/195,estat_code
-とび,Construction & Mining,建設・採掘の職業,occ-30,30,3742800,151666,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/30,estat_code
-サッシ取付,Construction & Mining,建設・採掘の職業,occ-41,41,3625200,129512,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/41,estat_code
-タイル工,Construction & Mining,建設・採掘の職業,occ-38,38,3625200,8170,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/38,estat_code
-ブロック積み,Construction & Mining,建設・採掘の職業,occ-37,37,3625200,8170,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/37,estat_code
-保温工事,Construction & Mining,建設・採掘の職業,occ-45,45,3625200,129512,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/45,estat_code
-内装工,Construction & Mining,建設・採掘の職業,occ-42,42,3625200,129512,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/42,estat_code
-型枠大工,Construction & Mining,建設・採掘の職業,occ-27,27,3697200,40570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/27,substring
-大工,Construction & Mining,建設・採掘の職業,occ-26,26,3697200,273010,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/26,exact
-左官,Construction & Mining,建設・採掘の職業,occ-39,39,3625200,59900,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/39,estat_code
-建設・土木作業員,Construction & Mining,建設・採掘の職業,occ-32,32,3391200,228470,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/32,estat_code
-舗装工,Construction & Mining,建設・採掘の職業,occ-36,36,3391200,228470,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/36,estat_code
-解体工,Construction & Mining,建設・採掘の職業,occ-51,51,3742800,110990,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/51,estat_code
-送電線工事,Construction & Mining,建設・採掘の職業,occ-50,50,3837600,47420,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/50,estat_code
-配管工,Construction & Mining,建設・採掘の職業,occ-47,47,3967200,220760,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/47,estat_code
-鉄筋工,Construction & Mining,建設・採掘の職業,occ-28,28,3742800,28750,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/28,estat_code
-鉄道線路管理,Construction & Mining,建設・採掘の職業,occ-49,49,3391200,24710,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/49,estat_code
-防水工,Construction & Mining,建設・採掘の職業,occ-44,44,3625200,129512,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/44,estat_code
-電気工事士,Construction & Mining,建設・採掘の職業,occ-46,46,3837600,379520,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/46,estat_code
-こん包作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-498,498,3062400,285050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/498,estat_code
-ごみ収集作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-494,494,3123600,59990,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/494,estat_code
-ハウスクリーニング,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-487,487,3123600,27780,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/487,estat_code
-バックヤード作業員（スーパー食品部門）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-491,491,2756400,383406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/491,estat_code
-ビル清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-97,97,2457600,910700,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/97,estat_code
-ピッキング作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-486,486,2756400,383406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/486,estat_code
-ペストコントロール従事者（害虫等防除・駆除従事者）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-488,488,3123600,45455,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/488,estat_code
-倉庫作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-485,485,3062400,273920,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/485,estat_code
-客室清掃・整備担当（ホテル・旅館）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-415,415,2798400,147838,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/415,estat_code
-工場労務作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-490,490,2756400,383406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/490,estat_code
-引越作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-201,201,3062400,122530,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/201,estat_code
-港湾荷役作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-499,499,3802800,13870,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/499,estat_code
-積卸作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-497,497,3062400,122530,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/497,estat_code
-製品包装作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-489,489,2593200,274280,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/489,estat_code
-鉄道車両清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-98,98,3123600,45455,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/98,estat_code
-スーパー店長,Management,管理的職業,occ-55,55,6586800,108181,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/55,estat_code
-ハンバーガーショップ店長,Management,管理的職業,occ-104,104,2763600,114240,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/104,estat_code
-人事課長,Management,管理的職業,occ-537,537,6586800,24082,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/537,estat_code
-会社経営者,Management,管理的職業,occ-514,514,6586800,108181,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/514,estat_code
-営業課長,Management,管理的職業,occ-539,539,6586800,24082,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/539,estat_code
-国会議員,Management,管理的職業,occ-512,512,6586800,108181,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/512,estat_code
-経理課長,Management,管理的職業,occ-538,538,6586800,24082,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/538,estat_code
-総務課長,Management,管理的職業,occ-536,536,6586800,24082,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/536,estat_code
-航空機開発エンジニア（ジェットエンジン）,Management,管理的職業,occ-311,311,4219200,48570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/311,estat_code
-起業、創業,Management,管理的職業,occ-250,250,6586800,108181,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/250,estat_code
-銀行支店長,Management,管理的職業,occ-53,53,6586800,24082,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/53,estat_code
-3Dプリンター技術者,Production & Manufacturing,生産工程の職業,occ-584,584,3105600,59856,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/584,estat_code
-CADオペレーター,Production & Manufacturing,生産工程の職業,occ-25,25,3472800,289280,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/25,estat_code
-NC工作機械オペレーター,Production & Manufacturing,生産工程の職業,occ-256,256,3361200,76060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/256,estat_code
-かばん・袋物製造,Production & Manufacturing,生産工程の職業,occ-290,290,3105600,59856,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/290,estat_code
-かん詰・びん詰・レトルト食品製造,Production & Manufacturing,生産工程の職業,occ-15,15,2599200,102292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/15,estat_code
-しょうゆ製造,Production & Manufacturing,生産工程の職業,occ-11,11,2599200,102292,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/11,estat_code
-みそ製造,Production & Manufacturing,生産工程の職業,occ-10,10,2599200,102292,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/10,estat_code
-めっき工,Production & Manufacturing,生産工程の職業,occ-257,257,3232800,37200,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/257,estat_code
-アニメーター,Production & Manufacturing,生産工程の職業,occ-343,343,3604800,58252,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/343,estat_code
-エレベーター据付,Production & Manufacturing,生産工程の職業,occ-48,48,3462000,111453,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/48,estat_code
-ガラス食器製造,Production & Manufacturing,生産工程の職業,occ-18,18,3247200,46583,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/18,estat_code
-タイヤ製造,Production & Manufacturing,生産工程の職業,occ-297,297,3152400,149450,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/297,estat_code
-ハム・ソーセージ・ベーコン製造,Production & Manufacturing,生産工程の職業,occ-12,12,2599200,102292,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/12,estat_code
-パタンナー,Production & Manufacturing,生産工程の職業,occ-341,341,3604800,58252,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/341,estat_code
-パン製造、パン職人,Production & Manufacturing,生産工程の職業,occ-2,2,2599200,102292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/2,estat_code
-ビール製造,Production & Manufacturing,生産工程の職業,occ-14,14,2599200,15063,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/14,estat_code
-プラスチック成形,Production & Manufacturing,生産工程の職業,occ-19,19,3152400,149450,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/19,estat_code
-ミシン縫製,Production & Manufacturing,生産工程の職業,occ-280,280,2505600,68597,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/280,estat_code
-ワイン製造,Production & Manufacturing,生産工程の職業,occ-13,13,2599200,15063,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/13,estat_code
-乳製品製造,Production & Manufacturing,生産工程の職業,occ-5,5,2599200,103536,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/5,estat_code
-光学機器組立,Production & Manufacturing,生産工程の職業,occ-263,263,3182400,21660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/263,estat_code
-化学製品製造オペレーター,Production & Manufacturing,生産工程の職業,occ-300,300,3528000,43930,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/300,estat_code
-化粧品製造,Production & Manufacturing,生産工程の職業,occ-298,298,3528000,43930,短大卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/298,estat_code
-医療用画像機器組立,Production & Manufacturing,生産工程の職業,occ-277,277,3009600,121437,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/277,estat_code
-医薬品製造,Production & Manufacturing,生産工程の職業,occ-295,295,3528000,43930,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/295,estat_code
-半導体製造,Production & Manufacturing,生産工程の職業,occ-268,268,3009600,121437,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/268,estat_code
-印刷オペレーター,Production & Manufacturing,生産工程の職業,occ-360,360,3321600,90350,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/360,estat_code
-合板製造,Production & Manufacturing,生産工程の職業,occ-282,282,3145200,54634,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/282,estat_code
-和菓子製造、和菓子職人,Production & Manufacturing,生産工程の職業,occ-4,4,2599200,102292,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/4,estat_code
-太陽光発電のメンテナンス,Production & Manufacturing,生産工程の職業,occ-236,236,3537600,31013,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/236,estat_code
-家具製造,Production & Manufacturing,生産工程の職業,occ-283,283,3145200,54634,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/283,estat_code
-家電修理,Production & Manufacturing,生産工程の職業,occ-275,275,3537600,31013,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/275,estat_code
-建具製造,Production & Manufacturing,生産工程の職業,occ-287,287,3145200,54634,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/287,estat_code
-建築塗装工,Production & Manufacturing,生産工程の職業,occ-43,43,3604800,58252,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/43,estat_code
-建築板金,Production & Manufacturing,生産工程の職業,occ-40,40,3226800,72370,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/40,estat_code
-惣菜製造,Production & Manufacturing,生産工程の職業,occ-8,8,2599200,102292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/8,estat_code
-木材製造,Production & Manufacturing,生産工程の職業,occ-281,281,3145200,54634,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/281,estat_code
-染色工/染色設備オペレーター,Production & Manufacturing,生産工程の職業,occ-279,279,2505600,68597,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/279,estat_code
-検査工（工業製品）,Production & Manufacturing,生産工程の職業,occ-526,526,3123600,42935,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/526,estat_code
-検査工（食料品等）,Production & Manufacturing,生産工程の職業,occ-548,548,3094799,48290,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/548,estat_code
-水産ねり製品製造,Production & Manufacturing,生産工程の職業,occ-6,6,2599200,102292,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/6,estat_code
-汎用金属工作機械工（旋盤工、ボール盤工等）,Production & Manufacturing,生産工程の職業,occ-557,557,3361200,76060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/557,estat_code
-清酒製造,Production & Manufacturing,生産工程の職業,occ-9,9,2599200,15063,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/9,estat_code
-溶接工,Production & Manufacturing,生産工程の職業,occ-255,255,3224400,163710,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/255,estat_code
-漆器製造,Production & Manufacturing,生産工程の職業,occ-291,291,3105600,59856,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/291,estat_code
-物流設備管理・保全,Production & Manufacturing,生産工程の職業,occ-269,269,3537600,133723,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/269,estat_code
-玩具（おもちゃ）製作,Production & Manufacturing,生産工程の職業,occ-515,515,3105600,59856,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/515,estat_code
-生産用機械組立,Production & Manufacturing,生産工程の職業,occ-265,265,3462000,111453,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/265,estat_code
-産業用ロボットの保守・メンテナンス,Production & Manufacturing,生産工程の職業,occ-233,233,3537600,133723,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/233,estat_code
-看板制作,Production & Manufacturing,生産工程の職業,occ-344,344,3604800,58252,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/344,substring
-石工,Production & Manufacturing,生産工程の職業,occ-306,306,3247200,46583,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/306,estat_code
-石油精製オペレーター,Production & Manufacturing,生産工程の職業,occ-299,299,3528000,43930,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/299,estat_code
-紙器製造,Production & Manufacturing,生産工程の職業,occ-285,285,3145200,54634,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/285,estat_code
-紡績機械オペレーター,Production & Manufacturing,生産工程の職業,occ-286,286,2505600,68597,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/286,estat_code
-紡織設備管理・保全,Production & Manufacturing,生産工程の職業,occ-284,284,3537600,133723,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/284,estat_code
-織布工/織機オペレーター,Production & Manufacturing,生産工程の職業,occ-278,278,2505600,68597,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/278,estat_code
-自動車整備士,Production & Manufacturing,生産工程の職業,occ-197,197,3584400,188040,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/197,estat_code
-自動車板金塗装,Production & Manufacturing,生産工程の職業,occ-558,558,3584400,188040,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/558,estat_code
-自動車検査員,Production & Manufacturing,生産工程の職業,occ-579,579,3544800,87440,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/579,estat_code
-自動車組立,Production & Manufacturing,生産工程の職業,occ-264,264,3680400,344110,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/264,substring
-航空整備士,Production & Manufacturing,生産工程の職業,occ-206,206,3939600,58660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/206,estat_code
-花火師,Production & Manufacturing,生産工程の職業,occ-307,307,3528000,43930,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/307,estat_code
-製本オペレーター,Production & Manufacturing,生産工程の職業,occ-361,361,3321600,103536,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/361,estat_code
-製版オペレーター、DTPオペレーター,Production & Manufacturing,生産工程の職業,occ-359,359,3321600,90350,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/359,estat_code
-計器組立,Production & Manufacturing,生産工程の職業,occ-266,266,3182400,21660,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/266,estat_code
-豆腐製造、豆腐職人,Production & Manufacturing,生産工程の職業,occ-1,1,2599200,102292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/1,estat_code
-貴金属装身具製作,Production & Manufacturing,生産工程の職業,occ-292,292,3105600,59856,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/292,estat_code
-造船技能者（造船工、船舶艤装工等）,Production & Manufacturing,生産工程の職業,occ-547,547,3436800,26395,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/547,estat_code
-配電盤・制御盤等組立,Production & Manufacturing,生産工程の職業,occ-559,559,3009600,121437,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/559,estat_code
-野菜つけ物製造,Production & Manufacturing,生産工程の職業,occ-16,16,2599200,102292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/16,estat_code
-金型工,Production & Manufacturing,生産工程の職業,occ-253,253,3223200,457000,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/253,estat_code
-金属プレス工,Production & Manufacturing,生産工程の職業,occ-254,254,3132000,61390,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/254,estat_code
-鉄鋼製造オペレーター,Production & Manufacturing,生産工程の職業,occ-259,259,3565200,39090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/259,estat_code
-鉄骨工,Production & Manufacturing,生産工程の職業,occ-29,29,3436800,26395,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/29,estat_code
-鋳造工/鋳造設備オペレーター,Production & Manufacturing,生産工程の職業,occ-251,251,3637200,18060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/251,estat_code
-録音エンジニア,Production & Manufacturing,生産工程の職業,occ-213,213,3472800,61760,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/213,estat_code
-鍛造工/鍛造設備オペレーター,Production & Manufacturing,生産工程の職業,occ-252,252,3637200,18060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/252,estat_code
-陶磁器製造,Production & Manufacturing,生産工程の職業,occ-17,17,3247200,46583,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/17,estat_code
-電子機器組立,Production & Manufacturing,生産工程の職業,occ-261,261,3009600,121437,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/261,estat_code
-非破壊検査技術者,Production & Manufacturing,生産工程の職業,occ-260,260,3123600,42935,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/260,estat_code
-靴製造,Production & Manufacturing,生産工程の職業,occ-289,289,3105600,59856,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/289,estat_code
-風力発電のメンテナンス,Production & Manufacturing,生産工程の職業,occ-535,535,3537600,31013,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/535,estat_code
-AIエンジニア,Professional & Technical,専門的・技術的職業,occ-325,325,4122000,25922,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/325,estat_code
-CG制作,Professional & Technical,専門的・技術的職業,occ-329,329,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/329,estat_code
-DXプロデューサー,Professional & Technical,専門的・技術的職業,occ-324,324,5352000,164190,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/324,estat_code
-ITコンサルタント,Professional & Technical,専門的・技術的職業,occ-362,362,5352000,164190,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/362,estat_code
-M&Aマネージャー、M&Aコンサルタント/M&Aアドバイザー,Professional & Technical,専門的・技術的職業,occ-471,471,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/471,estat_code
-UX/UIデザイナー,Professional & Technical,専門的・技術的職業,occ-552,552,4077600,43304,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/552,substring
-Webディレクター（Web制作会社）,Professional & Technical,専門的・技術的職業,occ-327,327,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/327,estat_code
-Webデザイナー（Web制作会社）,Professional & Technical,専門的・技術的職業,occ-326,326,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/326,substring
-あんまマッサージ指圧師,Professional & Technical,専門的・技術的職業,occ-172,172,3532800,39406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/172,estat_code
-はり師・きゅう師,Professional & Technical,専門的・技術的職業,occ-175,175,3532800,39406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/175,estat_code
-アウトドアインストラクター,Professional & Technical,専門的・技術的職業,occ-219,219,3364800,60225,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/219,estat_code
-アクチュアリー,Professional & Technical,専門的・技術的職業,occ-468,468,6921600,59862,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/468,estat_code
-アナウンサー,Professional & Technical,専門的・技術的職業,occ-216,216,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/216,estat_code
-アートディレクター,Professional & Technical,専門的・技術的職業,occ-331,331,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/331,estat_code
-イラストレーター,Professional & Technical,専門的・技術的職業,occ-342,342,4203600,20880,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/342,estat_code
-インダストリアルデザイナー,Professional & Technical,専門的・技術的職業,occ-354,354,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/354,substring
-インテリアコーディネーター,Professional & Technical,専門的・技術的職業,occ-338,338,4077600,14363,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/338,estat_code
-インテリアデザイナー,Professional & Technical,専門的・技術的職業,occ-337,337,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/337,substring
-エコノミスト,Professional & Technical,専門的・技術的職業,occ-394,394,4112400,59862,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/394,estat_code
-オーケストラ奏者（団員）,Professional & Technical,専門的・技術的職業,occ-573,573,4736400,25930,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/573,estat_code
-カウンセラー（医療福祉分野）,Professional & Technical,専門的・技術的職業,occ-411,411,3532800,27290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/411,estat_code
-カラーコーディネーター,Professional & Technical,専門的・技術的職業,occ-339,339,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/339,estat_code
-キャリアカウンセラー/キャリアコンサルタント,Professional & Technical,専門的・技術的職業,occ-136,136,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/136,estat_code
-グラフィックデザイナー,Professional & Technical,専門的・技術的職業,occ-334,334,4077600,14363,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/334,substring
-ゲームクリエーター,Professional & Technical,専門的・技術的職業,occ-330,330,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/330,estat_code
-コピーライター,Professional & Technical,専門的・技術的職業,occ-335,335,4422000,15060,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/335,estat_code
-システムエンジニア（Webサービス開発）,Professional & Technical,専門的・技術的職業,occ-314,314,4244400,43304,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/314,estat_code
-システムエンジニア（受託開発）,Professional & Technical,専門的・技術的職業,occ-312,312,4244400,43304,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/312,estat_code
-システムエンジニア（基盤システム）,Professional & Technical,専門的・技術的職業,occ-318,318,5352000,164190,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/318,estat_code
-システムエンジニア（組込み、IoT）,Professional & Technical,専門的・技術的職業,occ-315,315,4244400,43304,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/315,estat_code
-ジュエリーデザイナー,Professional & Technical,専門的・技術的職業,occ-350,350,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/350,substring
-スクールカウンセラー,Professional & Technical,専門的・技術的職業,occ-412,412,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/412,estat_code
-スタイリスト,Professional & Technical,専門的・技術的職業,occ-346,346,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/346,estat_code
-スポーツインストラクター,Professional & Technical,専門的・技術的職業,occ-120,120,3364800,60225,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/120,estat_code
-セキュリティエキスパート（オペレーション）,Professional & Technical,専門的・技術的職業,occ-321,321,4122000,25922,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/321,estat_code
-セキュリティエキスパート（デジタルフォレンジック）,Professional & Technical,専門的・技術的職業,occ-533,533,4122000,25922,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/533,estat_code
-セキュリティエキスパート（情報セキュリティ監査）,Professional & Technical,専門的・技術的職業,occ-534,534,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/534,estat_code
-セキュリティエキスパート（脆弱性診断）,Professional & Technical,専門的・技術的職業,occ-520,520,4122000,25922,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/520,estat_code
-ソフトウェア開発（スマホアプリ）,Professional & Technical,専門的・技術的職業,occ-317,317,4244400,43304,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/317,estat_code
-ソフトウェア開発（パッケージソフト）,Professional & Technical,専門的・技術的職業,occ-316,316,4244400,43304,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/316,estat_code
-テキスタイルデザイナー,Professional & Technical,専門的・技術的職業,occ-348,348,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/348,substring
-テクニカルイラストレーター,Professional & Technical,専門的・技術的職業,occ-345,345,4203600,20880,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/345,estat_code
-テクニカルライター,Professional & Technical,専門的・技術的職業,occ-358,358,4422000,13991,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/358,estat_code
-テレビカメラマン,Professional & Technical,専門的・技術的職業,occ-356,356,4203600,20660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/356,estat_code
-テレビ・ラジオ放送技術者,Professional & Technical,専門的・技術的職業,occ-212,212,4112400,8885,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/212,estat_code
-ディスプレイデザイナー,Professional & Technical,専門的・技術的職業,occ-336,336,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/336,substring
-デバッグ作業,Professional & Technical,専門的・技術的職業,occ-540,540,4244400,43304,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/540,estat_code
-データエンジニア,Professional & Technical,専門的・技術的職業,occ-523,523,4122000,25922,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/523,estat_code
-データサイエンティスト,Professional & Technical,専門的・技術的職業,occ-323,323,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/323,estat_code
-ナレーター,Professional & Technical,専門的・技術的職業,occ-541,541,4736400,12388,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/541,estat_code
-ハローワーク職員,Professional & Technical,専門的・技術的職業,occ-574,574,3626400,120575,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/574,estat_code
-バイオテクノロジー技術者,Professional & Technical,専門的・技術的職業,occ-309,309,4200000,30450,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/309,estat_code
-バイオテクノロジー研究者,Professional & Technical,専門的・技術的職業,occ-393,393,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/393,substring
-バイオマス発電プラントの設計,Professional & Technical,専門的・技術的職業,occ-551,551,4422000,48520,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/551,estat_code
-ピアノ調律師,Professional & Technical,専門的・技術的職業,occ-127,127,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/127,estat_code
-ファイナンシャル・プランナー,Professional & Technical,専門的・技術的職業,occ-82,82,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/82,estat_code
-ファインセラミックス製造技術者,Professional & Technical,専門的・技術的職業,occ-305,305,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/305,estat_code
-ファッションデザイナー,Professional & Technical,専門的・技術的職業,occ-340,340,4077600,14363,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/340,substring
-ファンドマネージャー,Professional & Technical,専門的・技術的職業,occ-470,470,6921600,10220,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/470,estat_code
-フラワーデザイナー,Professional & Technical,専門的・技術的職業,occ-349,349,4077600,14363,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/349,substring
-フードコーディネーター,Professional & Technical,専門的・技術的職業,occ-351,351,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/351,estat_code
-ブックデザイナー,Professional & Technical,専門的・技術的職業,occ-347,347,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/347,substring
-ブロックチェーン・エンジニア,Professional & Technical,専門的・技術的職業,occ-581,581,4244400,43304,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/581,estat_code
-プラント設計技術者,Professional & Technical,専門的・技術的職業,occ-276,276,4219200,48570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/276,estat_code
-プログラマー,Professional & Technical,専門的・技術的職業,occ-313,313,4244400,43304,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/313,estat_code
-プロジェクトマネージャ（IT）,Professional & Technical,専門的・技術的職業,occ-322,322,5352000,164190,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/322,estat_code
-ヘルプデスク（IT）,Professional & Technical,専門的・技術的職業,occ-320,320,4122000,25922,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/320,estat_code
-下水道管路施設の点検・調査,Professional & Technical,専門的・技術的職業,occ-572,572,4423200,65965,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/572,estat_code
-不動産鑑定士,Professional & Technical,専門的・技術的職業,occ-93,93,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/93,estat_code
-中学校教員,Professional & Technical,専門的・技術的職業,occ-180,180,5001600,206500,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/180,substring
-中小企業診断士,Professional & Technical,専門的・技術的職業,occ-80,80,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/80,estat_code
-人事コンサルタント,Professional & Technical,専門的・技術的職業,occ-364,364,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/364,estat_code
-作業環境測定士,Professional & Technical,専門的・技術的職業,occ-571,571,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/571,estat_code
-作業療法士（OT）,Professional & Technical,専門的・技術的職業,occ-168,168,3481200,101270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/168,estat_code
-保健師,Professional & Technical,専門的・技術的職業,occ-160,160,3572400,48190,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/160,exact
-保育士,Professional & Technical,専門的・技術的職業,occ-131,131,3172800,634050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/131,exact
-保育補助者,Professional & Technical,専門的・技術的職業,occ-546,546,3127200,65228,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/546,estat_code
-児童指導員,Professional & Technical,専門的・技術的職業,occ-243,243,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/243,estat_code
-公認会計士,Professional & Technical,専門的・技術的職業,occ-90,90,5617200,19010,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/90,substring
-内科医,Professional & Technical,専門的・技術的職業,occ-404,404,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/404,estat_code
-分析化学技術者,Professional & Technical,専門的・技術的職業,occ-303,303,4200000,30450,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/303,substring
-助産師,Professional & Technical,専門的・技術的職業,occ-157,157,4245600,27230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/157,exact
-労働基準監督官,Professional & Technical,専門的・技術的職業,occ-519,519,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/519,estat_code
-動物看護,Professional & Technical,専門的・技術的職業,occ-510,510,2632800,82690,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/510,estat_code
-動画制作,Professional & Technical,専門的・技術的職業,occ-328,328,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/328,estat_code
-医学研究者,Professional & Technical,専門的・技術的職業,occ-390,390,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/390,substring
-医療機器開発技術者,Professional & Technical,専門的・技術的職業,occ-529,529,4698000,61036,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/529,estat_code
-半導体技術者,Professional & Technical,専門的・技術的職業,occ-267,267,4698000,61036,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/267,estat_code
-原子力技術者,Professional & Technical,専門的・技術的職業,occ-301,301,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/301,estat_code
-司法書士,Professional & Technical,専門的・技術的職業,occ-84,84,9204000,8285,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/84,estat_code
-商業カメラマン,Professional & Technical,専門的・技術的職業,occ-355,355,4203600,20660,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/355,estat_code
-図書編集者,Professional & Technical,専門的・技術的職業,occ-210,210,4422000,13991,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/210,estat_code
-図書館司書,Professional & Technical,専門的・技術的職業,occ-182,182,4112400,15535,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/182,estat_code
-国際協力専門家,Professional & Technical,専門的・技術的職業,occ-513,513,4112400,9970,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/513,estat_code
-土地家屋調査士,Professional & Technical,専門的・技術的職業,occ-86,86,9204000,3230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/86,estat_code
-土木・建築工学研究者,Professional & Technical,専門的・技術的職業,occ-388,388,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/388,substring
-土木施工管理技術者,Professional & Technical,専門的・技術的職業,occ-23,23,4423200,65965,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/23,estat_code
-土木設計技術者,Professional & Technical,専門的・技術的職業,occ-22,22,4423200,65965,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/22,estat_code
-報道カメラマン,Professional & Technical,専門的・技術的職業,occ-357,357,4203600,20660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/357,estat_code
-声優,Professional & Technical,専門的・技術的職業,occ-582,582,4736400,12388,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/582,estat_code
-外科医,Professional & Technical,専門的・技術的職業,occ-402,402,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/402,estat_code
-大学・短期大学教員,Professional & Technical,専門的・技術的職業,occ-184,184,7948800,179600,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/184,estat_code
-太陽光発電の設計・施工,Professional & Technical,専門的・技術的職業,occ-235,235,4423200,65965,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/235,estat_code
-学童保育指導員,Professional & Technical,専門的・技術的職業,occ-242,242,3127200,65228,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/242,estat_code
-学習塾教師,Professional & Technical,専門的・技術的職業,occ-396,396,3364800,113050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/396,estat_code
-学芸員,Professional & Technical,専門的・技術的職業,occ-185,185,4112400,15535,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/185,estat_code
-宇宙開発技術者,Professional & Technical,専門的・技術的職業,occ-310,310,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/310,estat_code
-家庭裁判所調査官,Professional & Technical,専門的・技術的職業,occ-146,146,9204000,3230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/146,estat_code
-専門学校教員,Professional & Technical,専門的・技術的職業,occ-181,181,3793200,23606,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/181,estat_code
-小児科医,Professional & Technical,専門的・技術的職業,occ-403,403,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/403,estat_code
-小学校教員,Professional & Technical,専門的・技術的職業,occ-179,179,5001600,188150,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/179,estat_code
-幼稚園教員,Professional & Technical,専門的・技術的職業,occ-178,178,3206400,143320,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/178,substring
-広告ディレクター,Professional & Technical,専門的・技術的職業,occ-333,333,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/333,estat_code
-広告デザイナー,Professional & Technical,専門的・技術的職業,occ-332,332,4077600,14363,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/332,substring
-広報コンサルタント,Professional & Technical,専門的・技術的職業,occ-363,363,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/363,estat_code
-建築施工管理技術者,Professional & Technical,専門的・技術的職業,occ-21,21,4422000,48520,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/21,estat_code
-建築設計技術者,Professional & Technical,専門的・技術的職業,occ-20,20,4422000,48520,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/20,estat_code
-弁理士,Professional & Technical,専門的・技術的職業,occ-91,91,9204000,8285,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/91,estat_code
-弁護士,Professional & Technical,専門的・技術的職業,occ-89,89,9204000,59862,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/89,estat_code
-情報工学研究者,Professional & Technical,専門的・技術的職業,occ-389,389,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/389,substring
-手話通訳者,Professional & Technical,専門的・技術的職業,occ-135,135,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/135,estat_code
-探偵,Professional & Technical,専門的・技術的職業,occ-562,562,4112400,9970,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/562,estat_code
-放送ディレクター,Professional & Technical,専門的・技術的職業,occ-217,217,4736400,12388,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/217,estat_code
-放送記者,Professional & Technical,専門的・技術的職業,occ-215,215,4422000,13991,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/215,estat_code
-整形外科医,Professional & Technical,専門的・技術的職業,occ-575,575,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/575,estat_code
-新聞記者,Professional & Technical,専門的・技術的職業,occ-208,208,4422000,13991,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/208,estat_code
-日本語教師,Professional & Technical,専門的・技術的職業,occ-397,397,3793200,23606,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/397,estat_code
-映像編集者,Professional & Technical,専門的・技術的職業,occ-214,214,4112400,9970,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/214,estat_code
-林業技術者,Professional & Technical,専門的・技術的職業,occ-229,229,3975600,8525,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/229,estat_code
-柔道整復師,Professional & Technical,専門的・技術的職業,occ-173,173,3532800,39406,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/173,estat_code
-栄養士,Professional & Technical,専門的・技術的職業,occ-171,171,3075600,121320,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/171,exact
-植物工場の研究開発,Professional & Technical,専門的・技術的職業,occ-247,247,3975600,8525,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/247,estat_code
-植物工場の設計、施工,Professional & Technical,専門的・技術的職業,occ-248,248,4422000,48520,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/248,estat_code
-検察事務官,Professional & Technical,専門的・技術的職業,occ-518,518,9204000,3230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/518,estat_code
-検察官,Professional & Technical,専門的・技術的職業,occ-145,145,9204000,59862,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/145,estat_code
-検疫官（看護師）,Professional & Technical,専門的・技術的職業,occ-564,564,3831600,400,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/564,substring
-機械設計技術者,Professional & Technical,専門的・技術的職業,occ-262,262,4219200,48570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/262,estat_code
-歯科助手,Professional & Technical,専門的・技術的職業,occ-545,545,2632800,82690,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/545,estat_code
-歯科医師,Professional & Technical,専門的・技術的職業,occ-159,159,8053200,81470,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/159,exact
-歯科技工士,Professional & Technical,専門的・技術的職業,occ-165,165,3912000,25140,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/165,exact
-歯科衛生士,Professional & Technical,専門的・技術的職業,occ-166,166,3372000,124250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/166,exact
-気象予報士,Professional & Technical,専門的・技術的職業,occ-94,94,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/94,estat_code
-水産技術者,Professional & Technical,専門的・技術的職業,occ-228,228,3975600,8525,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/228,estat_code
-治験コーディネーター,Professional & Technical,専門的・技術的職業,occ-407,407,3532800,27290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/407,estat_code
-法務技官（心理）（矯正心理専門職）,Professional & Technical,専門的・技術的職業,occ-516,516,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/516,estat_code
-法務教官,Professional & Technical,専門的・技術的職業,occ-147,147,3793200,23606,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/147,estat_code
-測量士,Professional & Technical,専門的・技術的職業,occ-24,24,3709200,254910,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/24,estat_code
-特別支援学校教員、特別支援学級教員,Professional & Technical,専門的・技術的職業,occ-395,395,3793200,78290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/395,estat_code
-特許審査官,Professional & Technical,専門的・技術的職業,occ-521,521,9204000,3230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/521,estat_code
-犬訓練士,Professional & Technical,専門的・技術的職業,occ-226,226,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/226,estat_code
-独立系ファイナンシャル・アドバイザー（IFA）,Professional & Technical,専門的・技術的職業,occ-524,524,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/524,estat_code
-獣医師,Professional & Technical,専門的・技術的職業,occ-223,223,4867200,18470,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/223,exact
-理学療法士（PT）,Professional & Technical,専門的・技術的職業,occ-167,167,3481200,101270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/167,estat_code
-生産・品質管理技術者,Professional & Technical,専門的・技術的職業,occ-296,296,4698000,61036,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/296,estat_code
-産婦人科医,Professional & Technical,専門的・技術的職業,occ-406,406,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/406,estat_code
-産業医,Professional & Technical,専門的・技術的職業,occ-583,583,11400000,37953,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/583,estat_code
-産業廃棄物処理技術者,Professional & Technical,専門的・技術的職業,occ-495,495,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/495,estat_code
-産業用ロボットの設置・設定,Professional & Technical,専門的・技術的職業,occ-232,232,3462000,111453,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/232,estat_code
-産業用ロボット開発技術者,Professional & Technical,専門的・技術的職業,occ-231,231,4219200,48570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/231,estat_code
-畜産技術者,Professional & Technical,専門的・技術的職業,occ-508,508,3975600,8525,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/508,estat_code
-看護助手,Professional & Technical,専門的・技術的職業,occ-246,246,2529600,138010,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/246,exact
-看護師,Professional & Technical,専門的・技術的職業,occ-156,156,3831600,692970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/156,exact
-知的財産コーディネーター,Professional & Technical,専門的・技術的職業,occ-365,365,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/365,estat_code
-知的財産サーチャー,Professional & Technical,専門的・技術的職業,occ-366,366,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/366,estat_code
-社会保険労務士,Professional & Technical,専門的・技術的職業,occ-83,83,6921600,21220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/83,estat_code
-社会学研究者,Professional & Technical,専門的・技術的職業,occ-560,560,5275200,59862,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/560,substring
-社会教育主事,Professional & Technical,専門的・技術的職業,occ-400,400,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/400,estat_code
-科学捜査研究所鑑定技術職員,Professional & Technical,専門的・技術的職業,occ-391,391,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/391,estat_code
-税理士,Professional & Technical,専門的・技術的職業,occ-92,92,5617200,53800,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/92,substring
-精密機器技術者,Professional & Technical,専門的・技術的職業,occ-271,271,4219200,48570,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/271,estat_code
-精神科医,Professional & Technical,専門的・技術的職業,occ-405,405,11400000,37953,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/405,estat_code
-細胞検査士,Professional & Technical,専門的・技術的職業,occ-162,162,3532800,27290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/162,estat_code
-経営コンサルタント,Professional & Technical,専門的・技術的職業,occ-81,81,6921600,10220,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/81,estat_code
-義肢装具士,Professional & Technical,専門的・技術的職業,occ-176,176,3532800,27290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/176,estat_code
-翻訳者,Professional & Technical,専門的・技術的職業,occ-87,87,4422000,15060,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/87,estat_code
-耐震診断,Professional & Technical,専門的・技術的職業,occ-570,570,4422000,48520,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/570,estat_code
-職業訓練指導員,Professional & Technical,専門的・技術的職業,occ-399,399,3793200,23606,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/399,estat_code
-臨床工学技士,Professional & Technical,専門的・技術的職業,occ-164,164,3532800,27290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/164,estat_code
-臨床検査技師,Professional & Technical,専門的・技術的職業,occ-161,161,3811200,82710,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/161,exact
-自動車技術者,Professional & Technical,専門的・技術的職業,occ-270,270,4611600,34172,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/270,estat_code
-自動車教習指導員,Professional & Technical,専門的・技術的職業,occ-121,121,3793200,23606,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/121,estat_code
-自動運転開発エンジニア（自動車）,Professional & Technical,専門的・技術的職業,occ-528,528,4611600,34172,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/528,estat_code
-舞台照明スタッフ,Professional & Technical,専門的・技術的職業,occ-353,353,4736400,12388,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/353,estat_code
-舞台美術スタッフ,Professional & Technical,専門的・技術的職業,occ-352,352,4736400,12388,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/352,estat_code
-航空管制官,Professional & Technical,専門的・技術的職業,occ-203,203,4112400,8885,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/203,estat_code
-船員,Professional & Technical,専門的・技術的職業,occ-207,207,3280800,14340,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/207,estat_code
-英会話教師,Professional & Technical,専門的・技術的職業,occ-398,398,3364800,113050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/398,estat_code
-薬剤師,Professional & Technical,専門的・技術的職業,occ-158,158,4664400,243650,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/158,exact
-薬学研究者,Professional & Technical,専門的・技術的職業,occ-392,392,5275200,16335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/392,substring
-行政書士,Professional & Technical,専門的・技術的職業,occ-85,85,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/85,estat_code
-衛生管理者,Professional & Technical,専門的・技術的職業,occ-576,576,3532800,27290,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/576,estat_code
-裁判官,Professional & Technical,専門的・技術的職業,occ-144,144,9204000,59862,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/144,estat_code
-視能訓練士,Professional & Technical,専門的・技術的職業,occ-170,170,3481200,13465,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/170,substring
-言語聴覚士,Professional & Technical,専門的・技術的職業,occ-169,169,3481200,13465,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/169,substring
-診療放射線技師,Professional & Technical,専門的・技術的職業,occ-163,163,4034400,57480,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/163,exact
-証券アナリスト,Professional & Technical,専門的・技術的職業,occ-457,457,6921600,10220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/457,estat_code
-調教師,Professional & Technical,専門的・技術的職業,occ-225,225,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/225,estat_code
-調香師,Professional & Technical,専門的・技術的職業,occ-419,419,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/419,estat_code
-農業技術者,Professional & Technical,専門的・技術的職業,occ-221,221,3975600,8525,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/221,estat_code
-通訳者,Professional & Technical,専門的・技術的職業,occ-88,88,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/88,estat_code
-通関士,Professional & Technical,専門的・技術的職業,occ-202,202,4112400,9970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/202,estat_code
-速記者、音声反訳者,Professional & Technical,専門的・技術的職業,occ-424,424,4112400,9970,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/424,estat_code
-造船技術者（船舶の開発・設計）,Professional & Technical,専門的・技術的職業,occ-550,550,4611600,34172,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/550,estat_code
-運用・管理（IT）,Professional & Technical,専門的・技術的職業,occ-319,319,4122000,25922,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/319,estat_code
-鉄道車両の設計・開発,Professional & Technical,専門的・技術的職業,occ-561,561,4611600,34172,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/561,estat_code
-陶磁器技術者,Professional & Technical,専門的・技術的職業,occ-304,304,3975600,11325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/304,estat_code
-雑誌編集者,Professional & Technical,専門的・技術的職業,occ-211,211,4422000,13991,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/211,estat_code
-雑誌記者,Professional & Technical,専門的・技術的職業,occ-209,209,4422000,13991,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/209,estat_code
-電子機器技術者,Professional & Technical,専門的・技術的職業,occ-273,273,4698000,61036,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/273,estat_code
-電気技術者,Professional & Technical,専門的・技術的職業,occ-272,272,4698000,61036,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/272,estat_code
-電気通信技術者,Professional & Technical,専門的・技術的職業,occ-274,274,4698000,25922,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/274,substring
-非鉄金属製錬技術者,Professional & Technical,専門的・技術的職業,occ-258,258,3958800,25630,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/258,estat_code
-音楽教室講師,Professional & Technical,専門的・技術的職業,occ-122,122,3364800,70090,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/122,estat_code
-食品技術者,Professional & Technical,専門的・技術的職業,occ-288,288,3975600,8525,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/288,estat_code
-養護教諭,Professional & Technical,専門的・技術的職業,occ-565,565,5001600,188150,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/565,estat_code
-高分子化学技術者,Professional & Technical,専門的・技術的職業,occ-308,308,4200000,30450,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/308,substring
-高等学校教員,Professional & Technical,専門的・技術的職業,occ-183,183,5241600,250420,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/183,exact
-麻酔科医,Professional & Technical,専門的・技術的職業,occ-563,563,11400000,37953,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/563,estat_code
-CDショップ店員,Sales,販売の職業,occ-451,451,3012000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/451,estat_code
-OA機器営業,Sales,販売の職業,occ-462,462,3946800,193750,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/462,estat_code
-せり人,Sales,販売の職業,occ-65,65,4267200,97120,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/65,estat_code
-カフェ店員,Sales,販売の職業,occ-105,105,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/105,estat_code
-ガソリンスタンド・スタッフ,Sales,販売の職業,occ-198,198,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/198,estat_code
-コンサルティング営業（IT）,Sales,販売の職業,occ-452,452,4462800,193750,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/452,estat_code
-コンビニエンスストア店員,Sales,販売の職業,occ-78,78,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/78,estat_code
-シューフィッター,Sales,販売の職業,occ-76,76,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/76,estat_code
-スポーツ用品販売,Sales,販売の職業,occ-70,70,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/70,estat_code
-スーパーレジ係,Sales,販売の職業,occ-56,56,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/56,estat_code
-スーパー店員,Sales,販売の職業,occ-57,57,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/57,estat_code
-ディーラー,Sales,販売の職業,occ-455,455,4267200,97120,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/455,estat_code
-デパート店員,Sales,販売の職業,occ-54,54,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/54,estat_code
-フラワーショップ店員,Sales,販売の職業,occ-66,66,3012000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/66,estat_code
-ベーカリーショップ店員,Sales,販売の職業,occ-79,79,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/79,estat_code
-ペットショップ店員,Sales,販売の職業,occ-72,72,3012000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/72,estat_code
-ホームセンター店員,Sales,販売の職業,occ-71,71,3012000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/71,estat_code
-メガネ販売,Sales,販売の職業,occ-69,69,3012000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/69,estat_code
-リサイクルショップ店員,Sales,販売の職業,occ-449,449,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/449,estat_code
-代理店営業（保険会社）,Sales,販売の職業,occ-472,472,4014000,155676,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/472,estat_code
-住宅・不動産営業,Sales,販売の職業,occ-59,59,4297200,138640,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/59,estat_code
-保険営業（生命保険、損害保険）,Sales,販売の職業,occ-453,453,4014000,155676,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/453,estat_code
-化粧品訪問販売,Sales,販売の職業,occ-465,465,4016400,23190,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/465,estat_code
-化粧品販売/美容部員,Sales,販売の職業,occ-464,464,3012000,143089,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/464,estat_code
-医薬品販売/登録販売者,Sales,販売の職業,occ-448,448,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/448,estat_code
-医薬情報担当者（MR）,Sales,販売の職業,occ-63,63,4297200,83290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/63,estat_code
-印刷営業,Sales,販売の職業,occ-62,62,4297200,351797,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/62,estat_code
-商社営業,Sales,販売の職業,occ-58,58,4297200,351797,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/58,estat_code
-広告営業,Sales,販売の職業,occ-61,61,4297200,351797,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/61,estat_code
-携帯電話販売,Sales,販売の職業,occ-450,450,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/450,estat_code
-書店員,Sales,販売の職業,occ-68,68,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/68,estat_code
-空港グランドスタッフ,Sales,販売の職業,occ-194,194,3607200,43560,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/194,estat_code
-自動車営業,Sales,販売の職業,occ-60,60,3946800,193750,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/60,substring
-自転車販売,Sales,販売の職業,occ-467,467,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/467,estat_code
-衣料品販売,Sales,販売の職業,occ-73,73,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/73,estat_code
-証券外務員,Sales,販売の職業,occ-463,463,4267200,97120,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/463,estat_code
-銀行・信用金庫渉外担当,Sales,販売の職業,occ-454,454,4260000,155676,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/454,estat_code
-電器店店員,Sales,販売の職業,occ-67,67,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/67,estat_code
-食品営業（食品メーカー）,Sales,販売の職業,occ-527,527,4297200,351797,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/527,estat_code
-駅構内売店店員,Sales,販売の職業,occ-77,77,3012000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/77,estat_code
-入国警備官,Security,保安職業,occ-143,143,2848800,16824,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/143,estat_code
-冷凍加工食品製造,Security,保安職業,occ-7,7,2599200,102292,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/7,estat_code
-刑務官,Security,保安職業,occ-148,148,2928000,14720,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/148,jobtag
-救急救命士,Security,保安職業,occ-401,401,2848800,73835,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/401,estat_code
-施設警備員,Security,保安職業,occ-241,241,2857200,374700,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/241,substring
-水族館飼育員,Security,保安職業,occ-224,224,3001200,16990,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/224,estat_code
-海上保安官,Security,保安職業,occ-141,141,3072000,125590,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/141,jobtag
-海上自衛官,Security,保安職業,occ-153,153,2400000,76796,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/153,jobtag
-消防官,Security,保安職業,occ-155,155,2848800,73835,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/155,estat_code
-潜水士,Security,保安職業,occ-33,33,3625200,129512,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/33,estat_code
-税関職員,Security,保安職業,occ-578,578,2848800,16824,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/578,estat_code
-自然保護官（レンジャー）,Security,保安職業,occ-501,501,2848800,16824,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/501,estat_code
-航空自衛官,Security,保安職業,occ-154,154,2400000,76796,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/154,jobtag
-警察官（都道府県警察）,Security,保安職業,occ-140,140,3072000,125590,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/140,jobtag
-道路パトロール隊員,Security,保安職業,occ-199,199,2848800,16824,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/199,estat_code
-陸上自衛官,Security,保安職業,occ-152,152,2400000,76796,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/152,jobtag
-雑踏・交通誘導警備員,Security,保安職業,occ-475,475,2857200,16824,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/475,substring
-麻薬取締官,Security,保安職業,occ-142,142,2848800,66666,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/142,estat_code
-きもの着付指導員,Service,サービス職業,occ-423,423,2913600,39743,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/423,estat_code
-すし職人,Service,サービス職業,occ-101,101,2964000,227813,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/101,estat_code
-そば・うどん調理人,Service,サービス職業,occ-102,102,2964000,227813,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/102,estat_code
-アロマセラピスト,Service,サービス職業,occ-420,420,3127200,65228,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/420,estat_code
-エステティシャン,Service,サービス職業,occ-117,117,2913600,39743,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/117,estat_code
-キャディ,Service,サービス職業,occ-113,113,3106799,204155,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/113,estat_code
-クリーニング師,Service,サービス職業,occ-119,119,2445600,104820,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/119,estat_code
-ソムリエ,Service,サービス職業,occ-106,106,2763600,147838,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/106,estat_code
-ツアーコンダクター,Service,サービス職業,occ-110,110,3127200,7955,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/110,estat_code
-トリマー,Service,サービス職業,occ-227,227,3127200,65228,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/227,estat_code
-ネイリスト,Service,サービス職業,occ-128,128,2913600,39743,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/128,estat_code
-バーテンダー,Service,サービス職業,occ-107,107,2964000,7340,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/107,estat_code
-ビデオレンタル店店員,Service,サービス職業,occ-123,123,3127200,21250,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/123,estat_code
-フロント（ホテル・旅館）,Service,サービス職業,occ-414,414,2798400,147838,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/414,estat_code
-ブライダルコーディネーター,Service,サービス職業,occ-125,125,3127200,65228,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/125,estat_code
-ベビーシッター,Service,サービス職業,occ-413,413,3127200,13560,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/413,estat_code
-ホテル・旅館支配人,Service,サービス職業,occ-52,52,2798400,8170,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/52,estat_code
-ホールスタッフ（レストラン）,Service,サービス職業,occ-417,417,2763600,147838,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/417,estat_code
-マンション管理員,Service,サービス職業,occ-473,473,2985600,146870,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/473,estat_code
-メイクアップアーティスト,Service,サービス職業,occ-118,118,3661200,167250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/118,estat_code
-ラーメン調理人,Service,サービス職業,occ-108,108,2964000,227813,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/108,estat_code
-リフレクソロジスト,Service,サービス職業,occ-421,421,3127200,65228,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/421,estat_code
-レンタカー店舗スタッフ,Service,サービス職業,occ-124,124,3127200,21250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/124,estat_code
-中華料理調理人,Service,サービス職業,occ-103,103,2964000,227813,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/103,estat_code
-介護支援専門員/ケアマネジャー,Service,サービス職業,occ-132,132,3439200,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/132,estat_code
-児童発達支援管理責任者,Service,サービス職業,occ-568,568,3324000,44392,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/568,estat_code
-児童相談所相談員,Service,サービス職業,occ-129,129,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/129,estat_code
-医療ソーシャルワーカー,Service,サービス職業,occ-408,408,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/408,estat_code
-客室乗務員,Service,サービス職業,occ-205,205,4502400,26000,短大卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/205,substring
-家政婦（夫）,Service,サービス職業,occ-126,126,3127200,7270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/126,estat_code
-接客担当（ホテル・旅館）,Service,サービス職業,occ-416,416,2798400,147838,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/416,estat_code
-施設介護員,Service,サービス職業,occ-134,134,2980800,1358940,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/134,estat_code
-施設管理者（介護施設）,Service,サービス職業,occ-410,410,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/410,estat_code
-日本料理調理人（板前）,Service,サービス職業,occ-100,100,2964000,227813,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/100,estat_code
-洋菓子製造、パティシエ,Service,サービス職業,occ-3,3,2599200,102292,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/3,estat_code
-理容師,Service,サービス職業,occ-115,115,3661200,134670,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/115,estat_code
-福祉ソーシャルワーカー,Service,サービス職業,occ-409,409,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/409,estat_code
-福祉事務所ケースワーカー,Service,サービス職業,occ-130,130,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/130,estat_code
-福祉用具専門相談員,Service,サービス職業,occ-137,137,3127200,21250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/137,estat_code
-納棺師,Service,サービス職業,occ-569,569,3127200,24595,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/569,estat_code
-給食調理員,Service,サービス職業,occ-493,493,2964000,227813,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/493,estat_code
-美容師,Service,サービス職業,occ-116,116,3661200,167250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/116,substring
-老人福祉施設生活相談員,Service,サービス職業,occ-245,245,3324000,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/245,estat_code
-葬祭ディレクター,Service,サービス職業,occ-422,422,3127200,24595,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/422,estat_code
-西洋料理調理人（コック）,Service,サービス職業,occ-99,99,2964000,227813,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/99,estat_code
-訪問介護のサービス提供責任者,Service,サービス職業,occ-555,555,3439200,44392,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/555,estat_code
-訪問介護員/ホームヘルパー,Service,サービス職業,occ-133,133,3177600,268630,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/133,estat_code
-調理補助,Service,サービス職業,occ-492,492,2964000,227813,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/492,estat_code
-通訳ガイド,Service,サービス職業,occ-114,114,3127200,7955,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/114,estat_code
-遊園地スタッフ,Service,サービス職業,occ-112,112,3106799,204155,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/112,estat_code
-障害福祉サービス管理責任者,Service,サービス職業,occ-580,580,3324000,44392,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/580,estat_code
-障害者グループホーム世話人,Service,サービス職業,occ-556,556,3127200,65228,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/556,estat_code
-障害者福祉施設指導専門員（生活支援員、就労支援員等）,Service,サービス職業,occ-244,244,3324000,44392,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/244,estat_code
-飲食チェーン店店員,Service,サービス職業,occ-418,418,2763600,147838,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/418,estat_code
-駐車場管理,Service,サービス職業,occ-96,96,2985600,50250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/96,estat_code
-さく井工/ボーリング工,Transportation & Machine Operation,輸送・機械運転の職業,occ-35,35,3774000,42210,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/35,estat_code
-クレーン運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-549,549,4166400,45100,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/549,estat_code
-タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-188,188,3482400,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/188,estat_code
-タンクローリー乗務員,Transportation & Machine Operation,輸送・機械運転の職業,occ-525,525,3546000,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/525,estat_code
-ダンプカー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-479,479,3546000,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/479,estat_code
-トラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-477,477,3546000,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/477,estat_code
-トレーラートラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-478,478,3546000,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/478,estat_code
-ドローンパイロット,Transportation & Machine Operation,輸送・機械運転の職業,occ-511,511,3280800,50365,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/511,estat_code
-パイロット,Transportation & Machine Operation,輸送・機械運転の職業,occ-189,189,16099200,78620,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/189,estat_code
-ビル施設管理,Transportation & Machine Operation,輸送・機械運転の職業,occ-95,95,3303600,157510,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/95,estat_code
-フォークリフト運転作業員,Transportation & Machine Operation,輸送・機械運転の職業,occ-237,237,3280800,50365,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/237,estat_code
-フードデリバリー（料理配達員）,Transportation & Machine Operation,輸送・機械運転の職業,occ-532,532,3062400,139238,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/532,estat_code
-ボイラーオペレーター,Transportation & Machine Operation,輸送・機械運転の職業,occ-476,476,3303600,7550,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/476,estat_code
-ルート配送ドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-482,482,3062400,139238,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/482,estat_code
-介護タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-481,481,3482400,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/481,estat_code
-宅配便配達員,Transportation & Machine Operation,輸送・機械運転の職業,occ-483,483,3062400,139238,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/483,estat_code
-建設機械オペレーター,Transportation & Machine Operation,輸送・機械運転の職業,occ-31,31,3774000,42210,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/31,estat_code
-新聞配達員,Transportation & Machine Operation,輸送・機械運転の職業,occ-484,484,3062400,139238,中学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/484,estat_code
-清涼飲料ルートセールス,Transportation & Machine Operation,輸送・機械運転の職業,occ-466,466,3062400,139238,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/466,estat_code
-産業廃棄物収集運搬作業員,Transportation & Machine Operation,輸送・機械運転の職業,occ-496,496,3123600,59990,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/496,estat_code
-発電所運転管理,Transportation & Machine Operation,輸送・機械運転の職業,occ-302,302,4082400,34380,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/302,estat_code
-航海士,Transportation & Machine Operation,輸送・機械運転の職業,occ-190,190,3280800,14400,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/190,estat_code
-船舶機関士,Transportation & Machine Operation,輸送・機械運転の職業,occ-191,191,3280800,78620,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/191,estat_code
-観光バスガイド,Transportation & Machine Operation,輸送・機械運転の職業,occ-111,111,3853200,10805,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/111,estat_code
-観光バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-187,187,2991600,160643,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/187,estat_code
-路線バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-186,186,2991600,160643,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/186,estat_code
-送迎バス等運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-480,480,2991600,160643,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/480,estat_code
-鉄道車掌,Transportation & Machine Operation,輸送・機械運転の職業,occ-193,193,3853200,10805,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/193,substring
-電車運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-192,192,4327200,37090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/192,estat_code
+ハウス野菜栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-505,505,3518000,290556,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/505,jobtag_v7
+ブリーダー,"Agriculture, Forestry & Fishing",農林漁業,occ-500,500,3518000,38618,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/500,jobtag_v7
+動物園飼育員,"Agriculture, Forestry & Fishing",農林漁業,occ-220,220,3518000,38618,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/220,jobtag_v7
+厩舎スタッフ,"Agriculture, Forestry & Fishing",農林漁業,occ-218,218,3518000,38617,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/218,jobtag_v7
+林業作業,"Agriculture, Forestry & Fishing",農林漁業,occ-230,230,3518000,17480,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/230,jobtag_v7
+果樹栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-506,506,3518000,290556,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/506,jobtag_v7
+植物工場の栽培管理,"Agriculture, Forestry & Fishing",農林漁業,occ-249,249,3518000,290556,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/249,jobtag_v7
+水産養殖従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-503,503,3518000,16990,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/503,jobtag_v7
+沿岸漁業従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-509,509,3518000,66470,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/509,jobtag_v7
+稲作農業者,"Agriculture, Forestry & Fishing",農林漁業,occ-504,504,3518000,290556,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/504,jobtag_v7
+花き栽培者,"Agriculture, Forestry & Fishing",農林漁業,occ-507,507,3518000,290556,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/507,jobtag_v7
+造園工,"Agriculture, Forestry & Fishing",農林漁業,occ-222,222,3518000,122810,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/222,jobtag_v7
+酪農従事者,"Agriculture, Forestry & Fishing",農林漁業,occ-502,502,3518000,38617,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/502,jobtag_v7
+IR広報担当,Clerical & Administrative,事務的職業,occ-445,445,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/445,jobtag_v7
+NPO法人職員（企画・運営）,Clerical & Administrative,事務的職業,occ-522,522,6907000,124596,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/522,jobtag_v7
+Webマーケティング（ネット広告・販売促進）,Clerical & Administrative,事務的職業,occ-240,240,6907000,124596,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/240,jobtag_v7
+アニメ制作進行管理,Clerical & Administrative,事務的職業,occ-553,553,4814000,124595,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/553,jobtag_v7
+イベントの企画・運営,Clerical & Administrative,事務的職業,occ-566,566,6907000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/566,jobtag_v7
+キッティング作業員（PCセットアップ作業員）,Clerical & Administrative,事務的職業,occ-531,531,3562000,22720,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/531,jobtag_v7
+コンプライアンス推進担当,Clerical & Administrative,事務的職業,occ-447,447,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/447,jobtag_v7
+コールセンターオペレーター,Clerical & Administrative,事務的職業,occ-64,64,3936000,146270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/64,jobtag_v7
+タクシー配車オペレーター,Clerical & Administrative,事務的職業,occ-200,200,5060000,72610,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/200,jobtag_v7
+ディスパッチャー（航空機運航管理者）,Clerical & Administrative,事務的職業,occ-204,204,5060000,72610,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/204,jobtag_v7
+データ入力,Clerical & Administrative,事務的職業,occ-429,429,3562000,155710,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/429,jobtag_v7
+ネット通販の企画開発,Clerical & Administrative,事務的職業,occ-238,238,6907000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/238,jobtag_v7
+ネット通販の運営,Clerical & Administrative,事務的職業,occ-239,239,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/239,jobtag_v7
+パラリーガル（弁護士補助職）,Clerical & Administrative,事務的職業,occ-425,425,4814000,124596,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/425,jobtag_v7
+フランチャイズチェーン・スーパーバイザー,Clerical & Administrative,事務的職業,occ-75,75,5119000,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/75,jobtag_v7
+プロスポーツ運営団体職員（企画・運営）,Clerical & Administrative,事務的職業,occ-554,554,6907000,124595,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/554,jobtag_v7
+マンション管理フロント,Clerical & Administrative,事務的職業,occ-474,474,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/474,jobtag_v7
+マーケティング・リサーチャー,Clerical & Administrative,事務的職業,occ-456,456,6907000,124595,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/456,jobtag_v7
+マーチャンダイザー、バイヤー,Clerical & Administrative,事務的職業,occ-544,544,4730000,29500,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/544,jobtag_v7
+一般事務,Clerical & Administrative,事務的職業,occ-428,428,5296000,2639330,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/428,jobtag_v7
+人事事務,Clerical & Administrative,事務的職業,occ-432,432,5135000,264333,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/432,jobtag_v7
+介護事務,Clerical & Administrative,事務的職業,occ-436,436,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/436,jobtag_v7
+企業法務担当,Clerical & Administrative,事務的職業,occ-446,446,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/446,jobtag_v7
+企画・調査担当,Clerical & Administrative,事務的職業,occ-434,434,6907000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/434,jobtag_v7
+入国審査官,Clerical & Administrative,事務的職業,occ-517,517,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/517,jobtag_v7
+内部監査人,Clerical & Administrative,事務的職業,occ-469,469,5135000,264333,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/469,jobtag_v7
+出荷・受荷事務,Clerical & Administrative,事務的職業,occ-542,542,5211000,292325,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/542,jobtag_v7
+医療事務,Clerical & Administrative,事務的職業,occ-443,443,4814000,124595,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/443,jobtag_v7
+受付事務,Clerical & Administrative,事務的職業,occ-427,427,3564000,369800,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/427,jobtag_v7
+商品企画開発（チェーンストア）,Clerical & Administrative,事務的職業,occ-461,461,6907000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/461,jobtag_v7
+営業事務,Clerical & Administrative,事務的職業,occ-431,431,5119000,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/431,jobtag_v7
+国家公務員（行政事務）,Clerical & Administrative,事務的職業,occ-138,138,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/138,jobtag_v7
+国際公務員,Clerical & Administrative,事務的職業,occ-151,151,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/151,jobtag_v7
+地方公務員（行政事務）,Clerical & Administrative,事務的職業,occ-139,139,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/139,jobtag_v7
+外務公務員（外交官）,Clerical & Administrative,事務的職業,occ-150,150,4814000,124596,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/150,jobtag_v7
+太陽光発電の企画・調査,Clerical & Administrative,事務的職業,occ-234,234,6907000,124595,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/234,jobtag_v7
+学校事務,Clerical & Administrative,事務的職業,occ-442,442,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/442,jobtag_v7
+学校事務（私立大学）,Clerical & Administrative,事務的職業,occ-567,567,4814000,124595,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/567,jobtag_v7
+広報・PR担当,Clerical & Administrative,事務的職業,occ-444,444,5135000,264332,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/444,jobtag_v7
+損害保険事務,Clerical & Administrative,事務的職業,occ-440,440,5119000,174488,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/440,jobtag_v7
+旅行会社カウンター係,Clerical & Administrative,事務的職業,occ-109,109,5119000,174488,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/109,jobtag_v7
+検針員,Clerical & Administrative,事務的職業,occ-74,74,4265000,34250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/74,jobtag_v7
+生産・工程管理事務,Clerical & Administrative,事務的職業,occ-437,437,5211000,292325,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/437,jobtag_v7
+秘書,Clerical & Administrative,事務的職業,occ-426,426,5548000,124595,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/426,jobtag_v7
+税務事務官,Clerical & Administrative,事務的職業,occ-149,149,5093000,507867,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/149,jobtag_v7
+経理事務,Clerical & Administrative,事務的職業,occ-430,430,5093000,507867,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/430,jobtag_v7
+総務事務,Clerical & Administrative,事務的職業,occ-433,433,5135000,264332,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/433,jobtag_v7
+臨床開発モニター,Clerical & Administrative,事務的職業,occ-530,530,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/530,jobtag_v7
+診療情報管理士,Clerical & Administrative,事務的職業,occ-174,174,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/174,jobtag_v7
+調剤薬局事務,Clerical & Administrative,事務的職業,occ-435,435,4814000,124595,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/435,jobtag_v7
+貿易事務,Clerical & Administrative,事務的職業,occ-439,439,5119000,174488,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/439,jobtag_v7
+通信販売受付事務,Clerical & Administrative,事務的職業,occ-441,441,3936000,146270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/441,jobtag_v7
+郵便局郵便窓口業務,Clerical & Administrative,事務的職業,occ-543,543,5060000,146590,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/543,jobtag_v7
+鉄道運転計画・運行管理,Clerical & Administrative,事務的職業,occ-196,196,5060000,72610,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/196,jobtag_v7
+銀行等窓口事務,Clerical & Administrative,事務的職業,occ-438,438,5093000,507866,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/438,jobtag_v7
+風力発電の企画・調査,Clerical & Administrative,事務的職業,occ-577,577,6907000,124595,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/577,jobtag_v7
+駅務員,Clerical & Administrative,事務的職業,occ-195,195,5060000,108915,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/195,jobtag_v7
+とび,Construction & Mining,建設・採掘の職業,occ-30,30,5060000,55970,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/30,jobtag_v7
+サッシ取付,Construction & Mining,建設・採掘の職業,occ-41,41,4534000,215844,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/41,jobtag_v7
+タイル工,Construction & Mining,建設・採掘の職業,occ-38,38,4534000,12255,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/38,jobtag_v7
+ブロック積み,Construction & Mining,建設・採掘の職業,occ-37,37,4534000,12255,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/37,jobtag_v7
+保温工事,Construction & Mining,建設・採掘の職業,occ-45,45,4534000,323765,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/45,jobtag_v7
+内装工,Construction & Mining,建設・採掘の職業,occ-42,42,4534000,215843,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/42,jobtag_v7
+型枠大工,Construction & Mining,建設・採掘の職業,occ-27,27,5060000,40840,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/27,jobtag_v7
+大工,Construction & Mining,建設・採掘の職業,occ-26,26,4487000,297900,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/26,jobtag_v7
+左官,Construction & Mining,建設・採掘の職業,occ-39,39,4534000,59890,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/39,jobtag_v7
+建設・土木作業員,Construction & Mining,建設・採掘の職業,occ-32,32,4151000,228450,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/32,jobtag_v7
+舗装工,Construction & Mining,建設・採掘の職業,occ-36,36,4151000,228450,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/36,jobtag_v7
+解体工,Construction & Mining,建設・採掘の職業,occ-51,51,5060000,55970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/51,jobtag_v7
+送電線工事,Construction & Mining,建設・採掘の職業,occ-50,50,5476000,47430,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/50,jobtag_v7
+配管工,Construction & Mining,建設・採掘の職業,occ-47,47,4859000,220720,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/47,jobtag_v7
+鉄筋工,Construction & Mining,建設・採掘の職業,occ-28,28,5060000,28990,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/28,jobtag_v7
+鉄道線路管理,Construction & Mining,建設・採掘の職業,occ-49,49,4151000,24750,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/49,jobtag_v7
+防水工,Construction & Mining,建設・採掘の職業,occ-44,44,4534000,215843,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/44,jobtag_v7
+電気工事士,Construction & Mining,建設・採掘の職業,occ-46,46,5476000,379510,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/46,jobtag_v7
+こん包作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-498,498,3945000,285050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/498,jobtag_v7
+ごみ収集作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-494,494,3998000,119970,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/494,jobtag_v7
+ハウスクリーニング,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-487,487,3998000,27760,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/487,jobtag_v7
+バックヤード作業員（スーパー食品部門）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-491,491,3454000,383404,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/491,jobtag_v7
+ビル清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-97,97,2863000,910680,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/97,jobtag_v7
+ピッキング作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-486,486,3454000,383403,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/486,jobtag_v7
+ペストコントロール従事者（害虫等防除・駆除従事者）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-488,488,3998000,45455,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/488,jobtag_v7
+倉庫作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-485,485,3945000,273930,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/485,jobtag_v7
+客室清掃・整備担当（ホテル・旅館）,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-415,415,3383000,887020,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/415,jobtag_v7
+工場労務作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-490,490,3454000,383403,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/490,jobtag_v7
+引越作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-201,201,3945000,122550,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/201,jobtag_v7
+港湾荷役作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-499,499,5915000,14220,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/499,jobtag_v7
+積卸作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-497,497,3945000,122550,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/497,jobtag_v7
+製品包装作業員,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-489,489,3080000,274230,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/489,jobtag_v7
+鉄道車両清掃,Logistics & Cleaning,運搬・清掃・包装等の職業,occ-98,98,3998000,45455,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/98,jobtag_v7
+スーパー店長,Management,管理的職業,occ-55,55,3694000,303970,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/55,jobtag_v7
+ハンバーガーショップ店長,Management,管理的職業,occ-104,104,3584000,114270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/104,jobtag_v7
+人事課長,Management,管理的職業,occ-537,537,9172000,24084,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/537,jobtag_v7
+会社経営者,Management,管理的職業,occ-514,514,9130000,456745,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/514,jobtag_v7
+営業課長,Management,管理的職業,occ-539,539,9172000,24084,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/539,jobtag_v7
+国会議員,Management,管理的職業,occ-512,512,7800000,51870,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/512,jobtag_v7
+経理課長,Management,管理的職業,occ-538,538,9172000,24084,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/538,jobtag_v7
+総務課長,Management,管理的職業,occ-536,536,9172000,24084,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/536,jobtag_v7
+航空機開発エンジニア（ジェットエンジン）,Management,管理的職業,occ-311,311,6694000,48564,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/311,jobtag_v7
+起業、創業,Management,管理的職業,occ-250,250,9130000,456745,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/250,jobtag_v7
+銀行支店長,Management,管理的職業,occ-53,53,9172000,24084,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/53,jobtag_v7
+3Dプリンター技術者,Production & Manufacturing,生産工程の職業,occ-584,584,4125000,59857,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/584,jobtag_v7
+CADオペレーター,Production & Manufacturing,生産工程の職業,occ-25,25,4538000,289300,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/25,jobtag_v7
+NC工作機械オペレーター,Production & Manufacturing,生産工程の職業,occ-256,256,4656000,76070,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/256,jobtag_v7
+かばん・袋物製造,Production & Manufacturing,生産工程の職業,occ-290,290,4125000,59857,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/290,jobtag_v7
+かん詰・びん詰・レトルト食品製造,Production & Manufacturing,生産工程の職業,occ-15,15,3662000,613740,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/15,jobtag_v7
+しょうゆ製造,Production & Manufacturing,生産工程の職業,occ-11,11,3662000,153435,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/11,jobtag_v7
+みそ製造,Production & Manufacturing,生産工程の職業,occ-10,10,3662000,153435,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/10,jobtag_v7
+めっき工,Production & Manufacturing,生産工程の職業,occ-257,257,4621000,37220,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/257,jobtag_v7
+アニメーター,Production & Manufacturing,生産工程の職業,occ-343,343,4424000,58245,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/343,jobtag_v7
+エレベーター据付,Production & Manufacturing,生産工程の職業,occ-48,48,4913000,111457,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/48,jobtag_v7
+ガラス食器製造,Production & Manufacturing,生産工程の職業,occ-18,18,4613000,46590,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/18,jobtag_v7
+タイヤ製造,Production & Manufacturing,生産工程の職業,occ-297,297,4389000,149440,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/297,jobtag_v7
+ハム・ソーセージ・ベーコン製造,Production & Manufacturing,生産工程の職業,occ-12,12,3662000,153435,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/12,jobtag_v7
+パタンナー,Production & Manufacturing,生産工程の職業,occ-341,341,4424000,58245,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/341,jobtag_v7
+パン製造、パン職人,Production & Manufacturing,生産工程の職業,occ-2,2,3662000,409160,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/2,jobtag_v7
+ビール製造,Production & Manufacturing,生産工程の職業,occ-14,14,3662000,15050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/14,jobtag_v7
+プラスチック成形,Production & Manufacturing,生産工程の職業,occ-19,19,4389000,149440,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/19,jobtag_v7
+ミシン縫製,Production & Manufacturing,生産工程の職業,occ-280,280,3049000,68593,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/280,jobtag_v7
+ワイン製造,Production & Manufacturing,生産工程の職業,occ-13,13,3662000,15050,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/13,jobtag_v7
+乳製品製造,Production & Manufacturing,生産工程の職業,occ-5,5,3662000,153435,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/5,jobtag_v7
+光学機器組立,Production & Manufacturing,生産工程の職業,occ-263,263,4465000,21830,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/263,jobtag_v7
+化学製品製造オペレーター,Production & Manufacturing,生産工程の職業,occ-300,300,5365000,43928,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/300,jobtag_v7
+化粧品製造,Production & Manufacturing,生産工程の職業,occ-298,298,5365000,43928,短大卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/298,jobtag_v7
+医療用画像機器組立,Production & Manufacturing,生産工程の職業,occ-277,277,4287000,121440,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/277,jobtag_v7
+医薬品製造,Production & Manufacturing,生産工程の職業,occ-295,295,5365000,43928,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/295,jobtag_v7
+半導体製造,Production & Manufacturing,生産工程の職業,occ-268,268,4287000,121440,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/268,jobtag_v7
+印刷オペレーター,Production & Manufacturing,生産工程の職業,occ-360,360,4634000,60234,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/360,jobtag_v7
+合板製造,Production & Manufacturing,生産工程の職業,occ-282,282,4092000,54632,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/282,jobtag_v7
+和菓子製造、和菓子職人,Production & Manufacturing,生産工程の職業,occ-4,4,3662000,409160,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/4,jobtag_v7
+太陽光発電のメンテナンス,Production & Manufacturing,生産工程の職業,occ-236,236,5863000,31024,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/236,jobtag_v7
+家具製造,Production & Manufacturing,生産工程の職業,occ-283,283,4092000,54632,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/283,jobtag_v7
+家電修理,Production & Manufacturing,生産工程の職業,occ-275,275,5863000,31023,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/275,jobtag_v7
+建具製造,Production & Manufacturing,生産工程の職業,occ-287,287,4092000,54632,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/287,jobtag_v7
+建築塗装工,Production & Manufacturing,生産工程の職業,occ-43,43,4424000,58245,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/43,jobtag_v7
+建築板金,Production & Manufacturing,生産工程の職業,occ-40,40,4038000,73170,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/40,jobtag_v7
+惣菜製造,Production & Manufacturing,生産工程の職業,occ-8,8,3662000,153435,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/8,jobtag_v7
+木材製造,Production & Manufacturing,生産工程の職業,occ-281,281,4092000,54632,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/281,jobtag_v7
+染色工/染色設備オペレーター,Production & Manufacturing,生産工程の職業,occ-279,279,3049000,68592,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/279,jobtag_v7
+検査工（工業製品）,Production & Manufacturing,生産工程の職業,occ-526,526,4272000,42930,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/526,jobtag_v7
+検査工（食料品等）,Production & Manufacturing,生産工程の職業,occ-548,548,4260000,48280,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/548,jobtag_v7
+水産ねり製品製造,Production & Manufacturing,生産工程の職業,occ-6,6,3662000,153435,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/6,jobtag_v7
+汎用金属工作機械工（旋盤工、ボール盤工等）,Production & Manufacturing,生産工程の職業,occ-557,557,4656000,76070,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/557,jobtag_v7
+清酒製造,Production & Manufacturing,生産工程の職業,occ-9,9,3662000,15050,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/9,jobtag_v7
+溶接工,Production & Manufacturing,生産工程の職業,occ-255,255,4525000,163710,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/255,jobtag_v7
+漆器製造,Production & Manufacturing,生産工程の職業,occ-291,291,4125000,59857,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/291,jobtag_v7
+物流設備管理・保全,Production & Manufacturing,生産工程の職業,occ-269,269,5863000,133717,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/269,jobtag_v7
+玩具（おもちゃ）製作,Production & Manufacturing,生産工程の職業,occ-515,515,4125000,59856,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/515,jobtag_v7
+生産用機械組立,Production & Manufacturing,生産工程の職業,occ-265,265,4913000,111457,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/265,jobtag_v7
+産業用ロボットの保守・メンテナンス,Production & Manufacturing,生産工程の職業,occ-233,233,5863000,133717,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/233,jobtag_v7
+看板制作,Production & Manufacturing,生産工程の職業,occ-344,344,4424000,58245,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/344,jobtag_v7
+石工,Production & Manufacturing,生産工程の職業,occ-306,306,4613000,46590,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/306,jobtag_v7
+石油精製オペレーター,Production & Manufacturing,生産工程の職業,occ-299,299,5365000,43928,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/299,jobtag_v7
+紙器製造,Production & Manufacturing,生産工程の職業,occ-285,285,4092000,54632,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/285,jobtag_v7
+紡績機械オペレーター,Production & Manufacturing,生産工程の職業,occ-286,286,3049000,68593,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/286,jobtag_v7
+紡織設備管理・保全,Production & Manufacturing,生産工程の職業,occ-284,284,5863000,133716,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/284,jobtag_v7
+織布工/織機オペレーター,Production & Manufacturing,生産工程の職業,occ-278,278,3049000,68592,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/278,jobtag_v7
+自動車整備士,Production & Manufacturing,生産工程の職業,occ-197,197,5131000,188035,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/197,jobtag_v7
+自動車板金塗装,Production & Manufacturing,生産工程の職業,occ-558,558,5131000,188035,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/558,jobtag_v7
+自動車検査員,Production & Manufacturing,生産工程の職業,occ-579,579,5622000,87440,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/579,jobtag_v7
+自動車組立,Production & Manufacturing,生産工程の職業,occ-264,264,5632000,344560,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/264,jobtag_v7
+航空整備士,Production & Manufacturing,生産工程の職業,occ-206,206,5581000,58640,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/206,jobtag_v7
+花火師,Production & Manufacturing,生産工程の職業,occ-307,307,5365000,43928,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/307,jobtag_v7
+製本オペレーター,Production & Manufacturing,生産工程の職業,occ-361,361,4634000,60233,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/361,jobtag_v7
+製版オペレーター、DTPオペレーター,Production & Manufacturing,生産工程の職業,occ-359,359,4634000,60233,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/359,jobtag_v7
+計器組立,Production & Manufacturing,生産工程の職業,occ-266,266,4465000,21830,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/266,jobtag_v7
+豆腐製造、豆腐職人,Production & Manufacturing,生産工程の職業,occ-1,1,3662000,153435,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/1,jobtag_v7
+貴金属装身具製作,Production & Manufacturing,生産工程の職業,occ-292,292,4125000,59857,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/292,jobtag_v7
+造船技能者（造船工、船舶艤装工等）,Production & Manufacturing,生産工程の職業,occ-547,547,4665000,26830,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/547,jobtag_v7
+配電盤・制御盤等組立,Production & Manufacturing,生産工程の職業,occ-559,559,4287000,121440,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/559,jobtag_v7
+野菜つけ物製造,Production & Manufacturing,生産工程の職業,occ-16,16,3662000,153435,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/16,jobtag_v7
+金型工,Production & Manufacturing,生産工程の職業,occ-253,253,4724000,456990,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/253,jobtag_v7
+金属プレス工,Production & Manufacturing,生産工程の職業,occ-254,254,4173000,61420,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/254,jobtag_v7
+鉄鋼製造オペレーター,Production & Manufacturing,生産工程の職業,occ-259,259,5289000,39090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/259,jobtag_v7
+鉄骨工,Production & Manufacturing,生産工程の職業,occ-29,29,4665000,26830,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/29,jobtag_v7
+鋳造工/鋳造設備オペレーター,Production & Manufacturing,生産工程の職業,occ-251,251,4888000,18060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/251,jobtag_v7
+録音エンジニア,Production & Manufacturing,生産工程の職業,occ-213,213,4538000,61760,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/213,jobtag_v7
+鍛造工/鍛造設備オペレーター,Production & Manufacturing,生産工程の職業,occ-252,252,4888000,18060,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/252,jobtag_v7
+陶磁器製造,Production & Manufacturing,生産工程の職業,occ-17,17,4613000,46590,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/17,jobtag_v7
+電子機器組立,Production & Manufacturing,生産工程の職業,occ-261,261,4287000,121440,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/261,jobtag_v7
+非破壊検査技術者,Production & Manufacturing,生産工程の職業,occ-260,260,4272000,42930,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/260,jobtag_v7
+靴製造,Production & Manufacturing,生産工程の職業,occ-289,289,4125000,59856,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/289,jobtag_v7
+風力発電のメンテナンス,Production & Manufacturing,生産工程の職業,occ-535,535,5863000,31023,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/535,jobtag_v7
+AIエンジニア,Professional & Technical,専門的・技術的職業,occ-325,325,6289000,25925,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/325,jobtag_v7
+CG制作,Professional & Technical,専門的・技術的職業,occ-329,329,4839000,14365,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/329,jobtag_v7
+DXプロデューサー,Professional & Technical,専門的・技術的職業,occ-324,324,7526000,164193,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/324,jobtag_v7
+ITコンサルタント,Professional & Technical,専門的・技術的職業,occ-362,362,7526000,164193,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/362,jobtag_v7
+M&Aマネージャー、M&Aコンサルタント/M&Aアドバイザー,Professional & Technical,専門的・技術的職業,occ-471,471,9032000,9214,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/471,jobtag_v7
+UX/UIデザイナー,Professional & Technical,専門的・技術的職業,occ-552,552,5741000,43307,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/552,jobtag_v7
+Webディレクター（Web制作会社）,Professional & Technical,専門的・技術的職業,occ-327,327,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/327,jobtag_v7
+Webデザイナー（Web制作会社）,Professional & Technical,専門的・技術的職業,occ-326,326,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/326,jobtag_v7
+あんまマッサージ指圧師,Professional & Technical,専門的・技術的職業,occ-172,172,4302000,39404,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/172,jobtag_v7
+はり師・きゅう師,Professional & Technical,専門的・技術的職業,occ-175,175,4302000,39403,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/175,jobtag_v7
+アウトドアインストラクター,Professional & Technical,専門的・技術的職業,occ-219,219,4384000,60235,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/219,jobtag_v7
+アクチュアリー,Professional & Technical,専門的・技術的職業,occ-468,468,9032000,9214,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/468,jobtag_v7
+アナウンサー,Professional & Technical,専門的・技術的職業,occ-216,216,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/216,jobtag_v7
+アートディレクター,Professional & Technical,専門的・技術的職業,occ-331,331,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/331,jobtag_v7
+イラストレーター,Professional & Technical,専門的・技術的職業,occ-342,342,4530000,23660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/342,jobtag_v7
+インダストリアルデザイナー,Professional & Technical,専門的・技術的職業,occ-354,354,4839000,14365,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/354,jobtag_v7
+インテリアコーディネーター,Professional & Technical,専門的・技術的職業,occ-338,338,4839000,14365,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/338,jobtag_v7
+インテリアデザイナー,Professional & Technical,専門的・技術的職業,occ-337,337,4839000,14365,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/337,jobtag_v7
+エコノミスト,Professional & Technical,専門的・技術的職業,occ-394,394,7505000,2950,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/394,jobtag_v7
+オーケストラ奏者（団員）,Professional & Technical,専門的・技術的職業,occ-573,573,5893000,26080,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/573,jobtag_v7
+カウンセラー（医療福祉分野）,Professional & Technical,専門的・技術的職業,occ-411,411,4302000,27292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/411,jobtag_v7
+カラーコーディネーター,Professional & Technical,専門的・技術的職業,occ-339,339,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/339,jobtag_v7
+キャリアカウンセラー/キャリアコンサルタント,Professional & Technical,専門的・技術的職業,occ-136,136,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/136,jobtag_v7
+グラフィックデザイナー,Professional & Technical,専門的・技術的職業,occ-334,334,4839000,14364,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/334,jobtag_v7
+ゲームクリエーター,Professional & Technical,専門的・技術的職業,occ-330,330,5910000,9660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/330,jobtag_v7
+コピーライター,Professional & Technical,専門的・技術的職業,occ-335,335,6805000,15065,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/335,jobtag_v7
+システムエンジニア（Webサービス開発）,Professional & Technical,専門的・技術的職業,occ-314,314,5741000,43307,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/314,jobtag_v7
+システムエンジニア（受託開発）,Professional & Technical,専門的・技術的職業,occ-312,312,5741000,43307,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/312,jobtag_v7
+システムエンジニア（基盤システム）,Professional & Technical,専門的・技術的職業,occ-318,318,7526000,164192,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/318,jobtag_v7
+システムエンジニア（組込み、IoT）,Professional & Technical,専門的・技術的職業,occ-315,315,5741000,43306,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/315,jobtag_v7
+ジュエリーデザイナー,Professional & Technical,専門的・技術的職業,occ-350,350,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/350,jobtag_v7
+スクールカウンセラー,Professional & Technical,専門的・技術的職業,occ-412,412,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/412,jobtag_v7
+スタイリスト,Professional & Technical,専門的・技術的職業,occ-346,346,5910000,9660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/346,jobtag_v7
+スポーツインストラクター,Professional & Technical,専門的・技術的職業,occ-120,120,4384000,60235,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/120,jobtag_v7
+セキュリティエキスパート（オペレーション）,Professional & Technical,専門的・技術的職業,occ-321,321,6289000,25925,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/321,jobtag_v7
+セキュリティエキスパート（デジタルフォレンジック）,Professional & Technical,専門的・技術的職業,occ-533,533,6289000,25925,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/533,jobtag_v7
+セキュリティエキスパート（情報セキュリティ監査）,Professional & Technical,専門的・技術的職業,occ-534,534,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/534,jobtag_v7
+セキュリティエキスパート（脆弱性診断）,Professional & Technical,専門的・技術的職業,occ-520,520,6289000,25925,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/520,jobtag_v7
+ソフトウェア開発（スマホアプリ）,Professional & Technical,専門的・技術的職業,occ-317,317,5741000,43307,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/317,jobtag_v7
+ソフトウェア開発（パッケージソフト）,Professional & Technical,専門的・技術的職業,occ-316,316,5741000,43307,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/316,jobtag_v7
+テキスタイルデザイナー,Professional & Technical,専門的・技術的職業,occ-348,348,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/348,jobtag_v7
+テクニカルイラストレーター,Professional & Technical,専門的・技術的職業,occ-345,345,4530000,23660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/345,jobtag_v7
+テクニカルライター,Professional & Technical,専門的・技術的職業,occ-358,358,6805000,13989,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/358,jobtag_v7
+テレビカメラマン,Professional & Technical,専門的・技術的職業,occ-356,356,4530000,23057,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/356,jobtag_v7
+テレビ・ラジオ放送技術者,Professional & Technical,専門的・技術的職業,occ-212,212,5910000,8885,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/212,jobtag_v7
+ディスプレイデザイナー,Professional & Technical,専門的・技術的職業,occ-336,336,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/336,jobtag_v7
+デバッグ作業,Professional & Technical,専門的・技術的職業,occ-540,540,5741000,43307,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/540,jobtag_v7
+データエンジニア,Professional & Technical,専門的・技術的職業,occ-523,523,6289000,25925,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/523,jobtag_v7
+データサイエンティスト,Professional & Technical,専門的・技術的職業,occ-323,323,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/323,jobtag_v7
+ナレーター,Professional & Technical,専門的・技術的職業,occ-541,541,5893000,12432,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/541,jobtag_v7
+ハローワーク職員,Professional & Technical,専門的・技術的職業,occ-574,574,4814000,9659,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/574,jobtag_v7
+バイオテクノロジー技術者,Professional & Technical,専門的・技術的職業,occ-309,309,6131000,30450,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/309,jobtag_v7
+バイオテクノロジー研究者,Professional & Technical,専門的・技術的職業,occ-393,393,7505000,16337,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/393,jobtag_v7
+バイオマス発電プラントの設計,Professional & Technical,専門的・技術的職業,occ-551,551,6416000,48516,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/551,jobtag_v7
+ピアノ調律師,Professional & Technical,専門的・技術的職業,occ-127,127,5910000,9660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/127,jobtag_v7
+ファイナンシャル・プランナー,Professional & Technical,専門的・技術的職業,occ-82,82,9032000,9214,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/82,jobtag_v7
+ファインセラミックス製造技術者,Professional & Technical,専門的・技術的職業,occ-305,305,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/305,jobtag_v7
+ファッションデザイナー,Professional & Technical,専門的・技術的職業,occ-340,340,4839000,14364,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/340,jobtag_v7
+ファンドマネージャー,Professional & Technical,専門的・技術的職業,occ-470,470,9032000,9213,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/470,jobtag_v7
+フラワーデザイナー,Professional & Technical,専門的・技術的職業,occ-349,349,4839000,14364,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/349,jobtag_v7
+フードコーディネーター,Professional & Technical,専門的・技術的職業,occ-351,351,5910000,9660,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/351,jobtag_v7
+ブックデザイナー,Professional & Technical,専門的・技術的職業,occ-347,347,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/347,jobtag_v7
+ブロックチェーン・エンジニア,Professional & Technical,専門的・技術的職業,occ-581,581,5741000,43306,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/581,jobtag_v7
+プラント設計技術者,Professional & Technical,専門的・技術的職業,occ-276,276,6694000,48564,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/276,jobtag_v7
+プログラマー,Professional & Technical,専門的・技術的職業,occ-313,313,5741000,43306,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/313,jobtag_v7
+プロジェクトマネージャ（IT）,Professional & Technical,専門的・技術的職業,occ-322,322,7526000,164192,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/322,jobtag_v7
+ヘルプデスク（IT）,Professional & Technical,専門的・技術的職業,occ-320,320,6289000,25925,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/320,jobtag_v7
+下水道管路施設の点検・調査,Professional & Technical,専門的・技術的職業,occ-572,572,5965000,52774,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/572,jobtag_v7
+不動産鑑定士,Professional & Technical,専門的・技術的職業,occ-93,93,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/93,jobtag_v7
+中学校教員,Professional & Technical,専門的・技術的職業,occ-180,180,7265000,231400,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/180,jobtag_v7
+中小企業診断士,Professional & Technical,専門的・技術的職業,occ-80,80,9032000,9213,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/80,jobtag_v7
+人事コンサルタント,Professional & Technical,専門的・技術的職業,occ-364,364,9032000,9213,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/364,jobtag_v7
+作業環境測定士,Professional & Technical,専門的・技術的職業,occ-571,571,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/571,jobtag_v7
+作業療法士（OT）,Professional & Technical,専門的・技術的職業,occ-168,168,4442000,101270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/168,jobtag_v7
+保健師,Professional & Technical,専門的・技術的職業,occ-160,160,5212000,49110,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/160,jobtag_v7
+保育士,Professional & Technical,専門的・技術的職業,occ-131,131,4068000,634080,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/131,jobtag_v7
+保育補助者,Professional & Technical,専門的・技術的職業,occ-546,546,3960000,228295,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/546,jobtag_v7
+児童指導員,Professional & Technical,専門的・技術的職業,occ-243,243,4410000,532710,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/243,jobtag_v7
+公認会計士,Professional & Technical,専門的・技術的職業,occ-90,90,8563000,21850,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/90,jobtag_v7
+内科医,Professional & Technical,専門的・技術的職業,occ-404,404,13380000,37958,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/404,jobtag_v7
+分析化学技術者,Professional & Technical,専門的・技術的職業,occ-303,303,6131000,30450,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/303,jobtag_v7
+助産師,Professional & Technical,専門的・技術的職業,occ-157,157,5806000,27550,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/157,jobtag_v7
+労働基準監督官,Professional & Technical,専門的・技術的職業,occ-519,519,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/519,jobtag_v7
+動物看護,Professional & Technical,専門的・技術的職業,occ-510,510,3229000,83730,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/510,jobtag_v7
+動画制作,Professional & Technical,専門的・技術的職業,occ-328,328,5910000,9660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/328,jobtag_v7
+医学研究者,Professional & Technical,専門的・技術的職業,occ-390,390,7505000,16337,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/390,jobtag_v7
+医療機器開発技術者,Professional & Technical,専門的・技術的職業,occ-529,529,7552000,61038,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/529,jobtag_v7
+半導体技術者,Professional & Technical,専門的・技術的職業,occ-267,267,7552000,61038,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/267,jobtag_v7
+原子力技術者,Professional & Technical,専門的・技術的職業,occ-301,301,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/301,jobtag_v7
+司法書士,Professional & Technical,専門的・技術的職業,occ-84,84,7653000,12780,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/84,jobtag_v7
+商業カメラマン,Professional & Technical,専門的・技術的職業,occ-355,355,4530000,23057,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/355,jobtag_v7
+図書編集者,Professional & Technical,専門的・技術的職業,occ-210,210,6805000,13989,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/210,jobtag_v7
+図書館司書,Professional & Technical,専門的・技術的職業,occ-182,182,5910000,15540,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/182,jobtag_v7
+国際協力専門家,Professional & Technical,専門的・技術的職業,occ-513,513,5910000,9660,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/513,jobtag_v7
+土地家屋調査士,Professional & Technical,専門的・技術的職業,occ-86,86,7653000,6118,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/86,jobtag_v7
+土木・建築工学研究者,Professional & Technical,専門的・技術的職業,occ-388,388,7505000,16337,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/388,jobtag_v7
+土木施工管理技術者,Professional & Technical,専門的・技術的職業,occ-23,23,5965000,52774,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/23,jobtag_v7
+土木設計技術者,Professional & Technical,専門的・技術的職業,occ-22,22,5965000,52774,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/22,jobtag_v7
+報道カメラマン,Professional & Technical,専門的・技術的職業,occ-357,357,4530000,23056,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/357,jobtag_v7
+声優,Professional & Technical,専門的・技術的職業,occ-582,582,5893000,12432,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/582,jobtag_v7
+外科医,Professional & Technical,専門的・技術的職業,occ-402,402,13380000,37958,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/402,jobtag_v7
+大学・短期大学教員,Professional & Technical,専門的・技術的職業,occ-184,184,10933000,179620,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/184,jobtag_v7
+太陽光発電の設計・施工,Professional & Technical,専門的・技術的職業,occ-235,235,5965000,52774,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/235,jobtag_v7
+学童保育指導員,Professional & Technical,専門的・技術的職業,occ-242,242,3960000,228295,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/242,jobtag_v7
+学習塾教師,Professional & Technical,専門的・技術的職業,occ-396,396,4384000,113035,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/396,jobtag_v7
+学芸員,Professional & Technical,専門的・技術的職業,occ-185,185,5910000,15540,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/185,jobtag_v7
+宇宙開発技術者,Professional & Technical,専門的・技術的職業,occ-310,310,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/310,jobtag_v7
+家庭裁判所調査官,Professional & Technical,専門的・技術的職業,occ-146,146,7653000,6118,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/146,jobtag_v7
+専門学校教員,Professional & Technical,専門的・技術的職業,occ-181,181,4910000,23604,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/181,jobtag_v7
+小児科医,Professional & Technical,専門的・技術的職業,occ-403,403,13380000,37958,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/403,jobtag_v7
+小学校教員,Professional & Technical,専門的・技術的職業,occ-179,179,7265000,210580,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/179,jobtag_v7
+幼稚園教員,Professional & Technical,専門的・技術的職業,occ-178,178,4127000,143310,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/178,jobtag_v7
+広告ディレクター,Professional & Technical,専門的・技術的職業,occ-333,333,5910000,9659,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/333,jobtag_v7
+広告デザイナー,Professional & Technical,専門的・技術的職業,occ-332,332,4839000,14364,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/332,jobtag_v7
+広報コンサルタント,Professional & Technical,専門的・技術的職業,occ-363,363,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/363,jobtag_v7
+建築施工管理技術者,Professional & Technical,専門的・技術的職業,occ-21,21,6416000,48516,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/21,jobtag_v7
+建築設計技術者,Professional & Technical,専門的・技術的職業,occ-20,20,6416000,48516,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/20,jobtag_v7
+弁理士,Professional & Technical,専門的・技術的職業,occ-91,91,7653000,12780,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/91,jobtag_v7
+弁護士,Professional & Technical,専門的・技術的職業,occ-89,89,7653000,11237,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/89,jobtag_v7
+情報工学研究者,Professional & Technical,専門的・技術的職業,occ-389,389,7505000,16337,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/389,jobtag_v7
+手話通訳者,Professional & Technical,専門的・技術的職業,occ-135,135,5910000,9659,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/135,jobtag_v7
+探偵,Professional & Technical,専門的・技術的職業,occ-562,562,5910000,9659,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/562,jobtag_v7
+放送ディレクター,Professional & Technical,専門的・技術的職業,occ-217,217,5893000,12432,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/217,jobtag_v7
+放送記者,Professional & Technical,専門的・技術的職業,occ-215,215,6805000,13988,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/215,jobtag_v7
+整形外科医,Professional & Technical,専門的・技術的職業,occ-575,575,13380000,37958,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/575,jobtag_v7
+新聞記者,Professional & Technical,専門的・技術的職業,occ-208,208,6805000,13988,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/208,jobtag_v7
+日本語教師,Professional & Technical,専門的・技術的職業,occ-397,397,4910000,23604,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/397,jobtag_v7
+映像編集者,Professional & Technical,専門的・技術的職業,occ-214,214,5910000,9659,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/214,jobtag_v7
+林業技術者,Professional & Technical,専門的・技術的職業,occ-229,229,5730000,8524,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/229,jobtag_v7
+柔道整復師,Professional & Technical,専門的・技術的職業,occ-173,173,4302000,39403,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/173,jobtag_v7
+栄養士,Professional & Technical,専門的・技術的職業,occ-171,171,3943000,121310,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/171,jobtag_v7
+植物工場の研究開発,Professional & Technical,専門的・技術的職業,occ-247,247,5730000,8524,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/247,jobtag_v7
+植物工場の設計、施工,Professional & Technical,専門的・技術的職業,occ-248,248,6416000,48516,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/248,jobtag_v7
+検察事務官,Professional & Technical,専門的・技術的職業,occ-518,518,7653000,6117,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/518,jobtag_v7
+検察官,Professional & Technical,専門的・技術的職業,occ-145,145,7650000,11237,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/145,jobtag_v7
+検疫官（看護師）,Professional & Technical,専門的・技術的職業,occ-564,564,5197000,692975,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/564,jobtag_v7
+機械設計技術者,Professional & Technical,専門的・技術的職業,occ-262,262,6694000,48564,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/262,jobtag_v7
+歯科助手,Professional & Technical,専門的・技術的職業,occ-545,545,3229000,83730,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/545,jobtag_v7
+歯科医師,Professional & Technical,専門的・技術的職業,occ-159,159,11355000,98340,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/159,jobtag_v7
+歯科技工士,Professional & Technical,専門的・技術的職業,occ-165,165,4544000,39320,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/165,jobtag_v7
+歯科衛生士,Professional & Technical,専門的・技術的職業,occ-166,166,4056000,128740,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/166,jobtag_v7
+気象予報士,Professional & Technical,専門的・技術的職業,occ-94,94,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/94,jobtag_v7
+水産技術者,Professional & Technical,専門的・技術的職業,occ-228,228,5730000,8523,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/228,jobtag_v7
+治験コーディネーター,Professional & Technical,専門的・技術的職業,occ-407,407,4302000,27292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/407,jobtag_v7
+法務技官（心理）（矯正心理専門職）,Professional & Technical,専門的・技術的職業,occ-516,516,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/516,jobtag_v7
+法務教官,Professional & Technical,専門的・技術的職業,occ-147,147,4910000,23604,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/147,jobtag_v7
+測量士,Professional & Technical,専門的・技術的職業,occ-24,24,5016000,52774,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/24,jobtag_v7
+特別支援学校教員、特別支援学級教員,Professional & Technical,専門的・技術的職業,occ-395,395,4910000,78310,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/395,jobtag_v7
+特許審査官,Professional & Technical,専門的・技術的職業,occ-521,521,7653000,6117,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/521,jobtag_v7
+犬訓練士,Professional & Technical,専門的・技術的職業,occ-226,226,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/226,jobtag_v7
+独立系ファイナンシャル・アドバイザー（IFA）,Professional & Technical,専門的・技術的職業,occ-524,524,9032000,9213,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/524,jobtag_v7
+獣医師,Professional & Technical,専門的・技術的職業,occ-223,223,8848000,24680,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/223,jobtag_v7
+理学療法士（PT）,Professional & Technical,専門的・技術的職業,occ-167,167,4442000,101270,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/167,jobtag_v7
+生産・品質管理技術者,Professional & Technical,専門的・技術的職業,occ-296,296,7552000,61038,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/296,jobtag_v7
+産婦人科医,Professional & Technical,専門的・技術的職業,occ-406,406,13380000,37957,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/406,jobtag_v7
+産業医,Professional & Technical,専門的・技術的職業,occ-583,583,13380000,37957,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/583,jobtag_v7
+産業廃棄物処理技術者,Professional & Technical,専門的・技術的職業,occ-495,495,5730000,11323,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/495,jobtag_v7
+産業用ロボットの設置・設定,Professional & Technical,専門的・技術的職業,occ-232,232,4913000,111456,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/232,jobtag_v7
+産業用ロボット開発技術者,Professional & Technical,専門的・技術的職業,occ-231,231,6694000,48564,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/231,jobtag_v7
+畜産技術者,Professional & Technical,専門的・技術的職業,occ-508,508,5730000,8523,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/508,jobtag_v7
+看護助手,Professional & Technical,専門的・技術的職業,occ-246,246,3286000,138040,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/246,jobtag_v7
+看護師,Professional & Technical,専門的・技術的職業,occ-156,156,5197000,692975,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/156,jobtag_v7
+知的財産コーディネーター,Professional & Technical,専門的・技術的職業,occ-365,365,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/365,jobtag_v7
+知的財産サーチャー,Professional & Technical,専門的・技術的職業,occ-366,366,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/366,jobtag_v7
+社会保険労務士,Professional & Technical,専門的・技術的職業,occ-83,83,9032000,21780,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/83,jobtag_v7
+社会学研究者,Professional & Technical,専門的・技術的職業,occ-560,560,7505000,2950,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/560,jobtag_v7
+社会教育主事,Professional & Technical,専門的・技術的職業,occ-400,400,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/400,jobtag_v7
+科学捜査研究所鑑定技術職員,Professional & Technical,専門的・技術的職業,occ-391,391,7505000,16336,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/391,jobtag_v7
+税理士,Professional & Technical,専門的・技術的職業,occ-92,92,8563000,63850,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/92,jobtag_v7
+精密機器技術者,Professional & Technical,専門的・技術的職業,occ-271,271,6694000,48564,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/271,jobtag_v7
+精神科医,Professional & Technical,専門的・技術的職業,occ-405,405,13380000,37957,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/405,jobtag_v7
+細胞検査士,Professional & Technical,専門的・技術的職業,occ-162,162,4302000,27292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/162,jobtag_v7
+経営コンサルタント,Professional & Technical,専門的・技術的職業,occ-81,81,9032000,9213,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/81,jobtag_v7
+義肢装具士,Professional & Technical,専門的・技術的職業,occ-176,176,4302000,27292,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/176,jobtag_v7
+翻訳者,Professional & Technical,専門的・技術的職業,occ-87,87,6805000,15065,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/87,jobtag_v7
+耐震診断,Professional & Technical,専門的・技術的職業,occ-570,570,6416000,48516,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/570,jobtag_v7
+職業訓練指導員,Professional & Technical,専門的・技術的職業,occ-399,399,4910000,23604,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/399,jobtag_v7
+臨床工学技士,Professional & Technical,専門的・技術的職業,occ-164,164,4302000,27291,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/164,jobtag_v7
+臨床検査技師,Professional & Technical,専門的・技術的職業,occ-161,161,5043000,82720,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/161,jobtag_v7
+自動車技術者,Professional & Technical,専門的・技術的職業,occ-270,270,7006000,34368,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/270,jobtag_v7
+自動車教習指導員,Professional & Technical,専門的・技術的職業,occ-121,121,4910000,23604,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/121,jobtag_v7
+自動運転開発エンジニア（自動車）,Professional & Technical,専門的・技術的職業,occ-528,528,7006000,34368,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/528,jobtag_v7
+舞台照明スタッフ,Professional & Technical,専門的・技術的職業,occ-353,353,5893000,12432,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/353,jobtag_v7
+舞台美術スタッフ,Professional & Technical,専門的・技術的職業,occ-352,352,5893000,12432,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/352,jobtag_v7
+航空管制官,Professional & Technical,専門的・技術的職業,occ-203,203,5910000,8885,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/203,jobtag_v7
+船員,Professional & Technical,専門的・技術的職業,occ-207,207,4673000,14360,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/207,jobtag_v7
+英会話教師,Professional & Technical,専門的・技術的職業,occ-398,398,4384000,113035,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/398,jobtag_v7
+薬剤師,Professional & Technical,専門的・技術的職業,occ-158,158,5993000,243650,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/158,jobtag_v7
+薬学研究者,Professional & Technical,専門的・技術的職業,occ-392,392,7505000,16336,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/392,jobtag_v7
+行政書士,Professional & Technical,専門的・技術的職業,occ-85,85,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/85,jobtag_v7
+衛生管理者,Professional & Technical,専門的・技術的職業,occ-576,576,4302000,27291,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/576,jobtag_v7
+裁判官,Professional & Technical,専門的・技術的職業,occ-144,144,7650000,11236,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/144,jobtag_v7
+視能訓練士,Professional & Technical,専門的・技術的職業,occ-170,170,4442000,13465,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/170,jobtag_v7
+言語聴覚士,Professional & Technical,専門的・技術的職業,occ-169,169,4442000,13465,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/169,jobtag_v7
+診療放射線技師,Professional & Technical,専門的・技術的職業,occ-163,163,5499000,57490,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/163,jobtag_v7
+証券アナリスト,Professional & Technical,専門的・技術的職業,occ-457,457,9032000,9213,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/457,jobtag_v7
+調教師,Professional & Technical,専門的・技術的職業,occ-225,225,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/225,jobtag_v7
+調香師,Professional & Technical,専門的・技術的職業,occ-419,419,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/419,jobtag_v7
+農業技術者,Professional & Technical,専門的・技術的職業,occ-221,221,5730000,8523,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/221,jobtag_v7
+通訳者,Professional & Technical,専門的・技術的職業,occ-88,88,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/88,jobtag_v7
+通関士,Professional & Technical,専門的・技術的職業,occ-202,202,5910000,9659,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/202,jobtag_v7
+速記者、音声反訳者,Professional & Technical,専門的・技術的職業,occ-424,424,5910000,9659,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/424,jobtag_v7
+造船技術者（船舶の開発・設計）,Professional & Technical,専門的・技術的職業,occ-550,550,7006000,34367,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/550,jobtag_v7
+運用・管理（IT）,Professional & Technical,専門的・技術的職業,occ-319,319,6289000,25925,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/319,jobtag_v7
+鉄道車両の設計・開発,Professional & Technical,専門的・技術的職業,occ-561,561,7006000,34367,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/561,jobtag_v7
+陶磁器技術者,Professional & Technical,専門的・技術的職業,occ-304,304,5730000,11322,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/304,jobtag_v7
+雑誌編集者,Professional & Technical,専門的・技術的職業,occ-211,211,6805000,13988,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/211,jobtag_v7
+雑誌記者,Professional & Technical,専門的・技術的職業,occ-209,209,6805000,13988,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/209,jobtag_v7
+電子機器技術者,Professional & Technical,専門的・技術的職業,occ-273,273,7552000,61038,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/273,jobtag_v7
+電気技術者,Professional & Technical,専門的・技術的職業,occ-272,272,7552000,61038,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/272,jobtag_v7
+電気通信技術者,Professional & Technical,専門的・技術的職業,occ-274,274,6289000,25925,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/274,jobtag_v7
+非鉄金属製錬技術者,Professional & Technical,専門的・技術的職業,occ-258,258,5772000,25660,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/258,jobtag_v7
+音楽教室講師,Professional & Technical,専門的・技術的職業,occ-122,122,4384000,70110,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/122,jobtag_v7
+食品技術者,Professional & Technical,専門的・技術的職業,occ-288,288,5730000,8523,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/288,jobtag_v7
+養護教諭,Professional & Technical,専門的・技術的職業,occ-565,565,7265000,210580,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/565,jobtag_v7
+高分子化学技術者,Professional & Technical,専門的・技術的職業,occ-308,308,6131000,30450,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/308,jobtag_v7
+高等学校教員,Professional & Technical,専門的・技術的職業,occ-183,183,6788000,257460,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/183,jobtag_v7
+麻酔科医,Professional & Technical,専門的・技術的職業,occ-563,563,13380000,37957,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/563,jobtag_v7
+CDショップ店員,Sales,販売の職業,occ-451,451,3694000,143090,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/451,jobtag_v7
+OA機器営業,Sales,販売の職業,occ-462,462,5940000,193760,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/462,jobtag_v7
+せり人,Sales,販売の職業,occ-65,65,6623000,97110,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/65,jobtag_v7
+カフェ店員,Sales,販売の職業,occ-105,105,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/105,jobtag_v7
+ガソリンスタンド・スタッフ,Sales,販売の職業,occ-198,198,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/198,jobtag_v7
+コンサルティング営業（IT）,Sales,販売の職業,occ-452,452,6526000,193760,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/452,jobtag_v7
+コンビニエンスストア店員,Sales,販売の職業,occ-78,78,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/78,jobtag_v7
+シューフィッター,Sales,販売の職業,occ-76,76,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/76,jobtag_v7
+スポーツ用品販売,Sales,販売の職業,occ-70,70,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/70,jobtag_v7
+スーパーレジ係,Sales,販売の職業,occ-56,56,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/56,jobtag_v7
+スーパー店員,Sales,販売の職業,occ-57,57,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/57,jobtag_v7
+ディーラー,Sales,販売の職業,occ-455,455,6623000,97110,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/455,jobtag_v7
+デパート店員,Sales,販売の職業,occ-54,54,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/54,jobtag_v7
+フラワーショップ店員,Sales,販売の職業,occ-66,66,3694000,143090,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/66,jobtag_v7
+ベーカリーショップ店員,Sales,販売の職業,occ-79,79,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/79,jobtag_v7
+ペットショップ店員,Sales,販売の職業,occ-72,72,3694000,143090,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/72,jobtag_v7
+ホームセンター店員,Sales,販売の職業,occ-71,71,3694000,143089,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/71,jobtag_v7
+メガネ販売,Sales,販売の職業,occ-69,69,3694000,143090,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/69,jobtag_v7
+リサイクルショップ店員,Sales,販売の職業,occ-449,449,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/449,jobtag_v7
+代理店営業（保険会社）,Sales,販売の職業,occ-472,472,5008000,155684,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/472,jobtag_v7
+住宅・不動産営業,Sales,販売の職業,occ-59,59,6183000,138640,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/59,jobtag_v7
+保険営業（生命保険、損害保険）,Sales,販売の職業,occ-453,453,5008000,155683,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/453,jobtag_v7
+化粧品訪問販売,Sales,販売の職業,occ-465,465,4730000,23200,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/465,jobtag_v7
+化粧品販売/美容部員,Sales,販売の職業,occ-464,464,3694000,143089,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/464,jobtag_v7
+医薬品販売/登録販売者,Sales,販売の職業,occ-448,448,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/448,jobtag_v7
+医薬情報担当者（MR）,Sales,販売の職業,occ-63,63,6183000,83260,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/63,jobtag_v7
+印刷営業,Sales,販売の職業,occ-62,62,6183000,351793,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/62,jobtag_v7
+商社営業,Sales,販売の職業,occ-58,58,6183000,351793,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/58,jobtag_v7
+広告営業,Sales,販売の職業,occ-61,61,6183000,351792,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/61,jobtag_v7
+携帯電話販売,Sales,販売の職業,occ-450,450,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/450,jobtag_v7
+書店員,Sales,販売の職業,occ-68,68,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/68,jobtag_v7
+空港グランドスタッフ,Sales,販売の職業,occ-194,194,5060000,108915,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/194,jobtag_v7
+自動車営業,Sales,販売の職業,occ-60,60,5940000,193760,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/60,jobtag_v7
+自転車販売,Sales,販売の職業,occ-467,467,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/467,jobtag_v7
+衣料品販売,Sales,販売の職業,occ-73,73,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/73,jobtag_v7
+証券外務員,Sales,販売の職業,occ-463,463,6623000,97110,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/463,jobtag_v7
+銀行・信用金庫渉外担当,Sales,販売の職業,occ-454,454,6311000,155683,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/454,jobtag_v7
+電器店店員,Sales,販売の職業,occ-67,67,3694000,143089,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/67,jobtag_v7
+食品営業（食品メーカー）,Sales,販売の職業,occ-527,527,6183000,351792,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/527,jobtag_v7
+駅構内売店店員,Sales,販売の職業,occ-77,77,3694000,143090,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/77,jobtag_v7
+入国警備官,Security,保安職業,occ-143,143,3292000,16944,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/143,jobtag_v7
+冷凍加工食品製造,Security,保安職業,occ-7,7,3662000,613740,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/7,jobtag_v7
+刑務官,Security,保安職業,occ-148,148,6000000,7335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/148,jobtag_v7
+救急救命士,Security,保安職業,occ-401,401,3292000,74290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/401,jobtag_v7
+施設警備員,Security,保安職業,occ-241,241,3538000,374690,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/241,jobtag_v7
+水族館飼育員,Security,保安職業,occ-224,224,3518000,16990,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/224,jobtag_v7
+海上保安官,Security,保安職業,occ-141,141,6800000,125580,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/141,jobtag_v7
+海上自衛官,Security,保安職業,occ-153,153,6400000,76794,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/153,jobtag_v7
+消防官,Security,保安職業,occ-155,155,3292000,74290,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/155,jobtag_v7
+潜水士,Security,保安職業,occ-33,33,4534000,323765,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/33,jobtag_v7
+税関職員,Security,保安職業,occ-578,578,3292000,16944,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/578,jobtag_v7
+自然保護官（レンジャー）,Security,保安職業,occ-501,501,3292000,16944,,https://shigoto.mhlw.go.jp/User/Occupation/Detail/501,jobtag_v7
+航空自衛官,Security,保安職業,occ-154,154,6400000,76793,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/154,jobtag_v7
+警察官（都道府県警察）,Security,保安職業,occ-140,140,6800000,125580,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/140,jobtag_v7
+道路パトロール隊員,Security,保安職業,occ-199,199,3292000,16944,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/199,jobtag_v7
+陸上自衛官,Security,保安職業,occ-152,152,6400000,76793,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/152,jobtag_v7
+雑踏・交通誘導警備員,Security,保安職業,occ-475,475,3292000,16944,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/475,jobtag_v7
+麻薬取締官,Security,保安職業,occ-142,142,6000000,7335,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/142,jobtag_v7
+きもの着付指導員,Service,サービス職業,occ-423,423,3295000,39740,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/423,jobtag_v7
+すし職人,Service,サービス職業,occ-101,101,3695000,227809,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/101,jobtag_v7
+そば・うどん調理人,Service,サービス職業,occ-102,102,3695000,227809,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/102,jobtag_v7
+アロマセラピスト,Service,サービス職業,occ-420,420,3960000,91318,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/420,jobtag_v7
+エステティシャン,Service,サービス職業,occ-117,117,3295000,39740,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/117,jobtag_v7
+キャディ,Service,サービス職業,occ-113,113,3730000,204155,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/113,jobtag_v7
+クリーニング師,Service,サービス職業,occ-119,119,2971000,104820,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/119,jobtag_v7
+ソムリエ,Service,サービス職業,occ-106,106,3584000,147837,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/106,jobtag_v7
+ツアーコンダクター,Service,サービス職業,occ-110,110,3960000,7930,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/110,jobtag_v7
+トリマー,Service,サービス職業,occ-227,227,3960000,91318,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/227,jobtag_v7
+ネイリスト,Service,サービス職業,occ-128,128,3295000,39740,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/128,jobtag_v7
+バーテンダー,Service,サービス職業,occ-107,107,3695000,7330,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/107,jobtag_v7
+ビデオレンタル店店員,Service,サービス職業,occ-123,123,3960000,21254,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/123,jobtag_v7
+フロント（ホテル・旅館）,Service,サービス職業,occ-414,414,3383000,147837,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/414,jobtag_v7
+ブライダルコーディネーター,Service,サービス職業,occ-125,125,3960000,91318,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/125,jobtag_v7
+ベビーシッター,Service,サービス職業,occ-413,413,3960000,13570,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/413,jobtag_v7
+ホテル・旅館支配人,Service,サービス職業,occ-52,52,3383000,24510,高卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/52,jobtag_v7
+ホールスタッフ（レストラン）,Service,サービス職業,occ-417,417,3584000,147837,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/417,jobtag_v7
+マンション管理員,Service,サービス職業,occ-473,473,4175000,146920,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/473,jobtag_v7
+メイクアップアーティスト,Service,サービス職業,occ-118,118,3717000,175530,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/118,jobtag_v7
+ラーメン調理人,Service,サービス職業,occ-108,108,3695000,227809,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/108,jobtag_v7
+リフレクソロジスト,Service,サービス職業,occ-421,421,3960000,91318,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/421,jobtag_v7
+レンタカー店舗スタッフ,Service,サービス職業,occ-124,124,3960000,21253,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/124,jobtag_v7
+中華料理調理人,Service,サービス職業,occ-103,103,3695000,227809,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/103,jobtag_v7
+介護支援専門員/ケアマネジャー,Service,サービス職業,occ-132,132,4296000,48429,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/132,jobtag_v7
+児童発達支援管理責任者,Service,サービス職業,occ-568,568,4410000,48429,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/568,jobtag_v7
+児童相談所相談員,Service,サービス職業,occ-129,129,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/129,jobtag_v7
+医療ソーシャルワーカー,Service,サービス職業,occ-408,408,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/408,jobtag_v7
+客室乗務員,Service,サービス職業,occ-205,205,5961000,147836,短大卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/205,jobtag_v7
+家政婦（夫）,Service,サービス職業,occ-126,126,3960000,7250,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/126,jobtag_v7
+接客担当（ホテル・旅館）,Service,サービス職業,occ-416,416,3383000,147836,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/416,jobtag_v7
+施設介護員,Service,サービス職業,occ-134,134,3760000,1358960,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/134,jobtag_v7
+施設管理者（介護施設）,Service,サービス職業,occ-410,410,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/410,jobtag_v7
+日本料理調理人（板前）,Service,サービス職業,occ-100,100,3695000,227809,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/100,jobtag_v7
+洋菓子製造、パティシエ,Service,サービス職業,occ-3,3,3662000,409160,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/3,jobtag_v7
+理容師,Service,サービス職業,occ-115,115,3717000,140770,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/115,jobtag_v7
+福祉ソーシャルワーカー,Service,サービス職業,occ-409,409,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/409,jobtag_v7
+福祉事務所ケースワーカー,Service,サービス職業,occ-130,130,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/130,jobtag_v7
+福祉用具専門相談員,Service,サービス職業,occ-137,137,3960000,21253,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/137,jobtag_v7
+納棺師,Service,サービス職業,occ-569,569,3960000,24600,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/569,jobtag_v7
+給食調理員,Service,サービス職業,occ-493,493,3695000,227809,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/493,jobtag_v7
+美容師,Service,サービス職業,occ-116,116,3717000,175530,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/116,jobtag_v7
+老人福祉施設生活相談員,Service,サービス職業,occ-245,245,4410000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/245,jobtag_v7
+葬祭ディレクター,Service,サービス職業,occ-422,422,3960000,24600,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/422,jobtag_v7
+西洋料理調理人（コック）,Service,サービス職業,occ-99,99,3695000,227808,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/99,jobtag_v7
+訪問介護のサービス提供責任者,Service,サービス職業,occ-555,555,4296000,48428,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/555,jobtag_v7
+訪問介護員/ホームヘルパー,Service,サービス職業,occ-133,133,3812000,275770,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/133,jobtag_v7
+調理補助,Service,サービス職業,occ-492,492,3695000,227808,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/492,jobtag_v7
+通訳ガイド,Service,サービス職業,occ-114,114,3960000,7930,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/114,jobtag_v7
+遊園地スタッフ,Service,サービス職業,occ-112,112,3730000,204155,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/112,jobtag_v7
+障害福祉サービス管理責任者,Service,サービス職業,occ-580,580,4410000,48428,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/580,jobtag_v7
+障害者グループホーム世話人,Service,サービス職業,occ-556,556,3960000,91318,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/556,jobtag_v7
+障害者福祉施設指導専門員（生活支援員、就労支援員等）,Service,サービス職業,occ-244,244,4410000,48428,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/244,jobtag_v7
+飲食チェーン店店員,Service,サービス職業,occ-418,418,3584000,147837,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/418,jobtag_v7
+駐車場管理,Service,サービス職業,occ-96,96,4175000,50230,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/96,jobtag_v7
+さく井工/ボーリング工,Transportation & Machine Operation,輸送・機械運転の職業,occ-35,35,4650000,43415,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/35,jobtag_v7
+クレーン運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-549,549,5269000,48070,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/549,jobtag_v7
+タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-188,188,4149000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/188,jobtag_v7
+タンクローリー乗務員,Transportation & Machine Operation,輸送・機械運転の職業,occ-525,525,4919000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/525,jobtag_v7
+ダンプカー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-479,479,4919000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/479,jobtag_v7
+トラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-477,477,4919000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/477,jobtag_v7
+トレーラートラックドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-478,478,4919000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/478,jobtag_v7
+ドローンパイロット,Transportation & Machine Operation,輸送・機械運転の職業,occ-511,511,4673000,50350,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/511,jobtag_v7
+パイロット,Transportation & Machine Operation,輸送・機械運転の職業,occ-189,189,16971000,7040,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/189,jobtag_v7
+ビル施設管理,Transportation & Machine Operation,輸送・機械運転の職業,occ-95,95,4580000,157500,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/95,jobtag_v7
+フォークリフト運転作業員,Transportation & Machine Operation,輸送・機械運転の職業,occ-237,237,4673000,50350,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/237,jobtag_v7
+フードデリバリー（料理配達員）,Transportation & Machine Operation,輸送・機械運転の職業,occ-532,532,3945000,139236,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/532,jobtag_v7
+ボイラーオペレーター,Transportation & Machine Operation,輸送・機械運転の職業,occ-476,476,4580000,7550,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/476,jobtag_v7
+ルート配送ドライバー,Transportation & Machine Operation,輸送・機械運転の職業,occ-482,482,3945000,139236,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/482,jobtag_v7
+介護タクシー運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-481,481,4149000,160647,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/481,jobtag_v7
+宅配便配達員,Transportation & Machine Operation,輸送・機械運転の職業,occ-483,483,3945000,139236,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/483,jobtag_v7
+建設機械オペレーター,Transportation & Machine Operation,輸送・機械運転の職業,occ-31,31,4650000,43415,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/31,jobtag_v7
+新聞配達員,Transportation & Machine Operation,輸送・機械運転の職業,occ-484,484,3945000,139236,中学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/484,jobtag_v7
+清涼飲料ルートセールス,Transportation & Machine Operation,輸送・機械運転の職業,occ-466,466,3945000,139236,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/466,jobtag_v7
+産業廃棄物収集運搬作業員,Transportation & Machine Operation,輸送・機械運転の職業,occ-496,496,3998000,119970,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/496,jobtag_v7
+発電所運転管理,Transportation & Machine Operation,輸送・機械運転の職業,occ-302,302,6586000,34390,大学卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/302,jobtag_v7
+航海士,Transportation & Machine Operation,輸送・機械運転の職業,occ-190,190,4673000,14390,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/190,jobtag_v7
+船舶機関士,Transportation & Machine Operation,輸送・機械運転の職業,occ-191,191,4673000,6470,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/191,jobtag_v7
+観光バスガイド,Transportation & Machine Operation,輸送・機械運転の職業,occ-111,111,5624000,11530,専門学校卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/111,jobtag_v7
+観光バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-187,187,4611000,160646,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/187,jobtag_v7
+路線バス運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-186,186,4611000,160646,学歴不問,https://shigoto.mhlw.go.jp/User/Occupation/Detail/186,jobtag_v7
+送迎バス等運転手,Transportation & Machine Operation,輸送・機械運転の職業,occ-480,480,4611000,160646,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/480,jobtag_v7
+鉄道車掌,Transportation & Machine Operation,輸送・機械運転の職業,occ-193,193,5624000,11530,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/193,jobtag_v7
+電車運転士,Transportation & Machine Operation,輸送・機械運転の職業,occ-192,192,6677000,37130,大学院卒,https://shigoto.mhlw.go.jp/User/Occupation/Detail/192,jobtag_v7
