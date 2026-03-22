@@ -101,7 +101,7 @@ data entry clerk (データ入力オペレーター), medical transcriptionist.
 Respond with ONLY a JSON object in this exact format, no other text:
 {
   "exposure": <integer 0-10>,
-  "rationale": "<2-3 sentences in English explaining the key factors>"
+  "rationale": "<2-3 sentences in Japanese explaining the key factors>"
 }\
 """
 

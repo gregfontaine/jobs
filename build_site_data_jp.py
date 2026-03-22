@@ -14,7 +14,8 @@ Output schema per occupation:
     "jobs":               120000,             # employment count (int or null)
     "education":          "大学卒",           # Japanese education tier
     "exposure":           7,                  # AI exposure score 0-10
-    "exposure_rationale": "...",              # English rationale from LLM
+    "exposure_rationale": "...",              # rationale from LLM (Japanese)
+    "description_ja":     "...",              # Japanese job description from Jobtag
     "url":                "https://shigoto.mhlw.go.jp/..."
   }
 
@@ -26,10 +27,35 @@ import csv
 import io
 import json
 import os
+import re
 import sys
 
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+
+
+def extract_description_ja(slug: str) -> str:
+    """Extract the 'どんな仕事？' section from pages_jp/{slug}.md."""
+    md_path = f"pages_jp/{slug}.md"
+    if not os.path.exists(md_path):
+        return ""
+    with open(md_path, encoding="utf-8") as f:
+        text = f.read()
+    # Find the どんな仕事？ section
+    m = re.search(r"##\s*どんな仕事？\s*\n(.*?)(?:\n##|\Z)", text, re.DOTALL)
+    if not m:
+        return ""
+    # Take the first sentence or up to ~200 chars, stripping whitespace
+    content = re.sub(r"\s+", " ", m.group(1)).strip()
+    # Trim to a reasonable length at a sentence boundary
+    if len(content) > 200:
+        # Try to cut at a Japanese sentence-ending punctuation
+        cut = re.search(r".{80,200}[。！？]", content)
+        if cut:
+            content = cut.group(0)
+        else:
+            content = content[:200] + "…"
+    return content
 
 
 def main():
@@ -78,6 +104,7 @@ def main():
             "education":          row.get("entry_education", ""),
             "exposure":           score.get("exposure"),
             "exposure_rationale": score.get("rationale"),
+            "description_ja":     extract_description_ja(slug),
             "url":                row.get("url", ""),
         })
 

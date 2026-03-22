@@ -182,6 +182,13 @@ canvas#canvas {
 #tooltip .tt-stats    { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
 #tooltip .tt-stats .label { color: var(--fg2); }
 #tooltip .tt-stats .value { color: var(--fg); text-align: right; }
+#tooltip .tt-description {
+  font-size: 11px;
+  color: var(--fg2);
+  margin-top: 6px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
 #tooltip .tt-rationale {
   font-size: 11px;
   color: var(--fg2);
@@ -267,6 +274,7 @@ canvas#canvas {
 
 <div id="tooltip">
   <div class="tt-title"></div>
+  <div class="tt-description"></div>
   <div class="tt-exposure"></div>
   <div class="tt-stats"></div>
   <div class="tt-rationale"></div>
@@ -606,6 +614,8 @@ function showTooltip(d, mx, my) {
   const t  = T[lang];
 
   tt.querySelector(".tt-title").textContent = d.title;
+
+  tt.querySelector(".tt-description").textContent = d.description_ja || "";
 
   const score = d.exposure;
   if (score != null) {
