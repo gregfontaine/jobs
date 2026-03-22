@@ -14,9 +14,11 @@ Output schema per occupation:
     "jobs":               120000,             # employment count (int or null)
     "education":          "大学卒",           # Japanese education tier
     "exposure":           7,                  # AI exposure score 0-10
-    "exposure_rationale": "...",              # rationale from LLM (Japanese)
-    "description_ja":     "...",              # Japanese job description from Jobtag
-    "url":                "https://shigoto.mhlw.go.jp/..."
+    "exposure_rationale":    "...",            # AI rationale in English
+    "exposure_rationale_ja": "...",            # AI rationale in Japanese
+    "description_ja":        "...",            # Japanese job description (from Jobtag)
+    "description_en":        "...",            # English job description (translated)
+    "url":                   "https://shigoto.mhlw.go.jp/..."
   }
 
 Usage:
@@ -77,6 +79,16 @@ def main():
         rows = list(reader)
     print(f"Loaded {len(rows)} occupation rows from occupations_jp.csv")
 
+    # ── Load translations (optional — run translate_jp.py first) ────────
+    translations: dict[str, dict] = {}
+    if os.path.exists("translations_jp.json"):
+        with open("translations_jp.json", encoding="utf-8") as f:
+            for entry in json.load(f):
+                translations[entry["slug"]] = entry
+        print(f"Loaded {len(translations)} translations from translations_jp.json")
+    else:
+        print("translations_jp.json not found — description_en / exposure_rationale_ja will be empty")
+
     # ── Merge ─────────────────────────────────────────────────────────────
     data = []
     missing_scores = 0
@@ -94,18 +106,22 @@ def main():
         pay  = int(pay_raw)  if pay_raw.isdigit()  else None
         jobs = int(jobs_raw) if jobs_raw.isdigit() else None
 
+        tr = translations.get(slug, {})
+
         data.append({
-            "title":              row["title"],
-            "slug":               slug,
-            "category":           row["category"],
-            "category_ja":        row.get("category_ja", ""),
-            "pay":                pay,
-            "jobs":               jobs,
-            "education":          row.get("entry_education", ""),
-            "exposure":           score.get("exposure"),
-            "exposure_rationale": score.get("rationale"),
-            "description_ja":     extract_description_ja(slug),
-            "url":                row.get("url", ""),
+            "title":                 row["title"],
+            "slug":                  slug,
+            "category":              row["category"],
+            "category_ja":           row.get("category_ja", ""),
+            "pay":                   pay,
+            "jobs":                  jobs,
+            "education":             row.get("entry_education", ""),
+            "exposure":              score.get("exposure"),
+            "exposure_rationale":    score.get("rationale"),
+            "exposure_rationale_ja": tr.get("exposure_rationale_ja", ""),
+            "description_ja":        extract_description_ja(slug),
+            "description_en":        tr.get("description_en", ""),
+            "url":                   row.get("url", ""),
         })
 
     os.makedirs("site", exist_ok=True)
