@@ -62,7 +62,7 @@ def run():
     results.append(("客室乗務員",      check(data, "客室乗務員",
         jobs_min=50_000, jobs_max=300_000,
         pay_min=3_500_000, pay_max=8_000_000,
-        education="短大卒",
+        education="大学卒",             # Jobtag occ-205: 83.8% 大卒 (modal)
         ai_exact=4)))
 
     results.append(("税務事務官",      check(data, "税務事務官",
@@ -74,13 +74,13 @@ def run():
     results.append(("内科医",          check(data, "内科医",
         pay_min=10_000_000,             # doctors in Japan earn >10M
         jobs_min=10_000, jobs_max=200_000,
-        education="大学院卒",
+        education="大学卒",             # Jobtag: 77.8% 大卒 (6-year 医学部 = undergrad)
         ai_min=4, ai_max=8)))
 
     results.append(("歯科医師",        check(data, "歯科医師",
         pay_min=8_000_000,              # dentists earn >8M
         jobs_min=50_000, jobs_max=200_000,
-        education="大学院卒",
+        education="大学卒",             # Jobtag: 71.2% 大卒 (6-year 歯学部 = undergrad)
         ai_max=6)))
 
     results.append(("看護師",          check(data, "看護師",
@@ -114,7 +114,7 @@ def run():
     results.append(("弁護士",          check(data, "弁護士",
         pay_min=7_000_000,
         jobs_min=5_000, jobs_max=200_000,
-        education="大学院卒",
+        education="大学卒",             # Jobtag: 83.3% 大卒 (法科大学院 is post-grad but modal is 大卒)
         ai_min=5, ai_max=9)))
 
     results.append(("税理士",          check(data, "税理士",

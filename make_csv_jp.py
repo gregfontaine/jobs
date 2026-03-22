@@ -65,57 +65,75 @@ EDU_TIERS = [
     "学歴不問",       # No requirement
 ]
 
-# Keyword → canonical tier
-EDU_KEYWORD_MAP = {
-    "大学院":   "大学院卒",
-    "修士":     "大学院卒",
-    "博士":     "大学院卒",
-    "大学":     "大学卒",
-    "学士":     "大学卒",
-    "短期大学": "短大卒",
-    "短大":     "短大卒",
-    "専門学校": "専門学校卒",
-    "専門":     "専門学校卒",
-    "高等学校": "高卒",
-    "高校":     "高卒",
-    "中学":     "中学卒",
-    "学歴不問": "学歴不問",
-    "不問":     "学歴不問",
+# Map Jobtag bar-chart labels → canonical tier
+EDU_LABEL_MAP = {
+    "高卒未満":   "中学卒",
+    "中学卒":     "中学卒",
+    "高卒":       "高卒",
+    "専門学校卒": "専門学校卒",
+    "短大卒":     "短大卒",
+    "高専卒":     "短大卒",
+    "大卒":       "大学卒",
+    "大学卒":     "大学卒",
 }
+# Labels containing these substrings → 大学院卒
+_GRAD_KEYWORDS = ("修士", "博士")
 
 
 def extract_education(html_path: str) -> str:
-    """Parse a Jobtag HTML file and return the minimum required education tier."""
+    """Parse a Jobtag HTML file and return the most common education tier.
+
+    Reads the education bar chart (inside #nav-tabContent-experienceEducations)
+    and returns the tier with the highest percentage, skipping "わからない".
+    """
     try:
         with open(html_path, encoding="utf-8") as f:
             soup = BeautifulSoup(f.read(), "html.parser")
     except Exception:
         return ""
 
-    # Remove scripts / styles
-    for tag in soup(["script", "style"]):
-        tag.decompose()
+    # Scope to the education chart container only (not training/experience charts)
+    edu_container = soup.select_one("#nav-tabContent-experienceEducations")
+    if not edu_container:
+        return ""
 
-    # Find section containing education keywords
-    text = soup.get_text(separator=" ")
+    best_tier = ""
+    best_pct = -1.0
 
-    # Look for the education-related segment
-    for kw in EDU_SECTION_KEYWORDS:
-        idx = text.find(kw)
-        if idx != -1:
-            segment = text[idx:idx + 300]
-            # Return the highest (most advanced) tier found
-            for tier_kw, tier in EDU_KEYWORD_MAP.items():
-                if tier_kw in segment:
-                    return tier
-            break
+    for row in edu_container.select("div.row-job-ex"):
+        # Label is in the col-lg-2 div
+        label_div = row.select_one("div.col-lg-2")
+        if not label_div:
+            continue
+        label = label_div.get_text(strip=True)
 
-    # Fallback: scan entire text for education keywords
-    for tier_kw, tier in EDU_KEYWORD_MAP.items():
-        if tier_kw in text:
-            return tier
+        # Skip "わからない" (don't know)
+        if "わからない" in label:
+            continue
 
-    return ""
+        # Percentage is in aria-valuenow of the progress bar
+        bar = row.select_one("div.progress-bar[aria-valuenow]")
+        if not bar:
+            continue
+        try:
+            pct = float(bar["aria-valuenow"])
+        except (ValueError, KeyError):
+            continue
+
+        # Map label to canonical tier
+        tier = EDU_LABEL_MAP.get(label, "")
+        if not tier:
+            # Check for graduate-level labels (修士課程卒(...), 博士課程卒)
+            if any(kw in label for kw in _GRAD_KEYWORDS):
+                tier = "大学院卒"
+        if not tier:
+            continue
+
+        if pct > best_pct:
+            best_pct = pct
+            best_tier = tier
+
+    return best_tier
 
 
 # ── e-Stat matching ──────────────────────────────────────────────────────────
