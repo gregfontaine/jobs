@@ -2,7 +2,7 @@
 
 Bilingual (Japanese/English) interactive visualization of AI exposure across 556 Japanese occupations. Includes a treemap view, a sortable list/ranking view, search, deep-linkable occupation modals, and sidebar analytics.
 
-**Live site:** `site/index_jp.html` — serve locally or deploy to any static host.
+**Live site:** `site/index.html` — serve locally or deploy to any static host. The US version is at `site/index_us.html`.
 
 ---
 
@@ -123,7 +123,7 @@ uv run python build_site_data_jp.py
 
 # Step 10 — Serve locally
 cd site && python -m http.server 8000
-# Open: http://localhost:8000/index_jp.html
+# Open: http://localhost:8000/index.html
 ```
 
 ---
@@ -138,7 +138,7 @@ The primary source for salary and employment data is `occupations_updated.csv`, 
 
 ## Frontend
 
-The site (`site/index_jp.html`) is a single-file vanilla JS application with inline CSS and JS — no build step, no dependencies.
+The site (`site/index.html`) is a single-file vanilla JS application with inline CSS and JS — no build step, no dependencies.
 
 | Feature | Description |
 |---------|-------------|

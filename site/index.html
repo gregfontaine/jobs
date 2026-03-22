@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Exposure of the US Job Market</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="apple-touch-icon" sizes="192x192" href="favicon-192.png">
+<title>日本の雇用市場のAIエクスポージャー</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -12,50 +15,151 @@
   --bg2: #12121a;
   --fg: #e0e0e8;
   --fg2: #888894;
-  --sidebar-w: 220px;
+  --sidebar-w: 228px;
+  --accent: #5b8cff;
 }
 
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans',
+               'Noto Sans JP', system-ui, sans-serif;
   overflow: hidden;
   height: 100vh;
 }
 
+/* ── Language toggle ──────────────────────────────────────────────────── */
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  user-select: none;
+}
+.lang-opt {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--fg2);
+  transition: color 0.18s;
+}
+.lang-opt.active { color: #fff; }
+.lang-track {
+  width: 38px;
+  height: 21px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 11px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.18s;
+  flex-shrink: 0;
+}
+.lang-track:hover { background: rgba(255,255,255,0.13); }
+.lang-thumb {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: left 0.18s cubic-bezier(.4,0,.2,1);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.lang-thumb.en { left: 19px; }
+
+/* ── Search bar ──────────────────────────────────────────────────────── */
+#search-wrap { position: relative; }
+#search-input {
+  width: 100%;
+  padding: 7px 12px 7px 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color: var(--fg);
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+#search-input:focus { border-color: var(--accent); }
+#search-input::placeholder { color: var(--fg2); }
+#search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--fg2);
+  font-size: 12px;
+  pointer-events: none;
+}
+#search-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0; right: 0;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  max-height: 340px;
+  overflow-y: auto;
+  z-index: 30;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+#search-dropdown.open { display: block; }
+.search-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.search-item:last-child { border-bottom: none; }
+.search-item:hover, .search-item.active { background: rgba(255,255,255,0.08); }
+.si-title { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.si-score {
+  font-weight: 600;
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.si-jobs { color: var(--fg2); font-size: 10px; flex-shrink: 0; }
+.search-none { padding: 10px 12px; color: var(--fg2); font-size: 12px; }
+
+/* ── Sidebar ──────────────────────────────────────────────────────────── */
 #sidebar {
   position: fixed;
   top: 0; left: 0; bottom: 0;
   width: var(--sidebar-w);
   background: var(--bg2);
   border-right: 1px solid rgba(255,255,255,0.06);
-  padding: 20px 18px;
+  padding: 16px 18px 20px;
   z-index: 10;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
 #sidebar h1 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.3;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  margin-top: 2px;
 }
 #sidebar .subtitle {
-  font-size: 11px;
+  font-size: 10.5px;
   color: var(--fg2);
   margin-top: 4px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 #sidebar .subtitle a { color: var(--fg2); }
 
-.stat-section {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
+.stat-section { display: flex; flex-direction: column; gap: 6px; }
 .stat-section h3 {
   font-size: 10px;
   font-weight: 600;
@@ -69,55 +173,17 @@ body {
   letter-spacing: -0.03em;
   line-height: 1;
 }
-.stat-label {
-  font-size: 11px;
-  color: var(--fg2);
-}
+.stat-label { font-size: 11px; color: var(--fg2); }
 
-.tier-bar {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.tier-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11px;
-}
-.tier-color {
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-.tier-name {
-  flex: 1;
-  color: var(--fg2);
-}
-.tier-jobs {
-  text-align: right;
-  white-space: nowrap;
-}
-.tier-pct {
-  text-align: right;
-  width: 32px;
-  color: var(--fg2);
-  font-size: 10px;
-}
+.tier-bar { display: flex; flex-direction: column; gap: 4px; }
+.tier-row { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+.tier-color { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.tier-name  { flex: 1; color: var(--fg2); }
+.tier-jobs  { text-align: right; white-space: nowrap; }
+.tier-pct   { text-align: right; width: 32px; color: var(--fg2); font-size: 10px; }
 
-.histogram {
-  display: flex;
-  align-items: flex-end;
-  gap: 2px;
-  height: 48px;
-}
-.histogram .bar {
-  flex: 1;
-  border-radius: 1px 1px 0 0;
-  min-height: 1px;
-  position: relative;
-}
+.histogram  { display: flex; align-items: flex-end; gap: 2px; height: 48px; }
+.histogram .bar { flex: 1; border-radius: 1px 1px 0 0; min-height: 1px; }
 .hist-labels {
   display: flex;
   justify-content: space-between;
@@ -126,19 +192,10 @@ body {
   margin-top: 2px;
 }
 
-.hbar-chart {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.hbar-row {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 11px;
-}
+.hbar-chart { display: flex; flex-direction: column; gap: 4px; }
+.hbar-row   { display: flex; align-items: center; gap: 6px; font-size: 11px; }
 .hbar-label {
-  width: 68px;
+  width: 72px;
   flex-shrink: 0;
   color: var(--fg2);
   font-size: 10px;
@@ -151,29 +208,72 @@ body {
   border-radius: 2px;
   overflow: hidden;
 }
-.hbar-fill {
-  height: 100%;
-  border-radius: 2px;
-}
-.hbar-val {
-  width: 22px;
-  flex-shrink: 0;
-  font-size: 10px;
-  color: var(--fg);
-  text-align: right;
-}
+.hbar-fill  { height: 100%; border-radius: 2px; }
+.hbar-val   { width: 22px; flex-shrink: 0; font-size: 10px; color: var(--fg); text-align: right; }
 
-.gradient-legend {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.gradient-legend { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--fg2); }
+.gradient-legend canvas { border-radius: 2px; }
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 12px;
   font-size: 10px;
   color: var(--fg2);
 }
-.gradient-legend canvas {
-  border-radius: 2px;
-}
+.sidebar-footer a { color: var(--fg2); }
 
+/* ── Controls bar (view toggle + list controls) ──────────────────────── */
+#controls-bar {
+  position: fixed;
+  top: 8px;
+  right: 12px;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#view-toggle {
+  display: flex;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+#view-toggle button {
+  background: none;
+  border: none;
+  color: var(--fg2);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+  letter-spacing: 0.02em;
+}
+#view-toggle button.active {
+  background: rgba(255,255,255,0.1);
+  color: var(--fg);
+}
+#view-toggle button:hover { color: var(--fg); }
+#list-controls {
+  display: none;
+  align-items: center;
+  gap: 10px;
+}
+#cat-filter {
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: var(--fg);
+  padding: 5px 8px;
+  font-size: 11px;
+  outline: none;
+  cursor: pointer;
+}
+#cat-filter option { background: var(--bg2); }
+#row-count { font-size: 11px; color: var(--fg2); white-space: nowrap; }
+
+/* ── Canvas ───────────────────────────────────────────────────────────── */
 canvas#canvas {
   display: block;
   position: fixed;
@@ -182,6 +282,7 @@ canvas#canvas {
   cursor: default;
 }
 
+/* ── Tooltip ──────────────────────────────────────────────────────────── */
 #tooltip {
   position: fixed;
   pointer-events: none;
@@ -198,24 +299,19 @@ canvas#canvas {
   box-shadow: 0 8px 32px rgba(0,0,0,0.6);
 }
 #tooltip.visible { opacity: 1; }
-#tooltip .tt-title {
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 6px;
-  color: #fff;
-}
-#tooltip .tt-exposure {
-  font-size: 12px;
-  margin-bottom: 8px;
-}
-#tooltip .tt-stats {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 2px 12px;
-  font-size: 12px;
-}
+#tooltip .tt-title    { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #fff; }
+#tooltip .tt-exposure { font-size: 12px; margin-bottom: 8px; }
+#tooltip .tt-stats    { display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
 #tooltip .tt-stats .label { color: var(--fg2); }
 #tooltip .tt-stats .value { color: var(--fg); text-align: right; }
+#tooltip .tt-label { font-weight: 600; color: var(--fg); }
+#tooltip .tt-description {
+  font-size: 11px;
+  color: var(--fg2);
+  margin-top: 6px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
 #tooltip .tt-rationale {
   font-size: 11px;
   color: var(--fg2);
@@ -224,73 +320,515 @@ canvas#canvas {
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 8px;
 }
+
+/* ── List view ───────────────────────────────────────────────────────── */
+#list-view {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-w);
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 40px 16px 16px;
+  display: none;
+  background: var(--bg);
+}
+#list-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+#list-table th {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  white-space: nowrap;
+}
+#list-table th:hover { color: var(--fg); }
+#list-table th.sorted { color: var(--accent); }
+.sort-arrow { margin-left: 4px; font-size: 9px; }
+#list-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  white-space: nowrap;
+}
+#list-table tbody tr { cursor: pointer; transition: background 0.1s; }
+#list-table tbody tr:hover { background: rgba(255,255,255,0.05); }
+.list-exposure-pill {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+/* ── Modal ────────────────────────────────────────────────────────────── */
+#modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 50;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#modal-overlay.open { display: flex; }
+#modal {
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 24px 28px;
+  max-width: 480px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.7);
+}
+#modal-close {
+  position: absolute;
+  top: 10px; right: 14px;
+  background: none;
+  border: none;
+  color: var(--fg2);
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+#modal-close:hover { color: var(--fg); }
+.modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 4px;
+  padding-right: 30px;
+}
+.modal-category { font-size: 11px; color: var(--fg2); margin-bottom: 14px; }
+.modal-exposure-wrap { margin-bottom: 14px; }
+.modal-exposure-score { font-size: 24px; font-weight: 700; }
+.modal-exposure-label { font-size: 12px; color: var(--fg2); margin-left: 4px; }
+.modal-exposure-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 3px;
+  margin-top: 6px;
+}
+.modal-exposure-bar-fill { height: 100%; border-radius: 3px; }
+.modal-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 12px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+}
+.modal-stat-label {
+  font-size: 10px;
+  color: var(--fg2);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.modal-stat-value { font-size: 14px; font-weight: 600; margin-top: 2px; }
+.modal-desc {
+  font-size: 12px;
+  color: var(--fg2);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.modal-desc-label {
+  font-weight: 600;
+  color: var(--fg);
+  margin-bottom: 4px;
+  font-size: 11px;
+}
+.modal-rationale {
+  font-size: 12px;
+  color: var(--fg2);
+  line-height: 1.5;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: 16px;
+}
+.modal-rationale-label {
+  font-weight: 600;
+  color: var(--fg);
+  margin-bottom: 4px;
+  font-size: 11px;
+}
+#modal-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+#modal-jobtag {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 12px;
+}
+#modal-jobtag:hover { text-decoration: underline; }
+#modal-share {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+#modal-share:hover { opacity: 0.85; }
+
+/* ── Toast ────────────────────────────────────────────────────────────── */
+#toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: var(--fg);
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 60;
+  pointer-events: none;
+}
+#toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 </style>
 </head>
 <body>
 
 <div id="sidebar">
+
+  <!-- Language toggle -->
+  <div class="lang-switch">
+    <span class="lang-opt active" id="opt-ja">JP</span>
+    <div class="lang-track" id="langTrack" title="Switch language / 言語切替">
+      <div class="lang-thumb" id="langThumb"></div>
+    </div>
+    <span class="lang-opt" id="opt-en">EN</span>
+  </div>
+
+  <!-- Search bar -->
+  <div id="search-wrap">
+    <span id="search-icon">&#128269;</span>
+    <input id="search-input" type="text" placeholder="職業を検索..." autocomplete="off">
+    <div id="search-dropdown"></div>
+  </div>
+
+  <!-- Title & subtitle -->
   <div>
-    <h1>AI Exposure of the US Job Market</h1>
-    <div class="subtitle">342 occupations &middot; area = employment &middot; color = AI exposure<br>Data from <a href="https://www.bls.gov/ooh/">BLS</a>, scored by Gemini Flash<br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
+    <h1 id="ttlMain">日本の雇用市場の<br>AIエクスポージャー</h1>
+    <div class="subtitle">
+      <span id="subDesc">約500職業・面積＝就業者数・色＝AIエクスポージャー</span><br>
+      <span id="subData">データ：</span><a href="https://shigoto.mhlw.go.jp/" target="_blank">Jobtag</a> /
+      <a href="https://www.e-stat.go.jp/" target="_blank">e-Stat</a>
+      <span id="subScored">・NVIDIA Nemotronにてスコアリング</span><br>
+      <a href="https://github.com/gregfontaine/jobs" target="_blank">GitHub</a>
+    </div>
   </div>
 
   <div class="stat-section">
-    <h3>Total jobs</h3>
+    <h3 data-i18n="total_jobs">就業者総数</h3>
     <div class="stat-big" id="statTotalJobs">—</div>
   </div>
 
   <div class="stat-section">
-    <h3>Weighted avg. exposure</h3>
+    <h3 data-i18n="weighted_avg">加重平均エクスポージャー</h3>
     <div class="stat-big" id="statAvgExposure">—</div>
-    <div class="stat-label">job-weighted, 0–10 scale</div>
+    <div class="stat-label" data-i18n="weighted_sub">雇用加重、0〜10スケール</div>
   </div>
 
   <div class="stat-section">
-    <h3>Jobs by exposure (weighted by employment)</h3>
+    <h3 data-i18n="jobs_by_exp">エクスポージャー別就業者数</h3>
     <div class="histogram" id="histogram"></div>
     <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>
   </div>
 
   <div class="stat-section">
-    <h3>Breakdown</h3>
+    <h3 data-i18n="breakdown">内訳</h3>
     <div class="tier-bar" id="tierBar"></div>
   </div>
 
   <div class="stat-section">
-    <h3>Exposure by pay</h3>
+    <h3 data-i18n="by_pay">賃金別エクスポージャー</h3>
     <div class="hbar-chart" id="payChart"></div>
   </div>
 
   <div class="stat-section">
-    <h3>Exposure by education</h3>
+    <h3 data-i18n="by_edu">学歴別エクスポージャー</h3>
     <div class="hbar-chart" id="eduChart"></div>
   </div>
 
   <div class="stat-section">
-    <h3>Wages exposed</h3>
+    <h3 data-i18n="wages_hdr">高エクスポージャー賃金総額</h3>
     <div class="stat-big" id="statWages">—</div>
-    <div class="stat-label" id="statWagesDesc">annual wages in high-exposure jobs (7+)</div>
+    <div class="stat-label" data-i18n="wages_sub">エクスポージャー7以上の職業の年間賃金</div>
   </div>
 
   <div class="gradient-legend">
-    <span>Low</span>
+    <span data-i18n="legend_low">低</span>
     <canvas id="gradientLegend" width="80" height="8"></canvas>
-    <span>High</span>
+    <span data-i18n="legend_high">高</span>
+  </div>
+
+  <div class="sidebar-footer">
+    Powered by <a href="https://miraiacademy.co.jp" target="_blank">miraiacademy.co.jp</a>
+  </div>
+
+</div><!-- /sidebar -->
+
+<!-- Controls bar (top-right) -->
+<div id="controls-bar">
+  <div id="list-controls">
+    <select id="cat-filter"></select>
+    <span id="row-count"></span>
+  </div>
+  <div id="view-toggle">
+    <button id="btn-treemap" class="active" data-i18n-attr="title:view_map">Map</button>
+    <button id="btn-list" data-i18n-attr="title:view_list">List</button>
   </div>
 </div>
 
 <canvas id="canvas"></canvas>
 
+<!-- List / ranking view -->
+<div id="list-view">
+  <table id="list-table">
+    <thead>
+      <tr>
+        <th data-sort="rank">#</th>
+        <th data-sort="title"><span class="th-label">職業名</span><span class="sort-arrow"></span></th>
+        <th data-sort="exposure"><span class="th-label">AIエクスポージャー</span><span class="sort-arrow"></span></th>
+        <th data-sort="pay"><span class="th-label">賃金中央値</span><span class="sort-arrow"></span></th>
+        <th data-sort="jobs"><span class="th-label">就業者数</span><span class="sort-arrow"></span></th>
+        <th data-sort="category"><span class="th-label">カテゴリ</span><span class="sort-arrow"></span></th>
+      </tr>
+    </thead>
+    <tbody id="list-body"></tbody>
+  </table>
+</div>
+
 <div id="tooltip">
   <div class="tt-title"></div>
+  <div class="tt-description"></div>
   <div class="tt-exposure"></div>
   <div class="tt-stats"></div>
   <div class="tt-rationale"></div>
 </div>
 
+<!-- Modal overlay -->
+<div id="modal-overlay">
+  <div id="modal">
+    <button id="modal-close">&times;</button>
+    <div id="modal-body"></div>
+    <div id="modal-footer">
+      <a id="modal-jobtag" href="#" target="_blank">Jobtag詳細 ↗</a>
+      <button id="modal-share">共有</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
 <script>
 
-// ── Exposure color scale ───────────────────────────────────────────────
+// ── i18n ────────────────────────────────────────────────────────────────────
+
+const T = {
+  ja: {
+    html_lang:    "ja",
+    page_title:   "日本の雇用市場のAIエクスポージャー",
+    ttl_main:     "日本の雇用市場の\u200bAIエクスポージャー",
+    sub_desc:     "約500職業・面積＝就業者数・色＝AIエクスポージャー",
+    sub_data:     "データ：",
+    sub_scored:   "・NVIDIA Nemotronにてスコアリング",
+    total_jobs:   "就業者総数",
+    weighted_avg: "加重平均エクスポージャー",
+    weighted_sub: "雇用加重、0〜10スケール",
+    jobs_by_exp:  "エクスポージャー別就業者数",
+    breakdown:    "内訳",
+    by_pay:       "賃金別エクスポージャー",
+    by_edu:       "学歴別エクスポージャー",
+    wages_hdr:    "高エクスポージャー賃金総額",
+    wages_sub:    "エクスポージャー7以上の職業の年間賃金",
+    legend_low:   "低",
+    legend_high:  "高",
+    tier_minimal:   "最小",
+    tier_low:       "低",
+    tier_moderate:  "中程度",
+    tier_high:      "高",
+    tier_very_high: "非常に高い",
+    tt_exposure:  "AIエクスポージャー",
+    tt_pay:       "賃金中央値",
+    tt_jobs:      "就業者数",
+    tt_edu:       "学歴",
+    tt_desc:      "仕事内容",
+    tt_analysis:  "AI分析",
+    pay_bands: ["¥3M未満", "¥3〜5M", "¥5〜7M", "¥7〜10M", "¥10M以上"],
+    edu_groups: [
+      { label: "中学・高卒",  match: ["中学卒","高卒","学歴不問"] },
+      { label: "専門学校卒",  match: ["専門学校卒"] },
+      { label: "短大卒",      match: ["短大卒"] },
+      { label: "大学卒",      match: ["大学卒"] },
+      { label: "大学院卒",    match: ["大学院卒"] },
+    ],
+    // New feature keys
+    search_ph:    "職業を検索...",
+    search_none:  "該当なし",
+    copied:       "URLをコピーしました",
+    share:        "共有",
+    view_map:     "マップ",
+    view_list:    "リスト",
+    cat_all:      "すべてのカテゴリ",
+    list_rank:    "#",
+    list_title:   "職業名",
+    list_exposure:"AIエクスポージャー",
+    list_pay:     "賃金中央値",
+    list_jobs:    "就業者数",
+    list_category:"カテゴリ",
+    list_count:   "件",
+    jobtag_link:  "Jobtag詳細 ↗",
+  },
+  en: {
+    html_lang:    "en",
+    page_title:   "AI Exposure of the Japan Job Market",
+    ttl_main:     "AI Exposure of the\u200bJapan Job Market",
+    sub_desc:     "~500 occupations · area = employment · color = AI exposure",
+    sub_data:     "Data: ",
+    sub_scored:   " · scored by NVIDIA Nemotron",
+    total_jobs:   "Total jobs",
+    weighted_avg: "Weighted avg. exposure",
+    weighted_sub: "job-weighted, 0\u201310 scale",
+    jobs_by_exp:  "Jobs by exposure (weighted by employment)",
+    breakdown:    "Breakdown",
+    by_pay:       "Exposure by pay",
+    by_edu:       "Exposure by education",
+    wages_hdr:    "Wages exposed",
+    wages_sub:    "annual wages in high-exposure jobs (7+)",
+    legend_low:   "Low",
+    legend_high:  "High",
+    tier_minimal:   "Minimal",
+    tier_low:       "Low",
+    tier_moderate:  "Moderate",
+    tier_high:      "High",
+    tier_very_high: "Very high",
+    tt_exposure:  "AI Exposure",
+    tt_pay:       "Median pay",
+    tt_jobs:      "Jobs",
+    tt_edu:       "Education",
+    tt_desc:      "Job description",
+    tt_analysis:  "AI analysis",
+    pay_bands: ["<¥3M", "¥3\u20135M", "¥5\u20137M", "¥7\u201310M", "¥10M+"],
+    edu_groups: [
+      { label: "HS / No degree", match: ["中学卒","高卒","学歴不問"] },
+      { label: "Vocational",     match: ["専門学校卒"] },
+      { label: "Jr. College",    match: ["短大卒"] },
+      { label: "University",     match: ["大学卒"] },
+      { label: "Graduate",       match: ["大学院卒"] },
+    ],
+    search_ph:    "Search occupations...",
+    search_none:  "No results",
+    copied:       "URL copied to clipboard",
+    share:        "Share",
+    view_map:     "Map",
+    view_list:    "List",
+    cat_all:      "All categories",
+    list_rank:    "#",
+    list_title:   "Title",
+    list_exposure:"AI Exposure",
+    list_pay:     "Median Pay",
+    list_jobs:    "Jobs",
+    list_category:"Category",
+    list_count:   "occupations",
+    jobtag_link:  "View on Jobtag ↗",
+  },
+};
+
+let lang = "ja";
+
+function setLang(newLang) {
+  lang = newLang;
+  const t = T[lang];
+
+  document.documentElement.lang = t.html_lang;
+  document.title = t.page_title;
+
+  document.getElementById("opt-ja").classList.toggle("active", lang === "ja");
+  document.getElementById("opt-en").classList.toggle("active", lang === "en");
+  document.getElementById("langThumb").classList.toggle("en", lang === "en");
+
+  document.getElementById("ttlMain").innerHTML =
+    t.ttl_main.replace("\u200b", "<br>");
+  document.getElementById("subDesc").textContent   = t.sub_desc;
+  document.getElementById("subData").textContent   = t.sub_data;
+  document.getElementById("subScored").textContent = t.sub_scored;
+
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.dataset.i18n;
+    if (t[key] !== undefined) el.textContent = t[key];
+  });
+
+  // Search placeholder
+  document.getElementById("search-input").placeholder = t.search_ph;
+
+  // View toggle labels
+  document.getElementById("btn-treemap").textContent = t.view_map;
+  document.getElementById("btn-list").textContent    = t.view_list;
+
+  // Modal footer labels
+  document.getElementById("modal-jobtag").textContent = t.jobtag_link;
+  document.getElementById("modal-share").textContent  = t.share;
+
+  // List table headers
+  const headerKeys = { title: "list_title", exposure: "list_exposure",
+                       pay: "list_pay", jobs: "list_jobs", category: "list_category" };
+  document.querySelectorAll("#list-table th[data-sort]").forEach(th => {
+    const key = th.dataset.sort;
+    const label = th.querySelector(".th-label");
+    if (label && headerKeys[key]) label.textContent = t[headerKeys[key]];
+  });
+
+  // Re-render dynamic content
+  if (data.length) {
+    computeStats();
+    populateCategoryFilter();
+    if (currentView === "treemap") draw();
+    if (currentView === "list") renderListView();
+    if (selected) populateModal(selected);
+  }
+
+  hideTooltip();
+}
+
+function toggleLang() { setLang(lang === "ja" ? "en" : "ja"); }
+
+document.getElementById("langTrack").addEventListener("click", toggleLang);
+document.getElementById("opt-ja").addEventListener("click", () => setLang("ja"));
+document.getElementById("opt-en").addEventListener("click", () => setLang("en"));
+
+
+// ── Exposure color scale ─────────────────────────────────────────────────────
 
 function exposureColor(score) {
   if (score == null) return [128, 128, 128];
@@ -315,116 +853,89 @@ function exposureColorCSS(score, alpha) {
   return `rgba(${r},${g},${b},${alpha})`;
 }
 
-// ── Squarified treemap layout ──────────────────────────────────────────
+
+// ── Squarified treemap ───────────────────────────────────────────────────────
 
 function squarify(items, x, y, w, h) {
-  if (items.length === 0) return [];
-  if (items.length === 1) {
-    return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
-  }
-
+  if (!items.length) return [];
+  if (items.length === 1) return [{ ...items[0], rx: x, ry: y, rw: w, rh: h }];
   const total = items.reduce((s, d) => s + d.value, 0);
-  if (total === 0) return [];
+  if (!total) return [];
 
   const results = [];
   let remaining = [...items];
   let cx = x, cy = y, cw = w, ch = h;
 
-  while (remaining.length > 0) {
+  while (remaining.length) {
     const remTotal = remaining.reduce((s, d) => s + d.value, 0);
     const vertical = cw >= ch;
     const side = vertical ? ch : cw;
 
-    let row = [remaining[0]];
-    let rowSum = remaining[0].value;
-
+    let row = [remaining[0]], rowSum = remaining[0].value;
     for (let i = 1; i < remaining.length; i++) {
-      const candidate = [...row, remaining[i]];
-      const candidateSum = rowSum + remaining[i].value;
-      if (worstAspect(candidate, candidateSum, side, remTotal, vertical ? cw : ch) <
+      const cand = [...row, remaining[i]], candSum = rowSum + remaining[i].value;
+      if (worstAspect(cand, candSum, side, remTotal, vertical ? cw : ch) <
           worstAspect(row, rowSum, side, remTotal, vertical ? cw : ch)) {
-        row = candidate;
-        rowSum = candidateSum;
-      } else {
-        break;
-      }
+        row = cand; rowSum = candSum;
+      } else break;
     }
 
-    const rowFraction = rowSum / remTotal;
-    const rowThickness = vertical ? cw * rowFraction : ch * rowFraction;
-
+    const rf = rowSum / remTotal;
+    const thick = vertical ? cw * rf : ch * rf;
     let offset = 0;
     for (const item of row) {
-      const itemFraction = item.value / rowSum;
-      const itemLength = side * itemFraction;
-      if (vertical) {
-        results.push({ ...item, rx: cx, ry: cy + offset, rw: rowThickness, rh: itemLength });
-      } else {
-        results.push({ ...item, rx: cx + offset, ry: cy, rw: itemLength, rh: rowThickness });
-      }
-      offset += itemLength;
+      const len = side * (item.value / rowSum);
+      results.push(vertical
+        ? { ...item, rx: cx,        ry: cy + offset, rw: thick, rh: len }
+        : { ...item, rx: cx+offset, ry: cy,          rw: len,   rh: thick });
+      offset += len;
     }
-
-    if (vertical) {
-      cx += rowThickness;
-      cw -= rowThickness;
-    } else {
-      cy += rowThickness;
-      ch -= rowThickness;
-    }
-
+    if (vertical) { cx += thick; cw -= thick; }
+    else          { cy += thick; ch -= thick; }
     remaining = remaining.slice(row.length);
   }
-
   return results;
 }
 
-function worstAspect(row, rowSum, side, totalArea, availableExtent) {
-  const rowExtent = availableExtent * (rowSum / totalArea);
-  if (rowExtent === 0) return Infinity;
+function worstAspect(row, rowSum, side, totalArea, avail) {
+  const ext = avail * (rowSum / totalArea);
+  if (!ext) return Infinity;
   let worst = 0;
   for (const item of row) {
-    const itemLen = side * (item.value / rowSum);
-    if (itemLen === 0) continue;
-    const aspect = Math.max(rowExtent / itemLen, itemLen / rowExtent);
-    if (aspect > worst) worst = aspect;
+    const len = side * (item.value / rowSum);
+    if (!len) continue;
+    const asp = Math.max(ext / len, len / ext);
+    if (asp > worst) worst = asp;
   }
   return worst;
 }
 
-// ── Rendering ──────────────────────────────────────────────────────────
 
-let data = [];
+// ── Rendering ────────────────────────────────────────────────────────────────
+
+let data  = [];
 let rects = [];
 let hovered = null;
+let selected = null;
+let currentView = "treemap";
 
 const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
+const ctx    = canvas.getContext("2d");
 let dpr = window.devicePixelRatio || 1;
 
-const MARGIN = 12;
-const GAP = 1.5;
+const MARGIN = 12, GAP = 1.5;
 
 function layout() {
-  const sidebarW = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
-  const w = (window.innerWidth - sidebarW);
-  const h = window.innerHeight;
-
-  canvas.width = w * dpr;
-  canvas.height = h * dpr;
-  canvas.style.width = w + "px";
-  canvas.style.height = h + "px";
-
-  const tx = MARGIN;
-  const ty = MARGIN;
-  const tw = w - MARGIN * 2;
-  const th = h - MARGIN * 2;
+  const sw = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const w = window.innerWidth - sw, h = window.innerHeight;
+  canvas.width  = w * dpr; canvas.height = h * dpr;
+  canvas.style.width  = w + "px"; canvas.style.height = h + "px";
 
   const byCategory = {};
   for (const d of data) {
-    const cat = d.category;
-    if (!byCategory[cat]) byCategory[cat] = [];
-    byCategory[cat].push(d);
+    const key = d.category;
+    if (!byCategory[key]) byCategory[key] = [];
+    byCategory[key].push(d);
   }
 
   const categories = Object.keys(byCategory).map(cat => ({
@@ -433,138 +944,148 @@ function layout() {
     value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
   })).sort((a, b) => b.value - a.value);
 
-  const catRects = squarify(categories, tx, ty, tw, th);
-
+  const catRects = squarify(categories, MARGIN, MARGIN,
+                             w - MARGIN*2, h - MARGIN*2);
   rects = [];
   for (const cr of catRects) {
-    const innerGap = GAP;
     const items = cr.items.map(d => ({ ...d, value: d.jobs || 1 }));
-    const innerRects = squarify(items,
-      cr.rx + innerGap, cr.ry + innerGap,
-      cr.rw - innerGap * 2, cr.rh - innerGap * 2
-    );
-    for (const ir of innerRects) {
-      rects.push(ir);
-    }
+    const ir = squarify(items, cr.rx+GAP, cr.ry+GAP, cr.rw-GAP*2, cr.rh-GAP*2);
+    ir.forEach(r => rects.push(r));
   }
 }
 
 function draw() {
-  const w = canvas.width;
-  const h = canvas.height;
   ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   ctx.fillStyle = "#0a0a0f";
-  ctx.fillRect(0, 0, w / dpr, h / dpr);
+  ctx.fillRect(0, 0, canvas.width/dpr, canvas.height/dpr);
 
   for (const r of rects) {
-    const isHovered = r === hovered;
-
-    const g = GAP / 2;
-    const rx = r.rx + g;
-    const ry = r.ry + g;
-    const rw = r.rw - g * 2;
-    const rh = r.rh - g * 2;
-
+    const isHov = r === hovered;
+    const isSel = selected && r.slug === selected.slug;
+    const isDimmed = selected && !isSel;
+    const g = GAP/2;
+    const rx = r.rx+g, ry = r.ry+g, rw = r.rw-g*2, rh = r.rh-g*2;
     if (rw <= 0 || rh <= 0) continue;
 
-    const fillAlpha = isHovered ? 0.8 : 0.5;
-    ctx.fillStyle = exposureColorCSS(r.exposure, fillAlpha);
+    const alpha = isDimmed ? 0.15 : (isHov || isSel) ? 0.8 : 0.5;
+    ctx.fillStyle = exposureColorCSS(r.exposure, alpha);
     ctx.fillRect(rx, ry, rw, rh);
 
-    if (isHovered) {
-      ctx.strokeStyle = "#fff";
-      ctx.lineWidth = 2;
+    if (isSel) {
+      ctx.strokeStyle = "#fff"; ctx.lineWidth = 2.5;
+      ctx.strokeRect(rx, ry, rw, rh);
+    } else if (isHov && !isDimmed) {
+      ctx.strokeStyle = "#fff"; ctx.lineWidth = 2;
       ctx.strokeRect(rx, ry, rw, rh);
     }
 
-    const minW = 50;
-    const minH = 18;
-    if (rw > minW && rh > minH) {
+    const showText = isDimmed ? (rw > 80 && rh > 24) : (rw > 50 && rh > 18);
+    if (showText) {
       ctx.save();
-      ctx.beginPath();
-      ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4);
-      ctx.clip();
-
-      const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
-      ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
-      ctx.fillStyle = isHovered ? "#fff" : "rgba(255,255,255,0.85)";
+      ctx.beginPath(); ctx.rect(rx+4, ry+2, rw-8, rh-4); ctx.clip();
+      const fs = Math.min(13, Math.max(9, Math.min(rw/10, rh/3)));
+      ctx.font = `500 ${fs}px -apple-system,'Hiragino Sans','Noto Sans JP',system-ui,sans-serif`;
+      ctx.fillStyle = isDimmed ? "rgba(255,255,255,0.3)" : isHov || isSel ? "#fff" : "rgba(255,255,255,0.85)";
       ctx.textBaseline = "top";
-      ctx.fillText(r.title, rx + 5, ry + 4);
-
+      ctx.fillText(displayTitle(r), rx+5, ry+4);
       if (rh > 34 && rw > 60) {
         const info = (r.exposure != null ? r.exposure + "/10" : "") +
-                     (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
-        ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
-        ctx.fillStyle = "rgba(255,255,255,0.5)";
-        ctx.fillText(info, rx + 5, ry + 4 + fontSize + 2);
+                     (r.jobs ? " \u00b7 " + fmtNum(r.jobs) : "");
+        ctx.font = `400 ${Math.max(8,fs-2)}px -apple-system,'Hiragino Sans',system-ui,sans-serif`;
+        ctx.fillStyle = isDimmed ? "rgba(255,255,255,0.15)" : "rgba(255,255,255,0.5)";
+        ctx.fillText(info, rx+5, ry+4+fs+2);
       }
-
       ctx.restore();
     }
   }
 }
 
 function hitTest(mx, my) {
-  const sidebarW = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
-  const cx = mx - sidebarW;
-  const cy = my;
-  for (let i = rects.length - 1; i >= 0; i--) {
+  const sw = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-w'));
+  const cx = mx - sw, cy = my;
+  for (let i = rects.length-1; i >= 0; i--) {
     const r = rects[i];
-    if (cx >= r.rx && cx < r.rx + r.rw && cy >= r.ry && cy < r.ry + r.rh) {
-      return r;
-    }
+    if (cx >= r.rx && cx < r.rx+r.rw && cy >= r.ry && cy < r.ry+r.rh) return r;
   }
   return null;
 }
 
-function formatNumber(n) {
+
+// ── Formatters ───────────────────────────────────────────────────────────────
+
+function fmtNum(n) {
   if (n == null) return "\u2014";
-  if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
-  if (n >= 1000) return Math.round(n / 1000) + "K";
+  if (n >= 1e6) return (n/1e6).toFixed(1) + "M";
+  if (n >= 1e3) return Math.round(n/1e3) + "K";
   return n.toLocaleString();
 }
 
-function formatPay(n) {
+function fmtPayJPY(n) {
   if (n == null) return "\u2014";
-  return "$" + n.toLocaleString();
+  if (n >= 1e8) return "\u00a5" + (n/1e8).toFixed(1) + "\u5104";
+  if (n >= 1e4) return "\u00a5" + Math.round(n/1e4) + "\u4e07";
+  return "\u00a5" + n.toLocaleString();
 }
+
+function fmtWagesJPY(n) {
+  if (n >= 1e12) return "\u00a5" + (n/1e12).toFixed(1) + "\u5146";
+  if (n >= 1e8)  return "\u00a5" + (n/1e8).toFixed(0)  + "\u5104";
+  return "\u00a5" + n.toLocaleString();
+}
+
+function displayTitle(d) {
+  return lang === "en" && d.title_en ? d.title_en : d.title;
+}
+
+
+// ── Tooltip (hover) ──────────────────────────────────────────────────────────
 
 function showTooltip(d, mx, my) {
   const tt = document.getElementById("tooltip");
+  const t  = T[lang];
 
-  tt.querySelector(".tt-title").textContent = d.title;
+  tt.querySelector(".tt-title").textContent = displayTitle(d);
 
-  const score = d.exposure != null ? d.exposure : null;
+  const desc = lang === "ja" ? (d.description_ja || "") : (d.description_en || "");
+  const descEl = tt.querySelector(".tt-description");
+  if (desc) {
+    descEl.innerHTML = `<span class="tt-label">${t.tt_desc}:</span> ${desc}`;
+  } else {
+    descEl.textContent = "";
+  }
+
+  const rat = lang === "ja" ? (d.exposure_rationale_ja || "") : (d.exposure_rationale || "");
+  const ratEl = tt.querySelector(".tt-rationale");
+  if (rat) {
+    ratEl.innerHTML = `<span class="tt-label">${t.tt_analysis}:</span> ${rat}`;
+  } else {
+    ratEl.textContent = "";
+  }
+
+  const score = d.exposure;
   if (score != null) {
-    const barWidth = score * 10;
     const color = exposureColorCSS(score, 1);
     tt.querySelector(".tt-exposure").innerHTML =
-      `<span style="color:${color};font-weight:600;">AI Exposure: ${score}/10</span>` +
+      `<span style="color:${color};font-weight:600;">${t.tt_exposure}: ${score}/10</span>` +
       `<div style="margin-top:3px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;">` +
-      `<div style="height:100%;width:${barWidth}%;background:${color};border-radius:2px;"></div></div>`;
+      `<div style="height:100%;width:${score*10}%;background:${color};border-radius:2px;"></div></div>`;
   } else {
     tt.querySelector(".tt-exposure").innerHTML = "";
   }
 
   tt.querySelector(".tt-stats").innerHTML = `
-    <span class="label">Median pay</span><span class="value">${formatPay(d.pay)}</span>
-    <span class="label">Jobs (2024)</span><span class="value">${formatNumber(d.jobs)}</span>
-    <span class="label">Outlook</span><span class="value">${d.outlook != null ? d.outlook + '%' : '\u2014'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
-    <span class="label">Education</span><span class="value">${d.education || '\u2014'}</span>
+    <span class="label">${t.tt_pay}</span><span class="value">${fmtPayJPY(d.pay)}</span>
+    <span class="label">${t.tt_jobs}</span><span class="value">${fmtNum(d.jobs)}</span>
+    <span class="label">${t.tt_edu}</span><span class="value">${d.education || "\u2014"}</span>
   `;
 
-  tt.querySelector(".tt-rationale").textContent =
-    d.exposure_rationale || "";
-
   const pad = 16;
-  let tx = mx + pad;
-  let ty = my - pad;
+  let tx = mx + pad, ty = my - pad;
   if (tx + 340 > window.innerWidth) tx = mx - 340 - pad;
   if (ty < 10) ty = my + pad;
-  if (ty + 200 > window.innerHeight) ty = my - 200;
-
+  if (ty + 220 > window.innerHeight) ty = my - 220;
   tt.style.left = tx + "px";
-  tt.style.top = ty + "px";
+  tt.style.top  = ty + "px";
   tt.classList.add("visible");
 }
 
@@ -572,148 +1093,487 @@ function hideTooltip() {
   document.getElementById("tooltip").classList.remove("visible");
 }
 
-// ── Sidebar stats ──────────────────────────────────────────────────────
+
+// ── Modal (persistent, click-to-open) ────────────────────────────────────────
+
+function openModal(d) {
+  selected = d;
+  populateModal(d);
+  document.getElementById("modal-overlay").classList.add("open");
+  hideTooltip();
+  draw();
+  // Update URL hash
+  history.pushState({ slug: d.slug, lang }, "", "#/" + lang + "/" + d.slug);
+}
+
+function closeModal() {
+  if (!selected) return;
+  selected = null;
+  document.getElementById("modal-overlay").classList.remove("open");
+  draw();
+  // Reset URL hash
+  history.pushState(null, "", location.pathname + location.search);
+}
+
+function populateModal(d) {
+  const t  = T[lang];
+  const score = d.exposure;
+  const color = score != null ? exposureColorCSS(score, 1) : "var(--fg2)";
+  const desc = lang === "ja" ? (d.description_ja || "") : (d.description_en || "");
+  const rat = lang === "ja" ? (d.exposure_rationale_ja || "") : (d.exposure_rationale || "");
+  const catDisplay = lang === "ja" ? (d.category_ja || d.category) : d.category;
+
+  document.getElementById("modal-body").innerHTML = `
+    <div class="modal-title">${displayTitle(d)}</div>
+    <div class="modal-category">${catDisplay}</div>
+    ${score != null ? `
+    <div class="modal-exposure-wrap">
+      <span class="modal-exposure-score" style="color:${color}">${score}</span>
+      <span class="modal-exposure-label">/ 10 ${t.tt_exposure}</span>
+      <div class="modal-exposure-bar">
+        <div class="modal-exposure-bar-fill" style="width:${score*10}%;background:${color}"></div>
+      </div>
+    </div>` : ""}
+    <div class="modal-stats">
+      <div><div class="modal-stat-label">${t.tt_pay}</div><div class="modal-stat-value">${fmtPayJPY(d.pay)}</div></div>
+      <div><div class="modal-stat-label">${t.tt_jobs}</div><div class="modal-stat-value">${fmtNum(d.jobs)}</div></div>
+      <div><div class="modal-stat-label">${t.tt_edu}</div><div class="modal-stat-value">${d.education || "\u2014"}</div></div>
+    </div>
+    ${desc ? `<div class="modal-desc"><div class="modal-desc-label">${t.tt_desc}</div>${desc}</div>` : ""}
+    ${rat ? `<div class="modal-rationale"><div class="modal-rationale-label">${t.tt_analysis}</div>${rat}</div>` : ""}
+  `;
+
+  // Jobtag link
+  const jobtag = document.getElementById("modal-jobtag");
+  if (d.url) { jobtag.href = d.url; jobtag.style.display = ""; }
+  else       { jobtag.style.display = "none"; }
+}
+
+document.getElementById("modal-close").addEventListener("click", closeModal);
+
+document.getElementById("modal-overlay").addEventListener("click", e => {
+  if (e.target === document.getElementById("modal-overlay")) closeModal();
+});
+
+// Share button
+document.getElementById("modal-share").addEventListener("click", () => {
+  if (!selected) return;
+  const url = location.origin + location.pathname + "#/" + lang + "/" + selected.slug;
+  if (navigator.share) {
+    navigator.share({ title: displayTitle(selected), url }).catch(() => {});
+  } else {
+    navigator.clipboard.writeText(url).then(() => {
+      showToast(T[lang].copied);
+    }).catch(() => {
+      showToast(T[lang].copied);
+    });
+  }
+});
+
+function showToast(msg) {
+  const toast = document.getElementById("toast");
+  toast.textContent = msg;
+  toast.classList.add("show");
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => toast.classList.remove("show"), 2000);
+}
+
+
+// ── Search ───────────────────────────────────────────────────────────────────
+
+const searchInput    = document.getElementById("search-input");
+const searchDropdown = document.getElementById("search-dropdown");
+let searchHlIdx = -1;
+
+function filterSearch(query) {
+  const q = query.toLowerCase();
+  return data.filter(d => d.title.toLowerCase().includes(q) ||
+                          (d.title_en && d.title_en.toLowerCase().includes(q)))
+    .sort((a, b) => {
+      // Prefer starts-with matches, then by jobs
+      const aT = displayTitle(a).toLowerCase();
+      const bT = displayTitle(b).toLowerCase();
+      const aStarts = aT.startsWith(q) ? 1 : 0;
+      const bStarts = bT.startsWith(q) ? 1 : 0;
+      if (bStarts !== aStarts) return bStarts - aStarts;
+      return (b.jobs || 0) - (a.jobs || 0);
+    })
+    .slice(0, 10);
+}
+
+function renderSearchDropdown(results) {
+  searchHlIdx = -1;
+  if (!results.length) {
+    searchDropdown.innerHTML = `<div class="search-none">${T[lang].search_none}</div>`;
+    searchDropdown.classList.add("open");
+    return;
+  }
+  searchDropdown.innerHTML = results.map((d, i) => {
+    const color = exposureColorCSS(d.exposure, 1);
+    const bg    = exposureColorCSS(d.exposure, 0.15);
+    return `<div class="search-item" data-idx="${i}" data-slug="${d.slug}">
+      <span class="si-title">${displayTitle(d)}</span>
+      ${d.exposure != null ? `<span class="si-score" style="background:${bg};color:${color}">${d.exposure}</span>` : ""}
+      ${d.jobs ? `<span class="si-jobs">${fmtNum(d.jobs)}</span>` : ""}
+    </div>`;
+  }).join("");
+  searchDropdown.classList.add("open");
+
+  searchDropdown.querySelectorAll(".search-item").forEach(el => {
+    el.addEventListener("mousedown", e => {
+      e.preventDefault();  // prevent blur from firing first
+      const slug = el.dataset.slug;
+      const occ = data.find(d => d.slug === slug);
+      if (occ) {
+        searchDropdown.classList.remove("open");
+        searchInput.value = "";
+        openModal(occ);
+      }
+    });
+  });
+}
+
+function updateSearchHighlight() {
+  searchDropdown.querySelectorAll(".search-item").forEach((el, i) => {
+    el.classList.toggle("active", i === searchHlIdx);
+    if (i === searchHlIdx) el.scrollIntoView({ block: "nearest" });
+  });
+}
+
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.trim();
+  // List view: filter rows directly
+  if (currentView === "list") renderListView();
+
+  if (!q) {
+    searchDropdown.classList.remove("open");
+    return;
+  }
+  renderSearchDropdown(filterSearch(q));
+});
+
+searchInput.addEventListener("keydown", e => {
+  const items = searchDropdown.querySelectorAll(".search-item");
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    searchHlIdx = Math.min(searchHlIdx + 1, items.length - 1);
+    updateSearchHighlight();
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    searchHlIdx = Math.max(searchHlIdx - 1, -1);
+    updateSearchHighlight();
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    const target = searchHlIdx >= 0 ? items[searchHlIdx] : items[0];
+    if (target) target.dispatchEvent(new MouseEvent("mousedown", { bubbles: true }));
+  } else if (e.key === "Escape") {
+    searchInput.value = "";
+    searchDropdown.classList.remove("open");
+    searchInput.blur();
+    if (currentView === "list") renderListView();
+  }
+});
+
+searchInput.addEventListener("blur", () => {
+  // Slight delay so mousedown on dropdown items fires first
+  setTimeout(() => searchDropdown.classList.remove("open"), 150);
+});
+
+searchInput.addEventListener("focus", () => {
+  if (searchInput.value.trim()) {
+    renderSearchDropdown(filterSearch(searchInput.value.trim()));
+  }
+});
+
+// Close search dropdown when clicking outside
+document.addEventListener("click", e => {
+  if (!e.target.closest("#search-wrap")) {
+    searchDropdown.classList.remove("open");
+  }
+});
+
+
+// ── List / ranking view ──────────────────────────────────────────────────────
+
+let listSortKey = "exposure";
+let listSortAsc = false;
+
+function populateCategoryFilter() {
+  const cats = [...new Set(data.map(d => d.category))].sort();
+  const sel = document.getElementById("cat-filter");
+  const current = sel.value;
+  const t = T[lang];
+  sel.innerHTML = `<option value="">${t.cat_all}</option>` +
+    cats.map(c => {
+      const catJa = data.find(d => d.category === c)?.category_ja || c;
+      const label = lang === "ja" ? catJa : c;
+      return `<option value="${c}">${label}</option>`;
+    }).join("");
+  sel.value = current;
+}
+
+function renderListView() {
+  const query = searchInput.value.trim().toLowerCase();
+  const catFilter = document.getElementById("cat-filter").value;
+  const t = T[lang];
+
+  let filtered = data.filter(d => {
+    if (query && !d.title.toLowerCase().includes(query) &&
+        !(d.title_en && d.title_en.toLowerCase().includes(query))) return false;
+    if (catFilter && d.category !== catFilter) return false;
+    return true;
+  });
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va, vb;
+    switch (listSortKey) {
+      case "title":    va = displayTitle(a);   vb = displayTitle(b);  break;
+      case "exposure": va = a.exposure ?? -1; vb = b.exposure ?? -1; break;
+      case "pay":      va = a.pay ?? 0;       vb = b.pay ?? 0;       break;
+      case "jobs":     va = a.jobs ?? 0;      vb = b.jobs ?? 0;      break;
+      case "category": va = (lang === "ja" ? a.category_ja : a.category) || "";
+                       vb = (lang === "ja" ? b.category_ja : b.category) || ""; break;
+      default:         va = 0; vb = 0;
+    }
+    if (typeof va === "string") {
+      return listSortAsc ? va.localeCompare(vb, lang) : vb.localeCompare(va, lang);
+    }
+    return listSortAsc ? va - vb : vb - va;
+  });
+
+  const tbody = document.getElementById("list-body");
+  tbody.innerHTML = filtered.map((d, i) => {
+    const color   = exposureColorCSS(d.exposure, 1);
+    const bgColor = exposureColorCSS(d.exposure, 0.15);
+    const catDisplay = lang === "ja" ? (d.category_ja || d.category) : d.category;
+    return `<tr data-slug="${d.slug}">
+      <td style="color:var(--fg2)">${i + 1}</td>
+      <td>${displayTitle(d)}</td>
+      <td>${d.exposure != null ? `<span class="list-exposure-pill" style="background:${bgColor};color:${color}">${d.exposure}/10</span>` : "\u2014"}</td>
+      <td>${fmtPayJPY(d.pay)}</td>
+      <td>${d.jobs ? d.jobs.toLocaleString() : "\u2014"}</td>
+      <td style="color:var(--fg2);font-size:11px">${catDisplay}</td>
+    </tr>`;
+  }).join("");
+
+  // Row click → open modal
+  tbody.querySelectorAll("tr").forEach(tr => {
+    tr.addEventListener("click", () => {
+      const occ = data.find(d => d.slug === tr.dataset.slug);
+      if (occ) openModal(occ);
+    });
+  });
+
+  // Row count
+  const countStr = filtered.length < data.length
+    ? `${filtered.length} / ${data.length} ${t.list_count}`
+    : `${data.length} ${t.list_count}`;
+  document.getElementById("row-count").textContent = countStr;
+
+  // Update sort header indicators
+  document.querySelectorAll("#list-table th[data-sort]").forEach(th => {
+    const key = th.dataset.sort;
+    th.classList.toggle("sorted", key === listSortKey);
+    const arrow = th.querySelector(".sort-arrow");
+    if (arrow) {
+      arrow.textContent = key === listSortKey ? (listSortAsc ? " \u25B2" : " \u25BC") : "";
+    }
+  });
+}
+
+// Sort on header click
+document.querySelector("#list-table thead").addEventListener("click", e => {
+  const th = e.target.closest("th");
+  if (!th || !th.dataset.sort || th.dataset.sort === "rank") return;
+  const key = th.dataset.sort;
+  if (listSortKey === key) {
+    listSortAsc = !listSortAsc;
+  } else {
+    listSortKey = key;
+    listSortAsc = (key === "title" || key === "category");
+  }
+  renderListView();
+});
+
+// Category filter change
+document.getElementById("cat-filter").addEventListener("change", renderListView);
+
+
+// ── View toggle ──────────────────────────────────────────────────────────────
+
+function setView(view) {
+  currentView = view;
+  document.getElementById("btn-treemap").classList.toggle("active", view === "treemap");
+  document.getElementById("btn-list").classList.toggle("active", view === "list");
+  document.getElementById("canvas").style.display      = view === "treemap" ? "block" : "none";
+  document.getElementById("list-view").style.display    = view === "list"    ? "block" : "none";
+  document.getElementById("list-controls").style.display = view === "list"   ? "flex"  : "none";
+
+  if (view === "list") {
+    renderListView();
+  } else {
+    resize();
+  }
+}
+
+document.getElementById("btn-treemap").addEventListener("click", () => setView("treemap"));
+document.getElementById("btn-list").addEventListener("click", () => setView("list"));
+
+
+// ── Sidebar stats ─────────────────────────────────────────────────────────────
 
 function computeStats() {
+  const t = T[lang];
   const totalJobs = data.reduce((s, d) => s + (d.jobs || 0), 0);
 
-  // Job-weighted average exposure
-  let weightedSum = 0, weightedCount = 0;
+  let wSum = 0, wCnt = 0;
   for (const d of data) {
-    if (d.exposure != null && d.jobs) {
-      weightedSum += d.exposure * d.jobs;
-      weightedCount += d.jobs;
-    }
+    if (d.exposure != null && d.jobs) { wSum += d.exposure * d.jobs; wCnt += d.jobs; }
   }
-  const weightedAvg = weightedCount > 0 ? weightedSum / weightedCount : 0;
+  const wAvg = wCnt ? wSum / wCnt : 0;
 
-  // Histogram: jobs per exposure score 0-10
-  const histogram = new Array(11).fill(0);
+  const hist = new Array(11).fill(0);
   for (const d of data) {
-    if (d.exposure != null && d.jobs) {
-      histogram[d.exposure] += d.jobs;
-    }
+    if (d.exposure != null && d.jobs) hist[d.exposure] += d.jobs;
   }
 
-  // Tiers
   const tiers = [
-    { name: "Minimal", range: [0, 1], color: exposureColorCSS(0.5, 1) },
-    { name: "Low", range: [2, 3], color: exposureColorCSS(2.5, 1) },
-    { name: "Moderate", range: [4, 5], color: exposureColorCSS(4.5, 1) },
-    { name: "High", range: [6, 7], color: exposureColorCSS(6.5, 1) },
-    { name: "Very high", range: [8, 10], color: exposureColorCSS(9, 1) },
+    { key: "tier_minimal",   range: [0,  1], score: 0.5 },
+    { key: "tier_low",       range: [2,  3], score: 2.5 },
+    { key: "tier_moderate",  range: [4,  5], score: 4.5 },
+    { key: "tier_high",      range: [6,  7], score: 6.5 },
+    { key: "tier_very_high", range: [8, 10], score: 9   },
   ];
   for (const tier of tiers) {
     tier.jobs = 0;
     for (const d of data) {
       if (d.exposure != null && d.jobs &&
-          d.exposure >= tier.range[0] && d.exposure <= tier.range[1]) {
+          d.exposure >= tier.range[0] && d.exposure <= tier.range[1])
         tier.jobs += d.jobs;
-      }
     }
-    tier.pct = totalJobs > 0 ? (tier.jobs / totalJobs * 100) : 0;
+    tier.pct = totalJobs ? tier.jobs / totalJobs * 100 : 0;
   }
 
-  // Wages exposed (jobs with exposure >= 7, weighted by pay)
-  let wagesExposed = 0;
+  let wages = 0;
   for (const d of data) {
-    if (d.exposure != null && d.exposure >= 7 && d.jobs && d.pay) {
-      wagesExposed += d.jobs * d.pay;
-    }
+    if (d.exposure != null && d.exposure >= 7 && d.jobs && d.pay)
+      wages += d.jobs * d.pay;
   }
 
-  // Render
-  document.getElementById("statTotalJobs").textContent =
-    (totalJobs / 1e6).toFixed(0) + "M";
+  document.getElementById("statTotalJobs").textContent = (totalJobs/1e6).toFixed(1) + "M";
   document.getElementById("statAvgExposure").innerHTML =
-    `<span style="color:${exposureColorCSS(weightedAvg, 1)}">${weightedAvg.toFixed(1)}</span>`;
+    `<span style="color:${exposureColorCSS(wAvg,1)}">${wAvg.toFixed(1)}</span>`;
 
-  // Histogram
-  const maxHist = Math.max(...histogram);
-  const histEl = document.getElementById("histogram");
-  histEl.innerHTML = histogram.map((count, i) => {
-    const h = maxHist > 0 ? (count / maxHist * 100) : 0;
-    return `<div class="bar" style="height:${Math.max(2, h)}%;background:${exposureColorCSS(i, 0.7)}" title="${i}: ${formatNumber(count)} jobs"></div>`;
+  const maxH = Math.max(...hist);
+  document.getElementById("histogram").innerHTML = hist.map((count, i) => {
+    const h = maxH ? (count/maxH*100) : 0;
+    return `<div class="bar" style="height:${Math.max(2,h)}%;background:${exposureColorCSS(i,0.7)}"
+              title="${i}: ${fmtNum(count)}"></div>`;
   }).join("");
 
-  // Tier breakdown
-  const tierEl = document.getElementById("tierBar");
-  tierEl.innerHTML = tiers.map(t =>
+  document.getElementById("tierBar").innerHTML = tiers.map(tier =>
     `<div class="tier-row">
-      <div class="tier-color" style="background:${t.color}"></div>
-      <span class="tier-name">${t.name} (${t.range[0]}-${t.range[1]})</span>
-      <span class="tier-jobs">${formatNumber(t.jobs)}</span>
-      <span class="tier-pct">${t.pct.toFixed(0)}%</span>
+      <div class="tier-color" style="background:${exposureColorCSS(tier.score,1)}"></div>
+      <span class="tier-name">${t[tier.key]} (${tier.range[0]}\u2013${tier.range[1]})</span>
+      <span class="tier-jobs">${fmtNum(tier.jobs)}</span>
+      <span class="tier-pct">${tier.pct.toFixed(0)}%</span>
     </div>`
   ).join("");
 
-  // Exposure by pay band
-  const payBands = [
-    { label: "<$35K", min: 0, max: 35000 },
-    { label: "$35–50K", min: 35000, max: 50000 },
-    { label: "$50–75K", min: 50000, max: 75000 },
-    { label: "$75–100K", min: 75000, max: 100000 },
-    { label: "$100K+", min: 100000, max: Infinity },
+  const PAY_BANDS = [
+    { min: 0,        max: 3000000  },
+    { min: 3000000,  max: 5000000  },
+    { min: 5000000,  max: 7000000  },
+    { min: 7000000,  max: 10000000 },
+    { min: 10000000, max: Infinity },
   ];
-  const payChartEl = document.getElementById("payChart");
-  payChartEl.innerHTML = payBands.map(band => {
-    let wSum = 0, wCount = 0;
+  document.getElementById("payChart").innerHTML = PAY_BANDS.map((band, i) => {
+    let ws = 0, wc = 0;
     for (const d of data) {
       if (d.exposure != null && d.jobs && d.pay != null &&
           d.pay >= band.min && d.pay < band.max) {
-        wSum += d.exposure * d.jobs;
-        wCount += d.jobs;
+        ws += d.exposure * d.jobs; wc += d.jobs;
       }
     }
-    const avg = wCount > 0 ? wSum / wCount : 0;
-    const pct = avg / 10 * 100;
+    const avg = wc ? ws/wc : 0;
     return `<div class="hbar-row">
-      <span class="hbar-label">${band.label}</span>
-      <div class="hbar-track"><div class="hbar-fill" style="width:${pct}%;background:${exposureColorCSS(avg, 0.8)}"></div></div>
+      <span class="hbar-label">${t.pay_bands[i]}</span>
+      <div class="hbar-track"><div class="hbar-fill"
+        style="width:${avg/10*100}%;background:${exposureColorCSS(avg,0.8)}"></div></div>
       <span class="hbar-val">${avg.toFixed(1)}</span>
     </div>`;
   }).join("");
 
-  // Exposure by education
-  const eduGroups = [
-    { label: "No degree/HS", match: ["No formal educational credential", "High school diploma or equivalent"] },
-    { label: "Postsec/Assoc", match: ["Postsecondary nondegree award", "Some college, no degree", "Associate's degree"] },
-    { label: "Bachelor's", match: ["Bachelor's degree"] },
-    { label: "Master's", match: ["Master's degree"] },
-    { label: "Doctoral/Prof", match: ["Doctoral or professional degree"] },
-  ];
-  const eduChartEl = document.getElementById("eduChart");
-  eduChartEl.innerHTML = eduGroups.map(grp => {
-    let wSum = 0, wCount = 0;
+  document.getElementById("eduChart").innerHTML = t.edu_groups.map(grp => {
+    let ws = 0, wc = 0;
     for (const d of data) {
       if (d.exposure != null && d.jobs && grp.match.includes(d.education)) {
-        wSum += d.exposure * d.jobs;
-        wCount += d.jobs;
+        ws += d.exposure * d.jobs; wc += d.jobs;
       }
     }
-    const avg = wCount > 0 ? wSum / wCount : 0;
-    const pct = avg / 10 * 100;
+    const avg = wc ? ws/wc : 0;
     return `<div class="hbar-row">
       <span class="hbar-label">${grp.label}</span>
-      <div class="hbar-track"><div class="hbar-fill" style="width:${pct}%;background:${exposureColorCSS(avg, 0.8)}"></div></div>
+      <div class="hbar-track"><div class="hbar-fill"
+        style="width:${avg/10*100}%;background:${exposureColorCSS(avg,0.8)}"></div></div>
       <span class="hbar-val">${avg.toFixed(1)}</span>
     </div>`;
   }).join("");
 
-  // Wages
-  const trillions = wagesExposed / 1e12;
-  document.getElementById("statWages").textContent =
-    "$" + trillions.toFixed(1) + "T";
+  document.getElementById("statWages").textContent = fmtWagesJPY(wages);
 }
 
-// ── Events ─────────────────────────────────────────────────────────────
 
-canvas.addEventListener("mousemove", (e) => {
-  const hit = hitTest(e.clientX, e.clientY);
-  if (hit !== hovered) {
-    hovered = hit;
+// ── URL routing (hash-based) ─────────────────────────────────────────────────
+
+function parseHash() {
+  const hash = location.hash.replace(/^#\/?/, "");
+  if (!hash) return null;
+  const parts = hash.split("/");
+  if (parts.length >= 2 && (parts[0] === "ja" || parts[0] === "en")) {
+    return { lang: parts[0], slug: parts.slice(1).join("/") };
+  }
+  if (parts.length === 1) {
+    return { lang: null, slug: parts[0] };
+  }
+  return null;
+}
+
+function handleRoute() {
+  const route = parseHash();
+  if (!route || !route.slug) {
+    if (selected) closeModal();
+    return;
+  }
+  if (route.lang && route.lang !== lang) setLang(route.lang);
+  const occ = data.find(d => d.slug === route.slug);
+  if (occ) {
+    selected = occ;
+    populateModal(occ);
+    document.getElementById("modal-overlay").classList.add("open");
     draw();
   }
+}
+
+window.addEventListener("popstate", () => {
+  const route = parseHash();
+  if (!route || !route.slug) {
+    // Closed / navigated back
+    selected = null;
+    document.getElementById("modal-overlay").classList.remove("open");
+    draw();
+  } else {
+    handleRoute();
+  }
+});
+
+
+// ── Events ───────────────────────────────────────────────────────────────────
+
+canvas.addEventListener("mousemove", e => {
+  const hit = hitTest(e.clientX, e.clientY);
+  if (hit !== hovered) { hovered = hit; draw(); }
   if (hovered) {
     showTooltip(hovered, e.clientX, e.clientY);
     canvas.style.cursor = "pointer";
@@ -723,46 +1583,47 @@ canvas.addEventListener("mousemove", (e) => {
   }
 });
 
-canvas.addEventListener("click", (e) => {
+canvas.addEventListener("click", e => {
   const hit = hitTest(e.clientX, e.clientY);
-  if (hit && hit.url) {
-    window.open(hit.url, "_blank");
-  }
+  if (hit) openModal(hit);
 });
 
 canvas.addEventListener("mouseleave", () => {
-  hovered = null;
-  hideTooltip();
-  draw();
+  hovered = null; hideTooltip(); draw();
+});
+
+// Global Escape key
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && selected) closeModal();
 });
 
 function resize() {
   dpr = window.devicePixelRatio || 1;
-  layout();
-  draw();
+  layout(); draw();
 }
-
-// ── Legend gradient ────────────────────────────────────────────────────
 
 function drawGradientLegend() {
   const c = document.getElementById("gradientLegend");
-  const gctx = c.getContext("2d");
+  const gc = c.getContext("2d");
   for (let x = 0; x < 80; x++) {
-    const score = (x / 79) * 10;
-    gctx.fillStyle = exposureColorCSS(score, 1);
-    gctx.fillRect(x, 0, 1, 8);
+    gc.fillStyle = exposureColorCSS((x/79)*10, 1);
+    gc.fillRect(x, 0, 1, 8);
   }
 }
 
-// ── Load ───────────────────────────────────────────────────────────────
 
-fetch("data.json")
+// ── Load ──────────────────────────────────────────────────────────────────────
+
+fetch("data_jp.json")
   .then(r => r.json())
   .then(d => {
     data = d;
-    computeStats();
+    setLang("ja");
     drawGradientLegend();
+    populateCategoryFilter();
     resize();
+    // Handle initial URL route (deep link)
+    handleRoute();
   });
 
 window.addEventListener("resize", resize);
