@@ -214,11 +214,31 @@ body {
 .gradient-legend { display: flex; align-items: center; gap: 6px; font-size: 10px; color: var(--fg2); }
 .gradient-legend canvas { border-radius: 2px; }
 
+.feedback-btn {
+  display: block;
+  margin: auto 0;
+  padding: 8px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fg);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+.feedback-btn:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.25);
+}
 .sidebar-footer {
-  margin-top: auto;
-  padding-top: 12px;
+  padding-top: 8px;
   font-size: 10px;
   color: var(--fg2);
+  text-align: center;
 }
 .sidebar-footer a { color: var(--fg2); }
 
@@ -592,9 +612,10 @@ canvas#canvas {
     <span data-i18n="legend_high">高</span>
   </div>
 
+  <a href="https://forms.gle/V8ZadtiJVZJ2JKy16" target="_blank" id="feedbackLink" class="feedback-btn">フィードバック</a>
+
   <div class="sidebar-footer">
     Powered by <a href="https://miraiacademy.co.jp" target="_blank">miraiacademy.co.jp</a>
-    &nbsp;·&nbsp; <a href="https://forms.gle/V8ZadtiJVZJ2JKy16" target="_blank" id="feedbackLink">フィードバック</a>
   </div>
 
 </div><!-- /sidebar -->
