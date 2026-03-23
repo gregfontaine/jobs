@@ -594,6 +594,7 @@ canvas#canvas {
 
   <div class="sidebar-footer">
     Powered by <a href="https://miraiacademy.co.jp" target="_blank">miraiacademy.co.jp</a>
+    &nbsp;·&nbsp; <a href="https://forms.gle/V8ZadtiJVZJ2JKy16" target="_blank" id="feedbackLink">フィードバック</a>
   </div>
 
 </div><!-- /sidebar -->
@@ -698,6 +699,7 @@ const T = {
     search_none:  "該当なし",
     copied:       "URLをコピーしました",
     share:        "共有",
+    feedback:     "フィードバック",
     view_map:     "マップ",
     view_list:    "リスト",
     cat_all:      "すべてのカテゴリ",
@@ -751,6 +753,7 @@ const T = {
     search_none:  "No results",
     copied:       "URL copied to clipboard",
     share:        "Share",
+    feedback:     "Feedback",
     view_map:     "Map",
     view_list:    "List",
     cat_all:      "All categories",
@@ -799,6 +802,7 @@ function setLang(newLang) {
   // Modal footer labels
   document.getElementById("modal-jobtag").textContent = t.jobtag_link;
   document.getElementById("modal-share").textContent  = t.share;
+  document.getElementById("feedbackLink").textContent = t.feedback;
 
   // List table headers
   const headerKeys = { title: "list_title", exposure: "list_exposure",
